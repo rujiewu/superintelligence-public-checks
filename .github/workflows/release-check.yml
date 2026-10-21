@@ -1,0 +1,51 @@
+name: Free fixed-route release check
+on:
+  workflow_dispatch:
+    inputs:
+      expected_source_sha:
+        required: true
+        type: string
+      expected_capsule_sha:
+        required: true
+        type: string
+      release_target:
+        type: choice
+        options: [candidate, production]
+        default: candidate
+        required: true
+      check_pages:
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.actor == 'rujiewu' && github.repository == 'rujiewu/superintelligence-public-checks' && github.repository_id == '1428657008' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    env:
+      EXPECTED_SOURCE_SHA: ${{ inputs.expected_source_sha }}
+      EXPECTED_CAPSULE_SHA: ${{ inputs.expected_capsule_sha }}
+      RELEASE_TARGET: ${{ inputs.release_target }}
+      CHECK_PAGES: ${{ inputs.check_pages }}
+      HTTP_PROXY: ''
+      HTTPS_PROXY: ''
+      ALL_PROXY: ''
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check only fixed public release routes and optional public packets
+        run: node scripts/public-release-check.mjs
+      - run: python3 -m pip install --disable-pip-version-check pydantic==2.12.5
+        if: always()
+      - name: Retain complete public-only result including failures
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/store-release-evidence.py
