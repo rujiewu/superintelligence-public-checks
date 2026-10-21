@@ -1,0 +1,53 @@
+name: Free historical public boundary check
+on:
+  workflow_dispatch:
+    inputs:
+      expected_source_sha:
+        required: true
+        type: string
+      expected_capsule_sha:
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.actor == 'rujiewu' && github.repository == 'rujiewu/superintelligence-public-checks' && github.repository_id == '1428657008' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    env:
+      EXPECTED_SOURCE_SHA: ${{ inputs.expected_source_sha }}
+      EXPECTED_CAPSULE_SHA: ${{ inputs.expected_capsule_sha }}
+      HTTP_PROXY: ''
+      HTTPS_PROXY: ''
+      ALL_PROXY: ''
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Bind only the public packet manifest
+        run: node scripts/prepare-boundary-packets.mjs
+      - run: python3 -m pip install --disable-pip-version-check httpx==0.28.1 pydantic==2.12.5
+      - name: Verify unchanged fixed historical privacy boundaries
+        run: |
+          python3 - <<'PYCODE'
+          import json,os,subprocess
+          from pathlib import Path
+          out=Path('test-results/public-boundary/report.json')
+          done=subprocess.run(['python3','scripts/verify-public-boundary.py','--manifest','public-packet-manifest.json','--output',str(out)])
+          if out.exists():
+              report=json.loads(out.read_bytes())
+              report.update(source_commit=os.environ['EXPECTED_SOURCE_SHA'],capsule_commit=os.environ['EXPECTED_CAPSULE_SHA'],private_source_checks_executed_here=False)
+              out.write_text(json.dumps(report,indent=2)+'\n')
+          raise SystemExit(done.returncode)
+          PYCODE
+      - name: Retain complete public result including failures
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/store-release-evidence.py
