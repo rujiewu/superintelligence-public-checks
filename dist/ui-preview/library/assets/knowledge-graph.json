@@ -1,0 +1,672 @@
+{
+  "nodes": [
+    {
+      "type": "Book",
+      "id": "abelson-sussman-sicp",
+      "label": "计算机程序的构造和解释"
+    },
+    {
+      "type": "Concept",
+      "id": "procedural-abstraction",
+      "label": "过程抽象"
+    },
+    {
+      "type": "Concept",
+      "id": "data-abstraction",
+      "label": "数据抽象"
+    },
+    {
+      "type": "Concept",
+      "id": "environment-model",
+      "label": "环境模型"
+    },
+    {
+      "type": "Concept",
+      "id": "mutable-state",
+      "label": "可变状态"
+    },
+    {
+      "type": "Concept",
+      "id": "concurrency-interleaving",
+      "label": "并发交错"
+    },
+    {
+      "type": "Concept",
+      "id": "metalinguistic-abstraction",
+      "label": "元语言抽象"
+    },
+    {
+      "type": "Concept",
+      "id": "language-oriented-programming",
+      "label": "语言导向编程"
+    },
+    {
+      "type": "Concept",
+      "id": "abstraction-barrier",
+      "label": "抽象屏障（abstraction barrier）"
+    },
+    {
+      "type": "Concept",
+      "id": "operational-model-switching",
+      "label": "计算模型切换"
+    },
+    {
+      "type": "Book",
+      "id": "adam-smith-wealth-of-nations",
+      "label": "国富论"
+    },
+    {
+      "type": "Concept",
+      "id": "division-of-labor",
+      "label": "劳动分工"
+    },
+    {
+      "type": "Concept",
+      "id": "market-extent",
+      "label": "市场范围"
+    },
+    {
+      "type": "Concept",
+      "id": "market-coordination",
+      "label": "市场协调"
+    },
+    {
+      "type": "Concept",
+      "id": "capital-accumulation",
+      "label": "资本积累"
+    },
+    {
+      "type": "Concept",
+      "id": "bounded-invisible-hand",
+      "label": "有边界的看不见的手"
+    },
+    {
+      "type": "Concept",
+      "id": "institutional-design",
+      "label": "制度设计"
+    },
+    {
+      "type": "Book",
+      "id": "adam-smith-theory-of-moral-sentiments",
+      "label": "《道德情操论》"
+    },
+    {
+      "type": "Person",
+      "id": "david-ricardo",
+      "label": "David Ricardo"
+    },
+    {
+      "type": "Person",
+      "id": "ronald-coase",
+      "label": "Ronald Coase"
+    },
+    {
+      "type": "Person",
+      "id": "elinor-ostrom",
+      "label": "Elinor Ostrom"
+    },
+    {
+      "type": "Book",
+      "id": "charles-darwin-origin-of-species",
+      "label": "物种起源"
+    },
+    {
+      "type": "Concept",
+      "id": "natural-selection",
+      "label": "自然选择"
+    },
+    {
+      "type": "Concept",
+      "id": "common-descent",
+      "label": "共同祖先"
+    },
+    {
+      "type": "Concept",
+      "id": "heritable-variation",
+      "label": "可遗传变异"
+    },
+    {
+      "type": "Concept",
+      "id": "divergence-of-character",
+      "label": "性状分歧"
+    },
+    {
+      "type": "Concept",
+      "id": "genetic-drift",
+      "label": "遗传漂变"
+    },
+    {
+      "type": "Concept",
+      "id": "evo-devo",
+      "label": "演化发育生物学"
+    },
+    {
+      "type": "Concept",
+      "id": "tree-of-life",
+      "label": "生命树"
+    },
+    {
+      "type": "Person",
+      "id": "thomas-robert-malthus",
+      "label": "Thomas Robert Malthus"
+    },
+    {
+      "type": "Person",
+      "id": "alfred-russel-wallace",
+      "label": "Alfred Russel Wallace"
+    },
+    {
+      "type": "Person",
+      "id": "gregor-mendel",
+      "label": "Gregor Mendel"
+    },
+    {
+      "type": "Theory",
+      "id": "modern-evolutionary-synthesis",
+      "label": "现代演化综合论（Modern Evolutionary Synthesis）"
+    },
+    {
+      "type": "Book",
+      "id": "confucius-analects",
+      "label": "论语"
+    },
+    {
+      "type": "Concept",
+      "id": "ren",
+      "label": "仁"
+    },
+    {
+      "type": "Concept",
+      "id": "li-ritual",
+      "label": "礼"
+    },
+    {
+      "type": "Concept",
+      "id": "shu-reciprocity",
+      "label": "恕"
+    },
+    {
+      "type": "Concept",
+      "id": "self-cultivation",
+      "label": "修身"
+    },
+    {
+      "type": "Concept",
+      "id": "habituation",
+      "label": "习与习染"
+    },
+    {
+      "type": "Concept",
+      "id": "rectification-of-names",
+      "label": "正名"
+    },
+    {
+      "type": "Concept",
+      "id": "role-ethics",
+      "label": "角色伦理"
+    },
+    {
+      "type": "Book",
+      "id": "mencius-and-xunzi",
+      "label": "《孟子》与《荀子》"
+    },
+    {
+      "type": "Book",
+      "id": "plato-republic",
+      "label": "《理想国》"
+    },
+    {
+      "type": "Book",
+      "id": "euclid-elements",
+      "label": "几何原本"
+    },
+    {
+      "type": "Concept",
+      "id": "axiomatic-method",
+      "label": "公理化方法"
+    },
+    {
+      "type": "Concept",
+      "id": "construction-postulate",
+      "label": "构作公设"
+    },
+    {
+      "type": "Concept",
+      "id": "proof-dependency",
+      "label": "证明依赖"
+    },
+    {
+      "type": "Concept",
+      "id": "diagrammatic-reasoning",
+      "label": "图式推理"
+    },
+    {
+      "type": "Concept",
+      "id": "exhaustion-method",
+      "label": "穷竭法"
+    },
+    {
+      "type": "Concept",
+      "id": "prime-number",
+      "label": "素数"
+    },
+    {
+      "type": "Person",
+      "id": "eudoxus-of-cnidus",
+      "label": "欧多克索斯（Eudoxus of Cnidus）"
+    },
+    {
+      "type": "Person",
+      "id": "david-hilbert",
+      "label": "David Hilbert"
+    },
+    {
+      "type": "Theory",
+      "id": "non-euclidean-geometry",
+      "label": "非欧几何（Non-Euclidean Geometry）"
+    },
+    {
+      "type": "Book",
+      "id": "john-snow-mode-communication-cholera",
+      "label": "霍乱的传播方式"
+    },
+    {
+      "type": "Concept",
+      "id": "waterborne-transmission",
+      "label": "水媒传播"
+    },
+    {
+      "type": "Concept",
+      "id": "fecal-oral-transmission",
+      "label": "粪口传播"
+    },
+    {
+      "type": "Concept",
+      "id": "exposure-classification",
+      "label": "暴露分类"
+    },
+    {
+      "type": "Concept",
+      "id": "negative-evidence",
+      "label": "负证据"
+    },
+    {
+      "type": "Concept",
+      "id": "natural-experiment",
+      "label": "自然实验"
+    },
+    {
+      "type": "Concept",
+      "id": "alternative-explanations",
+      "label": "替代解释"
+    },
+    {
+      "type": "Concept",
+      "id": "scientific-reasoning",
+      "label": "科学推理（scientific reasoning）"
+    },
+    {
+      "type": "Person",
+      "id": "henry-whitehead",
+      "label": "Henry Whitehead"
+    },
+    {
+      "type": "Institution",
+      "id": "world-health-organization",
+      "label": "World Health Organization"
+    },
+    {
+      "type": "Concept",
+      "id": "justice",
+      "label": "正义"
+    },
+    {
+      "type": "Concept",
+      "id": "tripartite-soul",
+      "label": "三分灵魂"
+    },
+    {
+      "type": "Concept",
+      "id": "philosopher-ruler",
+      "label": "哲人统治者"
+    },
+    {
+      "type": "Concept",
+      "id": "form-of-good",
+      "label": "善的形式"
+    },
+    {
+      "type": "Concept",
+      "id": "political-education",
+      "label": "政治教育"
+    },
+    {
+      "type": "Concept",
+      "id": "noble-falsehood",
+      "label": "高贵的谎言"
+    },
+    {
+      "type": "Concept",
+      "id": "political-utopia",
+      "label": "政治乌托邦"
+    },
+    {
+      "type": "Concept",
+      "id": "self-rule",
+      "label": "自我治理"
+    },
+    {
+      "type": "Book",
+      "id": "aristotle-politics",
+      "label": "《政治学》"
+    },
+    {
+      "type": "Book",
+      "id": "karl-popper-open-society",
+      "label": "《开放社会及其敌人》"
+    },
+    {
+      "type": "Concept",
+      "id": "motivational-conflict",
+      "label": "动机冲突"
+    },
+    {
+      "type": "Book",
+      "id": "rene-descartes-discourse-method",
+      "label": "方法谈"
+    },
+    {
+      "type": "Concept",
+      "id": "methodical-doubt",
+      "label": "方法性怀疑"
+    },
+    {
+      "type": "Concept",
+      "id": "cogito",
+      "label": "我思"
+    },
+    {
+      "type": "Concept",
+      "id": "provisional-morality",
+      "label": "临时道德"
+    },
+    {
+      "type": "Concept",
+      "id": "clear-and-distinct-perception",
+      "label": "清楚分明的知觉"
+    },
+    {
+      "type": "Concept",
+      "id": "mechanistic-explanation",
+      "label": "机械解释"
+    },
+    {
+      "type": "Concept",
+      "id": "experimental-discrimination",
+      "label": "实验判别"
+    }
+  ],
+  "edges": [
+    {
+      "connection_id": "sicp-to-abstraction-barrier",
+      "source_id": "abelson-sussman-sicp",
+      "target_type": "Concept",
+      "target_id": "abstraction-barrier",
+      "target_label": "抽象屏障（abstraction barrier）",
+      "relation": "applies_to",
+      "explanation_claim_id": "data-abstraction-barrier"
+    },
+    {
+      "connection_id": "sicp-to-language-oriented-programming",
+      "source_id": "abelson-sussman-sicp",
+      "target_type": "Concept",
+      "target_id": "language-oriented-programming",
+      "target_label": "语言导向编程（language-oriented programming）",
+      "relation": "preceded",
+      "explanation_claim_id": "racket-lineage"
+    },
+    {
+      "connection_id": "sicp-to-operational-models",
+      "source_id": "abelson-sussman-sicp",
+      "target_type": "Concept",
+      "target_id": "operational-model-switching",
+      "target_label": "计算模型切换",
+      "relation": "applies_to",
+      "explanation_claim_id": "transfer-model-switching"
+    },
+    {
+      "connection_id": "conn-moral-sentiments",
+      "source_id": "adam-smith-wealth-of-nations",
+      "target_type": "Book",
+      "target_id": "adam-smith-theory-of-moral-sentiments",
+      "target_label": "《道德情操论》",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-moral"
+    },
+    {
+      "connection_id": "conn-ricardo",
+      "source_id": "adam-smith-wealth-of-nations",
+      "target_type": "Person",
+      "target_id": "david-ricardo",
+      "target_label": "David Ricardo",
+      "relation": "extends",
+      "explanation_claim_id": "connection-ricardo"
+    },
+    {
+      "connection_id": "conn-coase",
+      "source_id": "adam-smith-wealth-of-nations",
+      "target_type": "Person",
+      "target_id": "ronald-coase",
+      "target_label": "Ronald Coase",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-coase"
+    },
+    {
+      "connection_id": "conn-ostrom",
+      "source_id": "adam-smith-wealth-of-nations",
+      "target_type": "Person",
+      "target_id": "elinor-ostrom",
+      "target_label": "Elinor Ostrom",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-ostrom"
+    },
+    {
+      "connection_id": "conn-malthus",
+      "source_id": "charles-darwin-origin-of-species",
+      "target_type": "Person",
+      "target_id": "thomas-robert-malthus",
+      "target_label": "Thomas Robert Malthus",
+      "relation": "influenced_by",
+      "explanation_claim_id": "connection-malthus"
+    },
+    {
+      "connection_id": "conn-wallace",
+      "source_id": "charles-darwin-origin-of-species",
+      "target_type": "Person",
+      "target_id": "alfred-russel-wallace",
+      "target_label": "Alfred Russel Wallace",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-wallace"
+    },
+    {
+      "connection_id": "conn-mendel",
+      "source_id": "charles-darwin-origin-of-species",
+      "target_type": "Person",
+      "target_id": "gregor-mendel",
+      "target_label": "Gregor Mendel",
+      "relation": "succeeded",
+      "explanation_claim_id": "connection-mendel"
+    },
+    {
+      "connection_id": "conn-modern-synthesis",
+      "source_id": "charles-darwin-origin-of-species",
+      "target_type": "Theory",
+      "target_id": "modern-evolutionary-synthesis",
+      "target_label": "现代演化综合论（Modern Evolutionary Synthesis）",
+      "relation": "influenced",
+      "explanation_claim_id": "connection-modern-synthesis"
+    },
+    {
+      "connection_id": "analects-mencius-xunzi",
+      "source_id": "confucius-analects",
+      "target_type": "Book",
+      "target_id": "mencius-and-xunzi",
+      "target_label": "《孟子》与《荀子》",
+      "relation": "preceded",
+      "explanation_claim_id": "connection-mencius-xunzi"
+    },
+    {
+      "connection_id": "analects-republic",
+      "source_id": "confucius-analects",
+      "target_type": "Book",
+      "target_id": "plato-republic",
+      "target_label": "《理想国》",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-republic-education"
+    },
+    {
+      "connection_id": "analects-wealth",
+      "source_id": "confucius-analects",
+      "target_type": "Book",
+      "target_id": "adam-smith-wealth-of-nations",
+      "target_label": "《国富论》",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-wealth-governance"
+    },
+    {
+      "connection_id": "analects-origin",
+      "source_id": "confucius-analects",
+      "target_type": "Book",
+      "target_id": "charles-darwin-origin-of-species",
+      "target_label": "《物种起源》",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-origin-habituation"
+    },
+    {
+      "connection_id": "euclid-eudoxus",
+      "source_id": "euclid-elements",
+      "target_type": "Person",
+      "target_id": "eudoxus-of-cnidus",
+      "target_label": "欧多克索斯（Eudoxus of Cnidus）",
+      "relation": "influenced_by",
+      "explanation_claim_id": "connection-eudoxus"
+    },
+    {
+      "connection_id": "euclid-hilbert",
+      "source_id": "euclid-elements",
+      "target_type": "Person",
+      "target_id": "david-hilbert",
+      "target_label": "David Hilbert",
+      "relation": "influenced",
+      "explanation_claim_id": "connection-hilbert"
+    },
+    {
+      "connection_id": "euclid-non-euclidean",
+      "source_id": "euclid-elements",
+      "target_type": "Theory",
+      "target_id": "non-euclidean-geometry",
+      "target_label": "非欧几何（Non-Euclidean Geometry）",
+      "relation": "preceded",
+      "explanation_claim_id": "connection-non-euclidean"
+    },
+    {
+      "connection_id": "euclid-republic",
+      "source_id": "euclid-elements",
+      "target_type": "Book",
+      "target_id": "plato-republic",
+      "target_label": "《理想国》",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-republic-mathematics"
+    },
+    {
+      "connection_id": "snow-to-scientific-reasoning",
+      "source_id": "john-snow-mode-communication-cholera",
+      "target_type": "Concept",
+      "target_id": "scientific-reasoning",
+      "target_label": "科学推理（scientific reasoning）",
+      "relation": "applies_to",
+      "explanation_claim_id": "transfer-exposure-ledger"
+    },
+    {
+      "connection_id": "snow-to-whitehead",
+      "source_id": "john-snow-mode-communication-cholera",
+      "target_type": "Person",
+      "target_id": "henry-whitehead",
+      "target_label": "Henry Whitehead",
+      "relation": "related_to",
+      "explanation_claim_id": "whitehead-collaboration"
+    },
+    {
+      "connection_id": "snow-to-modern-public-health",
+      "source_id": "john-snow-mode-communication-cholera",
+      "target_type": "Institution",
+      "target_id": "world-health-organization",
+      "target_label": "World Health Organization",
+      "relation": "related_to",
+      "explanation_claim_id": "prevention-is-a-system"
+    },
+    {
+      "connection_id": "republic-aristotle-politics",
+      "source_id": "plato-republic",
+      "target_type": "Book",
+      "target_id": "aristotle-politics",
+      "target_label": "《政治学》",
+      "relation": "criticized_by",
+      "explanation_claim_id": "connection-aristotle-politics"
+    },
+    {
+      "connection_id": "republic-open-society",
+      "source_id": "plato-republic",
+      "target_type": "Book",
+      "target_id": "karl-popper-open-society",
+      "target_label": "《开放社会及其敌人》",
+      "relation": "criticizes",
+      "explanation_claim_id": "connection-open-society"
+    },
+    {
+      "connection_id": "republic-motivational-conflict",
+      "source_id": "plato-republic",
+      "target_type": "Concept",
+      "target_id": "motivational-conflict",
+      "target_label": "动机冲突",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-motivational-conflict"
+    },
+    {
+      "connection_id": "republic-political-education",
+      "source_id": "plato-republic",
+      "target_type": "Concept",
+      "target_id": "political-education",
+      "target_label": "政治教育",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-political-education"
+    },
+    {
+      "connection_id": "republic-political-utopia",
+      "source_id": "plato-republic",
+      "target_type": "Concept",
+      "target_id": "political-utopia",
+      "target_label": "政治乌托邦",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-political-utopia"
+    },
+    {
+      "connection_id": "descartes-to-euclid",
+      "source_id": "rene-descartes-discourse-method",
+      "target_type": "Book",
+      "target_id": "euclid-elements",
+      "target_label": "Euclid《几何原本》",
+      "relation": "related_to",
+      "explanation_claim_id": "connection-euclid"
+    },
+    {
+      "connection_id": "descartes-to-scientific-reasoning",
+      "source_id": "rene-descartes-discourse-method",
+      "target_type": "Concept",
+      "target_id": "scientific-reasoning",
+      "target_label": "科学推理（scientific reasoning）",
+      "relation": "applies_to",
+      "explanation_claim_id": "connection-scientific-reasoning"
+    }
+  ]
+}

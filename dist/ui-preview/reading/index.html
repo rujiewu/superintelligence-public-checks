@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="referrer" content="same-origin">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="description" content="阅读、学习、交易研究与投资决策的知识工作台。">
+    <title>SuperIntelligence</title>
+    <link rel="stylesheet" href="/superintelligence-workspace/assets/app.css?v=f737d5d2e6106f5c">
+    <link rel="stylesheet" href="/superintelligence-workspace/assets/workspace.css?v=0c43b82650930c43">
+    <script>window.HUB_SITE_BASE="/superintelligence-workspace";window.HUB_GITHUB_CONFIG={"owner": "rujiewu", "repository": "rujiewu/SuperIntelligence", "module": "reading", "base": "/superintelligence-workspace", "transport": "shared", "apiBase": "https://superintelligence-api-rujiewuac-8230.vercel.app", "apiFallbackOrigin": "https://reading-workspace-api.zippybox2.chatgpt.site"};window.HUB_ASSET_VERSIONS={"/assets/annotations.js": "f51da4846460e0cc", "/assets/app.css": "f737d5d2e6106f5c", "/assets/app.js": "fc9278e64f944e0d", "/assets/book-study.css": "f8afd7f4b0736680", "/assets/book-study.js": "90fa17db701d9c54", "/assets/evidence.js": "f3bc150b7f2cb8e7", "/assets/github-transport.js": "719e35a700f02fa2", "/assets/library-bridge.css": "0776e6c7cc5ee0e2", "/assets/modules.js": "e7e14fd6e703571c", "/assets/organization.js": "a9388c20b00d9314", "/assets/programme.js": "0277752069448e9e", "/assets/record-preview.js": "72ac09d77fb4d711", "/assets/shared-transport.js": "319b3e3cee5baed6", "/assets/study-navigation.js": "4f77c150c4b18732", "/assets/study.js": "4d3f7f7e98b266e4", "/assets/workspace-state.js": "51346413c9a326e0", "/assets/workspace.css": "0c43b82650930c43", "/book-assets/styles.css": "615321a144aab783"};</script><script src="/superintelligence-workspace/assets/modules.js?v=e7e14fd6e703571c" defer></script>
+    <script src="/superintelligence-workspace/assets/study.js?v=4d3f7f7e98b266e4" defer></script>
+    <script src="/superintelligence-workspace/assets/study-navigation.js?v=4f77c150c4b18732" defer></script>
+    <script src="/superintelligence-workspace/assets/workspace-state.js?v=51346413c9a326e0" defer></script>
+    <script src="/superintelligence-workspace/assets/evidence.js?v=f3bc150b7f2cb8e7" defer></script>
+    <script src="/superintelligence-workspace/assets/programme.js?v=0277752069448e9e" defer></script>
+    <script src="/superintelligence-workspace/assets/book-study.js?v=90fa17db701d9c54" defer></script>
+    <script src="/superintelligence-workspace/assets/github-transport.js?v=719e35a700f02fa2" defer></script>
+    <script src="/superintelligence-workspace/assets/shared-transport.js?v=319b3e3cee5baed6" defer></script>
+    <script src="/superintelligence-workspace/assets/record-preview.js?v=72ac09d77fb4d711" defer></script>
+    <script src="/superintelligence-workspace/assets/organization.js?v=a9388c20b00d9314" defer></script>
+    <script src="/superintelligence-workspace/assets/annotations.js?v=f51da4846460e0cc" defer></script>
+    <script src="/superintelligence-workspace/assets/app.js?v=fc9278e64f944e0d" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+    <div id="boot-view" class="boot-view" role="status" aria-live="polite">
+      <span class="spinner" aria-hidden="true"></span>
+      <span>正在打开工作台…</span>
+    </div>
+
+    <main id="login-view" class="login-view" hidden>
+      <section class="login-card" aria-labelledby="login-title">
+        <div class="brand-mark" aria-hidden="true">知</div>
+        <h1 id="login-title">SuperIntelligence</h1>
+        <p class="login-copy">读懂一个问题，连起更多知识。</p>
+        <form id="login-form" class="login-form">
+          <label for="password">用户名</label>
+          <div class="password-row">
+            <input id="password" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="输入用户名" aria-describedby="access-note" required autofocus>
+            <button id="login-submit" class="primary-button" type="submit">进入</button>
+          </div>
+          <p id="login-error" class="form-error" role="alert" hidden></p>
+        </form>
+        <p id="access-note" class="access-note">此入口共用学习记录与对话。</p>
+      </section>
+    </main>
+
+    <div id="app-shell" class="app-shell" hidden>
+      <header class="site-header">
+        <a class="brand" href="/superintelligence-workspace/reading/" aria-label="SuperIntelligence 首页">
+          <span class="brand-mark small" aria-hidden="true">知</span>
+          <span>SuperIntelligence</span>
+        </a>
+        <nav class="module-nav" aria-label="工作台模块">
+          <a href="/superintelligence-workspace/reading/" data-module="reading">阅读</a>
+          <a href="/superintelligence-workspace/learning/" data-module="learning">学习</a>
+          <a href="/superintelligence-workspace/trading/" data-module="trading">交易</a>
+          <a href="/superintelligence-workspace/investment/" data-module="investment">投资</a>
+        </nav>
+        <div class="header-actions">
+          <span id="record-status">学习空间</span>
+          <button id="notes-toggle" type="button" aria-controls="notes-panel" aria-expanded="false">笔记</button>
+          <button id="discussion-toggle" type="button" aria-controls="discussion-panel" aria-expanded="false">讨论</button>
+          <button id="focus-toggle" type="button" aria-label="进入专注阅读，收起目录和讨论" aria-pressed="false">专注阅读</button>
+          <button id="theme-toggle" type="button" aria-label="切换到深色模式" aria-pressed="false">深色</button>
+          <button id="logout" type="button" hidden>退出</button>
+        </div>
+      </header>
+
+      <nav class="pane-switcher" aria-label="工作区视图">
+        <button type="button" data-pane="catalog" aria-pressed="false">目录</button>
+        <button type="button" data-pane="read" aria-pressed="true">正文</button>
+        <button type="button" data-pane="notes" aria-pressed="false">笔记</button>
+        <button type="button" data-pane="chat" aria-pressed="false">讨论</button>
+      </nav>
+
+      <main id="main-content" class="workspace" tabindex="-1">
+        <section class="library-panel" aria-labelledby="library-title">
+          <div class="module-heading">
+            <p id="module-eyebrow" class="sr-only"></p>
+            <h1 id="library-title"></h1>
+          </div>
+
+          <label class="search-box" for="resource-search">
+            <span class="search-icon" aria-hidden="true"></span>
+            <span class="sr-only">搜索资料</span>
+            <input id="resource-search" type="search" placeholder="搜索资料" autocomplete="off">
+            <kbd aria-hidden="true">⌘K</kbd>
+          </label>
+          <div class="catalog-filters">
+          <div id="content-filter" class="content-filter" hidden>
+            <label for="resource-content" class="sr-only">内容</label>
+            <select id="resource-content"></select>
+          </div>
+          </div>
+          <div id="catalog-picker" class="catalog-picker">
+          <button id="catalog-location" class="catalog-location" type="button" aria-expanded="false" aria-controls="catalog-topics">
+            <span id="catalog-scope">全部</span><span aria-hidden="true">⌄</span>
+          </button>
+          <nav id="catalog-topics" class="catalog-topics" aria-label="选择主题" hidden></nav>
+          </div>
+          <div class="list-meta">
+            <span id="resource-count">0 项资料</span>
+            <span id="catalog-status" role="status" aria-live="polite"></span>
+          </div>
+          <div id="resource-list" class="resource-list" role="listbox" aria-label="资料列表"></div>
+        </section>
+
+        <article id="resource-detail" class="detail-panel" aria-labelledby="detail-title">
+          <div id="detail-empty" class="center-state">
+            <span class="spinner" aria-hidden="true"></span>
+            <p>正在读取资料…</p>
+          </div>
+          <div id="detail-content" hidden>
+            <header class="detail-header">
+              <h2 id="detail-title"></h2>
+              <p id="detail-subtitle" class="detail-subtitle"></p>
+              <div id="detail-placement" class="detail-placement" hidden></div>
+              <p id="resume-status" class="resume-status" role="status" hidden></p>
+            </header>
+            <div class="detail-navigation">
+              <div id="book-reading-modes" class="book-reading-modes" role="tablist" aria-label="阅读方式" hidden>
+                <button id="book-page-lecture" type="button" role="tab" aria-controls="book-study" aria-selected="true" data-book-page="lecture">讲解</button>
+                <button id="book-page-reflection" type="button" role="tab" aria-controls="book-study" aria-selected="false" tabindex="-1" data-book-page="reflection">思考</button>
+              </div>
+              <div id="study-controls" class="study-controls">
+                <label for="study-section">章节</label>
+                <select id="study-section" aria-label="跳到正文位置"></select>
+                <span id="study-position" title="正文位置，不代表学习完成度"></span>
+              </div>
+            </div>
+            <section id="text-section" aria-label="学习正文" tabindex="-1">
+              <div id="detail-body" class="detail-body"></div>
+              <div id="book-study" hidden></div>
+              <section id="links-section" class="links-section" aria-labelledby="links-title">
+                <h3 id="links-title" tabindex="-1">延伸与证据</h3>
+                <div id="resource-links" class="resource-links"></div>
+                <div id="evidence-ledger" class="evidence-ledger"></div>
+              </section>
+              <section id="exercise-panel" class="exercise-panel" aria-labelledby="exercise-title" hidden>
+              <div class="section-heading">
+                <div>
+                  <h3 id="exercise-title">练习回答</h3>
+                </div>
+              </div>
+              <p id="exercise-prompt" class="exercise-prompt"></p>
+              <div id="practice-guide" class="practice-guide"></div>
+              <details id="answer-tools" class="answer-editor"><summary>写下回答</summary>
+              <div class="practice-tools">
+                <button id="insert-worksheet" class="secondary-button" type="button" title="追加到回答末尾，保留已有内容">加入提纲</button>
+              </div>
+              <label for="note-answer" class="answer-label">练习回答</label>
+              <textarea id="note-answer" rows="7" placeholder="在这里写下你的理解、疑问或推演…"></textarea>
+              <p id="note-organization" class="record-summary" hidden></p>
+              <button id="note-organization-retry" class="icon-text-button" type="button" hidden>重试整理</button>
+              <div class="note-actions">
+                <button id="save-note" class="secondary-button" type="button">保存回答</button>
+                <button id="discuss-note" class="secondary-button" type="button" title="保存回答并准备问题，确认后再发送">准备讨论</button>
+              </div>
+              <p id="note-status" role="status" aria-live="polite">回答会自动保存；发送问题时，附上当前资料与已保存回答。</p>
+              </details>
+              </section>
+              <nav id="material-sequence" class="material-sequence" aria-label="同一学习路径的相邻资料" hidden></nav>
+            </section>
+          </div>
+        </article>
+
+        <aside id="notes-panel" class="notes-panel" aria-labelledby="reading-notes-title">
+          <header class="chat-header">
+            <h2 id="reading-notes-title">笔记</h2>
+            <div class="chat-actions">
+              <button id="add-reading-note" class="icon-text-button" type="button" disabled aria-label="新增笔记">＋ 新增</button>
+              <button id="notes-close" class="icon-text-button" type="button" aria-label="收起笔记，返回正文">×</button>
+            </div>
+          </header>
+          <section id="annotation-notes" class="annotation-notes" hidden>
+            <p id="annotation-status" role="status" aria-live="polite"></p>
+            <section id="annotation-dialog" class="annotation-editor" aria-label="编辑笔记" hidden>
+              <form id="reading-note-form">
+                <blockquote id="annotation-quote"></blockquote>
+                <label for="annotation-comment" class="sr-only">评论与学习笔记</label>
+                <textarea id="annotation-comment" rows="7" maxlength="10000" required placeholder="用自己的话记下理解、疑问或联系…"></textarea>
+                <p id="annotation-error" role="status" aria-live="polite"></p>
+                <div id="annotation-latest" class="annotation-latest"></div>
+                <button id="merge-reading-note" class="secondary-button" type="button" hidden>核对后合并草稿</button>
+                <button id="reload-reading-notes" class="secondary-button" type="button" hidden>重新读取并核对</button>
+                <div class="note-actions">
+                  <button id="cancel-reading-note" class="secondary-button" type="button">取消</button>
+                  <button id="save-reading-note" class="primary-button" type="submit">保存</button>
+                </div>
+              </form>
+            </section>
+            <div id="annotation-list" class="annotation-list"></div>
+          </section>
+        </aside>
+
+        <aside id="discussion-panel" class="chat-panel" aria-labelledby="chat-title">
+          <header class="chat-header">
+            <div>
+              <h2 id="chat-title">讨论</h2>
+            </div>
+            <div class="chat-actions"><button id="new-session" class="icon-text-button" type="button" title="新建对话">
+              <span aria-hidden="true">＋</span><span>新对话</span>
+            </button>
+            <button id="discussion-close" class="icon-text-button" type="button" aria-label="收起讨论，返回正文">×</button></div>
+          </header>
+
+          <div class="context-strip">
+            <span class="context-dot" aria-hidden="true"></span>
+            <span>围绕</span>
+            <strong id="chat-context">尚未选择资料</strong>
+          </div>
+
+          <details id="history-drawer" class="history-drawer">
+            <summary>
+              <span>历史对话</span>
+              <span id="session-count" class="count-badge">0</span>
+            </summary>
+            <div id="session-list" class="session-list"></div>
+          </details>
+
+          <div id="chat-messages" class="chat-messages" aria-live="polite" aria-label="对话消息">
+            <div id="chat-welcome" class="chat-welcome">
+              <p>哪一步还没想清楚？</p>
+            </div>
+          </div>
+
+          <form id="chat-form" class="chat-form">
+            <div id="discussion-options" class="discussion-options" hidden>
+              <label for="discussion-model"><span class="sr-only">讨论模型</span><select id="discussion-model" aria-label="讨论模型"></select></label>
+              <label for="discussion-effort"><span class="sr-only">思考深度</span><select id="discussion-effort" aria-label="思考深度"></select></label>
+            </div>
+            <label class="sr-only" for="chat-input">输入消息</label>
+            <textarea id="chat-input" rows="2" placeholder="围绕当前资料提问…" required></textarea>
+            <div class="composer-footer">
+              <span id="chat-status" role="status" aria-live="polite"></span>
+              <button id="chat-send" class="send-button" type="submit">
+                <span>发送</span><span aria-hidden="true">↑</span>
+              </button>
+            </div>
+          </form>
+          <p id="model-meta" class="model-meta"></p>
+        </aside>
+      </main>
+    </div>
+
+    <button id="annotate-selection" class="selection-note-button" type="button" hidden>记笔记</button>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

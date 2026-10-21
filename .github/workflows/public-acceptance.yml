@@ -1,0 +1,62 @@
+name: Free public acceptance
+on:
+  workflow_dispatch:
+    inputs:
+      expected_source_sha:
+        description: Exact private source SHA named in the public capsule
+        required: true
+        type: string
+      expected_capsule_sha:
+        description: Exact public capsule checkout SHA, distinct from source SHA
+        required: true
+        type: string
+      source_overlay:
+        description: Preview allowlisted HTML and packets on the real public origin
+        default: false
+        type: boolean
+permissions:
+  contents: read
+concurrency:
+  group: public-acceptance
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.actor == 'rujiewu' && github.repository == 'rujiewu/superintelligence-public-checks' && github.repository_id == '1428657008' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    env:
+      EXPECTED_SOURCE_SHA: ${{ inputs.expected_source_sha }}
+      EXPECTED_CAPSULE_SHA: ${{ inputs.expected_capsule_sha }}
+      UI_SOURCE_OVERLAY: ${{ inputs.source_overlay }}
+      HTTP_PROXY: ''
+      HTTPS_PROXY: ''
+      ALL_PROXY: ''
+    steps:
+      - name: Record unchanged job deadline
+        run: node -e "require('node:fs').appendFileSync(process.env.GITHUB_ENV, 'PUBLIC_CONTENT_JOB_STARTED_MS=' + Date.now() + '\n')"
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify capsule before dependency or browser work
+        run: node --input-type=module -e "import { capsule } from './scripts/public-capsule.mjs'; capsule();"
+      - run: npm ci --ignore-scripts
+        timeout-minutes: 2
+      - run: npx playwright install --with-deps chromium
+        timeout-minutes: 4
+      - run: python3 -m pip install --disable-pip-version-check pydantic==2.12.5
+        timeout-minutes: 1
+      - name: Inspect actual public content with all viewport checks
+        if: ${{ !inputs.source_overlay }}
+        run: node scripts/public-content-qa.mjs
+      - name: Inspect unchanged UI and synthetic record behavior
+        run: node scripts/public-ui-qa.mjs
+      - name: Retain available reports and selected captures, including failures
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/store_public_capsule_evidence.py

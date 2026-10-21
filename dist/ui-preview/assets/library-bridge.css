@@ -1,0 +1,28 @@
+/* Only the private hub serves this stylesheet; portable files remain unchanged. */
+.hub-library-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 44px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 24px;
+  background: var(--paper, #f7f6f2);
+  border-bottom: 1px solid var(--line, #ddd);
+  color: var(--ink, #263630);
+  font: 500 13px/1.5 system-ui, sans-serif;
+}
+.hub-library-nav a { color: inherit; text-decoration: none; }
+.hub-library-nav a:hover { text-decoration: underline; }
+.hub-library-nav a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.hub-library-nav ~ .site-header { top: 44px; }
+.book-toc { top: 148px; max-height: calc(100vh - 168px); }
+[id] { scroll-margin-top: 160px; }
+@media (max-width: 760px) {
+  .hub-library-nav { padding: 0 16px; font-size: 12px; }
+  [id] { scroll-margin-top: 120px; }
+}
+@media print { .hub-library-nav { display: none; } }

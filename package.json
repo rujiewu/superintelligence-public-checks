@@ -1,0 +1,10 @@
+{
+  "name": "reading-agent-browser-qa",
+  "private": true,
+  "scripts": {
+    "qa:browser": "playwright test scripts/browser-qa.spec.js --workers=1 --reporter=line"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

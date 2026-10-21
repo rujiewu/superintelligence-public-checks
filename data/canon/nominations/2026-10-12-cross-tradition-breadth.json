@@ -1,0 +1,180 @@
+{
+  "sources": [
+    {
+      "source_id": "ascl-africa-hundred-2002",
+      "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+      "creator": "African Studies Centre Leiden"
+    },
+    {
+      "source_id": "cambridge-mathematical-reading-2022",
+      "url": "https://www.maths.cam.ac.uk/undergrad/admissions/files/admissions/reading-list.pdf",
+      "creator": "University of Cambridge Faculty of Mathematics"
+    },
+    {
+      "source_id": "ncm-indian-mathematics-2013",
+      "url": "https://www.ncmath.org/archives/atms/2013/atmw/dmi",
+      "creator": "National Centre for Mathematics"
+    },
+    {
+      "source_id": "met-south-southeast-asia-2001",
+      "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/sseasia.pdf",
+      "creator": "Steven M. Kossak; Edith W. Watts"
+    },
+    {
+      "source_id": "wcu-latin-american-history",
+      "url": "https://www.wcu.edu/learn/programs/history-ma/graduate-student-resources.aspx",
+      "creator": "Western Carolina University Department of History"
+    },
+    {
+      "source_id": "ucpress-iranian-reading-2020",
+      "url": "https://www.ucpress.edu/blog-posts/48776-an-iranian-reading-list",
+      "creator": "University of California Press"
+    }
+  ],
+  "works": [
+    {
+      "title_zh": "男性女儿，女性丈夫",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "剪除玫瑰",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "斯瓦希里语：过去、现在与未来",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "公民与臣民",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "黑非洲史",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "如此长的一封信",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "神经紧张",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "国王的骑马人之死",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "向北迁徙的季节",
+      "source_id": "ascl-africa-hundred-2002"
+    },
+    {
+      "title_zh": "怎样解题",
+      "source_id": "cambridge-mathematical-reading-2022"
+    },
+    {
+      "title_zh": "逻辑迷宫",
+      "source_id": "cambridge-mathematical-reading-2022"
+    },
+    {
+      "title_zh": "纯数学简明导论",
+      "source_id": "cambridge-mathematical-reading-2022"
+    },
+    {
+      "title_zh": "群：通往几何之路",
+      "source_id": "cambridge-mathematical-reading-2022"
+    },
+    {
+      "title_zh": "统计学的艺术：从数据中学习",
+      "source_id": "cambridge-mathematical-reading-2022"
+    },
+    {
+      "title_zh": "力学初级教程",
+      "source_id": "cambridge-mathematical-reading-2022"
+    },
+    {
+      "title_zh": "阿耶波多历算书",
+      "source_id": "ncm-indian-mathematics-2013"
+    },
+    {
+      "title_zh": "婆罗摩历算书",
+      "source_id": "ncm-indian-mathematics-2013"
+    },
+    {
+      "title_zh": "算术精要",
+      "source_id": "ncm-indian-mathematics-2013"
+    },
+    {
+      "title_zh": "算术之月光",
+      "source_id": "ncm-indian-mathematics-2013"
+    },
+    {
+      "title_zh": "印度与印度尼西亚艺术史",
+      "source_id": "met-south-southeast-asia-2001"
+    },
+    {
+      "title_zh": "印度艺术",
+      "source_id": "met-south-southeast-asia-2001"
+    },
+    {
+      "title_zh": "佛教艺术与建筑",
+      "source_id": "met-south-southeast-asia-2001"
+    },
+    {
+      "title_zh": "东南亚艺术",
+      "source_id": "met-south-southeast-asia-2001"
+    },
+    {
+      "title_zh": "伊斯兰艺术与建筑",
+      "source_id": "met-south-southeast-asia-2001"
+    },
+    {
+      "title_zh": "拉丁美洲当代史",
+      "source_id": "wcu-latin-american-history"
+    },
+    {
+      "title_zh": "拉丁美洲：城市与思想",
+      "source_id": "wcu-latin-american-history"
+    },
+    {
+      "title_zh": "共同之风",
+      "source_id": "wcu-latin-american-history"
+    },
+    {
+      "title_zh": "布宜诺斯艾利斯的性与危险",
+      "source_id": "wcu-latin-american-history"
+    },
+    {
+      "title_zh": "新世界的共和国",
+      "source_id": "wcu-latin-american-history"
+    },
+    {
+      "title_zh": "解封：后独裁阿根廷的性、民主与自由",
+      "source_id": "wcu-latin-american-history"
+    },
+    {
+      "title_zh": "所有人的国家",
+      "source_id": "wcu-latin-american-history"
+    },
+    {
+      "title_zh": "社会革命：伊朗的政治与福利国家",
+      "source_id": "ucpress-iranian-reading-2020"
+    },
+    {
+      "title_zh": "女性所处之地：伊朗性别隔离的政治",
+      "source_id": "ucpress-iranian-reading-2020"
+    },
+    {
+      "title_zh": "有胡须的女性与无胡须的男性",
+      "source_id": "ucpress-iranian-reading-2020"
+    },
+    {
+      "title_zh": "千年音乐：波斯音乐传统新史",
+      "source_id": "ucpress-iranian-reading-2020"
+    },
+    {
+      "title_zh": "游走的革命者",
+      "source_id": "ucpress-iranian-reading-2020"
+    }
+  ]
+}

@@ -1,0 +1,1764 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="几何原本：语境、论证、证据、批评与现代评估。">
+  <title>几何原本 · SuperIntelligence</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body class="book-page" data-pagefind-body>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
+  <header class="site-header">
+    <a class="brand" href="../../index.html" aria-label="返回 SuperIntelligence 首页">
+      <span class="brand-mark" aria-hidden="true">SI</span>
+      <span><strong>SuperIntelligence</strong><small>Human Knowledge Library</small></span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-button" href="#sources" title="查看来源" aria-label="查看来源">§</a>
+      <button class="icon-button" id="theme-toggle" type="button" title="切换明暗主题" aria-label="切换明暗主题"><span aria-hidden="true">◐</span></button>
+    </div>
+  </header>
+
+  <div class="book-layout">
+    <aside class="book-toc" aria-label="本页目录">
+      <a class="toc-back" href="../../index.html">← 返回知识库</a>
+      <div class="toc-title">本页目录</div>
+      <nav>
+<a href="#foundation-0">基础讲解</a>        <a href="#takeaway">核心提要</a>
+        <a href="#reading-depths">分层阅读</a>
+        <a href="#argument-map">论证地图</a>
+<a href="#mathematical-architecture">全书与证明</a><a href="#visualizations">解释图</a><a href="#why-it-matters">为什么今天还要读一部古代数学书</a><a href="#historical-context">作者躲在一层很薄的历史雾里</a><a href="#book-architecture">十三卷怎样接起来</a><a href="#demonstrative-method">一条证明怎样获得行动资格</a><a href="#representative-propositions">四道题，四种推理压力</a><a href="#modern-assessment">后来的人没有拆掉这座房子</a><a href="#criticism">严密的典范，也有没写出来的前提</a><a href="#intellectual-lineage">一条证明传统如何继续分枝</a><a href="#further-deductions">从证明这件事再往前想</a><a href="#what-to-remember">最后，把问题带走</a><a href="#concepts">关键概念</a><a href="#connections">知识连接</a>        <a href="#sources">来源与证据</a>
+      </nav>
+    </aside>
+
+    <main class="book-main">
+      <section class="book-hero">
+        <div class="breadcrumb">
+          <span>数学、统计与决策科学</span><span>→</span><span>数学</span><span>→</span><span>几何学</span>
+        </div>
+        <div class="book-kicker">READING LIBRARY · 数学著作</div>
+        <h1>几何原本</h1>
+<p class="original-title">Στοιχεῖα</p>        <p class="book-byline">Euclid <span>·</span> 约公元前 300 年</p>
+        <div class="book-facts">
+          <span>重要性 9.8/10</span>
+          <span>难度 5/5</span>
+          <span>需要修订</span>
+          <span>公版</span>
+        </div>
+      </section>
+
+
+      <section class="content-section foundation-section" id="foundation-continuation-0"><h2>第一卷：一幅画怎样变成人人可以核对的证明？</h2><p>画出一个三角形，量三次角，就能证明所有三角形都如此吗？测量只能告诉我们这幅画近似怎样。《几何原本》要让结论离开纸上的大小和朝向：先说对象是什么、允许做哪些构造，再让每一步都能回到已经承认的条件。这也是阅读十三卷时最值得抓住的工作方式。</p><p>第一卷的定义、公设和公理承担不同任务。点、线、圆等定义确定谈论对象；前三条公设允许连接两点、延长直线、以指定圆心和距离画圆；公理则让“等于同一个量的量彼此相等”等关系可以传递。定义圆上各点到圆心距离相等，并不自动证明任意画出的两圆一定相交。定义对象与保证对象存在，需要分别检查。</p><p>第五公设说，两直线被一条直线截得的同旁内角小于两直角时，向那一侧延长便相交。I.32先过三角形一个顶点作对边的平行线〔构造依赖I.31〕，再用平行线角关系〔定理依赖I.29〕把另外两角搬到这个顶点，最后用平角等于两直角〔I.13〕得到内角和。这里是TEXTUAL_SUMMARY：省写辅助线细节，但保留构造、角关系和合并的顺序。</p><p>于是“内角和等于两直角”有了清楚的条件来源，不能靠画得像来担保。下文沿各卷代表命题解释这条推理主线；它们接在原有研究之前，原来的四个详细命题与图示仍可继续核对。所列依赖表示证明调用关系，不表示这次已经把每个被调用命题重新证明了一遍。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：I Definitions 1–5, 8, 10, 15, 17, 20, 23; Postulates 1–5; Common Notions 1–5; I.32</a></p></section><section class="content-section foundation-section" id="foundation-continuation-1"><h2>第一卷 I.1：作等边三角形，哪些相等是构造保证的？</h2><p>给定非零线段AB，I.1要求在它上面构造等边三角形。目标不只是找一个看上去尖尖的图形，而是说明新点C应放在哪里，为什么三条边必定相等。Heath译本把任务称为“to construct an equilateral triangle”。</p><p>第一步，以A为圆心、AB为半径画圆；第二步，以B为圆心、BA为半径画圆〔构造权限：公设3〕。取两圆交点C，连接CA和CB〔构造权限：公设1〕。由第一圆的定义得AC＝AB，由第二圆的定义得BC＝BA；两条新边等于同一条给定线段，便彼此相等〔定义15、公理1〕。最后按等边三角形的定义识别所得图形。以上各步是原证明的TEXTUAL_SUMMARY，不是逐句译文。</p><p>难处藏在“取两圆交点”里：传下来的证明直接使用交点，前三条构造公设却没有单列我们今天会要求的圆相交连续性保证。应把它记作原证明使用的存在条件，不能因为渲染出来的两圆交了，就声称公理缺口已被补全。原有I.1图示只帮助辨认圆心、等半径和交点；图的朝向与像素距离不参与证明。</p><p>读完可以做一个直接核对：即使把整个构造旋转、放大，AC＝AB与BC＝BA仍由同样的圆定义成立。若只把C任意挪到圆外，等边结论就失去这两条依据。证明的力量来自约束，而不是图形的外观。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：I.1: statement, construction, proof; attached Heath notes separate</a></p></section><section class="content-section foundation-section" id="foundation-continuation-2"><h2>第一卷 I.47：勾股定理为什么要绕过几个辅助三角形？</h2><p>我们熟悉的a²＋b²＝c²，是I.47的现代代数读法。原命题谈的是：直角三角形斜边上的正方形，等于两条直角边上的两个正方形之和。它没有先给每条边一个数值，再做代数运算；它要把一块面积与另外两块面积接起来。</p><p>证明先在三条边上构造正方形〔I.46〕，并过直角顶点画一条平行于斜边正方形侧边的直线，把大正方形分成两个平行四边形。接着连接辅助线，利用正方形的等边和直角，找出两边及夹角分别相等的一对三角形〔全等依赖I.4，角的补接另用I.14及公理2〕。</p><p>关键桥梁是I.41：在同底且处于同一组平行线之间时，平行四边形面积是相应三角形的两倍。辅助三角形既然相等，它们的两倍也相等；这样，大正方形的一部分便等于一条直角边上的正方形。另一侧同理，再把两部分相加。这个有序压缩属于TEXTUAL_SUMMARY；两次全等与两次面积比较，不能简写成“看图显然”。</p><p>用3、4、5作现代数值演算，9＋16＝25可检查公式在这个例子上相符，但不能代替一般证明。反过来，只有直角条件成立，才能在这条证明链上调用相应的角关系；任意三角形的三边都套同一等式，已经越过命题的条件。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：I.47: statement and proof</a></p></section><section class="content-section foundation-section" id="foundation-continuation-3"><h2>第二卷 II.4：把边分成两段，面积为何出现两次交叉项？</h2><p>把一条线段分成两段，在整条线上作正方形。II.4说，整个正方形等于两段各自的正方形，再加两块由这两段围成的矩形。用现代符号写，就是(a＋b)²＝a²＋2ab＋b²；符号是MODERN_RECONSTRUCTION，原文是在比较几何面积。</p><p>证明在整个正方形内过分点作平行线，并使用对角线与平行关系识别出两个小正方形和两块相等的矩形。先确认形状的边长与直角，再把面积相加，交叉项出现两次便有了构造理由。这里压缩了原文的逐点命名〔TEXTUAL_SUMMARY〕；平行线关系、正方形性质与平行四边形补形关系不能由一张随意分格的图顶替。</p><p>例如把总边长分成2和3，整块面积是25；两块正方形贡献4和9，两块矩形各贡献6，合计仍为25。若只加4和9，就漏掉了夹在两块正方形之间的12。这个核算适合帮助理解，不应倒过来宣称古书已经用今天的带符号代数处理任意正负数。</p><p>第二卷在这里给出一种可迁移的检查办法：整体怎样分割，分割后的每块凭什么被识别，是否漏算或重复。后来遇到复杂等式，先恢复这些关系，往往比记住结果更可靠。这个学习联系是编辑归纳，不是原书关于现代代数史的优先权判断。</p><figure class="knowledge-visual"><figcaption><p>II.4的现代正长度演算</p></figcaption><div aria-label="II.4的现代正长度演算" class="behavioral-table editorial-table" role="table"><article role="row"><div role="columnheader"><strong>面积部分</strong></div><div role="columnheader"><strong>数值；构造中的角色</strong></div></article><article role="row"><div role="rowheader"><strong>第一小正方形</strong></div><div role="cell"><p><strong>数值：</strong>2×2＝4</p><p><strong>构造中的角色：</strong>一段的平方</p></div></article><article role="row"><div role="rowheader"><strong>第一矩形</strong></div><div role="cell"><p><strong>数值：</strong>2×3＝6</p><p><strong>构造中的角色：</strong>一块交叉面积</p></div></article><article role="row"><div role="rowheader"><strong>第二矩形</strong></div><div role="cell"><p><strong>数值：</strong>3×2＝6</p><p><strong>构造中的角色：</strong>另一块交叉面积</p></div></article><article role="row"><div role="rowheader"><strong>第二小正方形</strong></div><div role="cell"><p><strong>数值：</strong>3×3＝9</p><p><strong>构造中的角色：</strong>另一段的平方</p></div></article><article role="row"><div role="rowheader"><strong>合计</strong></div><div role="cell"><p><strong>数值：</strong>25＝(2＋3)²</p><p><strong>构造中的角色：</strong>四块恰好组成整体</p></div></article></div><p>MODERN_RECONSTRUCTION：数字示例仅检算面积分解，不代替II.4原证明。</p></figure><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：II.4: statement and proof; attached Heath notes separate</a></p></section><section class="content-section foundation-section" id="foundation-continuation-4"><h2>第三卷 III.20：同一段圆弧，为何有两种角？</h2><p>在一个圆中，用同一段弧分别形成圆心角和圆周角，III.20证明前者是后者的两倍。必须先说清“同一段弧”：圆周上的点选在哪一侧，会改变所对的弧。只说“圆心角总是圆周角两倍”，却不限定对应关系，就容易把大角、小角混在一起。</p><p>证明先连接圆心与角的顶点，再按圆心相对圆周角的位置分情况。在基本情形中，两条半径相等，形成等腰三角形；利用两底角相等〔I.5〕，以及三角形外角等于两个不相邻内角之和〔I.32〕，得到一部分圆心角是对应角的两倍。再把两部分相加，便得到目标关系。</p><p>圆心落在角内与角外时，原论证分别通过相加或相减延伸基本情形〔TEXTUAL_SUMMARY〕。这一步很重要：一幅画只能展示其中一种位置，不能替另外的位置作证。学会把图上“在里面”或“在外面”转成论证分支，才不会把视觉习惯偷偷当条件。</p><p>用现代角度制，若所对圆周角是35°，对应圆心角为70°，这是公式后的演算。真正需要记住的是同圆、同弧以及位置分支。第三卷把圆心、弦、切线与角的关系接到第一卷已有的三角形推理上；这里借III.20看见这一连接，不冒称已逐项证明本卷全部命题。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：III.20: statement and proof; attached Heath note separate</a></p></section><section class="content-section foundation-section" id="foundation-continuation-5"><h2>第四卷 IV.15：为什么用半径能在圆上构造正六边形？</h2><p>IV.15要求在给定圆内作等边且等角的六边形。仅用圆规在圆周上连续量六次，容易让人以为这是经验上的巧合。证明必须解释，每次为什么截出同样的弧，以及六段为什么恰好闭合。</p><p>原构造借助直径、圆心和以半径为距离的新圆，得到由三条相等半径构成的等边三角形。利用第一卷的角关系，它的角为两直角的三分之一。再以圆心处的对顶角、平角和相等弧弦关系展开，六个相等的圆心角围成整周，相应弦便相等〔TEXTUAL_SUMMARY，依赖I.5、I.32及第三卷弧弦关系〕。</p><p>还要继续检查顶点处的角相等，才完成“等边且等角”的任务。原文的推论随后指出：所得六边形的边等于圆半径。半径相等、圆心角相等、弦相等和顶角相等，在证明中承担不同工作，不能用一个“对称”把它们全部省去。</p><p>这个例子也预备了后面多面体的构造：同一个圆中的正多边形，会成为立体构造的组成部分。但它没有证明每个正多边形都能照此办法作出；把六边形的成功随意推广到任意边数，会超出本命题。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：IV.15: statement, proof and porism</a></p></section><section class="content-section foundation-section" id="foundation-continuation-6"><h2>第五卷：没有共同尺子，怎样仍能说两个比相等？</h2><p>若两条长度没有共同的细小单位，还能比较它们的比吗？第五卷的对象是量，不能直接用第七卷的整数整除来处理。定义3先要求比较的量同类；定义4要求它们经过倍增能彼此超过。这样，比的讨论有了对象和可比较条件。</p><p>定义5的办法，是把第一、第三个量取任意相同整数倍，把第二、第四个量取任意另一相同整数倍：每一次比较，前一对与后一对都同样大于、等于或小于，才说两比相等。用现代记号表达，A∶B＝C∶D要求对任意正整数m、n，mA与nB的比较结果，都与mC和nD一致〔MODERN_RECONSTRUCTION〕。只验三组倍数远远不够，因为定义中的“任意”不能删。</p><p>V.11随后证明同一个比可以作为中介。若A∶B＝C∶D，且C∶D＝E∶F，就对六个量取同样对应的任意倍数；第一对与中间对比较一致，中间对与最后一对一致，因此第一对与最后一对也一致。再按定义5收束，得到A∶B＝E∶F〔TEXTUAL_SUMMARY：定义依赖V.Def.5〕。</p><p>这样，等比的传递性获得了可重复使用的证明。读到后面“把一个比换成另一个比”时，不应把它看成文字游戏：第五卷已为这种替换建立条件。这套量论可以处理没有共同线性单位的情形，但这里没有把它改写成现代实数公理系统，也没有声称两套理论的全部细节相同。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：V Definitions 3, 4, 5, 9; V.11</a></p></section><section class="content-section foundation-section" id="foundation-continuation-7"><h2>第六卷 VI.1、VI.19：边放大两倍，面积为什么放大四倍？</h2><p>同高三角形的面积比等于底边比，这是VI.1的结论。若直接代入现代面积公式，计算很快，却看不见书中为什么先安排第五卷。原证明在两条底边的延长线上复制任意多段等长底边，再连接同一个顶点；由I.38，同底同高的小三角形面积相等。</p><p>于是，底边取了几倍，三角形也恰好取几倍；两组倍数底边比较大小时，相应三角形也同样比较。对任意倍数成立，才用V.Def.5认定两比相等。接着由I.41的倍面积关系和V.11传递，推到同高平行四边形〔TEXTUAL_SUMMARY〕。比例定义在这里确实参与证明，而不是装饰。</p><p>VI.19再处理相似三角形。它先对两条对应边作第三比例项〔构造依赖VI.11〕，用等角两侧互成反比推出一个辅助三角形与目标三角形等面积〔VI.15〕，再借VI.1把面积比转成底边比。由于这三条边构成连续比例，得到对应边比的二次比〔V.Def.9〕。这个顺序比一句“面积与长度平方成正比”多出了说明为什么的桥梁。</p><p>若相似形的对应边比为2∶1，现代演算得到面积比4∶1；若只知道某一条边长翻倍而形状改变，就不能调用VI.19。相似是条件，不是画得差不多。第五卷的量比与第一卷的面积比较，在这里会合。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：VI.1 and VI.19, including porism</a></p></section><section class="content-section foundation-section" id="foundation-continuation-8"><h2>第七卷 VII.1、VII.2：反复相减，怎样找出最大公约数？</h2><p>第七卷先把单位与数分开：单位使一个对象被称为“一”，数则是单位组成的多数。因此，不能不加说明就把它的所有词汇替换成现代非负整数。VII.2的题设也很具体：给定两个不互质的数，求它们的最大公度数，也就是现代常说的最大公约数。</p><p>若较小的数能整除较大的数，它就是所求；否则不断从大者减去小者，留下更小的余数，再交换角色。为什么余数保住了问题？一个量若同时整除原来的两个数，就也整除相减后的余数；沿步骤向前或向后追踪，共同度量关系没有丢失。最后留下的、能够整除前一项的数，因而也能整除两个初始数。</p><p>还需证明它最大。假设有更大的共同度量，它沿相减链同样必须整除最终余数；更大的数不可能整除这个更小的正数，于是矛盾。VII.1另外处理最终只剩单位的情形：这时初始两数互质。两个命题的前提与分支合起来，才接近我们熟悉的欧几里得算法〔TEXTUAL_SUMMARY〕。</p><p>下面把连续相减压成带余除法，是MODERN_RECONSTRUCTION；除法记号不冒充原句。用1071和462演算，最后的21既整除二者，所有共同因子又必须整除21，故最大公约数是21。算法有用的原因在于保存共同因子这一不变量，不能只背“辗转相除”四个字。</p><figure class="knowledge-visual"><figcaption><p>最大公度数的现代检算</p></figcaption><div aria-label="最大公度数的现代检算" class="behavioral-table editorial-table" role="table"><article role="row"><div role="columnheader"><strong>步骤</strong></div><div role="columnheader"><strong>带余除法；下一对数</strong></div></article><article role="row"><div role="rowheader"><strong>1</strong></div><div role="cell"><p><strong>带余除法：</strong>1071＝2×462＋147</p><p><strong>下一对数：</strong>462与147</p></div></article><article role="row"><div role="rowheader"><strong>2</strong></div><div role="cell"><p><strong>带余除法：</strong>462＝3×147＋21</p><p><strong>下一对数：</strong>147与21</p></div></article><article role="row"><div role="rowheader"><strong>3</strong></div><div role="cell"><p><strong>带余除法：</strong>147＝7×21＋0</p><p><strong>下一对数：</strong>返回21</p></div></article></div><p>MODERN_RECONSTRUCTION：压缩原相减过程；21整除1071和462，各步余数严格变小。</p></figure><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：VII Definitions 1–4, 21; VII.1–2</a></p></section><section class="content-section foundation-section" id="foundation-continuation-9"><h2>第八卷 VIII.18：什么样的两个整数，中间能放一个等比中项？</h2><p>第八卷把连续比例带入数的结构。VIII.18研究“相似的平面数”：两个数分别写成两条边的乘积，并且两组边成比例。这个前提比“任意两个整数”强得多，结论也不能脱离它。</p><p>以现代符号重建：A＝CD，B＝EF，并且C∶D＝E∶F。把交叉的两条边相乘，取G＝DE。由比例换位和乘法比例关系〔VII.13、VII.17〕，有A∶G＝C∶E＝D∶F＝G∶B。因此A、G、B构成连续比例，G就是整数的比例中项。这是原证明的TEXTUAL_SUMMARY与现代符号重建；原命题还据连续比例说明二次比。</p><p>具体取A＝2×3＝6，B＝4×6＝24，因2∶3＝4∶6，交叉乘积G＝3×4＝12。于是6∶12＝12∶24＝1∶2，且12²＝6×24＝144。反过来，2与3的现代实数几何平均数为√6，却不是整数，不能拿它反驳这个带有“相似平面数”前提的整数命题。</p><p>这类论证让相似、乘积和连续比例互相照亮，但数与几何量仍保持区分。上一步的G不是随手按计算器开平方得到的：相似边的条件，已经保证了所构造的交叉乘积处在数的范围内。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：VIII.18</a></p></section><section class="content-section foundation-section" id="foundation-continuation-10"><h2>第九卷 IX.20：为什么再长的素数清单都不会封顶？</h2><p>IX.20给出一条有限名单不能穷尽素数的论证。设手里已有若干素数，取它们的最小共同倍数，再加一个单位，得到新数。原文用有限给定的素数展开，不是先假定我们能写出一张真的无限名单。</p><p>若所得数本身是素数，它就不在原名单中；若不是，它有素数度量。假如这个素数仍在原名单里，它既整除共同倍数，又整除共同倍数加一，因此必须整除相差的一个单位，矛盾。于是总能得到名单外的素数〔TEXTUAL_SUMMARY：依赖数的度量关系及合数有素数度量的既有结果IX.20所调用的VII.31〕。</p><p>读者最容易漏掉“若不是素数”这个分支。把名单中素数相乘再加一，是现代常用的变体，并不保证结果本身总是素数。例如2×3×5×7×11×13＋1＝30031＝59×509；59和509都不在这张名单中，恰好说明证明要找的是名单外的素因子，而不要求新数永远素。</p><p>这个反证法没有给出全部素数的分布规律，也没有把任意新数快速分解的算法。它只把“有限名单已封顶”的可能性排除。保住结论的精确范围，才能看见短证明究竟做成了什么。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：IX.20</a></p></section><section class="content-section foundation-section" id="foundation-continuation-11"><h2>第十卷：长度不能公度，平方为什么仍可能公度？</h2><p>第十卷的术语最容易被现代习惯带偏。定义1说，两量有同一共同度量便可公度；定义2另说，两线段所作正方形有共同面积度量，便“平方可公度”。线段本身可公度，与它们的平方可公度，是两个不同条件。</p><p>定义3选一条线段为标准，将与它在长度及平方上可公度，或只在平方上可公度的线段，都归入“有理”线段。因此，以现代单位长1为标准，正方形的对角线长√2，平方为2：它与边长在平方上可公度，在长度上不可公度，却属于这个定义中的有理线段。这里的√2是MODERN_RECONSTRUCTION，不能把古书的词直接换成“现代有理数”。</p><p>X.2用几何量的反复相减给出不可公度判据：若小量不断从大量中相减，余下的量始终不能度量前一项，则初始两量不可公度。证明反设存在共同度量，结合X.1的缩小原则，使余量最终小于这个共同度量；然而共同度量又应整除余量，矛盾〔TEXTUAL_SUMMARY〕。这与第七卷相减法有联系，却不能把整数算法的有限终止无条件移给线段。</p><p>随后对不同无理量的细密分类，需要继续逐个检查构造与关系；只说一句“古人发现了无理数”会把本卷真正的困难抹平。本节解释进入这一分类前最关键的词义和判据，未把未逐项核读的全卷分类表冒充已完整重证。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：X Definitions I.1–3; X.1–2</a></p><p><a href="https://mathcs.clarku.edu/~djoyce/java/elements/elements.html">补充定位：Book X Definitions I, definitions and separate Guide ll.0–31</a></p></section><section class="content-section foundation-section" id="foundation-continuation-12"><h2>第十一卷 XI.4：垂直两条线，何时才能推出垂直整个平面？</h2><p>一根杆子看起来竖直，并不等于它垂直于地面。XI.4要求：同一条直线，在另两条相交直线的交点处，分别与它们成直角，才推出它垂直于这两条相交直线所在的平面。交点、两条线相交、位于同一平面，这些约束不能省略。</p><p>原证明从交点E沿两条给定直线在两侧取等长段，并在平面内过E任取方向GH。再取垂线EF上的一点F，连接辅助线；利用对顶角、三角形全等与等边关系，先得到GE＝EH以及FG＝FH。由于FE为公共边，再用三边全等推出∠GEF＝∠HEF；它们构成邻补角，因此都是直角。以上是TEXTUAL_SUMMARY，依赖平面确定关系XI.2及I.4、I.8、I.15、I.26等已知结果。</p><p>GH起初就是任取的平面方向，所以结论不止说F与这幅图上的一条横线垂直；同样推理对经过E的任意平面内直线成立，最后按线面垂直定义XI.Def.3收束。Heath数字文本在“F取于EF”处有转录异常，Joyce文本明确此关系；这里说明文本参照，不冒称完成纸本校勘或新图像验证。</p><p>第十一卷还用平面三角形角和处理立体角。XI.21把辅助三角形的角作比较，得到包围这个立体角的平面角之和小于四直角；其展示情形的证明依赖XI.20与I.32。第十三卷会调用这个约束。立体推理依然要靠关系和依赖，透视图画得像不像不构成理由。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：XI.4 and XI.21</a></p><p><a href="https://mathcs.clarku.edu/~djoyce/java/elements/elements.html">补充定位：Book XI Proposition 4, proof ll.0–53 and separate Guide ll.54–62</a></p></section><section class="content-section foundation-section" id="foundation-continuation-13"><h2>第十二卷 XII.2：不用先知道π，怎样证明两个圆的面积比？</h2><p>XII.2要证明，两圆的面积比等于直径上正方形的面积比。这里没有先套A＝πr²再约掉π。原证明让内接多边形与圆之间的差，经过重复操作，小到足以击败任何预先假定的正差距。</p><p>先在圆中内接正方形，它超过圆面积的一半。接着平分每段弧并连接新顶点：新加入的三角形，每个都超过对应弓形面积的一半。因此重复下去，剩余弓形总面积会小于任意给定差距〔缩小依赖X.1〕。这里的“任意差距”由反证中指定，不是只把边数画得很多就宣布已经等于圆。</p><p>设按直径平方比对应的面积S小于第二个圆。继续加密内接多边形，直到它超过S；在第一个圆中作相似多边形，二者面积比按XII.1等于直径平方比。用第五卷的比例传递与换位，便迫使S又大于第二圆的这个内接多边形，矛盾。随后交换两圆处理相反方向，并用附引理排除S大于圆的情况〔TEXTUAL_SUMMARY〕。只有两个方向都排除，才得到相等。</p><p>例如直径比2∶3时，现代演算得面积比4∶9，无须先指定π的数值。原证明的成就在于把曲线图形纳入严格的比较；它没有把无穷多边形当成一个已经完成的实物，也没有在这里建立现代积分的全部定义。</p><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：XII.2, including lemma</a></p></section><section class="content-section foundation-section" id="foundation-continuation-14"><h2>第十三卷 XIII.18：五种正多面体，怎样比较、又怎样排除其它候选？</h2><p>XIII.18先把五种立体的边放在同一个给定球的直径下比较，随后才说明为什么没有其它同类候选。它调用前面XIII.13—17的构造结果，又把相似、圆内多边形、比例与无理量关系接回来。这里沿已核读的XIII.18解释调用顺序，没有把尚未逐项重讲的五个前置构造写成已重新验证。</p><p>比较中的一部分很直观：若共同球直径为d，正四面体、正八面体与立方体的边长平方，分别为(2/3)d²、(1/2)d²、(1/3)d²〔MODERN_RECONSTRUCTION：据原文给出的直径平方与边平方比〕。原证明通过半圆、垂线及比例识别相应线段；不能因为三者边长平方之比为4∶3∶2，就误说边长本身按4∶3∶2排列。</p><p>排除论证转向顶点：若用相等的正三角形面，每个角为60°，一个顶点可有3、4、5面相遇，6面便达360°；若用正方形，只能3面，4面已达360°；正五边形每角108°，3面共324°，4面超出360°。更高边数的正多边形也无法满足至少三面相遇且总角小于四直角的条件〔定理依赖XI.21；五边形角的原文引理另调用圆与三角形关系〕。角度数值是现代重述。</p><p>这张表列的是局部候选的排除；候选确实能拼成所需立体，还要依赖前面已有的构造。适用范围是书中这类由相等、等边、等角的面围成的立体，不能扩大成“宇宙中只有五种立体”，也不涵盖任意非凸或混合面的图形。至此，十三卷的线索回到同一件事：一个结论之所以可靠，是因为对象、构造和每一步依赖都能被追问。</p><figure class="knowledge-visual"><figcaption><p>同一种正多边形面在一个顶点相遇：局部角度条件</p></figcaption><div aria-label="同一种正多边形面在一个顶点相遇：局部角度条件" class="behavioral-table editorial-table" role="table"><article role="row"><div role="columnheader"><strong>面的形状</strong></div><div role="columnheader"><strong>每面内角；可保留的面数候选；为何下一项被排除</strong></div></article><article role="row"><div role="rowheader"><strong>正三角形</strong></div><div role="cell"><p><strong>每面内角：</strong>60°</p><p><strong>可保留的面数候选：</strong>3、4、5</p><p><strong>为何下一项被排除：</strong>6×60°＝360°</p></div></article><article role="row"><div role="rowheader"><strong>正方形</strong></div><div role="cell"><p><strong>每面内角：</strong>90°</p><p><strong>可保留的面数候选：</strong>3</p><p><strong>为何下一项被排除：</strong>4×90°＝360°</p></div></article><article role="row"><div role="rowheader"><strong>正五边形</strong></div><div role="cell"><p><strong>每面内角：</strong>108°</p><p><strong>可保留的面数候选：</strong>3</p><p><strong>为何下一项被排除：</strong>4×108°＝432°</p></div></article><article role="row"><div role="rowheader"><strong>正六边形及以上</strong></div><div role="cell"><p><strong>每面内角：</strong>至少120°</p><p><strong>可保留的面数候选：</strong>无</p><p><strong>为何下一项被排除：</strong>至少3面时总角≥360°</p></div></article></div><p>TEXTUAL_SUMMARY加现代角度重述：小于360°只是局部必要约束；存在性仍用前面构造，不作为独立完整分类证明。</p></figure><p><a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">原文定位：XIII.18, including final exclusion argument and pentagon-angle lemma</a></p><p><a href="https://mathcs.clarku.edu/~djoyce/java/elements/elements.html">补充定位：Book XIII Proposition 18, proof/remark/lemma ll.0–122; separate Guide ll.123–135</a></p><p>沿十三卷已核代表定义与命题，接通构造、面积、比例、数论、不可公度量、立体与穷竭的15节讲解。原有四个详细命题、研究、思考、图示、来源与练习完整保留。压缩原证明为TEXTUAL_SUMMARY，现代公式与演算另标；并非全命题逐项形式验证、新图像或希腊校勘；待独立评审。</p><p>Euclid: The Thirteen Books of the Elements, Heath English witness。Euclid; Thomas L. Heath (translator and separate commentator); Perseus Digital Library。出版信息：1908 English edition; pinned repository commit 0c75c6009460b05198e1050d67e48a16966acc72；核对日期：2026-10-20。仅核读列出的定义、公设和代表命题，不是十三卷全部命题逐项重证。Heath注释与译者补语分层；XML定位不是印刷页。没有新增希腊校勘或图像检查；原Casey前六卷、Heiberg与Heath研究来源分别保留。XI.4含lton EFgt转录异常，另与Joyce文本核对点F在EF上的关系，不据此校改纸本。压缩证明标作TEXTUAL_SUMMARY，现代数值/代数重建另标。 1908译本公版；原packet记录Perseus数字表达CC BY-SA 4.0。新中文解释由本项目编写，短摘保留署名；数字见证同许可，未复制来源图像。</p><p>Euclid's Elements, Joyce online edition: selected textual controls。Euclid; David E. Joyce (online edition and separate Guide)。出版信息：Online edition; page-specific publication date not established；核对日期：2026-10-20。网页行号非纸页。仅文本参照，未检查动态图/图像；Guide是现代编辑层。XIII.18 Guide表格十二面体d²/s²一项有明显疑点，不用于数值讲解，也不修改原研究。 现代网页版权未定，仅链接及必要短摘；未缓存网页或图像。</p></section><section id="foundation-0" class="content-section foundation-section">
+        <h2>从 I.1 开始：图、构作与证明各自负责什么</h2>
+<p class="foundation-basis">入门讲解 · 编辑解释与教学例子。</p><p>《几何原本》的定义、公设、共同概念和命题承担不同工作。定义让我们知道在谈哪种对象，公设允许构作，具体证明则要说明这一步为何能从已经允许的条件推出。看见图上两个东西相交，不会自动提供一个写在文本中的存在保证。</p><p>I.1 很适合养成这种区分：先跟着构作画出两个圆，再追到交点与等边关系。下方保留传承文本、文字摘要、图形推断和现代补足的界线，目的正是让“看起来如此”和“由哪一条理由保证”同时可见。</p><p>画两条差不多长的线，肉眼会说它们相等。换一支笔、缩放屏幕或转一下图，印象就可能改变。《几何原本》要求你换一种回答方式：哪些构作被允许，哪些性质已知，每一步凭什么继续？图帮助看关系，墨迹的尺寸本身不负责证明。</p><p>先分清三种工作。定义说明术语怎样使用；公设给出允许采用的基本关系或构作；命题则要依靠这些基础与已有结果得出结论。书中对点的定义是历史文本的一部分，不能把这句话单独当成一套完整的现代形式系统。</p><p>后面读一个命题时，先找已知条件与待证结论，再看新增了哪些线或圆。这个次序比只背最后的定理名称更有用。</p><p>给定线段 AB。以 A 为圆心、AB 为半径作圆；再以 B 为圆心、BA 为半径作圆。在两圆交会处取一点 C，连接 AC 和 BC。目标是证明三条边相等，而不只是画出一个看起来对称的三角形。</p><p>C 在以 A 为圆心的圆上，所以 AC＝AB。C 也在以 B 为圆心的圆上，所以 BC＝BA。AB 与 BA 是同一条线段的长度，于是 AC、BC 都等于它，三边相等。每一次等长判断都能指出根据，不需要测图上的像素。</p><p>这里把证明压成初学者可跟读的文字，是文本概括，不冒充逐字逐步的欧几里得原文。点 C 在图的上方还是下方，也不改变这条等长链；方向只是画法选择。</p><p>有一个必须明说的地方：两个圆的交点存在。古代文本与图式实践直接使用这一交会，列出的五条公设却没有以现代形式明确给出所有所需的连续性条件。后来的形式化会把这类基础补得更细。这是后世评估，不能说成原书自己已经讨论并解决的缺口。</p><p>反问：发现这个问题，就能宣布整部书没有价值吗？也跳得太远。你刚刚仍能检查两个圆各自给出的等长关系，以及它们如何推出结论。指出某一步的额外前提，是把推理变得更清楚，并不要求抹掉其他有效步骤。</p><p>还要避免反方向的偷懒：因为图画得很清楚，就觉得相交存在不必交代。学习证明的一项收获，正是看见“我从图里接受了什么”和“哪些关系已由条件保证”之间的距离。</p><p class="foundation-basis">解释依据：<a href="#claim-method-construction-postulates">开篇公设读起来像一组获准的动作：两点间连线、延长有限直线、给定圆心和距离…</a> · <a href="#claim-method-diagram-rules">图不是插图，也不是法官。它能在受约束的规则下承载共线、相交、内外等信息；…</a> · <a href="#claim-crit-definitions">“线是无宽的长”“直线均匀地躺在自身点上”能唤起共同直觉，却很难单独承担…</a> · <a href="#claim-proposition-i-1">I.1 的动作几乎可以一口气说完：以线段两端为圆心，各作一个以该线段为半…</a> · <a href="#claim-proposition-i-1-gap">麻烦也来得很早：五条公设允许作出两圆，却没有另外写明它们一定相交。现代公…</a> · <a href="#claim-modern-formalization">现代公理化接着追问《几何原本》含在动作和图里的前提：点与线如何关联，何时…</a> · <a href="#claim-crit-diagram-overreaction">把图从证明中彻底驱逐，也可能修得太过头。成熟的图式推理关心构作规则允许读…</a> · <a href="#claim-deduction-visible-assumptions">一套知识传统会变强，往往因为人们终于能给漏洞命名、定位，并公开比较修补方…</a></p>      </section>
+      <section id="foundation-source-passage" class="content-section foundation-section">
+        <h2>书中短摘</h2>
+        <figure class="foundation-excerpt">
+          <blockquote>A point is that which has no part.</blockquote>
+          <p>参考译文：点是没有部分的东西。</p>
+          <figcaption><a href="https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml">The Thirteen Books of Euclid&#39;s Elements, pinned Heath English XML expression</a> · Book I, Definition 1; Heath English translation。希思英译的定义，不是古希腊原字句；图上的墨迹尺寸不能成为数学证明。</figcaption>
+        </figure>
+      </section>
+      <section id="foundation-1" class="content-section foundation-section">
+        <h2>I.47：从 3、4、5 的算例走完面积搬运</h2>
+<p>I.47 的面积论证，应沿它实际调用的构作与全等关系来读。正方形、三角形和平行线并非为了装饰一个已经知道的公式；它们使两个面积关系能够逐步接起来。先追一边，再追另一边，最后才得到所需面积的合并。</p><p>3、4、5 的数值可以核对一个实例，却不能覆盖任意直角三角形。读证明时，把数值例子放回它应有的位置：它帮助理解结论，不能代替建立普遍关系的步骤。</p><p>用现代数值做个检查：两直角边长为 3 和 4、斜边长为 5 时，两小正方形面积分别为 9 和 16，合计 25，与斜边上的正方形面积相同。这个算例帮助看懂面积关系，不是《原本》使用代数公式写下的证明。</p><p>I.47 要处理任意符合条件的直角三角形。它在边上作正方形，借助先前的平行线、全等和面积命题，把面积关系接起来。I.46、I.31、I.4、I.41 等结果在这张依赖网里各有作用。一个命题可被反复调用，就像一项已交代清楚的推理接口。</p><p>反问：验算了一百组边长，是否已经证明全部情况？没有。验算检查这些例子；一般证明还要从共同条件走到一般结论。反过来，证明一条面积关系，也不保证任何随手画的三角形都是直角三角形。</p><p>沿用后面 I.47 证明记录的字母，令 A 为直角顶点，AB、AC 为两条直角边，BC 为斜边。三边外各作正方形，再过 A 作与斜边正方形两侧平行的线，把大正方形分成两块。原图把其中一块记作 BL，把 AB 上的正方形简记作 GB；下面谈的都是整块图形的面积，不是两字母表示的线段长度。</p><p>先连接 AD、FC。正方形保证 DB＝BC、BA＝BF。角 DBA 与角 FBC 也相等：它们分别由一个直角加上同一个角 ABC 得到。两边和夹角分别相等，于是 I.4 给出三角形 ABD 与 FBC 全等。到这里，我们只得到两个三角形的面积相等，还没有得到两个正方形的关系。</p><p>下一步用 I.41。由构作产生的共底与平行位置关系，BL 的面积是三角形 ABD 的两倍，GB 的面积是三角形 FBC 的两倍。两三角形既然面积相同，它们的两倍也相同，才得到 BL 与 AB 上的正方形面积相等。中间三角形就是把小正方形接到大正方形一部分的桥。</p><p>对 AC 那一侧，连接 AE、BK，再沿对应的全等和倍面积关系，得到大正方形另一块 CL 与 AC 上的正方形面积相等。最后 BL 与 CL 拼成 BC 上的整个正方形，两块分别相等才能相加。</p><p>现在再看 3²＋4²＝5²，就知道数字省略了哪些工作。这段沿既有证明记录作文本概括（TEXTUAL_SUMMARY），没有替换原命题的步骤身份。全等依赖两边夹角，倍面积依赖共底和平行位置；都不能由图上某块“看起来差不多”来代替。</p><p class="foundation-basis">解释依据：<a href="#claim-proposition-i-47">I.47 没有把直角三角形塞进一行代数。它在三边外作正方形，用两组全等三…</a> · <a href="#claim-method-proof-dependency">命题的次序就是它的基础设施。I.47 不能直接宣布面积关系，它得先借 I…</a> · <a href="#claim-deduction-proof-as-interface">我们可以把证明看成一种知识接口：定义约定对象，公设开放操作，命题公布输入…</a> · <a href="#claim-method-diagram-rules">图不是插图，也不是法官。它能在受约束的规则下承载共线、相交、内外等信息；…</a></p>      </section>
+      <section id="foundation-2" class="content-section foundation-section">
+        <h2>IX.20：为什么任何有限素数表都不够</h2>
+<p>IX.20 要打破的是“这张有限素数表已经列完”的主张。关键构造给出一个数，使表中的每一个素数都无法整除它，随后再考虑它本身是素数还是具有素因子。两种分支都让原先的表不能封闭。</p><p>现代教学常用乘积加一来说明这个结构，但那个新数不必总是素数。下方保留这一分支，是为了让真正需要的结论清楚显现：找到一个表外素数，已经足以反驳表已列完，无须增加更强却错误的断言。</p><p>先用现代记号重建这项思路。假设你手中列了有限个素数 2、3、5。它们的乘积加一是 31，不能被 2、3、5 中任何一个整除，因为除下去都会余 1。若你以为这张表列全了素数，新的数就带来了问题。</p><p>但“乘积加一必为素数”是误读。用 2、3、5、7、11、13 得到 30031，它等于 59×509，并非素数。仍然成立的是：这个数不被原表任一素数整除；它自身为素数，或它的素因子中出现原表没有的素数。这样，任何有限表都不能封住全部素数。</p><p>这段是帮助理解 IX.20 的现代教学重建，原书的数论表述有自己的语言和构作。请分别记住结论与理由：素数不可能只剩某个有限名单，靠的是余 1 的关系及新的素因子，不靠每次造出的数都为素数。</p><p class="foundation-basis">解释依据：<a href="#claim-proposition-ix-20">IX.20 说得比“素数有无穷多个”更有动作感：你先递来任意有限一批素数…</a> · <a href="#claim-architecture-number-magnitude">第七至九卷换了一套对象：单位、数、整除、比例与素数。第十卷又转回来面对长…</a></p>      </section>
+      <section id="foundation-3" class="content-section foundation-section">
+        <h2>比例与穷竭：用差额控制理解十三卷的纵深</h2>
+<p>从平面、数与量走到立体，不只是主题逐渐变难，也是在改变可以使用的对象和证明工具。讨论无公度的量时，不能偷偷假设所有量都能写成整数之比；讨论穷竭时，也不能把图形不断细分当作已经在某个有限步骤得到精确等式。</p><p>穷竭论证利用的是对剩余差额的控制，以及由此构成的反证。下方说明其任务，同时保留与现代极限语言的区别。现代语言能帮助理解，却不能被重新标成欧几里得逐字写出的证明。</p><p>前六卷的平面几何并非全书终点。第五卷的比例理论能处理更广的量关系，不能先假定所有长度都有共同单位；第七至九卷讨论数，第十卷处理不可通约的量，第十一至十三卷进入立体几何。这些对象不能随意混成现代实数运算的一个目录。</p><p>例如 XII.2 处理圆的面积之比与直径平方之比。重点在穷竭式论证怎样控制比较，并非直接给出一个数值 π。若只从熟悉的现代公式倒看，反而会漏掉作者在什么工具条件下完成了什么。</p><p>建议先跟完 I.1，再看 I.47 的依赖链和 IX.20 的反问结构，随后沿原书架构深入。这个顺序是编辑安排，不替代十三卷，也不宣称几个例子代表全部古代数学。</p><p>先看一个独立的现代数值演示。起初剩余差额为 1，每轮至少去掉一半。六轮后剩余至多为 1/64，七轮后至多为 1/128。若眼前要检验的正差额是 1/100，七轮后的剩余就已经比它小，因为 1/128＜1/100。这组数字不是圆的实际面积测量。</p><p>重点不是第七轮把差额消成了零，而是能把它压到一个指定的正差额以下。若有人主张真正面积与候选面积之间还差某个正量，你就可以继续细分，直到多边形与圆之间的剩余小于这项差额。有限步不必刚好填满，仍可使某个反设站不住。</p><p>在 XII.2 的较小候选面积 S 分支中，这样造出的第二圆内接多边形 P₂ 会超过 S；两圆中相似多边形的面积比又等于直径平方比，配合反设和比例交错，会反过来逼出 S 大于 P₂。矛盾落在这两条大小关系上。较大候选面积还须另用辅助引理转到已经排除的分支，不能只做一边就宣布完成。</p><p>这是一段现代教学重建（MODERN_RECONSTRUCTION），帮助理解差额控制的任务。古典原证明仍用它自己的比例理论和命题依赖，不是把一个现代小数极限公式塞回古代。你现在至少能回答：反复构作为什么有用，以及它究竟在反驳什么。</p><p class="foundation-basis">解释依据：<a href="#claim-architecture-plane">第一至六卷先搭起平面几何：直线、三角形、平行线、面积、圆和正多边形依次到…</a> · <a href="#claim-architecture-number-magnitude">第七至九卷换了一套对象：单位、数、整除、比例与素数。第十卷又转回来面对长…</a> · <a href="#claim-architecture-solid">最后三卷把此前练成的比例和构作带进空间。第十一卷安置线、面与立体，第十二…</a> · <a href="#claim-proposition-xii-2">XII.2 要证明圆面积按直径平方成比例，却不去求圆面积的数值。它把多边…</a> · <a href="#claim-method-proof-dependency">命题的次序就是它的基础设施。I.47 不能直接宣布面积关系，它得先借 I…</a></p>      </section>
+      <section id="foundation-4" class="content-section foundation-section">
+        <h2>把证明的条件带回其他阅读</h2>
+<p>一份证明可供别处继续使用，是因为它交付了一个带条件的结果。后面的命题若要调用它，仍须核对对象、条件和构作是否吻合。把这件事看成依赖关系，可以帮助理解十三卷的连接，而不必把每个命题背成独立技巧。</p><p>向其他领域迁移时，最可靠的收获也在这里：明确借用了什么结果，以及它何时可以被借用。一个漂亮的图形或一个熟悉的结论，都不能替真实前提作保证。</p><p>给一张图旋转九十度，哪些条件仍成立？已由构作保证的相交、等长与平行关系可以继续使用；看起来水平、大小差不多或特别对称，则未必能用。先把条件写成语言，便能发现自己有没有借画面偷偷加前提。</p><p>与 SICP 对读，可以比较一项结果怎样在明确条件下供后续步骤使用；与《理想国》的数学教育对读，可以问训练证明为何被认为有教育意义。这里是结构联系，不是两书互相为结论作证。</p><p>最后留一个带答案的问题：一个论证暂时无法完成，应该先删掉结论，还是先加一句“显然”？更有用的做法是定位断在何处，列出还缺的条件，再判断这些条件是否允许添加。结论的强度要跟着前提走。</p><p class="foundation-basis">解释依据：<a href="#claim-deduction-proof-as-interface">我们可以把证明看成一种知识接口：定义约定对象，公设开放操作，命题公布输入…</a> · <a href="#claim-deduction-visible-assumptions">一套知识传统会变强，往往因为人们终于能给漏洞命名、定位，并公开比较修补方…</a> · <a href="#claim-connection-republic-mathematics">把《理想国》第七卷与《几何原本》并读，会看见两种不同关心：前者问数学训练…</a></p>      </section>
+      <section id="foundation-edition-0" class="content-section foundation-section"><h2>证明的每一步都应说明：这条相等从哪里来</h2><p>读I.1，可以把注意力从“图像像不像等边三角形”移到两条短的等长链。取到交点C以后，C属于哪个圆，便决定它到哪个圆心的距离等于哪条半径。两条链通过同一条AB接起来，结论才成立。图形的上、下、左、右可以改变，圆的归属和等长关系不能随意改变。</p><p>这也是为什么I.47不能只放一张3、4、5三角形图就结束。数值9＋16＝25核对的是一个例子；原证明把三角形全等、平行位置和倍面积关系逐段衔接，才处理任意满足条件的直角三角形。若要复述证明，应说出哪两块面积先相等，哪一步把它们各自翻倍，最后怎样拼回整块正方形。</p><p>表里保留一个容易被画面遮住的条件：两圆交点的存在。传承文本、文字概括、现代形式化补足各自有身份。发现额外前提的正确动作，是定位它究竟影响哪一步；既不把它藏在“显然”里，也不因此宣布所有后续等式都没有价值。下方原有语义图与证明记录继续负责逐步核对。</p><figure class="knowledge-visual"><figcaption><p>证明的每一步都应说明：这条相等从哪里来：逐项对照</p></figcaption><div class="behavioral-table editorial-table" role="table" aria-label="证明的每一步都应说明：这条相等从哪里来：逐项对照"><article role="row"><div role="columnheader"><strong>步骤</strong></div><div role="columnheader"><strong>可用根据；得到的关系</strong></div></article><article role="row"><div role="rowheader"><strong>以A为圆心作圆，C在圆上</strong></div><div role="cell"><p><strong>可用根据：</strong>圆的半径关系</p><p><strong>得到的关系：</strong>AC＝AB</p></div></article><article role="row"><div role="rowheader"><strong>以B为圆心作圆，C在圆上</strong></div><div role="cell"><p><strong>可用根据：</strong>圆的半径关系</p><p><strong>得到的关系：</strong>BC＝BA</p></div></article><article role="row"><div role="rowheader"><strong>连接两条等长链</strong></div><div role="cell"><p><strong>可用根据：</strong>AB与BA是同一段长度；相等的传递</p><p><strong>得到的关系：</strong>AC＝BC＝AB</p></div></article><article role="row"><div role="rowheader"><strong>检查构作能否进行</strong></div><div role="cell"><p><strong>可用根据：</strong>两圆相交存在的基础条件</p><p><strong>得到的关系：</strong>存在性不由图片尺寸证明</p></div></article></div><p>I.1的编辑性TEXTUAL_SUMMARY，不冒充逐字原文或全部现代公理。数值3、4、5只是I.47的现代演示，原有图形依赖与步骤身份保持。</p></figure></section><section id="takeaway" class="takeaway-band">
+        <div class="section-tag">先用 30 秒抓住它</div>
+        <blockquote>《几何原本》不急着把结论递给读者。它先规定可以怎样构作，再让定义、公设和已经证明的命题彼此承接；十三卷由此铺开，从平面几何一路走到比例、数论、不可通约量与立体几何。  <a class="citation-ref" href="#citation-heath-books-i-vi" title="CTS Books 1-6 · 前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。" aria-label="引文 10，CTS Books 1-6">[10]</a>
+  <a class="citation-ref" href="#citation-heath-books-vii-x" title="CTS Books 7-10 · 第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。" aria-label="引文 11，CTS Books 7-10">[11]</a>
+  <a class="citation-ref" href="#citation-heath-books-xi-xiii" title="CTS Books 11-13 · 末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。" aria-label="引文 12，CTS Books 11-13">[12]</a>
+</blockquote>
+<p>它的力量既在结果，也在次序。前一题留下工具，后一题才有路可走；读者看见的不只是一柜子定理，还有它们怎样一层层站稳。</p>      </section>
+      <div class="claim-anchors visually-hidden" aria-hidden="true">
+<span id="claim-essence"></span><span id="claim-context-life-uncertain"></span><span id="claim-context-editor-organizer"></span><span id="claim-architecture-plane"></span><span id="claim-architecture-number-magnitude"></span><span id="claim-architecture-solid"></span><span id="claim-method-construction-postulates"></span><span id="claim-method-proof-dependency"></span><span id="claim-method-diagram-rules"></span><span id="claim-proposition-i-1"></span><span id="claim-proposition-i-1-gap"></span><span id="claim-proposition-i-47"></span><span id="claim-proposition-ix-20"></span><span id="claim-proposition-xii-2"></span><span id="claim-novel-organization"></span><span id="claim-modern-formalization"></span><span id="claim-modern-many-geometries"></span><span id="claim-crit-definitions"></span><span id="claim-crit-diagram-overreaction"></span><span id="claim-crit-xii-completeness"></span><span id="claim-impact-proof-culture"></span><span id="claim-connection-eudoxus"></span><span id="claim-connection-hilbert"></span><span id="claim-connection-non-euclidean"></span><span id="claim-connection-republic-mathematics"></span><span id="claim-deduction-proof-as-interface"></span><span id="claim-deduction-visible-assumptions"></span><span id="claim-remember-one"></span>      </div>
+
+      <section id="reading-depths" class="content-section reading-depths">
+        <div class="content-heading"><span>01</span><div><h2>按你手头的时间来读</h2><p>时间不同，证据是同一套；越往后，论证、异议和影响展开得越完整。</p></div></div>
+        <div class="tab-scroll-shell">
+        <div class="segmented-control" role="tablist" aria-label="阅读深度">
+          <button id="tab-layer-1" type="button" role="tab" aria-selected="true" aria-controls="layer-1" tabindex="0" data-tab="layer-1">30 Seconds</button>
+          <button id="tab-layer-2" type="button" role="tab" aria-selected="false" aria-controls="layer-2" tabindex="-1" data-tab="layer-2">3 Minutes</button>
+          <button id="tab-layer-3" type="button" role="tab" aria-selected="false" aria-controls="layer-3" tabindex="-1" data-tab="layer-3">10 Minutes</button>
+          <button id="tab-layer-4" type="button" role="tab" aria-selected="false" aria-controls="layer-4" tabindex="-1" data-tab="layer-4">30 Minutes</button>
+          <button id="tab-layer-5" type="button" role="tab" aria-selected="false" aria-controls="layer-5" tabindex="-1" data-tab="layer-5">Deep Dive</button>
+        </div>
+        </div>
+        <div id="layer-1" class="reading-panel active" role="tabpanel" aria-labelledby="tab-layer-1">
+          <div class="reading-panel-heading"><span>0 MIN</span><h3>先抓住证明这件事</h3></div>
+<article class="claim" data-claim-id="essence">
+    <p>《几何原本》不急着把结论递给读者。它先规定可以怎样构作，再让定义、公设和已经证明的命题彼此承接；十三卷由此铺开，从平面几何一路走到比例、数论、不可通约量与立体几何。  <a class="citation-ref" href="#citation-heath-books-i-vi" title="CTS Books 1-6 · 前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。" aria-label="引文 10，CTS Books 1-6">[10]</a>
+  <a class="citation-ref" href="#citation-heath-books-vii-x" title="CTS Books 7-10 · 第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。" aria-label="引文 11，CTS Books 7-10">[11]</a>
+  <a class="citation-ref" href="#citation-heath-books-xi-xiii" title="CTS Books 11-13 · 末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。" aria-label="引文 12，CTS Books 11-13">[12]</a>
+</p>
+<p class="claim-explanation">它的力量既在结果，也在次序。前一题留下工具，后一题才有路可走；读者看见的不只是一柜子定理，还有它们怎样一层层站稳。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements as an organized work</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+        <div id="layer-2" class="reading-panel" role="tabpanel" aria-labelledby="tab-layer-2" hidden>
+          <div class="reading-panel-heading"><span>3 MIN</span><h3>从一次构作走到十三卷</h3></div>
+<article class="claim" data-claim-id="context-life-uncertain">
+    <p>我们几乎看不清欧几里得本人。可靠的同时代传记没有留下来，常用的年代框架主要绕道数百年后的普罗克洛；把他写成一位生平清楚的“天才作者”，比现有证据走得更远。  <a class="citation-ref" href="#citation-mactutor-life-uncertainty" title="Biography, Proclus evidence and three authorship hypotheses · 关于欧几里得的生平材料很薄，主要年代框架来自晚得多的普罗克洛记述；历史人物、学派领袖或集体名号等假说并未被彻底排除。" aria-label="引文 23，Biography, Proclus evidence and three authorship hypotheses">[23]</a>
+</p>
+<p class="claim-explanation">项目沿用约公元前 300 年的传统日期，但只给中等把握。作者究竟是单一历史人物、学派领袖，还是后来文本传统汇聚的名字，仍有争论。</p>    <div class="claim-meta">
+      <span>历史语境</span>
+<span>研究者 · MacTutor historical synthesis</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="architecture-plane">
+    <p>第一至六卷先搭起平面几何：直线、三角形、平行线、面积、圆和正多边形依次到场。第五卷另起比例理论，第六卷据此处理相似图形，无须假定所有长度都能写成整数比。  <a class="citation-ref" href="#citation-heath-books-i-vi" title="CTS Books 1-6 · 前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。" aria-label="引文 10，CTS Books 1-6">[10]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">所以把《几何原本》叫作一本只讲尺规作图的书，会漏掉它最重要的结构转换之一。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books I-VI</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="architecture-number-magnitude">
+    <p>第七至九卷换了一套对象：单位、数、整除、比例与素数。第十卷又转回来面对长度，却专门处理不能被共同单位量尽的量。数与几何量在这里彼此照面，却没有被草率地揉成同一种东西。  <a class="citation-ref" href="#citation-heath-books-vii-x" title="CTS Books 7-10 · 第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。" aria-label="引文 11，CTS Books 7-10">[11]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">这一区分能防止现代读者把所有命题立即翻译成实数代数，再误以为原书已经使用同一套数概念。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books VII-X</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="architecture-solid">
+    <p>最后三卷把此前练成的比例和构作带进空间。第十一卷安置线、面与立体，第十二卷用穷竭法比较圆与立体的量，第十三卷则把五种正多面体推到全书终点。  <a class="citation-ref" href="#citation-heath-books-xi-xiii" title="CTS Books 11-13 · 末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。" aria-label="引文 12，CTS Books 11-13">[12]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">末卷并非孤零零的华丽附录；它调用了前面关于比例、不可通约量与立体几何的长准备。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books XI-XIII</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-construction-postulates">
+    <p>开篇公设读起来像一组获准的动作：两点间连线、延长有限直线、给定圆心和距离作圆。证明常常先造出一个新对象，再借它看见原题里藏着的关系。  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">后来，人们也会把公理写成一组可由不同结构满足的形式句子。两者都讲演绎，安排对象与行动的方式却不同。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Book I</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-i-1">
+    <p>I.1 的动作几乎可以一口气说完：以线段两端为圆心，各作一个以该线段为半径的圆；连接圆的交点与两端，三条边同为半径，于是得到等边三角形。  <a class="citation-ref" href="#citation-heath-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1 · 命题 I.1 从给定线段出发，以两端点为圆心作圆，取交点并用半径相等完成等边三角形构作。" aria-label="引文 1，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1">[1]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.1 的命题身份与对应希腊文本；本次核对不主张已经解决异文问题。" aria-label="引文 2，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1">[2]</a>
+  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+</p>
+<p class="claim-explanation">短短几步，定义、公设、构作、图和共同概念全都上场了。全书接下来会一再沿用这种配合。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.1</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-i-1-gap">
+    <p>麻烦也来得很早：五条公设允许作出两圆，却没有另外写明它们一定相交。现代公理体系会补上连续性或相交条件；古代证明则让受规则约束的图承担这一步。  <a class="citation-ref" href="#citation-joyce-i-1-gap" title="Guide, logical structure and circle-intersection discussion · Joyce 把正文、边注依赖和导读分开，并指出五条公设没有单独保证两圆交点存在。" aria-label="引文 13，Guide, logical structure and circle-intersection discussion">[13]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+</p>
+<p class="claim-explanation">把它叫作“漏洞”可以，但别急着把整套图式推理贬成看图猜答案。更准确的做法，是同时标出古代实践和现代补足。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Joyce; Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-contested">仍有争议</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+        <div id="layer-3" class="reading-panel" role="tabpanel" aria-labelledby="tab-layer-3" hidden>
+          <div class="reading-panel-heading"><span>10 MIN</span><h3>跟四种证明真正走一遍</h3></div>
+<article class="claim" data-claim-id="context-editor-organizer">
+    <p>传统材料没有把十三卷描成凭空诞生。欧多克索斯的比例论、泰阿泰德对不可通约量的工作，以及更早的几何成果，都被带进这部书；欧几里得的功劳更像选择、重排、补证和铸成一条可行走的路。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+</p>
+<p class="claim-explanation">这里谈的是传统归属与编排角色，不能拿来给每条命题颁发现代意义上的原创权证书。现存文本本身也经历了漫长的编辑和传抄。</p>    <div class="claim-meta">
+      <span>历史语境</span>
+<span>研究者 · Proclus tradition as summarized by MacTutor</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-proof-dependency">
+    <p>命题的次序就是它的基础设施。I.47 不能直接宣布面积关系，它得先借 I.46 作正方形、借 I.31 作平行线、借 I.4 建立全等，再用 I.41 把三角形和平行四边形的面积接起来。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>
+<p class="claim-explanation">只记住后来写成的公式，会把最值得学习的部分删掉：结论究竟欠了哪些前题。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.47</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-diagram-rules">
+    <p>图不是插图，也不是法官。它能在受约束的规则下承载共线、相交、内外等信息；但某条线看上去更长、某个角画得更大，都不能偷偷混进证明。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">现代形式化工作把这种分工说得更清楚：文字和构作锁定精确信息，图可以提供一般有效的拓扑关系，偶然比例则必须沉默。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Avigad, Dean, Mumma; Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-i-1">
+    <p>I.1 的动作几乎可以一口气说完：以线段两端为圆心，各作一个以该线段为半径的圆；连接圆的交点与两端，三条边同为半径，于是得到等边三角形。  <a class="citation-ref" href="#citation-heath-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1 · 命题 I.1 从给定线段出发，以两端点为圆心作圆，取交点并用半径相等完成等边三角形构作。" aria-label="引文 1，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1">[1]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.1 的命题身份与对应希腊文本；本次核对不主张已经解决异文问题。" aria-label="引文 2，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1">[2]</a>
+  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+</p>
+<p class="claim-explanation">短短几步，定义、公设、构作、图和共同概念全都上场了。全书接下来会一再沿用这种配合。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.1</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-i-47">
+    <p>I.47 没有把直角三角形塞进一行代数。它在三边外作正方形，用两组全等三角形搭桥，再把两条直角边上的面积搬进斜边正方形，左右两块恰好合成整体。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.47 的命题身份与对应希腊文本；这里把它用作文本校勘控制，不把单一版本当作异文定论。" aria-label="引文 5，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47">[5]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>
+<p class="claim-explanation">现代的 a²+b²=c² 准确又便利，不过它省略了这段证明走过的路。读原证明，价值正在那场面积搬运。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.47</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-ix-20">
+    <p>IX.20 说得比“素数有无穷多个”更有动作感：你先递来任意有限一批素数，欧几里得便取一个被它们共同量尽的数，再加一。新数若是素数，名单立即变长；若是合数，它的某个素因子也不可能在旧名单里。  <a class="citation-ref" href="#citation-heath-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20 · 命题 IX.20 的原句是素数多于任意给定的一批素数；证明取被所列素数量尽的最小数，加一后分素数与合数两种情形。" aria-label="引文 6，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20">[6]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 IX.20 的命题身份与对应希腊文本，防止现代“无穷多个素数”口号取代原命题定位。" aria-label="引文 7，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20">[7]</a>
+  <a class="citation-ref" href="#citation-joyce-ix-20-reading" title="Proposition 20 and Guide · Joyce 将古代的任给有限批表达为现代一般形式，同时提醒原证明取的是共同量尽之数而非直接写成素数乘积。" aria-label="引文 15，Proposition 20 and Guide">[15]</a>
+</p>
+<p class="claim-explanation">原证明没有先假定一张装着所有素数的清单，也没有明说取所有素数的乘积。现代符号能把一般性写得更快，但不应替换古代的量尽语言。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition IX.20</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-xii-2">
+    <p>XII.2 要证明圆面积按直径平方成比例，却不去求圆面积的数值。它把多边形一层层嵌进圆里，每次吃掉一半以上的剩余差额，再用反证迫使任何偏大或偏小的候选比例退出。  <a class="citation-ref" href="#citation-heath-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2 · 命题 XII.2 以较小与较大两个反设展开，反复增加内接多边形边数，用穷竭差额和多边形比例推出矛盾。" aria-label="引文 8，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2">[8]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 XII.2 的命题身份与对应希腊文本；它提供逐题文本控制，不单独解决证明传统中的异文。" aria-label="引文 9，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2">[9]</a>
+  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>
+<p class="claim-explanation">这里可以看见极限思想的远亲，却还不是现代极限定义。证明依赖第五卷比例、第十卷差额控制和第十二卷相似多边形关系。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition XII.2</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="novel-organization">
+    <p>与其把十三卷当成欧几里得独自首创全部定理的纪念碑，现有材料更支持一幅谨慎的图景：这部书吸收前人成果，又把不同材料编排进连续的证明次序。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-paradigm" title="Introduction, paragraphs 4-5; Section 1.1, opening paragraph · Gray 与 Ferreiros 把几何称为系统逻辑思考的学校，指出欧几里得的工作数千年来被视为基础稳固之科学的范本；1.1 节又概括其严密演绎编排的长期声誉。" aria-label="引文 22，Introduction, paragraphs 4-5; Section 1.1, opening paragraph">[22]</a>
+</p>
+<p class="claim-explanation">后世尤其看重这套系统组织，不过原书没有为自己写下这样的历史评语。前人成果、欧几里得个人工作与后世编辑之间的边界，至今仍不完全清楚。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · MacTutor historical synthesis</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+        <div id="layer-4" class="reading-panel" role="tabpanel" aria-labelledby="tab-layer-4" hidden>
+          <div class="reading-panel-heading"><span>30 MIN</span><h3>古代严密性与现代基础正面相遇</h3></div>
+<article class="claim" data-claim-id="essence">
+    <p>《几何原本》不急着把结论递给读者。它先规定可以怎样构作，再让定义、公设和已经证明的命题彼此承接；十三卷由此铺开，从平面几何一路走到比例、数论、不可通约量与立体几何。  <a class="citation-ref" href="#citation-heath-books-i-vi" title="CTS Books 1-6 · 前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。" aria-label="引文 10，CTS Books 1-6">[10]</a>
+  <a class="citation-ref" href="#citation-heath-books-vii-x" title="CTS Books 7-10 · 第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。" aria-label="引文 11，CTS Books 7-10">[11]</a>
+  <a class="citation-ref" href="#citation-heath-books-xi-xiii" title="CTS Books 11-13 · 末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。" aria-label="引文 12，CTS Books 11-13">[12]</a>
+</p>
+<p class="claim-explanation">它的力量既在结果，也在次序。前一题留下工具，后一题才有路可走；读者看见的不只是一柜子定理，还有它们怎样一层层站稳。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements as an organized work</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="architecture-plane">
+    <p>第一至六卷先搭起平面几何：直线、三角形、平行线、面积、圆和正多边形依次到场。第五卷另起比例理论，第六卷据此处理相似图形，无须假定所有长度都能写成整数比。  <a class="citation-ref" href="#citation-heath-books-i-vi" title="CTS Books 1-6 · 前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。" aria-label="引文 10，CTS Books 1-6">[10]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">所以把《几何原本》叫作一本只讲尺规作图的书，会漏掉它最重要的结构转换之一。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books I-VI</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="architecture-number-magnitude">
+    <p>第七至九卷换了一套对象：单位、数、整除、比例与素数。第十卷又转回来面对长度，却专门处理不能被共同单位量尽的量。数与几何量在这里彼此照面，却没有被草率地揉成同一种东西。  <a class="citation-ref" href="#citation-heath-books-vii-x" title="CTS Books 7-10 · 第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。" aria-label="引文 11，CTS Books 7-10">[11]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">这一区分能防止现代读者把所有命题立即翻译成实数代数，再误以为原书已经使用同一套数概念。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books VII-X</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="architecture-solid">
+    <p>最后三卷把此前练成的比例和构作带进空间。第十一卷安置线、面与立体，第十二卷用穷竭法比较圆与立体的量，第十三卷则把五种正多面体推到全书终点。  <a class="citation-ref" href="#citation-heath-books-xi-xiii" title="CTS Books 11-13 · 末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。" aria-label="引文 12，CTS Books 11-13">[12]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">末卷并非孤零零的华丽附录；它调用了前面关于比例、不可通约量与立体几何的长准备。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books XI-XIII</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-construction-postulates">
+    <p>开篇公设读起来像一组获准的动作：两点间连线、延长有限直线、给定圆心和距离作圆。证明常常先造出一个新对象，再借它看见原题里藏着的关系。  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">后来，人们也会把公理写成一组可由不同结构满足的形式句子。两者都讲演绎，安排对象与行动的方式却不同。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Book I</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-proof-dependency">
+    <p>命题的次序就是它的基础设施。I.47 不能直接宣布面积关系，它得先借 I.46 作正方形、借 I.31 作平行线、借 I.4 建立全等，再用 I.41 把三角形和平行四边形的面积接起来。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>
+<p class="claim-explanation">只记住后来写成的公式，会把最值得学习的部分删掉：结论究竟欠了哪些前题。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.47</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-diagram-rules">
+    <p>图不是插图，也不是法官。它能在受约束的规则下承载共线、相交、内外等信息；但某条线看上去更长、某个角画得更大，都不能偷偷混进证明。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">现代形式化工作把这种分工说得更清楚：文字和构作锁定精确信息，图可以提供一般有效的拓扑关系，偶然比例则必须沉默。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Avigad, Dean, Mumma; Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-i-1-gap">
+    <p>麻烦也来得很早：五条公设允许作出两圆，却没有另外写明它们一定相交。现代公理体系会补上连续性或相交条件；古代证明则让受规则约束的图承担这一步。  <a class="citation-ref" href="#citation-joyce-i-1-gap" title="Guide, logical structure and circle-intersection discussion · Joyce 把正文、边注依赖和导读分开，并指出五条公设没有单独保证两圆交点存在。" aria-label="引文 13，Guide, logical structure and circle-intersection discussion">[13]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+</p>
+<p class="claim-explanation">把它叫作“漏洞”可以，但别急着把整套图式推理贬成看图猜答案。更准确的做法，是同时标出古代实践和现代补足。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Joyce; Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-contested">仍有争议</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="modern-formalization">
+    <p>现代公理化接着追问《几何原本》含在动作和图里的前提：点与线如何关联，何时存在交点，顺序与连续性怎样保证，模型究竟满足哪些关系。  <a class="citation-ref" href="#citation-sep-hilbert-axioms" title="Introduction; Section 3.2, Hilbert and axiomatic projective geometry · Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。" aria-label="引文 21，Introduction; Section 3.2, Hilbert and axiomatic projective geometry">[21]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-deductive-gaps" title="Section 1.2, Deductive inadequacies · 该节讨论直线定义、唯一性、连续性与其他未明说前提，解释近代公理化为何要把隐含条件写出来。" aria-label="引文 19，Section 1.2, Deductive inadequacies">[19]</a>
+</p>
+<p class="claim-explanation">这些工作让基础变得更显眼，同时也保持历史距离：古人并没有暗中写过一套 Hilbert 公理。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Hilbertian and formal-Euclid traditions</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="modern-many-geometries">
+    <p>十九世纪以后，“几何”不再只有一个答案。双曲、射影和黎曼几何表明：改变公理，可以得到彼此不同而内部严整的空间结构；至于物理世界选哪一种，还要交给经验与物理理论。  <a class="citation-ref" href="#citation-sep-many-geometries" title="Introduction; Sections 3.2-3.3 and 4 · 十九世纪以后，射影、双曲与黎曼几何把几何从唯一空间真理改造成可研究的多种结构，并迫使人区分形式几何与物理空间。" aria-label="引文 20，Introduction; Sections 3.2-3.3 and 4">[20]</a>
+</p>
+<p class="claim-explanation">欧几里得几何没有因此变假。它仍是一种重要结构，也仍适合许多尺度下的建模；失去的是它作为唯一可能空间真理的垄断地位。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="crit-definitions">
+    <p>“线是无宽的长”“直线均匀地躺在自身点上”能唤起共同直觉，却很难单独承担现代定义的工作。真正使用这些对象时，文本还依靠唯一性、顺序、连续性等没有全写出来的条件。  <a class="citation-ref" href="#citation-sep-deductive-gaps" title="Section 1.2, Deductive inadequacies · 该节讨论直线定义、唯一性、连续性与其他未明说前提，解释近代公理化为何要把隐含条件写出来。" aria-label="引文 19，Section 1.2, Deductive inadequacies">[19]</a>
+</p>
+<p class="claim-explanation">问题不在古人不够聪明，而在严密性的标准会随着人们学会制造反模型而改变。模糊处一旦能导向不同结构，就必须被说清。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="crit-diagram-overreaction">
+    <p>把图从证明中彻底驱逐，也可能修得太过头。成熟的图式推理关心构作规则允许读取哪些稳定关系，不靠量像素下判断。该追问的是哪些信息可读、凭什么可读；单问“有没有图”还不够。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">因此，语义图先在数据层声明相交、等距与朝向，再由渲染器把这些关系显出来。它重画论证所需的结构，不复制某张古图的偶然外观。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Modern diagrammatic-reasoning scholarship</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="crit-xii-completeness">
+    <p>XII.2 的双重反证默认：若目标比例不相等，就会落在较大或较小一边。对古代量论而言这很自然；现代基础审查却会追问，这个三分前提和相关完备性究竟由哪里保证。  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>
+<p class="claim-explanation">这个追问不会撤销穷竭法的数学洞见，它只是把原先留在直觉背景里的基础条件移到台前。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Joyce editorial guide</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="impact-proof-culture">
+    <p>很多代人不只从《几何原本》里取用几何结论，也拿它学习一门科学怎样把理由排成可以追随的次序。Gray 与 Ferreiros 因而把几何称为系统逻辑思考的学校，并说欧几里得的工作数千年来一直是基础稳固之科学的范本。  <a class="citation-ref" href="#citation-sep-euclid-paradigm" title="Introduction, paragraphs 4-5; Section 1.1, opening paragraph · Gray 与 Ferreiros 把几何称为系统逻辑思考的学校，指出欧几里得的工作数千年来被视为基础稳固之科学的范本；1.1 节又概括其严密演绎编排的长期声誉。" aria-label="引文 22，Introduction, paragraphs 4-5; Section 1.1, opening paragraph">[22]</a>
+  <a class="citation-ref" href="#citation-mactutor-influence" title="Quick Info; Biography, influence and commentary tradition · 该历史档案概述《几何原本》两千年以上的教学影响，以及古代评论、翻译和近代数学家持续以它为严密证明标尺的接受史。" aria-label="引文 26，Quick Info; Biography, influence and commentary tradition">[26]</a>
+</p>
+<p class="claim-explanation">这是一条有明确出处的接受史判断，不是影响力排行榜。它说明这部书曾怎样被阅读和效法，却不把所有后来的证明文化都归因于欧几里得一人。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+        <div id="layer-5" class="reading-panel" role="tabpanel" aria-labelledby="tab-layer-5" hidden>
+          <div class="reading-panel-heading"><span>60 MIN</span><h3>沿着依赖、缺口与后世改写继续走</h3></div>
+<article class="claim" data-claim-id="novel-organization">
+    <p>与其把十三卷当成欧几里得独自首创全部定理的纪念碑，现有材料更支持一幅谨慎的图景：这部书吸收前人成果，又把不同材料编排进连续的证明次序。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-paradigm" title="Introduction, paragraphs 4-5; Section 1.1, opening paragraph · Gray 与 Ferreiros 把几何称为系统逻辑思考的学校，指出欧几里得的工作数千年来被视为基础稳固之科学的范本；1.1 节又概括其严密演绎编排的长期声誉。" aria-label="引文 22，Introduction, paragraphs 4-5; Section 1.1, opening paragraph">[22]</a>
+</p>
+<p class="claim-explanation">后世尤其看重这套系统组织，不过原书没有为自己写下这样的历史评语。前人成果、欧几里得个人工作与后世编辑之间的边界，至今仍不完全清楚。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · MacTutor historical synthesis</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="connection-eudoxus">
+    <p>欧多克索斯（Eudoxus）的比例论让《几何原本》能在不把不可通约量硬塞进整数比的情况下继续证明；第五卷的这座桥，随后支撑相似、穷竭法与立体量论。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">这是传统归属，不表示现存第五卷可以逐句还原成欧多克索斯原稿。</p>    <div class="claim-meta">
+      <span>历史语境</span>
+<span>研究者 · Proclus tradition as summarized by MacTutor</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="connection-hilbert">
+    <p>Hilbert 继承了“从少量起点组织整个体系”的野心，却换了做法：原本依赖对象含义和图式实践的条件，被改写成更显式的关系公理。  <a class="citation-ref" href="#citation-sep-hilbert-axioms" title="Introduction; Section 3.2, Hilbert and axiomatic projective geometry · Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。" aria-label="引文 21，Introduction; Section 3.2, Hilbert and axiomatic projective geometry">[21]</a>
+</p>
+<p class="claim-explanation">这是一条继承与修订并存的关系，不宜画成欧几里得简单通往 Hilbert 的直线进步史。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="connection-non-euclidean">
+    <p>非欧几何没有靠证明欧几里得算错来登场。它更深地改写了问题：平行公设若换一种设定，会不会长出另一套自洽几何？答案迫使人把逻辑结构与物理空间分开。  <a class="citation-ref" href="#citation-sep-many-geometries" title="Introduction; Sections 3.2-3.3 and 4 · 十九世纪以后，射影、双曲与黎曼几何把几何从唯一空间真理改造成可研究的多种结构，并迫使人区分形式几何与物理空间。" aria-label="引文 20，Introduction; Sections 3.2-3.3 and 4">[20]</a>
+</p>
+<p class="claim-explanation">因此，第五公设的历史不只是“寻找更好证明失败”，也是人们逐渐学会把公理当作结构选择。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim inference" data-claim-id="connection-republic-mathematics">
+    <p>把《理想国》第七卷与《几何原本》并读，会看见两种不同关心：前者问数学训练如何让灵魂转向，后者让这种训练有了可逐步检查的证明形态。</p>
+<p class="claim-explanation">这是 Reading Agent 的跨书观察。前提分别是《理想国》的数学教育段落和《几何原本》的命题次序；它不声称欧几里得按柏拉图的课程表写书。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 中</span>
+<span class="status status-contested">仍有争议</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim inference" data-claim-id="deduction-proof-as-interface">
+    <p>我们可以把证明看成一种知识接口：定义约定对象，公设开放操作，命题公布输入与输出，依赖链则让任何人追问“这一步凭什么”。</p>
+<p class="claim-explanation">这是一种现代类比，不是欧几里得的术语。它由全书的命题次序、I.47 的依赖链和现代形式化工作共同启发；类比在数学证明需要语义理解处会失效。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 中</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim inference" data-claim-id="deduction-visible-assumptions">
+    <p>一套知识传统会变强，往往因为人们终于能给漏洞命名、定位，并公开比较修补方案。I.1 的交点问题正好示范了这种进步。</p>
+<p class="claim-explanation">这层判断站在三个可见事实之上：原证明可以重建，缺失条件能够定位，古代图式解释也能与现代公理修补公开比较。当然，并非所有隐含前提都这样容易找到。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim inference" data-claim-id="remember-one">
+    <p>合上书以后，至少留住一个习惯：遇到漂亮结论，先别急着点头，回头看看它用了哪些定义、允许了哪些动作、借了哪些旧结果，又把什么留给了图和直觉。</p>
+<p class="claim-explanation">这是从《几何原本》的证明实践抽出的阅读原则，不是原文格言。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+
+      <section id="argument-map" class="content-section argument-section">
+        <div class="content-heading"><span>02</span><div>
+          <h2>证明不是结论的包装纸</h2><p>从允许什么构作开始，沿着定义、前题和图形规则一步步走到结论；缺少的桥，也留在路面上。</p>
+        </div></div>
+        <div class="argument-map" aria-label="《几何原本》论证结构">
+          <article class="argument-node argument-root node-problem">
+    <small>问题</small>
+    <strong>怎样从允许的构作与已有命题，一步步走到待证结论？</strong>
+<p><span class="argument-voice">Elements as an organized work</span>《几何原本》不急着把结论递给读者。它先规定可以怎样构作，再让定义、公设和已经证明的命题彼此承接；十三卷由此铺开，从平面几何一路走到比例、数论、不可通约量与立体几何。  <a class="citation-ref" href="#citation-heath-books-i-vi" title="CTS Books 1-6 · 前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。" aria-label="引文 10，CTS Books 1-6">[10]</a>
+  <a class="citation-ref" href="#citation-heath-books-vii-x" title="CTS Books 7-10 · 第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。" aria-label="引文 11，CTS Books 7-10">[11]</a>
+  <a class="citation-ref" href="#citation-heath-books-xi-xiii" title="CTS Books 11-13 · 末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。" aria-label="引文 12，CTS Books 11-13">[12]</a>
+</p>  </article>
+          <div class="argument-branches">
+<article class="argument-node argument-branch node-assumption">
+    <small>前提</small>
+    <strong>起点 · 定义对象，公设准许基本构作</strong>
+<p><span class="argument-voice">Elements, Book I</span>开篇公设读起来像一组获准的动作：两点间连线、延长有限直线、给定圆心和距离作圆。证明常常先造出一个新对象，再借它看见原题里藏着的关系。  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>  </article><article class="argument-node argument-branch node-argument">
+    <small>推理</small>
+    <strong>动作 · 造出原题没有直接给出的辅助对象</strong>
+<p><span class="argument-voice">Elements, Proposition I.1</span>I.1 的动作几乎可以一口气说完：以线段两端为圆心，各作一个以该线段为半径的圆；连接圆的交点与两端，三条边同为半径，于是得到等边三角形。  <a class="citation-ref" href="#citation-heath-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1 · 命题 I.1 从给定线段出发，以两端点为圆心作圆，取交点并用半径相等完成等边三角形构作。" aria-label="引文 1，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1">[1]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.1 的命题身份与对应希腊文本；本次核对不主张已经解决异文问题。" aria-label="引文 2，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1">[2]</a>
+  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+</p>  </article><article class="argument-node argument-branch node-argument">
+    <small>推理</small>
+    <strong>承接 · 旧命题成为新证明的合法台阶</strong>
+<p><span class="argument-voice">Elements, Proposition I.47</span>命题的次序就是它的基础设施。I.47 不能直接宣布面积关系，它得先借 I.46 作正方形、借 I.31 作平行线、借 I.4 建立全等，再用 I.41 把三角形和平行四边形的面积接起来。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>  </article><article class="argument-node argument-branch node-evidence">
+    <small>证据</small>
+    <strong>图式 · 读取受规则约束的关系，不读取偶然外观</strong>
+<p><span class="argument-voice">Avigad, Dean, Mumma; Gray and Ferreiros</span>图不是插图，也不是法官。它能在受约束的规则下承载共线、相交、内外等信息；但某条线看上去更长、某个角画得更大，都不能偷偷混进证明。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>  </article><article class="argument-node argument-branch node-intermediate_conclusion">
+    <small>中间结论</small>
+    <strong>扩展 · 同一方法进入面积、数论与穷竭法</strong>
+<p><span class="argument-voice">Elements, Proposition I.47</span>I.47 没有把直角三角形塞进一行代数。它在三边外作正方形，用两组全等三角形搭桥，再把两条直角边上的面积搬进斜边正方形，左右两块恰好合成整体。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.47 的命题身份与对应希腊文本；这里把它用作文本校勘控制，不把单一版本当作异文定论。" aria-label="引文 5，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47">[5]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p><p><span class="argument-voice">Elements, Proposition IX.20</span>IX.20 说得比“素数有无穷多个”更有动作感：你先递来任意有限一批素数，欧几里得便取一个被它们共同量尽的数，再加一。新数若是素数，名单立即变长；若是合数，它的某个素因子也不可能在旧名单里。  <a class="citation-ref" href="#citation-heath-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20 · 命题 IX.20 的原句是素数多于任意给定的一批素数；证明取被所列素数量尽的最小数，加一后分素数与合数两种情形。" aria-label="引文 6，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20">[6]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 IX.20 的命题身份与对应希腊文本，防止现代“无穷多个素数”口号取代原命题定位。" aria-label="引文 7，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20">[7]</a>
+  <a class="citation-ref" href="#citation-joyce-ix-20-reading" title="Proposition 20 and Guide · Joyce 将古代的任给有限批表达为现代一般形式，同时提醒原证明取的是共同量尽之数而非直接写成素数乘积。" aria-label="引文 15，Proposition 20 and Guide">[15]</a>
+</p><p><span class="argument-voice">Elements, Proposition XII.2</span>XII.2 要证明圆面积按直径平方成比例，却不去求圆面积的数值。它把多边形一层层嵌进圆里，每次吃掉一半以上的剩余差额，再用反证迫使任何偏大或偏小的候选比例退出。  <a class="citation-ref" href="#citation-heath-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2 · 命题 XII.2 以较小与较大两个反设展开，反复增加内接多边形边数，用穷竭差额和多边形比例推出矛盾。" aria-label="引文 8，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2">[8]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 XII.2 的命题身份与对应希腊文本；它提供逐题文本控制，不单独解决证明传统中的异文。" aria-label="引文 9，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2">[9]</a>
+  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>  </article><article class="argument-node argument-branch node-observation">
+    <small>观察</small>
+    <strong>反查 · 交点、连续性和完备性让隐含前提浮现</strong>
+<p><span class="argument-voice">Joyce; Gray and Ferreiros</span>麻烦也来得很早：五条公设允许作出两圆，却没有另外写明它们一定相交。现代公理体系会补上连续性或相交条件；古代证明则让受规则约束的图承担这一步。  <a class="citation-ref" href="#citation-joyce-i-1-gap" title="Guide, logical structure and circle-intersection discussion · Joyce 把正文、边注依赖和导读分开，并指出五条公设没有单独保证两圆交点存在。" aria-label="引文 13，Guide, logical structure and circle-intersection discussion">[13]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+</p><p><span class="argument-voice">Joyce editorial guide</span>XII.2 的双重反证默认：若目标比例不相等，就会落在较大或较小一边。对古代量论而言这很自然；现代基础审查却会追问，这个三分前提和相关完备性究竟由哪里保证。  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>  </article><article class="argument-node argument-branch node-final_conclusion">
+    <small>结论</small>
+    <strong>结果 · 十三卷形成前题反复复用的演绎次序</strong>
+<p><span class="argument-voice">MacTutor historical synthesis</span>与其把十三卷当成欧几里得独自首创全部定理的纪念碑，现有材料更支持一幅谨慎的图景：这部书吸收前人成果，又把不同材料编排进连续的证明次序。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-paradigm" title="Introduction, paragraphs 4-5; Section 1.1, opening paragraph · Gray 与 Ferreiros 把几何称为系统逻辑思考的学校，指出欧几里得的工作数千年来被视为基础稳固之科学的范本；1.1 节又概括其严密演绎编排的长期声誉。" aria-label="引文 22，Introduction, paragraphs 4-5; Section 1.1, opening paragraph">[22]</a>
+</p><p><span class="argument-voice">Gray and Ferreiros</span>很多代人不只从《几何原本》里取用几何结论，也拿它学习一门科学怎样把理由排成可以追随的次序。Gray 与 Ferreiros 因而把几何称为系统逻辑思考的学校，并说欧几里得的工作数千年来一直是基础稳固之科学的范本。  <a class="citation-ref" href="#citation-sep-euclid-paradigm" title="Introduction, paragraphs 4-5; Section 1.1, opening paragraph · Gray 与 Ferreiros 把几何称为系统逻辑思考的学校，指出欧几里得的工作数千年来被视为基础稳固之科学的范本；1.1 节又概括其严密演绎编排的长期声誉。" aria-label="引文 22，Introduction, paragraphs 4-5; Section 1.1, opening paragraph">[22]</a>
+  <a class="citation-ref" href="#citation-mactutor-influence" title="Quick Info; Biography, influence and commentary tradition · 该历史档案概述《几何原本》两千年以上的教学影响，以及古代评论、翻译和近代数学家持续以它为严密证明标尺的接受史。" aria-label="引文 26，Quick Info; Biography, influence and commentary tradition">[26]</a>
+</p>  </article>          </div>
+          <article class="argument-node argument-synthesis node-implication">
+    <small>后续含义</small>
+    <strong>后续 · 显式公理化与多种几何重画了边界</strong>
+<p><span class="argument-voice">Hilbertian and formal-Euclid traditions</span>现代公理化接着追问《几何原本》含在动作和图里的前提：点与线如何关联，何时存在交点，顺序与连续性怎样保证，模型究竟满足哪些关系。  <a class="citation-ref" href="#citation-sep-hilbert-axioms" title="Introduction; Section 3.2, Hilbert and axiomatic projective geometry · Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。" aria-label="引文 21，Introduction; Section 3.2, Hilbert and axiomatic projective geometry">[21]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-deductive-gaps" title="Section 1.2, Deductive inadequacies · 该节讨论直线定义、唯一性、连续性与其他未明说前提，解释近代公理化为何要把隐含条件写出来。" aria-label="引文 19，Section 1.2, Deductive inadequacies">[19]</a>
+</p><p><span class="argument-voice">Gray and Ferreiros</span>十九世纪以后，“几何”不再只有一个答案。双曲、射影和黎曼几何表明：改变公理，可以得到彼此不同而内部严整的空间结构；至于物理世界选哪一种，还要交给经验与物理理论。  <a class="citation-ref" href="#citation-sep-many-geometries" title="Introduction; Sections 3.2-3.3 and 4 · 十九世纪以后，射影、双曲与黎曼几何把几何从唯一空间真理改造成可研究的多种结构，并迫使人区分形式几何与物理空间。" aria-label="引文 20，Introduction; Sections 3.2-3.3 and 4">[20]</a>
+</p>  </article>
+          <ul class="visually-hidden">
+<li>怎样从允许的构作与已有命题，一步步走到待证结论？ → requires explicit starting points → 起点 · 定义对象，公设准许基本构作</li><li>起点 · 定义对象，公设准许基本构作 → licenses construction → 动作 · 造出原题没有直接给出的辅助对象</li><li>动作 · 造出原题没有直接给出的辅助对象 → creates reusable results → 承接 · 旧命题成为新证明的合法台阶</li><li>承接 · 旧命题成为新证明的合法台阶 → supports later propositions → 扩展 · 同一方法进入面积、数论与穷竭法</li><li>图式 · 读取受规则约束的关系，不读取偶然外观 → carries rule governed information → 扩展 · 同一方法进入面积、数论与穷竭法</li><li>扩展 · 同一方法进入面积、数论与穷竭法 → demonstrates scope → 结果 · 十三卷形成前题反复复用的演绎次序</li><li>反查 · 交点、连续性和完备性让隐含前提浮现 → motivates explicit axiomatization → 后续 · 显式公理化与多种几何重画了边界</li><li>结果 · 十三卷形成前题反复复用的演绎次序 → is revised without being erased → 后续 · 显式公理化与多种几何重画了边界</li>          </ul>
+        </div>
+      </section>
+
+      <section id="mathematical-architecture" class="content-section mathematics-section">
+        <div class="content-heading"><span>M</span><div><h2>先看十三卷怎样接起来</h2><p>《几何原本》不只谈平面图形。比例、数论、不可通约量和立体几何沿着前卷留下的工具继续生长。</p></div></div>
+        <ol class="book-architecture">
+          <li><span>Book I</span><div><strong>平面几何的起步</strong><p>从定义、公设和共同概念出发，建立基本构作、全等、平行线、面积关系，并以 I.47 收束到直角三角形。</p></div></li>
+          <li><span>Book II</span><div><strong>用图形表达代数关系</strong><p>把矩形和正方形的面积拆分、重组，处理后来常写成代数恒等式的关系。</p><small>承接第 1 卷</small></div></li>
+          <li><span>Book III</span><div><strong>圆</strong><p>研究弦、切线、圆周角以及圆内外线段之间的关系。</p><small>承接第 1 卷</small></div></li>
+          <li><span>Book IV</span><div><strong>正多边形的内接与外切</strong><p>在圆中或圆外构作三角形和正多边形，为第十二卷的逼近方法准备工具。</p><small>承接第 1、3 卷</small></div></li>
+          <li><span>Book V</span><div><strong>比例的一般理论</strong><p>不预设所有量都能用整数比表达，建立适用于可通约与不可通约量的比例理论。</p></div></li>
+          <li><span>Book VI</span><div><strong>相似与比例几何</strong><p>把第五卷的比例理论带回平面图形，处理相似、面积比例与比例分割。</p><small>承接第 1、5 卷</small></div></li>
+          <li><span>Book VII</span><div><strong>数论的基本语言</strong><p>定义单位、数、因数与素数，并研究整除、最大公因数和比例。</p></div></li>
+          <li><span>Book VIII</span><div><strong>连比例与数的结构</strong><p>研究连续比例中的平方数、立方数以及相似平面数、立体数。</p><small>承接第 7 卷</small></div></li>
+          <li><span>Book IX</span><div><strong>数论命题的推进</strong><p>继续处理比例与整除，并在 IX.20 证明任给有限批素数，总还能找到新的素数。</p><small>承接第 7、8 卷</small></div></li>
+          <li><span>Book X</span><div><strong>不可通约量的分类</strong><p>区分并系统分类不同类型的无理线段；这是全书篇幅最长、技术最密的一卷。</p><small>承接第 5、6 卷</small></div></li>
+          <li><span>Book XI</span><div><strong>立体几何的基础</strong><p>把点、线、面之间的垂直与平行关系推进到三维空间。</p><small>承接第 1、5、6 卷</small></div></li>
+          <li><span>Book XII</span><div><strong>穷竭法与面积体积</strong><p>用逐步耗尽差额的反证法比较圆、棱锥、圆锥与球，XII.2 是其中的关键样本。</p><small>承接第 3、4、5、6、10、11 卷</small></div></li>
+          <li><span>Book XIII</span><div><strong>五种正多面体</strong><p>汇合比例、不可通约量和平面与立体构作，完成五种正多面体的构造与限定。</p><small>承接第 1、4、5、6、10、11、12 卷</small></div></li>
+        </ol>
+        <div class="proposition-study-list">
+          <article class="proposition-study" id="proposition-book-i-proposition-1">
+            <header><span>I.1 · 构作题</span><h3>在给定有限直线 AB 上作一个等边三角形。</h3><p>这道开篇构作很短，却立刻揭示两件事：欧几里得怎样让公设进入动作，以及图上“显然相交”的两圆怎样藏住一个存在性前提。</p></header>
+            <figure class="geometry-figure"><svg class="semantic-geometry" viewBox="0 0 480 430" role="img" aria-labelledby="book-i-proposition-1-diagram-title book-i-proposition-1-diagram-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="book-i-proposition-1-diagram-title">命题 I.1：在给定线段上构作等边三角形</title>
+  <desc id="book-i-proposition-1-diagram-desc">A、B 为给定线段端点。两圆分别以 A、B 为圆心，半径均为 AB；C 是所选交点。C 在上方只是排版选择，不参与证明。</desc>
+  <circle class="geometry-construction" cx="120" cy="250" r="240" />
+  <circle class="geometry-construction" cx="360" cy="250" r="240" />
+  <path class="geometry-proof" d="M 120 250 L 360 250 L 240 42.1539 Z" />
+  <g class="geometry-points">
+    <circle cx="120" cy="250" r="4" /><text x="100" y="274">A</text>
+    <circle cx="360" cy="250" r="4" /><text x="370" y="274">B</text>
+    <circle cx="240" cy="42.1539" r="4" /><text x="235" y="28.1539">C</text>
+  </g>
+  <g class="geometry-equality" aria-hidden="true">
+    <path d="M 232 249 l 0 12" /><path d="M 176 139 l 11 6" /><path d="M 293 145 l 11 -6" />
+  </g>
+</svg><figcaption>重新绘图只保证对象、交点、等距与连接关系；角度、线长、朝向和对称外观若未由约束给出，均不得作为证明信息。</figcaption></figure>
+            <ol class="proof-steps">
+              <li class="proof-phase-start" data-phase="enunciation" data-provenance="EUCLID_TEXT">
+                <span>01</span>
+                <div>
+                  <strong>命题</strong>
+                  <p>任务是在给定有限直线 AB 上作等边三角形。</p>
+                  <div class="proof-step-meta"><small>传世文本</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="exposition" data-provenance="EUCLID_TEXT">
+                <span>02</span>
+                <div>
+                  <strong>设定</strong>
+                  <p>令 AB 为给定的有限直线。</p>
+                  <div class="proof-step-meta"><small>传世文本</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="specification" data-provenance="EUCLID_TEXT">
+                <span>03</span>
+                <div>
+                  <strong>目标</strong>
+                  <p>要求在 AB 上构作一个等边三角形。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：Book I, definition of an equilateral triangle</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="construction" data-provenance="EUCLID_TEXT">
+                <span>04</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>以 A 为圆心、AB 为半径作圆。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：Book I, Postulate 3</small></div>
+                  <ul class="proof-dependency-notes">
+<li>第一个圆由第三公设许可。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="construction" data-provenance="EUCLID_TEXT">
+                <span>05</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>以 B 为圆心、BA 为半径再作一圆。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：Book I, Postulate 3</small></div>
+                  <ul class="proof-dependency-notes">
+<li>第二个圆同样由第三公设许可。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="construction" data-provenance="EUCLID_TEXT">
+                <span>06</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>取两圆的一个交点为 C。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：图式条件</small></div>
+                  <ul class="proof-dependency-notes">
+<li>传世证明借助图形与构作习惯直接引入 C。</li><li class="missing-warrant">现代重建必须补出两圆确有交点的存在条件；这不是把现代公理倒写进欧几里得原文。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="construction" data-provenance="EUCLID_TEXT">
+                <span>07</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>连接 CA 与 CB。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：Book I, Postulate 1</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="demonstration" data-provenance="EUCLID_TEXT">
+                <span>08</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>因为 A 是第一圆的圆心，而 B、C 都在该圆上，所以 AC 等于 AB。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：Book I, definition of a circle · 图式条件</small></div>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="EUCLID_TEXT">
+                <span>09</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>同理，BC 等于 BA。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：Book I, definition of a circle · 图式条件</small></div>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="EUCLID_TEXT">
+                <span>10</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>AC 与 BC 都等于 AB，因此 AC 也等于 BC。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：Common Notion 1 · 第 8 步 · 第 9 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>从两组半径相等推进到三边彼此相等。</li>                  </ul>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="conclusion" data-provenance="EUCLID_TEXT">
+                <span>11</span>
+                <div>
+                  <strong>结论</strong>
+                  <p>AC、AB、BC 三边相等，所以 ABC 是在 AB 上构作出的等边三角形。</p>
+                  <div class="proof-step-meta"><small>传世文本</small><small>依据：Book I, definition of an equilateral triangle · 第 10 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>三边相等满足等边三角形的定义。</li>                  </ul>
+                </div>
+              </li>
+            </ol>
+          </article>
+          <article class="proposition-study" id="proposition-book-i-proposition-47">
+            <header><span>I.47 · 定理</span><h3>直角三角形斜边上的正方形，等于两条直角边上正方形之和。</h3><p>它展示的不是一条孤立公式，而是一场面积搬运：全等三角形先搭桥，再把两个小正方形逐块对应到大正方形。</p></header>
+            <ol class="proof-steps">
+              <li class="proof-phase-start" data-phase="enunciation" data-provenance="EUCLID_TEXT">
+                <span>01</span>
+                <div>
+                  <strong>命题</strong>
+                  <p>要证明斜边上正方形等于两直角边上正方形之和。</p>
+                  <div class="proof-step-meta"><small>传世文本</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="exposition" data-provenance="TEXTUAL_SUMMARY">
+                <span>02</span>
+                <div>
+                  <strong>设定</strong>
+                  <p>令 ABC 为在 A 处有直角的三角形，BC 为斜边。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="construction" data-provenance="TEXTUAL_SUMMARY">
+                <span>03</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>在 BC、BA、AC 上分别作正方形，并过 A 作 AL，使它平行于斜边正方形的两条对边。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Proposition 46 · Book I, Proposition 31</small></div>
+                  <ul class="proof-dependency-notes">
+<li>三个正方形的构作承接 I.46。</li><li>过 A 的平行线由 I.31 作出，把斜边正方形分成待比较的两部分。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="construction" data-provenance="TEXTUAL_SUMMARY">
+                <span>04</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>连接 AD 与 FC，为第一组全等和面积比较造出两个三角形。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Postulate 1 · 第 3 步</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>05</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>由正方形的直角与 I.14，得到 CA 与 AG、BA 与 AH 分别在同一直线上。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Definition 22 · Book I, Proposition 14</small></div>
+                  <ul class="proof-dependency-notes">
+<li>I.14 把相邻的两个直角接成直线，为后面的角比较准备位置关系。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>06</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>角 DBC 与 FBA 都是直角；各自加上角 ABC 后，角 DBA 等于角 FBC。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Definition 22 · Book I, Postulate 4 · Common Notion 2</small></div>
+                  <ul class="proof-dependency-notes">
+<li>两个正方形给出的直角先由第四公设判为相等，再各自加上角 ABC。</li><li>在相等的直角上加同一个角，得到第一组全等所需的夹角相等。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>07</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>DB 等于 BC，FB 等于 BA，夹角又相等；由 I.4，三角形 ABD 与 FBC 全等。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Definition 22 · Book I, Proposition 4 · 第 6 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>第一组面积对应先由边角边全等建立。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>08</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>I.41 给出：平行四边形 BL 是三角形 ABD 的两倍，正方形 GB 是三角形 FBC 的两倍。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Proposition 41 · 第 7 步</small></div>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>09</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>两三角形相等，它们的倍量也相等，所以平行四边形 BL 等于 BA 上的正方形 GB。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 7 步 · 第 8 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>同底同平行线之间的倍积关系把三角形面积转给平行四边形与正方形。</li>                  </ul>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="construction" data-provenance="TEXTUAL_SUMMARY">
+                <span>10</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>再连接 AE 与 BK，为另一条直角边构造对应的第二组三角形。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Postulate 1 · 第 3 步</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>11</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>沿同样的直线、直角和边角边论证，第二组三角形全等。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Definition 22 · Book I, Proposition 14 · Book I, Postulate 4 · Common Notion 2 · Book I, Proposition 4 · 第 10 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>第二条直角边重复边角边论证；它不是一句“同理”就可省去的独立面积桥梁。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>12</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>再用 I.41 比较两组倍量，得到平行四边形 CL 等于 AC 上的正方形 HC。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book I, Proposition 41 · 第 11 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>I.41 再把第二组全等三角形转成平行四边形 CL 与正方形 HC 的面积相等。</li>                  </ul>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="conclusion" data-provenance="TEXTUAL_SUMMARY">
+                <span>13</span>
+                <div>
+                  <strong>结论</strong>
+                  <p>两部分合起来正好是 BC 上的整个正方形，所以它等于两直角边上正方形之和。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Common Notion 2 · 第 9 步 · 第 12 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>把两组相等面积分别相加，恰好拼成斜边上的整个正方形。</li>                  </ul>
+                </div>
+              </li>
+            </ol>
+          </article>
+          <article class="proposition-study" id="proposition-book-ix-proposition-20">
+            <header><span>IX.20 · 定理</span><h3>素数比任意给定的一批素数都更多。</h3><p>常见口号是“素数有无穷多个”，原文的推进更具体：先任给一批素数，再构造一个不受其中任何一个整除的新数或新素因子。</p></header>
+            <ol class="proof-steps">
+              <li class="proof-phase-start" data-phase="enunciation" data-provenance="EUCLID_TEXT">
+                <span>01</span>
+                <div>
+                  <strong>命题</strong>
+                  <p>要证明素数总比任意给定的一批更多。</p>
+                  <div class="proof-step-meta"><small>传世文本</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="construction" data-provenance="TEXTUAL_SUMMARY">
+                <span>02</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>取一个同时被给定各素数整除的最小数 DE，再加上单位得到 EF。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>03</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>若 EF 本身是素数，它已经是给定名单以外的另一个素数。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 2 步</small></div>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>04</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>若 EF 不是素数，VII.31 保证有某个素数 G 整除它。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book VII, Proposition 31 · 第 2 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>合数情形需要 VII.31 保证存在素因子。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>05</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>G 不可能等于名单中的任何素数；否则它既整除 DE 又整除 EF，便会整除两者之差，也就是单位。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 4 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>新素因子若在原名单中，便会被迫整除单位。</li>                  </ul>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="conclusion" data-provenance="TEXTUAL_SUMMARY">
+                <span>06</span>
+                <div>
+                  <strong>结论</strong>
+                  <p>无论 EF 是素数还是合数，都能得到一个名单之外的素数，所以任给有限批素数都不是全部。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 3 步 · 第 5 步</small></div>
+                </div>
+              </li>
+            </ol>
+          </article>
+          <article class="proposition-study" id="proposition-book-xii-proposition-2">
+            <header><span>XII.2 · 定理</span><h3>两圆面积之比，等于它们直径上正方形面积之比。</h3><p>这里没有直接计算圆面积。证明让内接多边形不断逼近圆，再用反证把任何假定的差额耗到无处可藏，展示古典穷竭法的力量。</p></header>
+            <ol class="proof-steps">
+              <li class="proof-phase-start" data-phase="enunciation" data-provenance="EUCLID_TEXT">
+                <span>01</span>
+                <div>
+                  <strong>命题</strong>
+                  <p>要证明圆面积按直径平方成比例。</p>
+                  <div class="proof-step-meta"><small>传世文本</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>02</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>先假定按直径平方建立的比例把第二个圆对应到一个比它更小的面积 S。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="construction" data-provenance="TEXTUAL_SUMMARY">
+                <span>03</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>在第二圆内接正方形；借外切正方形比较，可知内接正方形大于圆面积的一半。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book IV, Proposition 6 · Book III, Proposition 17</small></div>
+                  <ul class="proof-dependency-notes">
+<li>IV.6 提供穷竭过程的第一个内接正方形。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="construction" data-provenance="TEXTUAL_SUMMARY">
+                <span>04</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>平分各段圆周并连接新点；每个新三角形都大于它所截圆弓形的一半。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book III, Proposition 17 · 第 3 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>切线比较保证每次新添的三角形超过相邻圆弓形的一半，差额才会持续缩小。</li>                  </ul>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>05</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>每轮留下的圆弓形都减少一半以上；依 X.1，继续下去，第二个圆与内接多边形的差会小于第二个圆与 S 的差。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book X, Proposition 1 · 第 4 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>X.1 保证反复减去一半以上后，剩余差额可小于任给差额。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>06</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>因为圆外剩余小于圆超过 S 的差额，第二圆内留下的多边形 P₂ 必定大于 S。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 5 步</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="construction" data-provenance="TEXTUAL_SUMMARY">
+                <span>07</span>
+                <div>
+                  <strong>构作</strong>
+                  <p>在第一圆内接一个与 P₂ 相似的多边形 P₁。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 4 步</small></div>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>08</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>XII.1 让 P₁ 比 P₂ 等于两直径上正方形之比；反设又让这个比等于第一圆比 S。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book XII, Proposition 1 · Book V, Proposition 11 · 第 7 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>同步内接的相似多边形把面积比接到直径平方比。</li><li>V.11 把共同等于直径平方比的两个比例接在一起。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>09</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>由 V.16 交错比例，第一圆比 P₁ 等于 S 比 P₂。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book V, Proposition 16 · 第 8 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>V.16 交错比例项，才得到圆与内接多边形、候选面积与另一多边形之间的可比关系。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>10</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>第一圆大于内接的 P₁，于是同一比例要求 S 大于 P₂；可第 6 步已经得到 P₂ 大于 S，矛盾。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 6 步 · 第 9 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>穷竭过程已经造出 P₂ 大于 S，而比例交错会迫使 S 大于 P₂；两条不等式正面相撞。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>11</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>交换两圆，同样可排除“第二圆与某个小于第一圆的面积之比等于两直径平方反比”这一情形。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 10 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>交换两圆后，同一套较小分支论证也排除了直径平方反比对应较小面积的可能。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>12</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>再假定两直径平方之比等于第一圆与一个大于第二圆的面积 S 之比；取倒数后，平方反比等于 S 比第一圆。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small></div>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>13</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>XII.2 的辅助引理给出一个小于第一圆的面积 T，使 S 比第一圆等于第二圆比 T。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Proposition XII.2, local lemma · Book V, Proposition 16 · 第 12 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>辅助引理把“大于第二圆”的候选面积转换成“小于第一圆”的面积 T。</li>                  </ul>
+                </div>
+              </li>
+              <li class="" data-phase="demonstration" data-provenance="TEXTUAL_SUMMARY">
+                <span>14</span>
+                <div>
+                  <strong>论证</strong>
+                  <p>于是平方反比等于第二圆比 T，恰好落入第 11 步已经排除的较小情形，故较大分支也不成立。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：Book V, Proposition 11 · 第 11 步 · 第 13 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>引理把较大分支送回已经排除的倒数较小分支，因此第二种反设也站不住。</li>                  </ul>
+                </div>
+              </li>
+              <li class="proof-phase-start" data-phase="conclusion" data-provenance="TEXTUAL_SUMMARY">
+                <span>15</span>
+                <div>
+                  <strong>结论</strong>
+                  <p>比第二圆小和比第二圆大都不可能，故两圆之比只能等于两直径上正方形之比。</p>
+                  <div class="proof-step-meta"><small>传世文本摘要</small><small>依据：第 10 步 · 第 14 步</small></div>
+                  <ul class="proof-dependency-notes">
+<li>排除较小与较大两个分支后，所求比例成立。</li>                  </ul>
+                </div>
+              </li>
+            </ol>
+          </article>
+        </div>
+      </section>
+
+
+
+
+
+      <section id="visualizations" class="content-section visualization-section">
+        <div class="content-heading"><span>V</span><div><h2>把几条容易混在一起的线拆开</h2><p>这些图只整理文本中的关系，不把类比画成事实，也不替争议作结。</p></div></div>
+        <div class="visualization-list">
+          <figure class="knowledge-visual visual-comparison" id="visual-four-proof-pressures">
+            <figcaption><h3>四道代表题，各自逼问流水线什么</h3><p>它们不是名题陈列，而是四种不同的理解测试。</p></figcaption>
+            <div class="visual-items">
+              <div class="visual-item">
+                <div class="visual-label">I.1</div>
+<div class="visual-counterpart">构作与存在</div>                <p>公设怎样变成构作？图里的交点凭什么存在？  <a class="citation-ref" href="#citation-heath-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1 · 命题 I.1 从给定线段出发，以两端点为圆心作圆，取交点并用半径相等完成等边三角形构作。" aria-label="引文 1，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1">[1]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.1 的命题身份与对应希腊文本；本次核对不主张已经解决异文问题。" aria-label="引文 2，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1">[2]</a>
+  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+  <a class="citation-ref" href="#citation-joyce-i-1-gap" title="Guide, logical structure and circle-intersection discussion · Joyce 把正文、边注依赖和导读分开，并指出五条公设没有单独保证两圆交点存在。" aria-label="引文 13，Guide, logical structure and circle-intersection discussion">[13]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+</p>
+              </div>
+              <div class="visual-item">
+                <div class="visual-label">I.47</div>
+<div class="visual-counterpart">依赖与面积</div>                <p>全等与倍积怎样把两块面积搬进第三块？  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.47 的命题身份与对应希腊文本；这里把它用作文本校勘控制，不把单一版本当作异文定论。" aria-label="引文 5，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47">[5]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>
+              </div>
+              <div class="visual-item">
+                <div class="visual-label">IX.20</div>
+<div class="visual-counterpart">数论与一般性</div>                <p>怎样从任给有限名单，构造一个名单之外的素数？  <a class="citation-ref" href="#citation-heath-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20 · 命题 IX.20 的原句是素数多于任意给定的一批素数；证明取被所列素数量尽的最小数，加一后分素数与合数两种情形。" aria-label="引文 6，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20">[6]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 IX.20 的命题身份与对应希腊文本，防止现代“无穷多个素数”口号取代原命题定位。" aria-label="引文 7，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20">[7]</a>
+  <a class="citation-ref" href="#citation-joyce-ix-20-reading" title="Proposition 20 and Guide · Joyce 将古代的任给有限批表达为现代一般形式，同时提醒原证明取的是共同量尽之数而非直接写成素数乘积。" aria-label="引文 15，Proposition 20 and Guide">[15]</a>
+</p>
+              </div>
+              <div class="visual-item">
+                <div class="visual-label">XII.2</div>
+<div class="visual-counterpart">逼近与反证</div>                <p>不计算圆面积，怎样用穷竭与反证锁定比例？  <a class="citation-ref" href="#citation-heath-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2 · 命题 XII.2 以较小与较大两个反设展开，反复增加内接多边形边数，用穷竭差额和多边形比例推出矛盾。" aria-label="引文 8，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2">[8]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 XII.2 的命题身份与对应希腊文本；它提供逐题文本控制，不单独解决证明传统中的异文。" aria-label="引文 9，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2">[9]</a>
+  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>
+              </div>
+            </div>
+<p class="visual-caution"><strong>边界</strong>现代公式、集合语言和极限术语只用于帮助理解，不能倒写成古代文本自己的表达。</p>          </figure>
+          <figure class="knowledge-visual visual-sequence" id="visual-ancient-modern-boundary">
+            <figcaption><h3>从古代证明到现代重建，中间没有偷换</h3><p>先保留原来的动作和图式规则，再指出缺口，最后才补入现代条件。</p></figcaption>
+            <div class="visual-items">
+              <div class="visual-item">
+                <div class="visual-label">传世文本</div>
+                <p>连接、作圆、取交点，沿命题次序推进。  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+              </div>
+              <div class="visual-item">
+                <div class="visual-label">图式实践</div>
+                <p>在受约束的规则中读取相交、内外与顺序。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+              </div>
+              <div class="visual-item">
+                <div class="visual-label">缺口定位</div>
+                <p>追问圆为何相交、连续性和完备性在哪里。  <a class="citation-ref" href="#citation-joyce-i-1-gap" title="Guide, logical structure and circle-intersection discussion · Joyce 把正文、边注依赖和导读分开，并指出五条公设没有单独保证两圆交点存在。" aria-label="引文 13，Guide, logical structure and circle-intersection discussion">[13]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>
+              </div>
+              <div class="visual-item">
+                <div class="visual-label">现代补足</div>
+                <p>显式加入关系、公理与模型条件，同时保留历史标记。  <a class="citation-ref" href="#citation-sep-hilbert-axioms" title="Introduction; Section 3.2, Hilbert and axiomatic projective geometry · Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。" aria-label="引文 21，Introduction; Section 3.2, Hilbert and axiomatic projective geometry">[21]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-deductive-gaps" title="Section 1.2, Deductive inadequacies · 该节讨论直线定义、唯一性、连续性与其他未明说前提，解释近代公理化为何要把隐含条件写出来。" aria-label="引文 19，Section 1.2, Deductive inadequacies">[19]</a>
+</p>
+              </div>
+            </div>
+<p class="visual-caution"><strong>边界</strong>后来的补足提高了显式严密性，但不自动证明古代图式推理毫无规则。</p>          </figure>
+        </div>
+      </section>
+
+      <section id="why-it-matters" class="content-section research-section">
+        <div class="content-heading"><span>03</span><div><h2>为什么今天还要读一部古代数学书</h2><p>答案不在怀旧。构作、前题和结论被排在同一条路上，读者可以跟着它走，也可以停下来追问。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="novel-organization">
+    <p>与其把十三卷当成欧几里得独自首创全部定理的纪念碑，现有材料更支持一幅谨慎的图景：这部书吸收前人成果，又把不同材料编排进连续的证明次序。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-paradigm" title="Introduction, paragraphs 4-5; Section 1.1, opening paragraph · Gray 与 Ferreiros 把几何称为系统逻辑思考的学校，指出欧几里得的工作数千年来被视为基础稳固之科学的范本；1.1 节又概括其严密演绎编排的长期声誉。" aria-label="引文 22，Introduction, paragraphs 4-5; Section 1.1, opening paragraph">[22]</a>
+</p>
+<p class="claim-explanation">后世尤其看重这套系统组织，不过原书没有为自己写下这样的历史评语。前人成果、欧几里得个人工作与后世编辑之间的边界，至今仍不完全清楚。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · MacTutor historical synthesis</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="impact-proof-culture">
+    <p>很多代人不只从《几何原本》里取用几何结论，也拿它学习一门科学怎样把理由排成可以追随的次序。Gray 与 Ferreiros 因而把几何称为系统逻辑思考的学校，并说欧几里得的工作数千年来一直是基础稳固之科学的范本。  <a class="citation-ref" href="#citation-sep-euclid-paradigm" title="Introduction, paragraphs 4-5; Section 1.1, opening paragraph · Gray 与 Ferreiros 把几何称为系统逻辑思考的学校，指出欧几里得的工作数千年来被视为基础稳固之科学的范本；1.1 节又概括其严密演绎编排的长期声誉。" aria-label="引文 22，Introduction, paragraphs 4-5; Section 1.1, opening paragraph">[22]</a>
+  <a class="citation-ref" href="#citation-mactutor-influence" title="Quick Info; Biography, influence and commentary tradition · 该历史档案概述《几何原本》两千年以上的教学影响，以及古代评论、翻译和近代数学家持续以它为严密证明标尺的接受史。" aria-label="引文 26，Quick Info; Biography, influence and commentary tradition">[26]</a>
+</p>
+<p class="claim-explanation">这是一条有明确出处的接受史判断，不是影响力排行榜。它说明这部书曾怎样被阅读和效法，却不把所有后来的证明文化都归因于欧几里得一人。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim inference" data-claim-id="remember-one">
+    <p>合上书以后，至少留住一个习惯：遇到漂亮结论，先别急着点头，回头看看它用了哪些定义、允许了哪些动作、借了哪些旧结果，又把什么留给了图和直觉。</p>
+<p class="claim-explanation">这是从《几何原本》的证明实践抽出的阅读原则，不是原文格言。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="historical-context" class="content-section research-section">
+        <div class="content-heading"><span>04</span><div><h2>作者躲在一层很薄的历史雾里</h2><p>关于欧几里得本人，我们知道得远少于关于这部书。把不确定性留下来，反而更容易看清真正可见的工作。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="context-life-uncertain">
+    <p>我们几乎看不清欧几里得本人。可靠的同时代传记没有留下来，常用的年代框架主要绕道数百年后的普罗克洛；把他写成一位生平清楚的“天才作者”，比现有证据走得更远。  <a class="citation-ref" href="#citation-mactutor-life-uncertainty" title="Biography, Proclus evidence and three authorship hypotheses · 关于欧几里得的生平材料很薄，主要年代框架来自晚得多的普罗克洛记述；历史人物、学派领袖或集体名号等假说并未被彻底排除。" aria-label="引文 23，Biography, Proclus evidence and three authorship hypotheses">[23]</a>
+</p>
+<p class="claim-explanation">项目沿用约公元前 300 年的传统日期，但只给中等把握。作者究竟是单一历史人物、学派领袖，还是后来文本传统汇聚的名字，仍有争论。</p>    <div class="claim-meta">
+      <span>历史语境</span>
+<span>研究者 · MacTutor historical synthesis</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="context-editor-organizer">
+    <p>传统材料没有把十三卷描成凭空诞生。欧多克索斯的比例论、泰阿泰德对不可通约量的工作，以及更早的几何成果，都被带进这部书；欧几里得的功劳更像选择、重排、补证和铸成一条可行走的路。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+</p>
+<p class="claim-explanation">这里谈的是传统归属与编排角色，不能拿来给每条命题颁发现代意义上的原创权证书。现存文本本身也经历了漫长的编辑和传抄。</p>    <div class="claim-meta">
+      <span>历史语境</span>
+<span>研究者 · Proclus tradition as summarized by MacTutor</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="book-architecture" class="content-section research-section">
+        <div class="content-heading"><span>05</span><div><h2>十三卷怎样接起来</h2><p>平面几何、比例、数论、不可通约量和立体几何彼此接力。全书的次序，本身就是一张知识地图。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="architecture-plane">
+    <p>第一至六卷先搭起平面几何：直线、三角形、平行线、面积、圆和正多边形依次到场。第五卷另起比例理论，第六卷据此处理相似图形，无须假定所有长度都能写成整数比。  <a class="citation-ref" href="#citation-heath-books-i-vi" title="CTS Books 1-6 · 前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。" aria-label="引文 10，CTS Books 1-6">[10]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">所以把《几何原本》叫作一本只讲尺规作图的书，会漏掉它最重要的结构转换之一。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books I-VI</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="architecture-number-magnitude">
+    <p>第七至九卷换了一套对象：单位、数、整除、比例与素数。第十卷又转回来面对长度，却专门处理不能被共同单位量尽的量。数与几何量在这里彼此照面，却没有被草率地揉成同一种东西。  <a class="citation-ref" href="#citation-heath-books-vii-x" title="CTS Books 7-10 · 第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。" aria-label="引文 11，CTS Books 7-10">[11]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">这一区分能防止现代读者把所有命题立即翻译成实数代数，再误以为原书已经使用同一套数概念。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books VII-X</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="architecture-solid">
+    <p>最后三卷把此前练成的比例和构作带进空间。第十一卷安置线、面与立体，第十二卷用穷竭法比较圆与立体的量，第十三卷则把五种正多面体推到全书终点。  <a class="citation-ref" href="#citation-heath-books-xi-xiii" title="CTS Books 11-13 · 末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。" aria-label="引文 12，CTS Books 11-13">[12]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">末卷并非孤零零的华丽附录；它调用了前面关于比例、不可通约量与立体几何的长准备。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Books XI-XIII</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="demonstrative-method" class="content-section research-section">
+        <div class="content-heading"><span>06</span><div><h2>一条证明怎样获得行动资格</h2><p>定义负责认出对象，公设准许构作，旧命题把新路铺平，图则在规则内提供关系。少了哪一层，证明都会换一种样子。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="method-construction-postulates">
+    <p>开篇公设读起来像一组获准的动作：两点间连线、延长有限直线、给定圆心和距离作圆。证明常常先造出一个新对象，再借它看见原题里藏着的关系。  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">后来，人们也会把公理写成一组可由不同结构满足的形式句子。两者都讲演绎，安排对象与行动的方式却不同。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Book I</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-proof-dependency">
+    <p>命题的次序就是它的基础设施。I.47 不能直接宣布面积关系，它得先借 I.46 作正方形、借 I.31 作平行线、借 I.4 建立全等，再用 I.41 把三角形和平行四边形的面积接起来。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>
+<p class="claim-explanation">只记住后来写成的公式，会把最值得学习的部分删掉：结论究竟欠了哪些前题。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.47</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-diagram-rules">
+    <p>图不是插图，也不是法官。它能在受约束的规则下承载共线、相交、内外等信息；但某条线看上去更长、某个角画得更大，都不能偷偷混进证明。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">现代形式化工作把这种分工说得更清楚：文字和构作锁定精确信息，图可以提供一般有效的拓扑关系，偶然比例则必须沉默。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Avigad, Dean, Mumma; Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="representative-propositions" class="content-section research-section">
+        <div class="content-heading"><span>07</span><div><h2>四道题，四种推理压力</h2><p>首题检验构作与隐藏前提，I.47 搬运面积，IX.20 越出任给的有限名单，XII.2 则把差额一点点逼到无处可藏。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="proposition-i-1">
+    <p>I.1 的动作几乎可以一口气说完：以线段两端为圆心，各作一个以该线段为半径的圆；连接圆的交点与两端，三条边同为半径，于是得到等边三角形。  <a class="citation-ref" href="#citation-heath-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1 · 命题 I.1 从给定线段出发，以两端点为圆心作圆，取交点并用半径相等完成等边三角形构作。" aria-label="引文 1，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1">[1]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-1" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.1 的命题身份与对应希腊文本；本次核对不主张已经解决异文问题。" aria-label="引文 2，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1">[2]</a>
+  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+</p>
+<p class="claim-explanation">短短几步，定义、公设、构作、图和共同概念全都上场了。全书接下来会一再沿用这种配合。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.1</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-i-1-gap">
+    <p>麻烦也来得很早：五条公设允许作出两圆，却没有另外写明它们一定相交。现代公理体系会补上连续性或相交条件；古代证明则让受规则约束的图承担这一步。  <a class="citation-ref" href="#citation-joyce-i-1-gap" title="Guide, logical structure and circle-intersection discussion · Joyce 把正文、边注依赖和导读分开，并指出五条公设没有单独保证两圆交点存在。" aria-label="引文 13，Guide, logical structure and circle-intersection discussion">[13]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+</p>
+<p class="claim-explanation">把它叫作“漏洞”可以，但别急着把整套图式推理贬成看图猜答案。更准确的做法，是同时标出古代实践和现代补足。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Joyce; Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-contested">仍有争议</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-i-47">
+    <p>I.47 没有把直角三角形塞进一行代数。它在三边外作正方形，用两组全等三角形搭桥，再把两条直角边上的面积搬进斜边正方形，左右两块恰好合成整体。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.47 的命题身份与对应希腊文本；这里把它用作文本校勘控制，不把单一版本当作异文定论。" aria-label="引文 5，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47">[5]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>
+<p class="claim-explanation">现代的 a²+b²=c² 准确又便利，不过它省略了这段证明走过的路。读原证明，价值正在那场面积搬运。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.47</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-ix-20">
+    <p>IX.20 说得比“素数有无穷多个”更有动作感：你先递来任意有限一批素数，欧几里得便取一个被它们共同量尽的数，再加一。新数若是素数，名单立即变长；若是合数，它的某个素因子也不可能在旧名单里。  <a class="citation-ref" href="#citation-heath-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20 · 命题 IX.20 的原句是素数多于任意给定的一批素数；证明取被所列素数量尽的最小数，加一后分素数与合数两种情形。" aria-label="引文 6，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20">[6]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 IX.20 的命题身份与对应希腊文本，防止现代“无穷多个素数”口号取代原命题定位。" aria-label="引文 7，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20">[7]</a>
+  <a class="citation-ref" href="#citation-joyce-ix-20-reading" title="Proposition 20 and Guide · Joyce 将古代的任给有限批表达为现代一般形式，同时提醒原证明取的是共同量尽之数而非直接写成素数乘积。" aria-label="引文 15，Proposition 20 and Guide">[15]</a>
+</p>
+<p class="claim-explanation">原证明没有先假定一张装着所有素数的清单，也没有明说取所有素数的乘积。现代符号能把一般性写得更快，但不应替换古代的量尽语言。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition IX.20</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="proposition-xii-2">
+    <p>XII.2 要证明圆面积按直径平方成比例，却不去求圆面积的数值。它把多边形一层层嵌进圆里，每次吃掉一半以上的剩余差额，再用反证迫使任何偏大或偏小的候选比例退出。  <a class="citation-ref" href="#citation-heath-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2 · 命题 XII.2 以较小与较大两个反设展开，反复增加内接多边形边数，用穷竭差额和多边形比例推出矛盾。" aria-label="引文 8，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2">[8]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 XII.2 的命题身份与对应希腊文本；它提供逐题文本控制，不单独解决证明传统中的异文。" aria-label="引文 9，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2">[9]</a>
+  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>
+<p class="claim-explanation">这里可以看见极限思想的远亲，却还不是现代极限定义。证明依赖第五卷比例、第十卷差额控制和第十二卷相似多边形关系。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition XII.2</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="modern-assessment" class="content-section research-section">
+        <div class="content-heading"><span>08</span><div><h2>后来的人没有拆掉这座房子</h2><p>他们增补地基、另造房型，也终于承认空间未必只有这一种。欧几里得从唯一真理变成一座仍在使用的重要结构。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="modern-formalization">
+    <p>现代公理化接着追问《几何原本》含在动作和图里的前提：点与线如何关联，何时存在交点，顺序与连续性怎样保证，模型究竟满足哪些关系。  <a class="citation-ref" href="#citation-sep-hilbert-axioms" title="Introduction; Section 3.2, Hilbert and axiomatic projective geometry · Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。" aria-label="引文 21，Introduction; Section 3.2, Hilbert and axiomatic projective geometry">[21]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-deductive-gaps" title="Section 1.2, Deductive inadequacies · 该节讨论直线定义、唯一性、连续性与其他未明说前提，解释近代公理化为何要把隐含条件写出来。" aria-label="引文 19，Section 1.2, Deductive inadequacies">[19]</a>
+</p>
+<p class="claim-explanation">这些工作让基础变得更显眼，同时也保持历史距离：古人并没有暗中写过一套 Hilbert 公理。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Hilbertian and formal-Euclid traditions</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="modern-many-geometries">
+    <p>十九世纪以后，“几何”不再只有一个答案。双曲、射影和黎曼几何表明：改变公理，可以得到彼此不同而内部严整的空间结构；至于物理世界选哪一种，还要交给经验与物理理论。  <a class="citation-ref" href="#citation-sep-many-geometries" title="Introduction; Sections 3.2-3.3 and 4 · 十九世纪以后，射影、双曲与黎曼几何把几何从唯一空间真理改造成可研究的多种结构，并迫使人区分形式几何与物理空间。" aria-label="引文 20，Introduction; Sections 3.2-3.3 and 4">[20]</a>
+</p>
+<p class="claim-explanation">欧几里得几何没有因此变假。它仍是一种重要结构，也仍适合许多尺度下的建模；失去的是它作为唯一可能空间真理的垄断地位。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="criticism" class="content-section research-section">
+        <div class="content-heading"><span>09</span><div><h2>严密的典范，也有没写出来的前提</h2><p>尊重经典，也包括把缝隙看清：有些落在定义里，有些藏在图式规则中，还有些牵涉更深的完备性。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="crit-definitions">
+    <p>“线是无宽的长”“直线均匀地躺在自身点上”能唤起共同直觉，却很难单独承担现代定义的工作。真正使用这些对象时，文本还依靠唯一性、顺序、连续性等没有全写出来的条件。  <a class="citation-ref" href="#citation-sep-deductive-gaps" title="Section 1.2, Deductive inadequacies · 该节讨论直线定义、唯一性、连续性与其他未明说前提，解释近代公理化为何要把隐含条件写出来。" aria-label="引文 19，Section 1.2, Deductive inadequacies">[19]</a>
+</p>
+<p class="claim-explanation">问题不在古人不够聪明，而在严密性的标准会随着人们学会制造反模型而改变。模糊处一旦能导向不同结构，就必须被说清。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="crit-diagram-overreaction">
+    <p>把图从证明中彻底驱逐，也可能修得太过头。成熟的图式推理关心构作规则允许读取哪些稳定关系，不靠量像素下判断。该追问的是哪些信息可读、凭什么可读；单问“有没有图”还不够。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">因此，语义图先在数据层声明相交、等距与朝向，再由渲染器把这些关系显出来。它重画论证所需的结构，不复制某张古图的偶然外观。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Modern diagrammatic-reasoning scholarship</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="crit-xii-completeness">
+    <p>XII.2 的双重反证默认：若目标比例不相等，就会落在较大或较小一边。对古代量论而言这很自然；现代基础审查却会追问，这个三分前提和相关完备性究竟由哪里保证。  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>
+<p class="claim-explanation">这个追问不会撤销穷竭法的数学洞见，它只是把原先留在直觉背景里的基础条件移到台前。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Joyce editorial guide</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="intellectual-lineage" class="content-section research-section">
+        <div class="content-heading"><span>10</span><div><h2>一条证明传统如何继续分枝</h2><p>欧多克索斯给它比例工具，Hilbert 改写公理观，非欧几何打开多重空间；柏拉图的教育问题，则提供另一条阅读入口。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="connection-eudoxus">
+    <p>欧多克索斯（Eudoxus）的比例论让《几何原本》能在不把不可通约量硬塞进整数比的情况下继续证明；第五卷的这座桥，随后支撑相似、穷竭法与立体量论。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+<p class="claim-explanation">这是传统归属，不表示现存第五卷可以逐句还原成欧多克索斯原稿。</p>    <div class="claim-meta">
+      <span>历史语境</span>
+<span>研究者 · Proclus tradition as summarized by MacTutor</span>      <span>把握 中</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="connection-hilbert">
+    <p>Hilbert 继承了“从少量起点组织整个体系”的野心，却换了做法：原本依赖对象含义和图式实践的条件，被改写成更显式的关系公理。  <a class="citation-ref" href="#citation-sep-hilbert-axioms" title="Introduction; Section 3.2, Hilbert and axiomatic projective geometry · Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。" aria-label="引文 21，Introduction; Section 3.2, Hilbert and axiomatic projective geometry">[21]</a>
+</p>
+<p class="claim-explanation">这是一条继承与修订并存的关系，不宜画成欧几里得简单通往 Hilbert 的直线进步史。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="connection-non-euclidean">
+    <p>非欧几何没有靠证明欧几里得算错来登场。它更深地改写了问题：平行公设若换一种设定，会不会长出另一套自洽几何？答案迫使人把逻辑结构与物理空间分开。  <a class="citation-ref" href="#citation-sep-many-geometries" title="Introduction; Sections 3.2-3.3 and 4 · 十九世纪以后，射影、双曲与黎曼几何把几何从唯一空间真理改造成可研究的多种结构，并迫使人区分形式几何与物理空间。" aria-label="引文 20，Introduction; Sections 3.2-3.3 and 4">[20]</a>
+</p>
+<p class="claim-explanation">因此，第五公设的历史不只是“寻找更好证明失败”，也是人们逐渐学会把公理当作结构选择。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim inference" data-claim-id="connection-republic-mathematics">
+    <p>把《理想国》第七卷与《几何原本》并读，会看见两种不同关心：前者问数学训练如何让灵魂转向，后者让这种训练有了可逐步检查的证明形态。</p>
+<p class="claim-explanation">这是 Reading Agent 的跨书观察。前提分别是《理想国》的数学教育段落和《几何原本》的命题次序；它不声称欧几里得按柏拉图的课程表写书。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 中</span>
+<span class="status status-contested">仍有争议</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="further-deductions" class="content-section research-section">
+        <div class="content-heading"><span>11</span><div><h2>从证明这件事再往前想</h2><p>下面是我们的推演。它们借用《几何原本》的结构来理解知识工程，但不冒充欧几里得原话。</p></div></div>
+        <div class="claim-list">
+<article class="claim inference" data-claim-id="deduction-proof-as-interface">
+    <p>我们可以把证明看成一种知识接口：定义约定对象，公设开放操作，命题公布输入与输出，依赖链则让任何人追问“这一步凭什么”。</p>
+<p class="claim-explanation">这是一种现代类比，不是欧几里得的术语。它由全书的命题次序、I.47 的依赖链和现代形式化工作共同启发；类比在数学证明需要语义理解处会失效。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 中</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim inference" data-claim-id="deduction-visible-assumptions">
+    <p>一套知识传统会变强，往往因为人们终于能给漏洞命名、定位，并公开比较修补方案。I.1 的交点问题正好示范了这种进步。</p>
+<p class="claim-explanation">这层判断站在三个可见事实之上：原证明可以重建，缺失条件能够定位，古代图式解释也能与现代公理修补公开比较。当然，并非所有隐含前提都这样容易找到。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+      <section id="what-to-remember" class="content-section research-section">
+        <div class="content-heading"><span>12</span><div><h2>最后，把问题带走</h2><p>结论当然重要。不过一旦你开始习惯追问“凭什么走到这里”，这本书最耐久的部分才真正留了下来。</p></div></div>
+        <div class="claim-list">
+<article class="claim" data-claim-id="essence">
+    <p>《几何原本》不急着把结论递给读者。它先规定可以怎样构作，再让定义、公设和已经证明的命题彼此承接；十三卷由此铺开，从平面几何一路走到比例、数论、不可通约量与立体几何。  <a class="citation-ref" href="#citation-heath-books-i-vi" title="CTS Books 1-6 · 前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。" aria-label="引文 10，CTS Books 1-6">[10]</a>
+  <a class="citation-ref" href="#citation-heath-books-vii-x" title="CTS Books 7-10 · 第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。" aria-label="引文 11，CTS Books 7-10">[11]</a>
+  <a class="citation-ref" href="#citation-heath-books-xi-xiii" title="CTS Books 11-13 · 末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。" aria-label="引文 12，CTS Books 11-13">[12]</a>
+</p>
+<p class="claim-explanation">它的力量既在结果，也在次序。前一题留下工具，后一题才有路可走；读者看见的不只是一柜子定理，还有它们怎样一层层站稳。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements as an organized work</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-proof-dependency">
+    <p>命题的次序就是它的基础设施。I.47 不能直接宣布面积关系，它得先借 I.46 作正方形、借 I.31 作平行线、借 I.4 建立全等，再用 I.41 把三角形和平行四边形的面积接起来。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>
+<p class="claim-explanation">只记住后来写成的公式，会把最值得学习的部分删掉：结论究竟欠了哪些前题。</p>    <div class="claim-meta">
+      <span>作者原意</span>
+<span>全书层面 · Elements, Proposition I.47</span>      <span>把握 高</span>
+<span class="status status-historical">历史判断</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim" data-claim-id="method-diagram-rules">
+    <p>图不是插图，也不是法官。它能在受约束的规则下承载共线、相交、内外等信息；但某条线看上去更长、某个角画得更大，都不能偷偷混进证明。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+<p class="claim-explanation">现代形式化工作把这种分工说得更清楚：文字和构作锁定精确信息，图可以提供一般有效的拓扑关系，偶然比例则必须沉默。</p>    <div class="claim-meta">
+      <span>后世评估</span>
+<span>研究者 · Avigad, Dean, Mumma; Gray and Ferreiros</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article><article class="claim inference" data-claim-id="remember-one">
+    <p>合上书以后，至少留住一个习惯：遇到漂亮结论，先别急着点头，回头看看它用了哪些定义、允许了哪些动作、借了哪些旧结果，又把什么留给了图和直觉。</p>
+<p class="claim-explanation">这是从《几何原本》的证明实践抽出的阅读原则，不是原文格言。</p>    <div class="claim-meta">
+      <span>这里的推断</span>
+<span>编辑 · Reading Agent</span>      <span>把握 高</span>
+<span class="status status-high">仍有力</span><span>最近核验 2026-08-12</span>    </div>
+  </article>        </div>
+      </section>
+
+      <section id="concepts" class="content-section">
+        <div class="content-heading"><span>C</span><div><h2>把这些概念带到下一本书</h2><p>它们不会停在这一页。往后的阅读会继续修正它们，也会让它们与别的思想相遇。</p></div></div>
+        <div class="concept-grid">
+          <article class="concept-card">
+            <span>Axiomatic Method</span>
+            <h3><a href="../../concepts/axiomatic-method/index.html">公理化方法</a></h3>
+            <p>现代公理化接着追问《几何原本》含在动作和图里的前提：点与线如何关联，何时存在交点，顺序与连续性怎样保证，模型究竟满足哪些关系。  <a class="citation-ref" href="#citation-sep-hilbert-axioms" title="Introduction; Section 3.2, Hilbert and axiomatic projective geometry · Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。" aria-label="引文 21，Introduction; Section 3.2, Hilbert and axiomatic projective geometry">[21]</a>
+  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-deductive-gaps" title="Section 1.2, Deductive inadequacies · 该节讨论直线定义、唯一性、连续性与其他未明说前提，解释近代公理化为何要把隐含条件写出来。" aria-label="引文 19，Section 1.2, Deductive inadequacies">[19]</a>
+</p>
+          </article>
+          <article class="concept-card">
+            <span>Construction Postulate</span>
+            <h3><a href="../../concepts/construction-postulate/index.html">构作公设</a></h3>
+            <p>开篇公设读起来像一组获准的动作：两点间连线、延长有限直线、给定圆心和距离作圆。证明常常先造出一个新对象，再借它看见原题里藏着的关系。  <a class="citation-ref" href="#citation-casey-book-i-basis" title="Book I, Postulates 1 and 3; Common Notion 1; Proposition I · Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。" aria-label="引文 3，Book I, Postulates 1 and 3; Common Notion 1; Proposition I">[3]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+          </article>
+          <article class="concept-card">
+            <span>Proof Dependency</span>
+            <h3><a href="../../concepts/proof-dependency/index.html">证明依赖</a></h3>
+            <p>命题的次序就是它的基础设施。I.47 不能直接宣布面积关系，它得先借 I.46 作正方形、借 I.31 作平行线、借 I.4 建立全等，再用 I.41 把三角形和平行四边形的面积接起来。  <a class="citation-ref" href="#citation-heath-i-47" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47 · 命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。" aria-label="引文 4，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47">[4]</a>
+  <a class="citation-ref" href="#citation-joyce-i-47-dependencies" title="Proposition 47, proof and marginal references · Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。" aria-label="引文 14，Proposition 47, proof and marginal references">[14]</a>
+</p>
+          </article>
+          <article class="concept-card">
+            <span>Diagrammatic Reasoning</span>
+            <h3><a href="../../concepts/diagrammatic-reasoning/index.html">图式推理</a></h3>
+            <p>图不是插图，也不是法官。它能在受约束的规则下承载共线、相交、内外等信息；但某条线看上去更长、某个角画得更大，都不能偷偷混进证明。  <a class="citation-ref" href="#citation-formal-euclid-diagrams" title="Sections 2.2-2.4 and 3; arXiv:0810.4315 · Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。" aria-label="引文 17，Sections 2.2-2.4 and 3; arXiv:0810.4315">[17]</a>
+  <a class="citation-ref" href="#citation-sep-euclid-diagrams" title="Section 1.1, The question of diagrammatic constructions · Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。" aria-label="引文 18，Section 1.1, The question of diagrammatic constructions">[18]</a>
+</p>
+          </article>
+          <article class="concept-card">
+            <span>Method of Exhaustion</span>
+            <h3><a href="../../concepts/exhaustion-method/index.html">穷竭法</a></h3>
+            <p>XII.2 要证明圆面积按直径平方成比例，却不去求圆面积的数值。它把多边形一层层嵌进圆里，每次吃掉一半以上的剩余差额，再用反证迫使任何偏大或偏小的候选比例退出。  <a class="citation-ref" href="#citation-heath-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2 · 命题 XII.2 以较小与较大两个反设展开，反复增加内接多边形边数，用穷竭差额和多边形比例推出矛盾。" aria-label="引文 8，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2">[8]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-xii-2" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 XII.2 的命题身份与对应希腊文本；它提供逐题文本控制，不单独解决证明传统中的异文。" aria-label="引文 9，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2">[9]</a>
+  <a class="citation-ref" href="#citation-joyce-xii-2-reading" title="Proposition 2 and Guide · Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。" aria-label="引文 16，Proposition 2 and Guide">[16]</a>
+</p>
+          </article>
+          <article class="concept-card">
+            <span>Prime Number</span>
+            <h3><a href="../../concepts/prime-number/index.html">素数</a></h3>
+            <p>IX.20 说得比“素数有无穷多个”更有动作感：你先递来任意有限一批素数，欧几里得便取一个被它们共同量尽的数，再加一。新数若是素数，名单立即变长；若是合数，它的某个素因子也不可能在旧名单里。  <a class="citation-ref" href="#citation-heath-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20 · 命题 IX.20 的原句是素数多于任意给定的一批素数；证明取被所列素数量尽的最小数，加一后分素数与合数两种情形。" aria-label="引文 6，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20">[6]</a>
+  <a class="citation-ref" href="#citation-heiberg-greek-ix-20" title="CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20 · 固定的 Heiberg 希腊文表达在该 CTS 节点保留 IX.20 的命题身份与对应希腊文本，防止现代“无穷多个素数”口号取代原命题定位。" aria-label="引文 7，CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20">[7]</a>
+  <a class="citation-ref" href="#citation-joyce-ix-20-reading" title="Proposition 20 and Guide · Joyce 将古代的任给有限批表达为现代一般形式，同时提醒原证明取的是共同量尽之数而非直接写成素数乘积。" aria-label="引文 15，Proposition 20 and Guide">[15]</a>
+</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="connections" class="content-section">
+        <div class="content-heading"><span>G</span><div><h2>这本书和谁继续对话</h2><p>思想很少独自生长。这里保留谁接过了问题，谁换了答案，又是谁把边界推得更远。</p></div></div>
+        <div class="connection-list">
+          <div class="connection-row">
+            <span class="relation">受到影响</span>
+            <div><strong>欧多克索斯（Eudoxus of Cnidus）</strong>
+              <p>欧多克索斯（Eudoxus）的比例论让《几何原本》能在不把不可通约量硬塞进整数比的情况下继续证明；第五卷的这座桥，随后支撑相似、穷竭法与立体量论。  <a class="citation-ref" href="#citation-mactutor-predecessors" title="Biography, Proclus report; discussion of Eudoxus and Theaetetus · 普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。" aria-label="引文 24，Biography, Proclus report; discussion of Eudoxus and Theaetetus">[24]</a>
+  <a class="citation-ref" href="#citation-mactutor-architecture" title="Biography, overview of Books 1-13 · MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。" aria-label="引文 25，Biography, overview of Books 1-13">[25]</a>
+</p>
+            </div>
+          </div>
+          <div class="connection-row">
+            <span class="relation">影响后世</span>
+            <div><strong>David Hilbert</strong>
+              <p>Hilbert 继承了“从少量起点组织整个体系”的野心，却换了做法：原本依赖对象含义和图式实践的条件，被改写成更显式的关系公理。  <a class="citation-ref" href="#citation-sep-hilbert-axioms" title="Introduction; Section 3.2, Hilbert and axiomatic projective geometry · Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。" aria-label="引文 21，Introduction; Section 3.2, Hilbert and axiomatic projective geometry">[21]</a>
+</p>
+            </div>
+          </div>
+          <div class="connection-row">
+            <span class="relation">在前</span>
+            <div><strong>非欧几何（Non-Euclidean Geometry）</strong>
+              <p>非欧几何没有靠证明欧几里得算错来登场。它更深地改写了问题：平行公设若换一种设定，会不会长出另一套自洽几何？答案迫使人把逻辑结构与物理空间分开。  <a class="citation-ref" href="#citation-sep-many-geometries" title="Introduction; Sections 3.2-3.3 and 4 · 十九世纪以后，射影、双曲与黎曼几何把几何从唯一空间真理改造成可研究的多种结构，并迫使人区分形式几何与物理空间。" aria-label="引文 20，Introduction; Sections 3.2-3.3 and 4">[20]</a>
+</p>
+            </div>
+          </div>
+          <div class="connection-row">
+            <span class="relation">彼此相关</span>
+            <div><strong>《理想国》</strong>
+              <p>把《理想国》第七卷与《几何原本》并读，会看见两种不同关心：前者问数学训练如何让灵魂转向，后者让这种训练有了可逐步检查的证明形态。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sources" class="content-section sources-section">
+        <div class="content-heading"><span>S</span><div><h2>沿着编号回到证据</h2><p>作者说过什么，后人怎样评估，我们又推到了哪一步，都可以在这里逐条核对。</p></div></div>
+        <ol class="source-list">
+          <li id="source-gutenberg-casey-first-six">
+            <div class="source-type">书籍原文 · BOOK_SOURCE · 可信度 高</div>
+            <a href="https://www.gutenberg.org/ebooks/21076" rel="noreferrer">The First Six Books of the Elements of Euclid ↗</a>
+            <p>Euclid, John Casey. Project Gutenberg, 2007-04-14. 访问日期 2026-08-12。</p>
+<p>权利：Public domain in the USA</p>            <div class="citation-records">
+              <article id="citation-casey-book-i-basis" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[3]</span>
+                  <code>casey-book-i-basis</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：Book I, Postulates 1 and 3; Common Notion 1; Proposition I</p>
+                <p>Casey 英文底本保留连接两点、以圆心和距离作圆、等于同一量者彼此相等，以及首题的构作次序。</p>
+                <div class="citation-claims">关联主张：<code>method-construction-postulates</code><code>proposition-i-1</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-perseus-heiberg-greek-xml">
+            <div class="source-type">书籍原文 · BOOK_SOURCE · 可信度 高</div>
+            <a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-grc2.xml" rel="noreferrer">Euclidis Elementa, pinned Heiberg Greek XML expression ↗</a>
+            <p>Euclid, Johan Ludvig Heiberg. Perseus Digital Library canonical-greekLit repository, 1883-1888; digital commit 2026-03-29. 访问日期 2026-08-12。</p>
+<p>权利：Creative Commons Attribution-ShareAlike 4.0 International</p>            <div class="citation-records">
+              <article id="citation-heiberg-greek-i-1" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[2]</span>
+                  <code>heiberg-greek-i-1</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.1</p>
+                <p>固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.1 的命题身份与对应希腊文本；本次核对不主张已经解决异文问题。</p>
+                <div class="citation-claims">关联主张：<code>proposition-i-1</code></div>
+              </article>
+              <article id="citation-heiberg-greek-i-47" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[5]</span>
+                  <code>heiberg-greek-i-47</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.prop.47</p>
+                <p>固定的 Heiberg 希腊文表达在该 CTS 节点保留 I.47 的命题身份与对应希腊文本；这里把它用作文本校勘控制，不把单一版本当作异文定论。</p>
+                <div class="citation-claims">关联主张：<code>proposition-i-47</code></div>
+              </article>
+              <article id="citation-heiberg-greek-ix-20" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[7]</span>
+                  <code>heiberg-greek-ix-20</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:9.prop.20</p>
+                <p>固定的 Heiberg 希腊文表达在该 CTS 节点保留 IX.20 的命题身份与对应希腊文本，防止现代“无穷多个素数”口号取代原命题定位。</p>
+                <div class="citation-claims">关联主张：<code>proposition-ix-20</code></div>
+              </article>
+              <article id="citation-heiberg-greek-xii-2" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[9]</span>
+                  <code>heiberg-greek-xii-2</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:12.prop.2</p>
+                <p>固定的 Heiberg 希腊文表达在该 CTS 节点保留 XII.2 的命题身份与对应希腊文本；它提供逐题文本控制，不单独解决证明传统中的异文。</p>
+                <div class="citation-claims">关联主张：<code>proposition-xii-2</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-perseus-heath-english-xml">
+            <div class="source-type">书籍原文 · BOOK_SOURCE · 可信度 高</div>
+            <a href="https://github.com/PerseusDL/canonical-greekLit/blob/0c75c6009460b05198e1050d67e48a16966acc72/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml" rel="noreferrer">The Thirteen Books of Euclid&#39;s Elements, pinned Heath English XML expression ↗</a>
+            <p>Euclid, Thomas Little Heath. Perseus Digital Library canonical-greekLit repository, 1908; digital commit 2026-03-29. 访问日期 2026-08-12。</p>
+<p>权利：Creative Commons Attribution-ShareAlike 4.0 International</p>            <div class="citation-records">
+              <article id="citation-heath-i-1" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[1]</span>
+                  <code>heath-i-1</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.1</p>
+                <p>命题 I.1 从给定线段出发，以两端点为圆心作圆，取交点并用半径相等完成等边三角形构作。</p>
+                <div class="citation-claims">关联主张：<code>proposition-i-1</code></div>
+              </article>
+              <article id="citation-heath-i-47" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[4]</span>
+                  <code>heath-i-47</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:1.prop.47</p>
+                <p>命题 I.47 在直角三角形三边上作正方形，通过全等和倍积关系，把两小正方形的面积对应到斜边正方形的两部分。</p>
+                <div class="citation-claims">关联主张：<code>method-proof-dependency</code><code>proposition-i-47</code></div>
+              </article>
+              <article id="citation-heath-ix-20" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[6]</span>
+                  <code>heath-ix-20</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:9.prop.20</p>
+                <p>命题 IX.20 的原句是素数多于任意给定的一批素数；证明取被所列素数量尽的最小数，加一后分素数与合数两种情形。</p>
+                <div class="citation-claims">关联主张：<code>proposition-ix-20</code></div>
+              </article>
+              <article id="citation-heath-xii-2" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[8]</span>
+                  <code>heath-xii-2</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS urn:cts:greekLit:tlg1799.tlg001.perseus-eng2:12.prop.2</p>
+                <p>命题 XII.2 以较小与较大两个反设展开，反复增加内接多边形边数，用穷竭差额和多边形比例推出矛盾。</p>
+                <div class="citation-claims">关联主张：<code>proposition-xii-2</code></div>
+              </article>
+              <article id="citation-heath-books-i-vi" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[10]</span>
+                  <code>heath-books-i-vi</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS Books 1-6</p>
+                <p>前六卷从平面构作、面积、圆与正多边形，推进到一般比例理论及其在相似图形中的应用。</p>
+                <div class="citation-claims">关联主张：<code>essence</code><code>architecture-plane</code></div>
+              </article>
+              <article id="citation-heath-books-vii-x" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[11]</span>
+                  <code>heath-books-vii-x</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS Books 7-10</p>
+                <p>第七至九卷处理数、整除、比例和素数；第十卷转向不可通约量的细密分类。</p>
+                <div class="citation-claims">关联主张：<code>essence</code><code>architecture-number-magnitude</code></div>
+              </article>
+              <article id="citation-heath-books-xi-xiii" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[12]</span>
+                  <code>heath-books-xi-xiii</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：CTS Books 11-13</p>
+                <p>末三卷建立立体几何，用穷竭法比较面积与体积，最后构造并限定五种正多面体。</p>
+                <div class="citation-claims">关联主张：<code>essence</code><code>architecture-solid</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-joyce-complete-elements">
+            <div class="source-type">研究者解释 · AUTHOR_INTERPRETATION · 可信度 中</div>
+            <a href="https://mathcs.clarku.edu/~djoyce/java/elements/elements.html" rel="noreferrer">Euclid&#39;s Elements, Introduction ↗</a>
+            <p>David E. Joyce. Clark University, 1996-1998. 访问日期 2026-08-12。</p>
+            <div class="source-citations">仅用于确认版本与获取信息，不作为正文主张的证据。</div>
+          </li>
+          <li id="source-joyce-proposition-i-1">
+            <div class="source-type">研究者解释 · AUTHOR_INTERPRETATION · 可信度 中</div>
+            <a href="https://mathcs.clarku.edu/~djoyce/java/elements/bookI/propI1.html" rel="noreferrer">Euclid&#39;s Elements, Book I, Proposition 1 ↗</a>
+            <p>David E. Joyce. Clark University, 1996-2010. 访问日期 2026-08-12。</p>
+            <div class="citation-records">
+              <article id="citation-joyce-i-1-gap" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[13]</span>
+                  <code>joyce-i-1-gap</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Guide, logical structure and circle-intersection discussion</p>
+                <p>Joyce 把正文、边注依赖和导读分开，并指出五条公设没有单独保证两圆交点存在。</p>
+                <div class="citation-claims">关联主张：<code>proposition-i-1-gap</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-joyce-proposition-i-47">
+            <div class="source-type">研究者解释 · AUTHOR_INTERPRETATION · 可信度 中</div>
+            <a href="https://mathcs.clarku.edu/~djoyce/java/elements/bookI/propI47.html" rel="noreferrer">Euclid&#39;s Elements, Book I, Proposition 47 ↗</a>
+            <p>David E. Joyce. Clark University, 1996-2010. 访问日期 2026-08-12。</p>
+            <div class="citation-records">
+              <article id="citation-joyce-i-47-dependencies" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[14]</span>
+                  <code>joyce-i-47-dependencies</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Proposition 47, proof and marginal references</p>
+                <p>Joyce 的编辑边注列出 I.46、I.31、I.14、I.4、I.41 等依赖，便于核查面积搬运的前题链。</p>
+                <div class="citation-claims">关联主张：<code>method-proof-dependency</code><code>proposition-i-47</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-joyce-proposition-ix-20">
+            <div class="source-type">研究者解释 · AUTHOR_INTERPRETATION · 可信度 中</div>
+            <a href="https://mathcs.clarku.edu/~djoyce/java/elements/bookIX/propIX20.html" rel="noreferrer">Euclid&#39;s Elements, Book IX, Proposition 20 ↗</a>
+            <p>David E. Joyce. Clark University, 1996-2010. 访问日期 2026-08-12。</p>
+            <div class="citation-records">
+              <article id="citation-joyce-ix-20-reading" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[15]</span>
+                  <code>joyce-ix-20-reading</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Proposition 20 and Guide</p>
+                <p>Joyce 将古代的任给有限批表达为现代一般形式，同时提醒原证明取的是共同量尽之数而非直接写成素数乘积。</p>
+                <div class="citation-claims">关联主张：<code>proposition-ix-20</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-joyce-proposition-xii-2">
+            <div class="source-type">研究者解释 · AUTHOR_INTERPRETATION · 可信度 中</div>
+            <a href="https://mathcs.clarku.edu/~djoyce/java/elements/bookXII/propXII2.html" rel="noreferrer">Euclid&#39;s Elements, Book XII, Proposition 2 ↗</a>
+            <p>David E. Joyce. Clark University, 1996-2010. 访问日期 2026-08-12。</p>
+            <div class="citation-records">
+              <article id="citation-joyce-xii-2-reading" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[16]</span>
+                  <code>joyce-xii-2-reading</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Proposition 2 and Guide</p>
+                <p>Joyce 梳理内接多边形、X.1 的差额控制、XII.1 的比例承接及结尾的完备性问题。</p>
+                <div class="citation-claims">关联主张：<code>proposition-xii-2</code><code>crit-xii-completeness</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-avigad-dean-mumma-formal-euclid">
+            <div class="source-type">学术来源 · SCHOLARLY_SOURCE · 可信度 高</div>
+            <a href="https://arxiv.org/abs/0810.4315" rel="noreferrer">A Formal System for Euclid&#39;s Elements ↗</a>
+            <p>Jeremy Avigad, Edward Dean, John Mumma. The Review of Symbolic Logic / arXiv, 2009. 访问日期 2026-08-12。</p>
+            <div class="citation-records">
+              <article id="citation-formal-euclid-diagrams" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[17]</span>
+                  <code>formal-euclid-diagrams</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：Sections 2.2-2.4 and 3; arXiv:0810.4315</p>
+                <p>Avigad、Dean 与 Mumma 把构作、度量推理和图式推理分开形式化，强调只能从图中读取一般有效的共精确信息，不能依赖某张图的偶然外观。</p>
+                <div class="citation-claims">关联主张：<code>method-diagram-rules</code><code>proposition-i-1-gap</code><code>modern-formalization</code><code>crit-diagram-overreaction</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-sep-epistemology-geometry">
+            <div class="source-type">研究者解释 · AUTHOR_INTERPRETATION · 可信度 高</div>
+            <a href="https://plato.stanford.edu/entries/epistemology-geometry/" rel="noreferrer">Epistemology of Geometry ↗</a>
+            <p>Jeremy Gray, Jose Ferreiros. Stanford Encyclopedia of Philosophy, 2025-09-26. 访问日期 2026-08-12。</p>
+            <div class="citation-records">
+              <article id="citation-sep-euclid-diagrams" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[18]</span>
+                  <code>sep-euclid-diagrams</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Section 1.1, The question of diagrammatic constructions</p>
+                <p>Gray 与 Ferreiros 介绍 I.1 的连续性异议，也说明受规则约束的图式推理并非从肉眼外观任意取证。</p>
+                <div class="citation-claims">关联主张：<code>method-construction-postulates</code><code>method-diagram-rules</code><code>proposition-i-1-gap</code><code>crit-diagram-overreaction</code></div>
+              </article>
+              <article id="citation-sep-deductive-gaps" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[19]</span>
+                  <code>sep-deductive-gaps</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：Section 1.2, Deductive inadequacies</p>
+                <p>该节讨论直线定义、唯一性、连续性与其他未明说前提，解释近代公理化为何要把隐含条件写出来。</p>
+                <div class="citation-claims">关联主张：<code>modern-formalization</code><code>crit-definitions</code></div>
+              </article>
+              <article id="citation-sep-many-geometries" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[20]</span>
+                  <code>sep-many-geometries</code>
+                  <span>直接支持 · SUPPORTS</span>
+                </div>
+                <p class="citation-locator">定位：Introduction; Sections 3.2-3.3 and 4</p>
+                <p>十九世纪以后，射影、双曲与黎曼几何把几何从唯一空间真理改造成可研究的多种结构，并迫使人区分形式几何与物理空间。</p>
+                <div class="citation-claims">关联主张：<code>modern-many-geometries</code><code>connection-non-euclidean</code></div>
+              </article>
+              <article id="citation-sep-hilbert-axioms" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[21]</span>
+                  <code>sep-hilbert-axioms</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Introduction; Section 3.2, Hilbert and axiomatic projective geometry</p>
+                <p>Hilbert 式方法把基本对象和关系置于显式公理网络中，其目标与欧几里得以构作为核心的公设实践并不完全相同。</p>
+                <div class="citation-claims">关联主张：<code>modern-formalization</code><code>connection-hilbert</code></div>
+              </article>
+              <article id="citation-sep-euclid-paradigm" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[22]</span>
+                  <code>sep-euclid-paradigm</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Introduction, paragraphs 4-5; Section 1.1, opening paragraph</p>
+                <p>Gray 与 Ferreiros 把几何称为系统逻辑思考的学校，指出欧几里得的工作数千年来被视为基础稳固之科学的范本；1.1 节又概括其严密演绎编排的长期声誉。</p>
+                <div class="citation-claims">关联主张：<code>novel-organization</code><code>impact-proof-culture</code></div>
+              </article>
+            </div>
+          </li>
+          <li id="source-mactutor-euclid-biography">
+            <div class="source-type">可靠二手来源 · REPUTABLE_SECONDARY_SOURCE · 可信度 中</div>
+            <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/" rel="noreferrer">Euclid of Alexandria ↗</a>
+            <p>J. J. O&#39;Connor, E. F. Robertson. MacTutor History of Mathematics Archive, University of St Andrews, 2002. 访问日期 2026-08-12。</p>
+            <div class="citation-records">
+              <article id="citation-mactutor-life-uncertainty" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[23]</span>
+                  <code>mactutor-life-uncertainty</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Biography, Proclus evidence and three authorship hypotheses</p>
+                <p>关于欧几里得的生平材料很薄，主要年代框架来自晚得多的普罗克洛记述；历史人物、学派领袖或集体名号等假说并未被彻底排除。</p>
+                <div class="citation-claims">关联主张：<code>context-life-uncertain</code></div>
+              </article>
+              <article id="citation-mactutor-predecessors" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[24]</span>
+                  <code>mactutor-predecessors</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Biography, Proclus report; discussion of Eudoxus and Theaetetus</p>
+                <p>普罗克洛传统把欧几里得写成整理欧多克索斯与泰阿泰德等前人结果、改进证明并编排全书的人，而非所有命题的首创者。</p>
+                <div class="citation-claims">关联主张：<code>context-editor-organizer</code><code>novel-organization</code><code>connection-eudoxus</code></div>
+              </article>
+              <article id="citation-mactutor-architecture" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[25]</span>
+                  <code>mactutor-architecture</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Biography, overview of Books 1-13</p>
+                <p>MacTutor 将全书概括为前六卷平面几何与比例、七至九卷数论、第十卷不可通约量、末三卷立体几何与五种正多面体。</p>
+                <div class="citation-claims">关联主张：<code>architecture-plane</code><code>architecture-number-magnitude</code><code>architecture-solid</code><code>connection-eudoxus</code></div>
+              </article>
+              <article id="citation-mactutor-influence" class="citation-record">
+                <div class="citation-record-heading">
+                  <span>[26]</span>
+                  <code>mactutor-influence</code>
+                  <span>补充语境 · CONTEXTUALIZES</span>
+                </div>
+                <p class="citation-locator">定位：Quick Info; Biography, influence and commentary tradition</p>
+                <p>该历史档案概述《几何原本》两千年以上的教学影响，以及古代评论、翻译和近代数学家持续以它为严密证明标尺的接受史。</p>
+                <div class="citation-claims">关联主张：<code>impact-proof-culture</code></div>
+              </article>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="metadata-band">
+        <dl>
+          <div><dt>Schema</dt><dd>1.2.0</dd></div>
+          <div><dt>Pipeline</dt><dd>0.1.0</dd></div>
+          <div><dt>Updated</dt><dd>2026-08-12</dd></div>
+          <div><dt>Content hash</dt><dd>pending</dd></div>
+        </dl>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <span>SuperIntelligence · 几何原本</span>
+    <a href="../../index.html">返回知识库</a>
+  </footer>
+  <script src="../../assets/library.js"></script>
+</body>
+</html>

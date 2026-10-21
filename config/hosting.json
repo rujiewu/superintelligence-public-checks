@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "source_repository": "rujiewu/SuperIntelligence",
+  "public_repository": "rujiewu/superintelligence-workspace",
+  "site_base": "/superintelligence-workspace",
+  "pages_origin": "https://rujiewu.github.io",
+  "api_origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+  "api_fallback_origin": "https://reading-workspace-api.zippybox2.chatgpt.site",
+  "gateway_project_name": "superintelligence-api",
+  "gateway_project_id": "prj_XsTnMB47lQp0NzrzgBbhy8Y0IcML",
+  "vercel_team_id": "team_tRWn9jfspYa9bwyrVWc85QJn",
+  "vercel_team_slug": "rujiewuac-8230"
+}

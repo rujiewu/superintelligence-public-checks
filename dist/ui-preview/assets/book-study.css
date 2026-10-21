@@ -1,0 +1,120 @@
+/* Shadow-root overrides adapt the shared static renderer to the reading column. */
+:host {
+  display: block;
+  min-width: 0;
+  --takeaway-bg: var(--accent-soft);
+  --coral: var(--accent);
+  --gold: var(--accent);
+  --warning: var(--danger);
+  --code: var(--accent-soft);
+  font-size: 15px;
+  line-height: 1.9;
+  color: var(--ink);
+}
+.book-study-content { container-type: inline-size; overflow-wrap: anywhere; }
+[hidden] { display: none !important; }
+:is(h2, h3, h4, section, article, div, blockquote)[tabindex="-1"]:focus { outline: none !important; box-shadow: none; }
+:host-context([data-input="pointer"]) [tabindex="-1"]:focus-visible { outline: none; }
+::highlight(hub-reading-note) { background: color-mix(in srgb, var(--accent) 18%, transparent); }
+[id] { scroll-margin-top: 126px; }
+.content-section { padding: 26px 0; border: 0; }
+.content-heading { grid-template-columns: 1fr; margin-bottom: 20px; }
+.content-heading > span { display: none; }
+.content-heading h2, section > h2 { font-family: inherit; font-weight: 650; font-size: 23px; line-height: 1.5; }
+.content-heading p { font-size: 14px; }
+.takeaway-band { padding: 20px 22px; color: var(--ink); border-radius: 10px; }
+.takeaway-band blockquote { font-size: 20px; line-height: 1.7; font-family: inherit; }
+.takeaway-band .citation-ref { color: var(--accent-ink); }
+.takeaway-band .claim-meta { margin-top: 14px; }
+.claim { padding: 14px 0; border: 0; }
+/* The export's dash requires a left gutter. Neither belongs in flowing prose. */
+.claim::before { content: none; display: none; }
+.claim > p { font: inherit; font-size: 16px; line-height: 1.95; color: var(--ink); }
+.claim .claim-explanation { font: inherit; font-size: 15px; line-height: 1.9; color: var(--body-ink); }
+.claim + .claim { margin-top: 12px; }
+.claim-meta { padding: 0; gap: 6px 10px; font-size: 11px; line-height: 1.6; font-weight: 400; }
+.claim-meta > span { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+.citation-ref { font-size: 11px; line-height: 1.4; }
+.claim-list, .received-book-strip, .classical-passage-list, .constellation-list, .deferred-passages,
+.argument-map, .concept-grid, .connection-list, .source-list,
+.book-architecture, .proposition-study-list, .visualization-list,
+.money-market-boundary, .money-market-chapters, .money-market-mechanisms,
+.money-market-institutions, .money-market-modern, .money-market-actions, .money-market-deferred,
+.stock-exchange-boundary, .stock-exchange-chapters, .stock-exchange-mechanisms,
+.stock-exchange-institutions, .stock-exchange-modern, .stock-exchange-actions, .stock-exchange-deferred,
+.behavioral-boundary, .behavioral-grid, .behavioral-mechanisms, .behavioral-biases,
+.behavioral-institutions, .behavioral-modern, .behavioral-actions, .behavioral-deferred {
+  margin-left: 0;
+}
+.argument-map { padding: 0; gap: 16px; }
+.argument-branches { padding: 0; gap: 16px; }
+/* Five-column connectors cannot be reused on vertically stacked branches. */
+.argument-branches::before, .argument-branches::after,
+.argument-branch::before, .argument-branch::after,
+.argument-root::after, .argument-synthesis::before { content: none; display: none; }
+.argument-branches, .concept-grid, .behavioral-grid, .money-market-chapter-list, .stock-exchange-chapter-list,
+.money-market-mechanism-list, .stock-exchange-mechanism-list, .behavioral-mechanism-list,
+.money-market-evidence-list, .stock-exchange-evidence-list, .behavioral-evidence-list,
+.money-market-action-list, .stock-exchange-action-list, .behavioral-action-list { grid-template-columns: 1fr; }
+.argument-node, .concept-card, .proposition-study { min-width: 0; }
+.argument-node { padding: 18px; min-height: 0; border: 1px solid var(--line); border-radius: 8px; box-shadow: none; }
+.argument-root, .argument-synthesis { width: 100%; }
+.argument-node small, .argument-voice { font-size: 11px; line-height: 1.5; }
+.argument-node strong { margin-top: 8px; font-family: inherit; font-weight: 650; line-height: 1.6; }
+.argument-node p { font-size: 14px; line-height: 1.85; color: var(--body-ink); }
+.argument-map > ul { margin: 16px 0; padding-left: 22px; font-size: 12px; color: var(--muted); }
+.connection-row { grid-template-columns: 88px minmax(0, 1fr); gap: 12px; }
+.concept-card { min-height: 0; }
+.concept-card > span, .relation { font-size: 11px; line-height: 1.6; }
+.concept-card .claim, .connection-row .claim { padding-bottom: 0; }
+.source-list { padding-left: 0; }
+.source-list > li { padding-left: 28px; }
+.source-list > li::before { font-size: 11px; line-height: 1.6; }
+.source-type, .source-citations, .citation-record-heading, .citation-claims { font-size: 11px; line-height: 1.6; }
+.source-list p { font-size: 13px; line-height: 1.85; }
+.citation-record { scroll-margin-top: 126px; }
+.citation-record:focus { background: var(--accent-soft); }
+.citation-claims a { display: inline-block; margin-right: 10px; color: var(--accent); text-decoration: underline; }
+.metadata-band { padding: 16px 0; }
+.metadata-band dl { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.knowledge-visual { padding: 18px 0; box-shadow: none; border-top: 1px solid var(--line); }
+.knowledge-visual figcaption h3 { font-family: inherit; font-size: 19px; line-height: 1.6; }
+.visual-items { gap: 24px; }
+.visual-label { font-family: inherit; font-size: 14px; font-weight: 600; line-height: 1.65; }
+.visual-item p { font-size: 14px; line-height: 1.85; color: var(--body-ink); }
+.received-passage-text h4, .witness-alignments h4 { margin: 0; padding: 14px 18px; font-size: 14px; }
+.book-discuss { margin-top: 16px; padding: 4px 0; border: 0; background: none; color: var(--accent); font-size: 12px; }
+.book-discuss:hover { text-decoration: underline; }
+svg { max-width: 100%; height: auto; }
+@container (max-width: 560px) {
+  .content-heading h2, section > h2 { font-size: 21px; }
+  .takeaway-band { padding: 16px; }
+  .takeaway-band blockquote { font-size: 18px; }
+  .book-architecture, .constellation-list, .deferred-passages, .geometry-figure,
+  .commentary-readings, .interpretive-disputes article > div,
+  .book-architecture li, .proof-steps > li, .classical-passage > header, .speech-unit,
+  .money-market-institution-list article, .stock-exchange-institution-list article,
+  .behavioral-table article { grid-template-columns: 1fr; }
+  .money-market-institution-list small, .stock-exchange-institution-list small,
+  .behavioral-table small, .speech-unit small { grid-column: 1; }
+  .received-book-strip { grid-template-columns: repeat(4, 1fr); }
+  .classical-passage, .constellation, .proposition-study { padding: 16px; }
+  .money-market-chapter-list header, .stock-exchange-chapter-list header, .stock-exchange-appendix header { grid-template-columns: 1fr; }
+  .money-market-chapter-list header em, .stock-exchange-chapter-list header em, .stock-exchange-appendix header em { grid-column: 1; white-space: normal; }
+  .citation-record-heading { flex-wrap: wrap; }
+  .connection-row { grid-template-columns: 1fr; }
+}
+@container (max-width: 760px) {
+  .visual-sequence .visual-items, .visual-relationship .visual-items, .visual-comparison .visual-items { grid-template-columns: minmax(0, 1fr); }
+  .visual-sequence .visual-item:not(:last-child)::after, .visual-relationship .visual-item:not(:last-child)::after {
+    content: "↓"; top: auto; right: 50%; bottom: -23px; transform: translateX(50%);
+  }
+}
+@container (max-width: 440px) {
+  .received-book-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .classical-passage, .constellation, .proposition-study { padding-inline: 0; }
+  .concept-card, .deferred-passages, .interpretive-disputes { padding: 16px; }
+  .received-passage-quote, .received-passage-text blockquote { padding: 14px 16px; font-size: 19px; }
+  .source-list > li { padding-left: 24px; }
+  .citation-record { padding: 10px; }
+}
