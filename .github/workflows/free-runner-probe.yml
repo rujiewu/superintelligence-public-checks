@@ -1,0 +1,21 @@
+name: Verify free public runner availability
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-free-probe:
+    if: github.actor == github.repository_owner && github.repository == 'rujiewu/superintelligence-public-checks' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
+    steps:
+      - name: Confirm owner-dispatched public-only execution
+        run: |
+          python3 - <<'CHECK'
+          import os
+          assert os.environ['GITHUB_REPOSITORY'] == 'rujiewu/superintelligence-public-checks'
+          assert os.environ['GITHUB_ACTOR'].lower() == os.environ['GITHUB_REPOSITORY_OWNER'].lower()
+          assert os.environ['GITHUB_EVENT_NAME'] == 'workflow_dispatch'
+          assert os.environ['GITHUB_REF'] == 'refs/heads/main'
+          print('PUBLIC_STANDARD_RUNNER_STARTED_NO_PRIVATE_SOURCE_NO_SECRET_NO_PROVIDER_CALL')
+          CHECK
