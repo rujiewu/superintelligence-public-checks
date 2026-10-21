@@ -143,7 +143,7 @@ def persist(api: Callable[..., Any], ref: str, files: dict[str, bytes]) -> dict[
     blobs = {x['path']: x['sha'] for x in actual_tree['tree'] if x['type'] == 'blob'}
     if actual_ref['object']['sha'] != commit or actual_tree.get('truncated') or blobs != expected:
         raise ValueError('Actual immutable archive differs')
-    return dict(status='PRIVATE_GIT_EVIDENCE_ARCHIVE_VERIFIED', repository=REPOSITORY, private=True,
+    return dict(status='PUBLIC_GIT_EVIDENCE_ARCHIVE_VERIFIED', repository=REPOSITORY, private=False,
                 ref='refs/heads/'+ref, commit=commit, tree=tree, retained_files=len(files),
                 manifest_sha256=hashlib.sha256(files['evidence-manifest.json']).hexdigest(),
                 existing_refs_changed=False, histories_deleted=False, billing_changed=False,
