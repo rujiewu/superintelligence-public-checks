@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "source_commit": "4fff03d700728c3e104e9103c352a4e35756d8b4",
+  "expected_source_commit": "4fff03d700728c3e104e9103c352a4e35756d8b4",
+  "capsule_commit": "8c9b6f60c1f3f466f212a8994636daba3d5d6e2c",
+  "execution": "FREE_PUBLIC_GITHUB_HOSTED_FIXED_ROUTE_CHECK",
+  "checks": [
+    {
+      "name": "gateway-release",
+      "status": "PASS",
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "source_commit": "4fff03d700728c3e104e9103c352a4e35756d8b4",
+      "packets_verified": 12,
+      "external_model_calls_allowed": false
+    },
+    {
+      "name": "gateway-release",
+      "status": "PASS",
+      "origin": "https://reading-workspace-api.vercel.app",
+      "source_commit": "4fff03d700728c3e104e9103c352a4e35756d8b4",
+      "packets_verified": 12,
+      "external_model_calls_allowed": false
+    },
+    {
+      "name": "gateway-release",
+      "status": "PASS",
+      "origin": "https://reading-workspace-api-rujiewuac-8230.vercel.app",
+      "source_commit": "4fff03d700728c3e104e9103c352a4e35756d8b4",
+      "packets_verified": 12,
+      "external_model_calls_allowed": false
+    }
+  ],
+  "record_reads": 0,
+  "record_writes": 0,
+  "model_calls": 0,
+  "pages_bytes_checked": false,
+  "api_origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+  "packets_verified": 12,
+  "exact_source_checked": true,
+  "external_model_calls_allowed": false,
+  "elapsed_seconds": 1
+}
