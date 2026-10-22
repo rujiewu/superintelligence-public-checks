@@ -46,7 +46,13 @@ jobs:
         run: node --input-type=module -e "import { capsule } from './scripts/public-capsule.mjs'; capsule();"
       - run: npm ci --ignore-scripts
         timeout-minutes: 2
-      - run: npx playwright install --with-deps chromium
+      - name: Install browser dependencies from official Ubuntu mirrors
+        # The ephemeral runner's Azure mirror stalled in three retained runs.
+        # Keep the same packages, archive signatures and four-minute deadline.
+        run: |
+          test -f /etc/apt/apt-mirrors.txt
+          printf '%s\n' 'https://archive.ubuntu.com/ubuntu/ priority:1' 'https://security.ubuntu.com/ubuntu/ priority:2' | sudo tee /etc/apt/apt-mirrors.txt
+          npx playwright install --with-deps chromium
         timeout-minutes: 4
       - run: python3 -m pip install --disable-pip-version-check pydantic==2.12.5
         timeout-minutes: 1
