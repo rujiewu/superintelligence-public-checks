@@ -72,6 +72,12 @@ export function authoredBodyMatches(body, sections) {
   });
 }
 
+// The frozen prose renderer displays an inline link as "label (destination)".
+// Preserve both parts: dropping the URL would hide a changed cross-book target.
+export function expansionParagraphExpectation(paragraph) {
+  return String(paragraph).replace(/(?<!!)\[([^\]]+)\]\(([^)]+)\)/g, '$1 ($2)');
+}
+
 // Markdown fences are renderer syntax; code whitespace remains material content.
 export function continuationParagraphExpectation(paragraph) {
   const text = String(paragraph).replace(/\r\n?/g, '\n');
@@ -372,8 +378,8 @@ export async function runAcceptance() {
             const normalize = value => String(value).normalize('NFKC').replace(/\s+/g, '');
             const text = normalize(body.textContent);
             const cells = [...body.querySelectorAll('td .cell-value, th')].map(x => normalize(x.textContent));
-            const complete = content.sections.every(s => text.includes(normalize(s.title))
-              && s.body.split('\n\n').filter(p => !p.startsWith('|')).every(p => text.includes(normalize(p)))
+            const missing_paragraphs = content.expected_paragraphs.filter(p => !text.includes(normalize(p.text)));
+            const complete = missing_paragraphs.length === 0 && content.sections.every(s => text.includes(normalize(s.title))
               && s.body.split('\n').filter(line => line.startsWith('|') && !/^\|[\s:|\-]+\|$/.test(line))
                 .every(line => line.split('|').slice(1, -1).every(cell => cells.includes(normalize(cell)))));
             const tables = [...body.querySelectorAll('table.study-table')];
@@ -382,8 +388,13 @@ export async function runAcceptance() {
             tables[0]?.scrollIntoView({ block: 'center' });
             const hrefs = new Set([...body.querySelectorAll('a[href]')].map(link => link.href));
             const source_links_complete = content.expected_source_urls.every(url => hrefs.has(new URL(url).href));
-            return { complete, fits, tables: tables.length, source_links_complete };
-          }, { ...payload, expected_source_urls: expansionSources.filter(s => payload.source_ids.includes(s.source_id)).map(s => s.url) }), 10_000);
+            return { complete, fits, tables: tables.length, source_links_complete,
+              missing_paragraphs: missing_paragraphs.map(p => ({ section: p.section, index: p.index, expected: p.text.slice(0, 160) })) };
+          }, { ...payload,
+            expected_paragraphs: payload.sections.flatMap(section => section.body.split('\n\n')
+              .filter(p => !p.startsWith('|')).map((paragraph, index) => ({ section: section.section_id, index,
+                text: expansionParagraphExpectation(paragraph) }))),
+            expected_source_urls: expansionSources.filter(s => payload.source_ids.includes(s.source_id)).map(s => s.url) }), 10_000);
           await screenshot(page, `${stage}-study.png`);
           if (!visible.complete || !visible.fits || !visible.source_links_complete) report.expansion_failure = { stage, ...visible };
           requireTrue(visible.complete && visible.fits && visible.source_links_complete, 'EXPANSION_CONTINUOUS_TEXT_TABLE_OR_LINK');
