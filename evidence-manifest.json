@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "source_commit": "b30ee2bbb707886749987b01346a376be39dc36c",
+  "profile": "public-content",
+  "reports": {
+    "report.json": {
+      "status": "FAIL"
+    }
+  },
+  "retained_files": [
+    {
+      "path": "report.json",
+      "size": 3943,
+      "sha256": "d44c868097522728db02ed539eba58c5e047a63fba40c42cd963d210d9f61ffa",
+      "git_blob": "f49fc6cfb22581453e26107ab0a638fe3008160f"
+    }
+  ],
+  "generated_capture_inventory": [
+    {
+      "path": "desktop-light-d02-v33-u6-study.png",
+      "size": 292068,
+      "sha256": "143ba5c188c880e7cb439b1a2291b039470cf911efb606e48d57b972f144f072",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-practice.png",
+      "size": 228502,
+      "sha256": "3904c7433cb9232ec2dddf5dc4edfc7db13ff708be2ab285545e43726014ba10",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-reasoning-study.png",
+      "size": 227445,
+      "sha256": "ead88ba65a8f474d567852a07a7de2ae17d87168b503c080386619d8d6c3ac84",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-sources.png",
+      "size": 198552,
+      "sha256": "289dfb98efcc2c0228ccd7b37d8a94cc73bef2474de4a3dc188aaed5bc5cb480",
+      "retained": false
+    }
+  ],
+  "all_generated_images_retained": false,
+  "private_records_included": false,
+  "scope": "Complete available reports and explicitly selected public/synthetic images; hashes of other generated captures are metadata, not retained image bytes. Archive success does not override failed assertions or grant independent acceptance.",
+  "capsule_commit": "555d11f772b10fab1f185e76b84dddda6f6d0d3c",
+  "evidence_repository": "rujiewu/superintelligence-public-checks",
+  "private_source_checks_executed_here": false
+}

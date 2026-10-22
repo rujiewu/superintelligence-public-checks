@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "status": "FAIL",
+  "scope": "Actual public reading content only",
+  "pages_url": "https://rujiewu.github.io/superintelligence-workspace/",
+  "run_id": "39844699236",
+  "expected_source_commit": "b30ee2bbb707886749987b01346a376be39dc36c",
+  "started": "2026-10-22T19:58:46.912Z",
+  "checks": [
+    {
+      "name": "published-manifest",
+      "status": "PASS",
+      "source_commit": "b30ee2bbb707886749987b01346a376be39dc36c",
+      "catalog_counts": {
+        "reading": 30,
+        "learning": 63,
+        "trading": 24,
+        "investment": 3
+      },
+      "authored_lessons": 32,
+      "hypothetical_cases": 17,
+      "execution": "LOCAL_SOURCE_CHECK_RECEIPT"
+    },
+    {
+      "name": "editorial_baseline_sources",
+      "status": "PASS",
+      "materials": 96,
+      "independent_acceptance": false,
+      "execution": "LOCAL_SOURCE_CHECK_RECEIPT"
+    },
+    {
+      "name": "expansion_source_bindings",
+      "status": "PASS",
+      "materials": 36,
+      "independent_acceptance": false,
+      "execution": "LOCAL_SOURCE_CHECK_RECEIPT"
+    },
+    {
+      "name": "continuation_source_bindings",
+      "status": "PASS",
+      "materials": 102,
+      "independent_acceptance": false,
+      "execution": "LOCAL_SOURCE_CHECK_RECEIPT"
+    },
+    {
+      "name": "published_target_sources",
+      "status": "PASS",
+      "targets": [
+        {
+          "id": "d02-v33-u6",
+          "source_hash": "ba0369069800a117fb34a00fc861fa355559a4d1ff6bebb8a773748eb5550c1c"
+        },
+        {
+          "id": "operational-reconciliation",
+          "source_hash": "b9fced1b4df610500919e77672377339fc3477a82e9b3d98669616602743ce82"
+        },
+        {
+          "id": "human-history-thousand",
+          "source_hash": "a590af5b4fe0e6cd0d68386d52f518539a6c3ac286e2ea5401469eaf9e51ff73"
+        }
+      ],
+      "execution": "LOCAL_SOURCE_CHECK_RECEIPT"
+    },
+    {
+      "name": "public_capsule_binding",
+      "status": "PASS",
+      "source_commit": "b30ee2bbb707886749987b01346a376be39dc36c",
+      "capsule_commit": "555d11f772b10fab1f185e76b84dddda6f6d0d3c",
+      "private_source_checks_executed_here": false
+    }
+  ],
+  "screenshots": [
+    "desktop-light-d02-v33-u6-study.png",
+    "desktop-light-d02-v33-u6-practice.png",
+    "desktop-light-d02-v33-u6-reasoning-study.png",
+    "desktop-light-d02-v33-u6-sources.png"
+  ],
+  "blocked_requests": 0,
+  "console_errors": 1,
+  "page_errors": 0,
+  "limitations": [
+    "No login, provider call, private read or learning-record write.",
+    "Desktop and mobile are independent Chromium contexts with viewport emulation, not physical devices.",
+    "Geometry and screenshots require human visual review; this report does not certify learning or book publication.",
+    "Source links are checked in the published document; external sites are not automatically visited."
+  ],
+  "manifest": {
+    "source_commit": "b30ee2bbb707886749987b01346a376be39dc36c",
+    "kind": "PUBLIC_ALLOWLIST_ONLY",
+    "modules": {
+      "reading": 30,
+      "learning": 63,
+      "trading": 24,
+      "investment": 3
+    },
+    "published_books": [
+      "abelson-sussman-sicp",
+      "adam-smith-wealth-of-nations",
+      "charles-darwin-origin-of-species",
+      "confucius-analects",
+      "euclid-elements",
+      "john-snow-mode-communication-cholera",
+      "plato-republic",
+      "rene-descartes-discourse-method"
+    ],
+    "private_records_exported": false,
+    "snapshot_exported": false,
+    "investment_personal_playbooks_exported": false
+  },
+  "viewport_runs": [
+    {
+      "name": "desktop-light",
+      "status": "FAIL",
+      "failed_stage": "desktop-light-d02-v33-u6"
+    },
+    {
+      "name": "desktop-dark",
+      "status": "FAIL",
+      "failed_stage": "desktop-dark-d02-v33-u6"
+    }
+  ],
+  "failed_stage": "desktop-light-d02-v33-u6",
+  "failure": "UNEXPECTED_REQUEST_OR_BROWSER_ERROR",
+  "finished": "2026-10-22T19:59:18.409Z",
+  "elapsed_seconds": 31
+}
