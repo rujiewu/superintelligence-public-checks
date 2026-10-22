@@ -3,10 +3,10 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "47bdf8e850bea5b6bebbbe3f2b7018fca592d912",
+  "source_commit": "33ee49d7cc1faa228e95fbcb71cf1f57822d0224",
   "base": "/superintelligence-workspace",
   "modules": {
-    "reading": 28,
+    "reading": 29,
     "learning": 63,
     "trading": 24,
     "investment": 3
@@ -102,7 +102,7 @@
         "john-snow-mode-communication-cholera": "46a09bc49d13ea8b8d37aab5bdd8becab0040a7c4718e1254a72fe6845fbd9f7",
         "plato-republic": "282a65d78e3296b43ca602a56694b40723e7af657b9b693b91fae68e6c807b17",
         "rene-descartes-discourse-method": "1797359b0107ac2da7d79d2ef709fd10bd1c4465ed14def96027b9f35787b6d6",
-        "human-history-thousand": "a0149900635aeab0d2a74f5f214e572fa12c15d4d7613b81ef6203247c7e103f",
+        "human-history-thousand": "f96371078c45fbce697383d3d30082e6ea063a672f7713b403a01ef4066b8a3f",
         "investing-decision-library": "09ae1be5ca061be539c372b0f6979e8c7f2469191815431268f28ff861c658f9",
         "human-knowledge-foundations": "ec9e1a05259a8b58276f434a76647672f80dcddbf94a5ea3fd365c105625ec11"
       },
@@ -221,7 +221,8 @@
         "fayol-administration-reading": "2f7fac8754a7f2363e5d0798b4884dbcaec9a17d6e81a1d8c382fee6123bdc2c",
         "faraday-candle-inference-reading": "ec0a44c0f7ddb80588f4bd236395faa9b00a4db794cabb3282931d8fb952ffa5",
         "ibn-khaldun-historical-judgment-reading": "ecbb552a6bd94d6d26e711986b97c16b930986f120a09fab9305fc73af980b05",
-        "shitao-method-transformation-reading": "f8ddb8cdc70b35dc54cdf54fbfa571f58e486d8991931bee798a6f50b11ce92e"
+        "shitao-method-transformation-reading": "f8ddb8cdc70b35dc54cdf54fbfa571f58e486d8991931bee798a6f50b11ce92e",
+        "montesquieu-law-liberty-reading": "116e08b490b934c8b69bb0c5abbfc691e9ba25674a5f17789afa39b922f241a0"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",
