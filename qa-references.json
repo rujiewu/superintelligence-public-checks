@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "source_commit": "0e21b1526c92f3e1eea190ebe26376354a7b7eb2",
+  "source_commit": "43a5ee5cf7f5eab4d0d29b339e8e02a482930fed",
   "local_checks": [
     {
       "name": "published-manifest",
-      "source_commit": "0e21b1526c92f3e1eea190ebe26376354a7b7eb2",
+      "source_commit": "43a5ee5cf7f5eab4d0d29b339e8e02a482930fed",
       "catalog_counts": {
-        "reading": 32,
+        "reading": 33,
         "learning": 63,
         "trading": 24,
         "investment": 3
@@ -25,7 +25,7 @@
     },
     {
       "name": "expansion_source_bindings",
-      "materials": 38,
+      "materials": 39,
       "independent_acceptance": false,
       "status": "PASS",
       "execution": "LOCAL_SOURCE_CHECK"
@@ -50,7 +50,7 @@
         },
         {
           "id": "human-history-thousand",
-          "source_hash": "34ee7dde73f6c118a788b678f8c4eb53dfebf264010f97759cbc81482a66e1f3"
+          "source_hash": "3ea74d58bfe2711a5a05c98101d16e10854e01b140997e46bf2a0780e9f09378"
         }
       ],
       "status": "PASS",
@@ -541,6 +541,66 @@
     {
       "source_id": "laplace-mactutor-discovery",
       "url": "https://mathshistory.st-andrews.ac.uk/Extras/Laplace_Probabilities/"
+    },
+    {
+      "source_id": "morgan1915-title",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/gallery/images/ldpd_5998129_000_00000009.jpg"
+    },
+    {
+      "source_id": "morgan1915-preface",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/gallery/images/ldpd_5998129_000_00000013.jpg"
+    },
+    {
+      "source_id": "morgan1915-chromosome-parallel",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/gallery/images/ldpd_5998129_000_00000023.jpg"
+    },
+    {
+      "source_id": "morgan1915-single-pair",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/gallery/images/ldpd_5998129_000_00000032.jpg"
+    },
+    {
+      "source_id": "morgan1915-observation",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/gallery/images/ldpd_5998129_000_00000033.jpg"
+    },
+    {
+      "source_id": "morgan1915-reciprocal",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/gallery/images/ldpd_5998129_000_00000037.jpg"
+    },
+    {
+      "source_id": "morgan1915-independent-pairs",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/gallery/images/ldpd_5998129_000_00000043.jpg"
+    },
+    {
+      "source_id": "morgan1915-combinations",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/gallery/images/ldpd_5998129_000_00000046.jpg"
+    },
+    {
+      "source_id": "morgan-nhgri-polygenic",
+      "url": "https://www.genome.gov/genetics-glossary/Polygenic-Trait"
+    },
+    {
+      "source_id": "morgan-nhgri-linkage",
+      "url": "https://www.genome.gov/genetics-glossary/Linkage"
+    },
+    {
+      "source_id": "morgan-nhgri-meiosis",
+      "url": "https://www.genome.gov/genetics-glossary/Meiosis"
+    },
+    {
+      "source_id": "morgan-nhgri-allele",
+      "url": "https://www.genome.gov/genetics-glossary/Allele"
+    },
+    {
+      "source_id": "morgan-brush2002-abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12549500/"
+    },
+    {
+      "source_id": "morgan-columbia-discovery",
+      "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/index.html"
+    },
+    {
+      "source_id": "morgan-nature-discovery",
+      "url": "https://www.nature.com/articles/097117a0"
     }
   ],
   "expansionPayloads": [
@@ -2397,6 +2457,96 @@
           {
             "title": "把公式带到别处以前，先回答两道检查题",
             "body": "先设一个假想说法：“一只装两球的罐子只可能全白、混合、全黑，所以三种组成当然各占1/3。”答案是，列出三种名称只交代覆盖范围，没有交代权重。若逐球独立等机会染色，混合有两个有编号的细项，权重便是1/2；若另有机制等机会选择三种组成，才得到各1/3。先把生成过程说清，不能让一句“当然”替它作证。\n\n再设：“某种判断连续五次成功，下一次便应是6/7。”只有把稳定成功率、条件独立、均匀参数先验和一致的成功记录等设定补齐，才是前面那种继承公式的计算。现实材料若没有交代失败是否也被记录、任务是否换过，这个数尚不能成为对现实的预测，更不能变成交易许可。\n\n可与[《社会学方法的准则》专题](https://rujiewu.github.io/superintelligence-workspace/reading/?read=public&resource=durkheim-social-facts-reading)另作比较：汇总的比例与它怎样形成，需要各自保留；再回到[《几何原本》](https://rujiewu.github.io/superintelligence-workspace/reading/?read=public&resource=euclid-elements)，比较条件内的推导成立与前提适合对象，是哪两项工作。这些是本篇设置的跨书问题，不主张已核实的影响关系，也不自动合并上下文或记录学习进度。"
+          }
+        ]
+      }
+    },
+    {
+      "entry": {
+        "module": "reading",
+        "resource_id": "morgan-heredity-mechanism-reading",
+        "sha256": "af5d2bf4a7bcc117dfc95bec6c5133843779fa418c8b2d1196a8a16aa34d28c1"
+      },
+      "payload": {
+        "source_ids": [
+          "morgan1915-title",
+          "morgan1915-preface",
+          "morgan1915-chromosome-parallel",
+          "morgan1915-single-pair",
+          "morgan1915-observation",
+          "morgan1915-reciprocal",
+          "morgan1915-independent-pairs",
+          "morgan1915-combinations",
+          "morgan-nhgri-polygenic",
+          "morgan-nhgri-linkage",
+          "morgan-nhgri-meiosis",
+          "morgan-nhgri-allele",
+          "morgan-brush2002-abstract"
+        ],
+        "sections": [
+          {
+            "title": "残翅没有显现，为什么下一代又会出现",
+            "body": "把残翅果蝇与长翅果蝇交配，第一代都长着长翅；让这些第一代继续互交，第二代又出现残翅。书中用这个例子提出一个具体问题：没有在外形上显现的差别，怎样跨过一代继续传递？如果只记“后代有四分之一残翅”，这个问题还没有得到解释。\n\n第一章把两条线接到一起：一条追踪亲代传下的因子如何分开、重新结合；另一条追踪细胞中的染色体如何分离。好的讲解要让读者看见两条线在哪一步相接，也要留下检验它们的地方。\n\n本篇只读这份旧书的序言和第一章。我们会先复算3∶1，再比较改变交配方向后的结果，最后检查独立分离怎样给出9∶3∶3∶1。书中的示意组合、作者报告的现象和另设的计算会分别说明；没有把图上画出的果蝇当成一份实际实验计数。"
+          },
+          {
+            "title": "先认清四位作者、署名序言与所读版本",
+            "body": "题名页列T. H. Morgan、A. H. Sturtevant、H. J. Muller和C. B. Bridges四位作者，出版者是纽约Henry Holt。版权页印1915年；同页另有印字“2”和手写“1916”，其作用尚未查明，不能据此给这份馆藏指定第二版或修订版。题名中的HEREDITY以图像为准，不沿用OCR误识的字母。\n\n序言末另署T. H. M.。序作者明确说，书中采用自己的解释，也承认读者可能不同意染色体理论：某些因子关系仍能作抽象处理，生物学解释却还须追问细胞、卵和精子。保留这个区分，比把四位作者所有文字都归给一个名字更可靠。\n\n所读范围是完整序言vii—ix和第一章1—26页，含图1—13；题名、版权及目录另作版本控制。第二章以后、原始实验记录和其他印次均未核读。目录上出现“连锁”“交换”等标题，不等于已经读过那些论证。"
+          },
+          {
+            "title": "外形没有显现，为什么不能说因子已经丢失",
+            "body": "书中把成对的遗传单位称为因子，把一对中的两种对应形式称为allelomorphs。这里先跟住它们在论证中做的工作：亲代各传来一份，形成的一对在配子形成时分开，后代又通过受精得到来自双方的组合。\n\n长翅和残翅的例子由此有了另一种读法。一个后代同时取得长翅和残翅的对应因子时，外形仍可表现为长翅；看到长翅，不能直接断定它只携带长翅的那一种。作者把这个关系称为长翅对残翅显性、残翅对长翅隐性。\n\n“隐性”在这个例子中描述组合与外形之间的关系。它不表示那份遗传差别已经消失，也不表示一种性状更弱、更少见或更有价值。最后几项区分是我们的阅读提醒，不能从一个表现关系额外推出频率和价值判断。"
+          },
+          {
+            "title": "染色体图把哪一步接上了，又省略了什么",
+            "body": "作者提出的机制是：配子结合使相应染色体成对，形成配子时一对的成员又分开。若一对因子分别由这一对染色体携带，染色体的分离便提供了因子分离的一个物理解释。要点在“一对如何分开”，不能只把两个名称并排写下就宣布已找到机制。\n\n图1上排画普通细胞分裂，下排画作者所称的减数分裂。原图的步骤和图注服务于这个对照，并没有画出一份完整的现代减数分裂两次分裂过程。NHGRI的现代术语说明明确涉及两轮分裂；这是后来知识给出的边界，不能偷偷补进旧图，假装原书已经逐步画全。\n\n图2还有一句很有用的提醒：“The hook on the Y chromosome is a convention”，即图中的Y钩形是一种约定。正文也说，当时尚未在雄性中据这种形状识别Y。画得清楚的符号，可以帮助追踪对象，却不能替观察结果增加确定性。"
+          },
+          {
+            "title": "先保留四种结合，再把外形相同的两类合并",
+            "body": "用现代记号V表示本例长翅对应形式，v表示残翅对应形式。设原先的亲本分别为VV和vv，第一代得到Vv；再设第一代产生V、v两类配子的机会各半，精卵按独立、随机的方式结合。记号和明确概率是我们的重建，机制顺序沿用书中例子。\n\n| 卵与精子的结合 | 后代组合 | 本例外形 | 理想概率 |\n| --- | --- | --- | --- |\n| V卵与V精子 | VV | 长翅 | 1/4 |\n| V卵与v精子 | Vv | 长翅 | 1/4 |\n| v卵与V精子 | vV | 长翅 | 1/4 |\n| v卵与v精子 | vv | 残翅 | 1/4 |\n\nVv与vV只是在表里分别保留卵源、精源的次序，作为基因型都属于同一种杂合。四项先给出VV∶杂合∶vv＝1∶2∶1；两项杂合组合在本例都表现长翅，外形再合为长翅∶残翅＝3∶1。两个层次各有用途：只记外形的3∶1，会丢掉长翅里面还有不同组合；只数三种组合并默认为等权，又会把中间那类算轻。\n\n原书图3、5、6分别追踪亲本、配子分离与可能结合。横条用于标记携某因子的染色体，不是在说真的存在横条纹；图下的四类同样不代表实验恰好只生了四只果蝇。"
+          },
+          {
+            "title": "理论上3∶1，为什么四只后代可以全是长翅",
+            "body": "现在另设一个有限样本：四只后代各自独立，长翅概率均为3/4，也没有存活和记录上的选择。在这些假设下，四只全为长翅的概率是(3/4)⁴＝81/256，并不为零。恰好三只长翅、一只残翅的概率是4×(3/4)³×(1/4)＝27/64；系数4来自残翅在四个记录位置中的四种可能。\n\n这些数来自我们另设的理想样本，不是书中的实验结果。3∶1说明模型如何分配机会，并不要求每四只恰好按比例出现。真正拿计数检验模型时，还须知道配对、样本量、记录方式和不同类型是否同样容易存活、被识别；不能看到偏离就立即给因子分离判错，也不能看到符合就宣布染色体机制已经独立证实。\n\n第一章没有给这里所需的原始样本分母、重复实验和完整计数表。我们可以核算作者展示的组合关系，尚不能据这些示意图替他计算一项实验的统计显著性。"
+          },
+          {
+            "title": "两只都记成灰色，它们的遗传组合就相同吗",
+            "body": "第一章紧接着讨论ebony与gray的体色。作者说，杂合后代比通常的野生型略深；到了第二代，中间类型又不能准确地与纯gray分开。若把它们一并记作gray，便得到三个gray对一个ebony。\n\n这个例子把观察分类直接带进推理。表上的“灰色”可能汇集不止一种组合；一个外形类别有多少项，不一定等于背后因子组合有多少项。反过来，图7给出的eyeless个体表现也有差异，名字并不保证每个个体的眼睛外观完全相同。\n\n这里保留的是作者对当时品系的描述，没有用现代实验重测它们。拿到一份记录，可以先问它怎样分类、哪些差别没有被分辨出来。具体性状还须各自检查遗传关系。尤其不能把第二章目录中的环境、发育等标题，当成已经读过并验证的后续解释。"
+          },
+          {
+            "title": "同样是红眼与白眼，为什么要分清谁是母本",
+            "body": "在残翅的例子之后，作者转向眼色，追踪X染色体与其所携因子。先设红眼纯合雌与白眼雄交配：第一代雌雄都红眼；第一代互交后，第二代的白眼只出现在雄性中。若把性别栏删掉，只剩合计3∶1，就会漏掉这个机制需要解释的重要分布。\n\n再把原先的交配方向反过来，白眼雌与红眼雄产生的第一代就不同：雌性后代红眼，雄性后代白眼。第一代互交后，第二代在雌、雄内部各为红白1∶1。书中的图9与图10分别保留这两条传递链；不能把它们的第一代父母串到同一个谱系里。\n\n我们可以用Xᴿ、Xʷ标记本例两种眼色对应形式，沿卵与精子的来源逐项检查。这里研究的是书中果蝇眼色的传递关系；图中的XX、XY分类不能单凭字母相似，就替所有动物或人类解释性决定。"
+          },
+          {
+            "title": "把正反交放在一起，比较哪一个预测被改变",
+            "body": "下表按原书的两个方向重排。纯合红眼母本的条件在这里写明，以免把任何红眼雌都默认为同样的亲本。第二代都由各自那组第一代雌雄互交产生；合计比例还以两性等机会、没有差别存活和记录为计算前提。\n\n| 原先亲本方向 | 第一代 | 第二代按性别看 | 第二代合计 |\n| --- | --- | --- | --- |\n| 纯合红眼雌×白眼雄 | 雌雄均红眼 | 雌全红；雄红白各半 | 红∶白＝3∶1 |\n| 白眼雌×红眼雄 | 雌红眼、雄白眼 | 雌、雄各自红白各半 | 红∶白＝1∶1 |\n\n比如第一行，第一代雌给Xᴿ或Xʷ，雄给Xᴿ或Y；四种等权结合里，两个雌性组合都红眼，两个雄性组合中一红一白。第二行的第一代雄给Xʷ或Y，雌性后代便也可能成为白眼，合并结果随之改变。比较交配方向，检验的是机制是否同时解释这些有区别的分布。\n\n书中把Y在此眼色模型里画作不带对应因子。不要把这份局部追踪扩成“今天已知所有Y染色体都没有基因”；原书第16页的宽泛措辞保留为历史层，本篇不采纳那个推广。"
+          },
+          {
+            "title": "9∶3∶3∶1里的两次相乘，凭什么成立",
+            "body": "第一章再将翅形和体色一起追踪。原例把残翅因子放在第二染色体，把ebony因子放在第三染色体；第一代对两对因子都为杂合。若两对独立分离，就有四种配子；双方的配子随机结合，图12列出十六种组合。\n\n按这个设定，长翅概率3/4，归作gray的概率3/4；两个条件在本模型中独立，长翅gray便为9/16。其余分别是残翅gray3/16、长翅ebony3/16、残翅ebony1/16，合起来为9∶3∶3∶1。原文第24页称它为“F₂ expectation”，即第二代的预期；十六格不能因此被改写为实际观察到的十六只后代。\n\n原文列两个“3”类别时，正文与图注的次序不同。数字串相同不妨碍各类别比例相同，但记录时仍须把标签带在数字旁。现代符号和乘积计算由我们展开，不能借一次表格重排把类别悄悄换掉。"
+          },
+          {
+            "title": "既然每一对会分开，为什么不同性状未必独立",
+            "body": "一对中的两个成员分离，与不同对彼此独立，是两个要求。第一章开头已经指出：若许多因子由同一条染色体携带，它们便应倾向一起传递。作者随后列出果蝇四个连锁组，与四对染色体作比较；不能用后半章的独立两对例子抹掉开头提出的连锁问题。\n\nNHGRI的现代连锁释义进一步用染色体上的接近程度解释共同遗传倾向，并说明紧密连锁的标记较少被交换分开。这是现代机构的教育性说明，并非我们已经核读1915年第三章的交换机制和连锁作图，也不是一个可直接换算距离的定量公式。\n\n因此，当两项性状各自看起来都近似3∶1，还不能直接把两项概率相乘。必须另有理由支持它们在所研究对象、交配方向和条件下的联合关系。只看边际比例，尚不足以确定联合分布。"
+          },
+          {
+            "title": "百万种配子，能否直接变成某个人的预测",
+            "body": "对三对独立、均为杂合的因子，原书图13给出八种配子，双方结合形成六十四种组合。把外形相同的项合并，比例是27∶9∶9∶9∶3∶3∶3∶1；各项的类别仍分别涉及翅形、体色和眼睛，不能只剩一个很长的数字串。\n\n第26页再说，二十对染色体可产生超过百万种配子。我们补出计数条件：每对都有两种需要区别的来源，彼此独立、按理想分离处理，则类型数是2²⁰＝1,048,576。这个计算没有纳入交换，也没有说明现实个体在所有位置都带可区分的杂合差别。\n\n要问某两个人相同的概率，类型总数还不够。还须给出各类型的权重、所比较的相同标准和对象之间的关系。原书据此谈个体多样性是一种机制解释方向，我们不能让一个类型总数替真实人群作完概率调查。"
+          },
+          {
+            "title": "书中人类“可能24”的数，今天应该怎样读",
+            "body": "第26页列各物种的染色体半数，把人类写作“probably, 24”。这个不确定措辞和旧数都应留在历史记录里；不能因为本章的组合推理有价值，就把每个当时的具体判断一并沿用。\n\nNHGRI的现代减数分裂说明给出通常的人类体细胞46条、配子23条，并以两轮分裂说明数目如何减半。这里明确采用现代来源的23，与书中的24分开。其余物种的旧列表没有在本篇逐一复核，不能给它们一张整表的现代正确保证。\n\n同样，旧图的四对果蝇染色体、现代的人类数目和一个抽象的二十对模型，各有对象。数字都写成染色体数，并不准许我们在这些对象之间任意挪用。"
+          },
+          {
+            "title": "接受一种机制，靠的是一次命中还是多种联系",
+            "body": "科学史学者Stephen G. Brush在2002年论文摘要中比较染色体理论的接受理由。他认为，新预测得到确认对一些研究者有作用，但连接孟德尔遗传、伴性遗传、不分离，以及连锁组数与染色体对数等解释联系，发挥了更大的作用。他也特别指出，从果蝇推广到更广泛生物时，直接确认的对象仍有限。\n\n我们实际读到的是摘要，没有读论文全文和其所依据的档案。因此，这里保留的是Brush具名的史学判断，不用它替每项历史实验补证，也不把它说成今天一切遗传现象都已获得同样确认。\n\n它为第一章留下一个值得带走的问题：一个机制能否在相同条件下解释多个有区别的结果？长翅的合并比例、正反交的性别分布和独立两对的联合比例，提出的要求各不相同。把这些要求逐项保留，比只记一个最熟悉的比例更能看见理论承担了什么。"
+          },
+          {
+            "title": "因子、等位形式与复杂性状之间，还隔着哪些知识",
+            "body": "NHGRI现在把allele解释为一个基因组位置上两种或更多的DNA序列版本。这个分子定义帮助我们认识现代术语，却不能倒灌进1915年的每个“因子”，假装作者已经拥有今天的DNA知识；本篇没有另读后续各章来重建他们完整的因子观。\n\n现代的多基因性状释义还提醒读者：一个性状可受两个或更多基因影响，许多性状也受环境影响。于是，单对因子的理想例子适合解释一种关系，不能替身高、肤色或复杂行为自动写出同一张3∶1表。这里没有进行任何个人风险估计。\n\n历史机制、现代分子定义和具体对象的证据，需要分别取得。保留这三层，既能认真读旧书的推理，也能承认这份讲解还没有覆盖今天的整个遗传学。"
+          },
+          {
+            "title": "两道检查题：比例吻合以后，还需要问什么",
+            "body": "另设一份假想记录：480只后代中，长翅360只、残翅120只。它与3∶1恰好相符，能否单凭这张表证明残翅因子就在第二染色体？不能。这张表只交代一种分类结果；要把它接到具体染色体，还需能区分机制的其他观察，不能把一个匹配比例当成唯一定位证据。这里的数字是教学设定，没有真实实验来历。\n\n再设：“红眼与白眼无论谁做母本，都应该生出相同后代。”按本章所用模型，答案是否定的：先写亲本的X组合，再逐代列配子，就会看到两个方向的第一代及第二代性别分布不同。若一份记录只有总红白数，没有母本、父本、世代和性别，便不足以复核这个比较。\n\n可另读[《概率的哲学随笔》专题](https://rujiewu.github.io/superintelligence-workspace/reading/?read=public&resource=laplace-probability-conditions-reading)，比较合并类别怎样保留权重，以及相乘何时需要独立条件；再回到[《物种起源》](https://rujiewu.github.io/superintelligence-workspace/reading/?read=public&resource=charles-darwin-origin-of-species)，问种群变化的解释与遗传机制的解释各承担什么。链接提供跨书问题，不证明历史影响关系，也不自动合并上下文或记录掌握程度。"
           }
         ]
       }
@@ -45156,7 +45306,7 @@
       "module": "reading",
       "id": "human-history-thousand",
       "markers": [
-        "当前去重提名 186 部，独立入选 0 部",
+        "当前去重提名 187 部，独立入选 0 部",
         "每批怎样推进",
         "与另外三个系统的关系"
       ],
@@ -45174,6 +45324,7 @@
         "权力受到限制，个人为什么还可能不安全",
         "个人自愿以后，为什么还要问社会规则",
         "从结果名称走到有理由的概率权重",
+        "遗传比例怎样接到可检验的机制",
         "每批怎样推进",
         "与另外三个系统的关系"
       ],
@@ -45210,6 +45361,8 @@
         "https://www.columbia.edu/~jc4345/Syllabus2.pdf",
         "https://psychclassics.yorku.ca/James/Principles/index.htm",
         "https://www.gutenberg.org/ebooks/57628",
+        "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/index.html",
+        "https://www.nature.com/articles/097117a0",
         "https://hls.harvard.edu/courses/the-spirit-of-the-laws-and-american-law/",
         "https://oyc.yale.edu/sociology/socy-151/lecture-4",
         "https://www.gutenberg.org/ebooks/58881",
@@ -45219,7 +45372,7 @@
         "https://oyc.yale.edu/sociology/socy-151",
         "https://catalogue.bnf.fr/ark:/12148/cb30386859v"
       ],
-      "source_hash": "34ee7dde73f6c118a788b678f8c4eb53dfebf264010f97759cbc81482a66e1f3"
+      "source_hash": "3ea74d58bfe2711a5a05c98101d16e10854e01b140997e46bf2a0780e9f09378"
     }
   ]
 }
