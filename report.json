@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "source_commit": "979f3062a2a145aeac7dd2054b7ab06e40f77b52",
+  "expected_source_commit": "979f3062a2a145aeac7dd2054b7ab06e40f77b52",
+  "capsule_commit": "26ece299cdee39c6ee4b7adb4f2f8b116343a49f",
+  "execution": "FREE_PUBLIC_GITHUB_HOSTED_FIXED_ROUTE_CHECK",
+  "checks": [
+    {
+      "name": "gateway-release",
+      "status": "PASS",
+      "origin": "https://superintelligence-api-candidate-rujiewuac-8230.vercel.app",
+      "source_commit": "979f3062a2a145aeac7dd2054b7ab06e40f77b52",
+      "packets_verified": 12,
+      "external_model_calls_allowed": false
+    }
+  ],
+  "record_reads": 0,
+  "record_writes": 0,
+  "model_calls": 0,
+  "pages_bytes_checked": false,
+  "api_origin": "https://superintelligence-api-candidate-rujiewuac-8230.vercel.app",
+  "packets_verified": 12,
+  "exact_source_checked": true,
+  "external_model_calls_allowed": false,
+  "elapsed_seconds": 1
+}
