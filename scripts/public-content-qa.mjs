@@ -16,7 +16,7 @@ export const TARGETS = [
   { module: 'trading', id: 'operational-reconciliation', file: 'knowledge/cases/operational-reconciliation.json', field: 'teaching_case', tableMarker: 'E1：卖 40 份',
     markers: ['订单取消了，成交与现金为什么还要核对', '一拆二', '2978', '12978'] },
   { module: 'reading', id: 'human-history-thousand', file: 'knowledge/plans/reading-thousand-program.md',
-    markers: ['当前去重提名 184 部，独立入选 0 部', '每批怎样推进', '与另外三个系统的关系'] },
+    markers: ['当前去重提名 185 部，独立入选 0 部', '每批怎样推进', '与另外三个系统的关系'] },
 ];
 const VIEWS = [
   { name: 'desktop-light', width: 1440, height: 1000, theme: 'light' },
@@ -126,6 +126,7 @@ export async function runAcceptance() {
     pages_url: PAGES, run_id: process.env.GITHUB_RUN_ID || null,
     expected_source_commit: process.env.EXPECTED_SOURCE_SHA || null, started: new Date(started).toISOString(),
     checks: [], screenshots: [], blocked_requests: 0, console_errors: 0, page_errors: 0,
+    browser_error_details: [],
     limitations: ['No login, provider call, private read or learning-record write.',
       'Desktop and mobile are independent Chromium contexts with viewport emulation, not physical devices.',
       'Geometry and screenshots require human visual review; this report does not certify learning or book publication.',
@@ -227,8 +228,22 @@ export async function runAcceptance() {
         else { report.blocked_requests += 1; await route.abort('blockedbyclient'); }
       }), 10_000);
       const page = await bounded(() => context.newPage(), 10_000);
-      page.on('pageerror', () => { report.page_errors += 1; });
-      page.on('console', message => { if (message.type() === 'error') report.console_errors += 1; });
+      const retainBrowserError = (kind, message, location = {}) => {
+        if (report.browser_error_details.length >= 32) return;
+        report.browser_error_details.push({ kind, view: view.name, stage,
+          message: String(message).slice(0, 600),
+          url: String(location.url || '').slice(0, 500),
+          line: location.lineNumber ?? null, column: location.columnNumber ?? null });
+      };
+      page.on('pageerror', error => {
+        report.page_errors += 1;
+        retainBrowserError('pageerror', error.message);
+      });
+      page.on('console', message => {
+        if (message.type() !== 'error') return;
+        report.console_errors += 1;
+        retainBrowserError('console', message.text(), message.location());
+      });
       page.on('dialog', dialog => dialog.dismiss());
       for (const material of materials) {
         stage = `${view.name}-${material.id}`;
