@@ -3,10 +3,10 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "979f3062a2a145aeac7dd2054b7ab06e40f77b52",
+  "source_commit": "b30ee2bbb707886749987b01346a376be39dc36c",
   "base": "/superintelligence-workspace",
   "modules": {
-    "reading": 29,
+    "reading": 30,
     "learning": 63,
     "trading": 24,
     "investment": 3
@@ -222,7 +222,8 @@
         "faraday-candle-inference-reading": "ec0a44c0f7ddb80588f4bd236395faa9b00a4db794cabb3282931d8fb952ffa5",
         "ibn-khaldun-historical-judgment-reading": "ecbb552a6bd94d6d26e711986b97c16b930986f120a09fab9305fc73af980b05",
         "shitao-method-transformation-reading": "f8ddb8cdc70b35dc54cdf54fbfa571f58e486d8991931bee798a6f50b11ce92e",
-        "montesquieu-law-liberty-reading": "116e08b490b934c8b69bb0c5abbfc691e9ba25674a5f17789afa39b922f241a0"
+        "montesquieu-law-liberty-reading": "116e08b490b934c8b69bb0c5abbfc691e9ba25674a5f17789afa39b922f241a0",
+        "gita-action-judgment-reading": "61c419c2ce9ee6cc8d34693afdb3b3787890a8e9f09eddf2186bfbdf3c2365fb"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",
