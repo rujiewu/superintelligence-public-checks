@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "source_commit": "32ff9e063b479aa01c5a518c38cd47eb727d6933",
+  "expected_source_commit": "32ff9e063b479aa01c5a518c38cd47eb727d6933",
+  "capsule_commit": "b60c32ad65bd3c8ff95293f5146ef380826d0174",
+  "execution": "FREE_PUBLIC_GITHUB_HOSTED_FIXED_ROUTE_CHECK",
+  "checks": [
+    {
+      "name": "gateway-release",
+      "status": "PASS",
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "source_commit": "32ff9e063b479aa01c5a518c38cd47eb727d6933",
+      "packets_verified": 12,
+      "external_model_calls_allowed": false
+    },
+    {
+      "name": "gateway-release",
+      "status": "PASS",
+      "origin": "https://reading-workspace-api.vercel.app",
+      "source_commit": "32ff9e063b479aa01c5a518c38cd47eb727d6933",
+      "packets_verified": 12,
+      "external_model_calls_allowed": false
+    },
+    {
+      "name": "gateway-release",
+      "status": "PASS",
+      "origin": "https://reading-workspace-api-rujiewuac-8230.vercel.app",
+      "source_commit": "32ff9e063b479aa01c5a518c38cd47eb727d6933",
+      "packets_verified": 12,
+      "external_model_calls_allowed": false
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "pages-manifest.json",
+      "bytes": 27296,
+      "sha256": "9e4ed5a63df004c2bdc2c0a15f80a6f77ec25d15ebd362390a20d92808c46d8d"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/books/abelson-sussman-sicp.json",
+      "bytes": 311229,
+      "sha256": "f47a3e165597a18e705b157776a01f954a62b73ac55290af9eb374ee314744f4"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/books/adam-smith-wealth-of-nations.json",
+      "bytes": 327650,
+      "sha256": "015cd7e00f878971c137695e99b2df992ec0a83b78cf0714e698671050febed4"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/books/charles-darwin-origin-of-species.json",
+      "bytes": 336092,
+      "sha256": "9e8e85a3b2ab63bbdd6daea40eba906e9a7016f3315868ee43a27515d679b16e"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/books/confucius-analects.json",
+      "bytes": 398339,
+      "sha256": "37050e9582a5880e84eb5a1574ba94543054983f6cb5e75106a7f3b14e257bf8"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/books/euclid-elements.json",
+      "bytes": 298181,
+      "sha256": "3de4b7ab86fb5ec1334ccc8c4ee710371b39f619a421e6749fe343217ce2b6fc"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/books/john-snow-mode-communication-cholera.json",
+      "bytes": 302345,
+      "sha256": "0df7c23dc1d4b41e2c916f8829db7b14aa7b42dbccc7a6bde0868d1d886369e5"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/books/plato-republic.json",
+      "bytes": 341956,
+      "sha256": "07dbfdf9f553078c04bea34cf4d8179fa1a3980ba4334f257b71b036ec385b8b"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/books/rene-descartes-discourse-method.json",
+      "bytes": 326021,
+      "sha256": "8e625f473cfa358ed7037f17e968e7846d9b24f39916b9fa9a1657e5e2775c61"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/catalog-investment.json",
+      "bytes": 79820,
+      "sha256": "fb4cbdd4be3dd989275305aa3bd0a11f9ba856ae6b3de8a3b1adaf069926756a"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/catalog-learning.json",
+      "bytes": 3411470,
+      "sha256": "8414693362a8f3bdb10f546011672a391b56a08af35dd0821d1b87effd33d319"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/catalog-reading.json",
+      "bytes": 1205440,
+      "sha256": "f1c7273424ef56b29d86de7e1c720a65cdddf5307085f9adef21dc293db062d6"
+    },
+    {
+      "name": "pages-bytes",
+      "status": "PASS",
+      "path": "data/catalog-trading.json",
+      "bytes": 1654207,
+      "sha256": "7a5a7bdba618d9b8d29ed72542425067f86d8f7f34fd93ac311c475e9c099db8"
+    }
+  ],
+  "record_reads": 0,
+  "record_writes": 0,
+  "model_calls": 0,
+  "pages_bytes_checked": true,
+  "api_origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+  "packets_verified": 12,
+  "exact_source_checked": true,
+  "external_model_calls_allowed": false,
+  "elapsed_seconds": 2
+}
