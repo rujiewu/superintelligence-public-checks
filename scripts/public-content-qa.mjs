@@ -16,7 +16,7 @@ export const TARGETS = [
   { module: 'trading', id: 'operational-reconciliation', file: 'knowledge/cases/operational-reconciliation.json', field: 'teaching_case', tableMarker: 'E1：卖 40 份',
     markers: ['订单取消了，成交与现金为什么还要核对', '一拆二', '2978', '12978'] },
   { module: 'reading', id: 'human-history-thousand', file: 'knowledge/plans/reading-thousand-program.md',
-    markers: ['当前去重提名 167 部，独立入选 0 部', '每批怎样推进', '与另外三个系统的关系'] },
+    markers: ['当前去重提名 171 部，独立入选 0 部', '每批怎样推进', '与另外三个系统的关系'] },
 ];
 const VIEWS = [
   { name: 'desktop-light', width: 1440, height: 1000, theme: 'light' },

@@ -3,10 +3,10 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "8d440401ffa3934e9dd53c0277d571498a741940",
+  "source_commit": "b85f47a662241eb04ebf1b174f89fdacd2d222aa",
   "base": "/superintelligence-workspace",
   "modules": {
-    "reading": 16,
+    "reading": 17,
     "learning": 63,
     "trading": 24,
     "investment": 3
@@ -102,7 +102,7 @@
         "john-snow-mode-communication-cholera": "46a09bc49d13ea8b8d37aab5bdd8becab0040a7c4718e1254a72fe6845fbd9f7",
         "plato-republic": "282a65d78e3296b43ca602a56694b40723e7af657b9b693b91fae68e6c807b17",
         "rene-descartes-discourse-method": "1797359b0107ac2da7d79d2ef709fd10bd1c4465ed14def96027b9f35787b6d6",
-        "human-history-thousand": "45f59af734eff3e8470c4ea7d456cd95c7d0f7ff73dd4c097e21c4af962d2b8c",
+        "human-history-thousand": "e180044987dae10608ddef2206fa16d6323ab3c49f93f3840c85668faa68a8ae",
         "investing-decision-library": "09ae1be5ca061be539c372b0f6979e8c7f2469191815431268f28ff861c658f9",
         "human-knowledge-foundations": "ec9e1a05259a8b58276f434a76647672f80dcddbf94a5ea3fd365c105625ec11"
       },
@@ -209,7 +209,8 @@
         "vitruvius-architecture-reading": "1c346fe5abbc8791693a4fc8a1725f625623f9b7f6f768294db88f461cbd3047",
         "mill-liberty-reading": "9f86a65bd5d8d709793ff15c830ec16c6a8fadfb5dce38e6113ce77c6f1dcbbd",
         "cato-agriculture-reading": "abf3448159f2c662dfeaf1c5e7593ff53b81601b22ef3abba5733530ce0908ec",
-        "wollstonecraft-rights-reading": "1671ad9a7641ba8c7b6458ab79dd14ccbaf58c75c431d1d7406c475fd31da780"
+        "wollstonecraft-rights-reading": "1671ad9a7641ba8c7b6458ab79dd14ccbaf58c75c431d1d7406c475fd31da780",
+        "bucciarelli-structures-reading": "0ce50a987dbde511cb5426277274f06fe511b6dfacfe6039b825635d77b46df1"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",
