@@ -549,6 +549,35 @@ export async function runAcceptance() {
             }
             stage = baseStage;
           }
+          if (item.id === 'd04-v33-u4' && payload.version === '1.1.0') {
+            const baseStage = stage;
+            for (const unit of ['worked-crash-windows', 'worked-reference-answers']) {
+              const index = payload.sections.findIndex(section => section.unit_id === unit);
+              requireTrue(index >= 4, 'PERSISTENCE_CHAIN_WORKED_CASE_IDENTITY');
+              stage = `${baseStage}-${unit}`;
+              const option = await bounded(() => page.waitForFunction(studyOptionForTitle, payload.sections[index].title,
+                { timeout: remaining(10_000) }));
+              const selected = await bounded(() => option.jsonValue());
+              await bounded(() => option.dispose(), 10_000);
+              requireTrue(/^\d+$/.test(selected), 'PERSISTENCE_CHAIN_WORKED_NAVIGATION');
+              await bounded(() => page.locator('#study-section').selectOption(selected), 10_000);
+              await bounded(() => page.waitForFunction(value => {
+                const heading = document.querySelector(`#study-heading-${value}`)?.getBoundingClientRect();
+                const panel = document.querySelector('#resource-detail').getBoundingClientRect();
+                const toolbar = document.querySelector('.detail-navigation').getBoundingClientRect();
+                return heading && heading.top >= Math.max(panel.top, toolbar.bottom) - 2 && heading.bottom <= panel.bottom;
+              }, selected, { timeout: remaining(10_000) }));
+              await screenshot(page, `${stage}-study.png`);
+              const figure = page.locator(`#study-part-${selected} .study-table`);
+              requireTrue(await figure.count() === 1 && await figure.evaluate(node => node.scrollWidth <= node.clientWidth + 2),
+                'PERSISTENCE_CHAIN_WORKED_CASE_TABLE');
+              const filename = `${stage}-table-study.png`;
+              await bounded(() => figure.screenshot({ path: `${OUTPUT}/${filename}`, animations: 'disabled' }));
+              report.screenshots.push(filename);
+              record(stage, { section_id: unit, heading_visible: true, table_visible: true, private_state_captured: false });
+            }
+            stage = baseStage;
+          }
           if (item.id === 'data_sources' && payload.version === '1.1.0') {
             const baseStage = stage;
             for (const unit of ['worked-twelve-cutoffs', 'worked-backfill-order']) {
