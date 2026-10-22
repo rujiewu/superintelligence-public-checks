@@ -51,7 +51,7 @@ jobs:
         # Keep the same packages, archive signatures and four-minute deadline.
         run: |
           test -f /etc/apt/apt-mirrors.txt
-          printf '%s\n' 'https://archive.ubuntu.com/ubuntu/ priority:1' 'https://security.ubuntu.com/ubuntu/ priority:2' | sudo tee /etc/apt/apt-mirrors.txt
+          printf '%s\n' 'https://archive.ubuntu.com/ubuntu/' 'https://security.ubuntu.com/ubuntu/' | sudo tee /etc/apt/apt-mirrors.txt
           npx playwright install --with-deps chromium
         timeout-minutes: 4
       - run: python3 -m pip install --disable-pip-version-check pydantic==2.12.5
