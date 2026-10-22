@@ -3,10 +3,10 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "88de0d19090bb69a3364acd81dde7aafcbb8f634",
+  "source_commit": "515fa8dd842d67c56d0b468aa3853d2e8729fc2d",
   "base": "/superintelligence-workspace",
   "modules": {
-    "reading": 24,
+    "reading": 25,
     "learning": 63,
     "trading": 24,
     "investment": 3
@@ -102,7 +102,7 @@
         "john-snow-mode-communication-cholera": "46a09bc49d13ea8b8d37aab5bdd8becab0040a7c4718e1254a72fe6845fbd9f7",
         "plato-republic": "282a65d78e3296b43ca602a56694b40723e7af657b9b693b91fae68e6c807b17",
         "rene-descartes-discourse-method": "1797359b0107ac2da7d79d2ef709fd10bd1c4465ed14def96027b9f35787b6d6",
-        "human-history-thousand": "1aa6b48dc40957395800daea249acbbae31ed6bd47efb4e7e7e069b59272f206",
+        "human-history-thousand": "9c47a5d1ffeaf1daefc89e99a4a03ce6ba49208a90b17783cfe0ee5ca90e3087",
         "investing-decision-library": "09ae1be5ca061be539c372b0f6979e8c7f2469191815431268f28ff861c658f9",
         "human-knowledge-foundations": "ec9e1a05259a8b58276f434a76647672f80dcddbf94a5ea3fd365c105625ec11"
       },
@@ -217,7 +217,8 @@
         "dhammapada-conduct-reading": "f28721b9d2413b1cf6468c5785cd4e530348584e45a876aff78d007b4a2e3961",
         "genji-opening-reading": "0c365472ce6971e3533a413be47ca60f3352c1b88f4c61ca336087677cd71a42",
         "james-stream-attention-reading": "e1b28775d8f9e18c731a08c137b8cc19a0d7078ef52ea6c43c319adb445102da",
-        "saussure-sign-value-reading": "0f82f26346af53c2bcc5b9e9816f4f28226c23f191b37b356f6f4e053975db63"
+        "saussure-sign-value-reading": "0f82f26346af53c2bcc5b9e9816f4f28226c23f191b37b356f6f4e053975db63",
+        "fayol-administration-reading": "2f7fac8754a7f2363e5d0798b4884dbcaec9a17d6e81a1d8c382fee6123bdc2c"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",
