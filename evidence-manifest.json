@@ -1,0 +1,2714 @@
+{
+  "schema_version": "1.0.0",
+  "source_commit": "32ff9e063b479aa01c5a518c38cd47eb727d6933",
+  "profile": "public-content",
+  "reports": {
+    "report.json": {
+      "status": "FAIL"
+    }
+  },
+  "retained_files": [
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-worked-answer-matrix-study.png",
+      "size": 256083,
+      "sha256": "f071e9e5fb82fde4a5fe9218f5928c810290a68c7217065038607491a95947b7",
+      "git_blob": "74b8efaf127d68a9db13f5be2cd2c7286e2092fe"
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-worked-answer-matrix-table-study.png",
+      "size": 63709,
+      "sha256": "bf431364bb4b04548e9956bfc543bd4f24f3b9d0be26e059f6ab164cb9fb9766",
+      "git_blob": "cb629661629fae127a7adc4971a55dfc9bcdcbcb"
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-worked-full-ledger-study.png",
+      "size": 245416,
+      "sha256": "4cdfd1e7c83264003d781d3ac3931730a46996a27a54148777b792024dc22715",
+      "git_blob": "cb7693e6fe2a9dc418bcee9dbbd3a9868be40a05"
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-worked-full-ledger-table-study.png",
+      "size": 53213,
+      "sha256": "d25cb33fb7e63a092a9befc055e737dd162e789df510ff578f9643f76c7c8a6e",
+      "git_blob": "95288060196a9c936ff069a625d1afe8d9947a30"
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-worked-crash-windows-study.png",
+      "size": 292476,
+      "sha256": "9c51c9444078f6c01a47cf1c3fd2629d5e869befcf29779adb0ed0f7161793de",
+      "git_blob": "c2db9828b6cb83f8df351e21da21c706bd829b15"
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-worked-crash-windows-table-study.png",
+      "size": 54662,
+      "sha256": "cb8e95b00a9d4f9b4997918eefbef88636cfc456b2fdd7bcf6eee5ad5ee83936",
+      "git_blob": "121ed35ff893b7c70ac242fdf49d3cdd00931b68"
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-worked-reference-answers-study.png",
+      "size": 267438,
+      "sha256": "7368bcd7fd51bed3ebee40a51b93dc1ffcdb10a22dc077de669a686967a58018",
+      "git_blob": "df5b778d865ba7b9b94ac8830b36ce1ede012f4a"
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-worked-reference-answers-table-study.png",
+      "size": 72729,
+      "sha256": "0319e212a133af547ec55c6d9de87989c84b1e0e5117b4901a91d442db1a4f8b",
+      "git_blob": "269070fa61e43f9004b1b21c5fd6ef9852975584"
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-worked-answer-matrix-study.png",
+      "size": 95645,
+      "sha256": "641d73ab7cb481526fd49c12fc64ed930259b4367883444bca8c194c451354a6",
+      "git_blob": "2eb3d110e2456f71b0c76d8bec17135c86aa145b"
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-worked-answer-matrix-table-study.png",
+      "size": 48063,
+      "sha256": "17c833eccaadf435a2a022e15ecd1f1dea7f9542876b9d743429228cb250c0f8",
+      "git_blob": "5d049fafa5282fcbe494911b7f3d7691422d5cd4"
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-worked-full-ledger-study.png",
+      "size": 94909,
+      "sha256": "2a5516dd2c1ef340012ef3336d59755b0505f141dd08b9ebd313c51cf84423f1",
+      "git_blob": "9e20677090bea6a8096d140e066f38cad9d2a4d4"
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-worked-full-ledger-table-study.png",
+      "size": 39391,
+      "sha256": "9870bd6ecf8551558861e1a98a197e99686ad53b62827d082bfec8b1ac7178f1",
+      "git_blob": "0d9a418e4b54d77660ab9458e4e1bb8b69a0293a"
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-worked-crash-windows-study.png",
+      "size": 110823,
+      "sha256": "9e5adc90208c7d5d8a2a13fe35afca3dc4755fa25be582c4e317b8f4f2156c8b",
+      "git_blob": "bca65d4e6d86400a3d9a5736ebf689d7349ca976"
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-worked-crash-windows-table-study.png",
+      "size": 63848,
+      "sha256": "fcb1a51ea3ddd103c70ae4b8ca06c0da4dcdd493ac871411e5940d5d37f111a7",
+      "git_blob": "9e588062575936d1c3b4c70bcb488ff208476d55"
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-worked-reference-answers-study.png",
+      "size": 94820,
+      "sha256": "44dcf5f1feec5b55cd259fa7cd6857a1f3966cfbe1824221f17ee5b83ced87b8",
+      "git_blob": "bc18dbe1299cac35bd1cba8cf6540a8db31c5d96"
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-worked-reference-answers-table-study.png",
+      "size": 52166,
+      "sha256": "4e9ba4d623a94f653116cd123175832a645d295c4a14c72dcd7894372c384b30",
+      "git_blob": "9ea0be9e75843c76b4a9eaf64df74336c3576c9c"
+    },
+    {
+      "path": "report.json",
+      "size": 149999,
+      "sha256": "8de11a47070e178957a0f333cad547656d4b4530a2d3a1758af9cf3861137674",
+      "git_blob": "a6840fca9aa9eb954477b6e2573d77b11d0a4dca"
+    }
+  ],
+  "generated_capture_inventory": [
+    {
+      "path": "desktop-light-d02-v33-u6-study.png",
+      "size": 292068,
+      "sha256": "143ba5c188c880e7cb439b1a2291b039470cf911efb606e48d57b972f144f072",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-practice.png",
+      "size": 228502,
+      "sha256": "3904c7433cb9232ec2dddf5dc4edfc7db13ff708be2ab285545e43726014ba10",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-study.png",
+      "size": 291374,
+      "sha256": "4b1d8ee8b6c671ee98cd73e32a1ba851afd14ac5d9ce0cf523f644aff2e50389",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-reasoning-study.png",
+      "size": 227445,
+      "sha256": "05f2692a36964ef480b5a1c083f435a7f45ec47b2bc02f5903202138fdb0ff63",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-practice.png",
+      "size": 228153,
+      "sha256": "71580ba1b4ad8644d463bb97c2870c46aa220b94903ecf1e89167302308069d4",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-reasoning-study.png",
+      "size": 225202,
+      "sha256": "f2612d3151ee8f7dc8fb4c2689a24c4aa6b43a3a6ffb4c161e324dddeddcac29",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-sources.png",
+      "size": 198552,
+      "sha256": "7e1df932f623cd3e5623a314581d618490f6f0c3cac1eda5734371878b59c9b6",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-sources.png",
+      "size": 195681,
+      "sha256": "c087cf8c70a9093452b35c05f646a05fa12484e961c2278961a82e3466c2688d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-study.png",
+      "size": 259506,
+      "sha256": "7f4da4b6da488ba39f9a82222db39fe41ca54d1e6f66d812a703d295140427fb",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-practice.png",
+      "size": 250337,
+      "sha256": "c59827bb79edd66671f910aa0adc0568eb04b1575615a04b666d2f32dc8033b6",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-study.png",
+      "size": 259488,
+      "sha256": "16764465b25351e48fbd0766fc9dc14445ca9621a63a2ddb5307643471d75acc",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-practice.png",
+      "size": 250136,
+      "sha256": "426e0e1bb9c74c9f1afc9c6e4b3322b0d0cb69928dbf1c830293e2e523ca0ba6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-reasoning-study.png",
+      "size": 248384,
+      "sha256": "d40a34496e8840fa7bd9948779604f30532d08f75a593e4e342bf231860da444",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-sources.png",
+      "size": 223548,
+      "sha256": "ebc9983a4271ba4d05b188087ab197bc7ba682fbe4976d06b7f064b5d65468cc",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-reasoning-study.png",
+      "size": 246167,
+      "sha256": "c5db116ff77fba147783f3bd9390feeea85d6f401dd78091cffa5a8095074a9e",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-sources.png",
+      "size": 220634,
+      "sha256": "f0f3c7894dd6fd41b915051024cebc242fe81c3978f07649ab16813521062812",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-human-history-thousand-study.png",
+      "size": 230696,
+      "sha256": "ff9018730993d88763968e8be89d3d4e0aa6631ff84c3005032fbada2631aefc",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-human-history-thousand-practice.png",
+      "size": 200942,
+      "sha256": "fcbfdbeeb6bed1067c16e6bdaaa84a1766f44c15bc949a9c2ef5ed88323a0b0c",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-human-history-thousand-study.png",
+      "size": 231215,
+      "sha256": "be37c77eba02f014a43ece0ad611e3a5a84c57454b490f1e4df620d82b78f098",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-human-history-thousand-practice.png",
+      "size": 200966,
+      "sha256": "1bcc0f75da4ffa8a94d144826525eadc4013aaadd0be9543671ab102d6b9cde8",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-human-history-thousand-nomination-study.png",
+      "size": 224731,
+      "sha256": "2254bcd8442cdd5ecefb199228e6c2f3d4cb86d162c959371857667e36eb2d31",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-human-history-thousand-sources.png",
+      "size": 183790,
+      "sha256": "cc84bbd89671a23940734855b02864b72e67513d449944cd3302ca6f5118316e",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-human-history-thousand-nomination-study.png",
+      "size": 225155,
+      "sha256": "6188bd8766803d94823a56252a20e4fa013f793dbf9c4de50b391dc7009e3236",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-human-history-thousand-sources.png",
+      "size": 182795,
+      "sha256": "90a5188ea193cae85e490264a72103915d8981b9cd420dbb88595c239e1c8cc4",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-harvey-circulation-reading-study.png",
+      "size": 299361,
+      "sha256": "ded4a1e9b5540a970ea4929d93d6167a11781e90c5bc0f190601a740f0cac0ca",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-vitruvius-architecture-reading-study.png",
+      "size": 295413,
+      "sha256": "2a99329c67879f13294ad8b901cb5f4750d5f578265703fbed70c8e6e19e5101",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-d02-v33-u6-study.png",
+      "size": 76036,
+      "sha256": "c1b9f82584117392f78bea69051eecb85c1b9d250c924dbb872f78d5930d60c7",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-d02-v33-u6-practice.png",
+      "size": 97596,
+      "sha256": "2fc6c9ea43663c0d878c99bd14b4738381c85d7b076387d3312e41ee6dc9bff0",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-d02-v33-u6-reasoning-study.png",
+      "size": 88910,
+      "sha256": "86bc3c00f879e4bcca1bb3ad7f15a399189c4cb2f024ab897d37b026a507d55c",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-mill-liberty-reading-study.png",
+      "size": 285023,
+      "sha256": "35103a129643476ed7476618a08dd7f7752f2d189aabae574d2b3c3dd2fce3f2",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-d02-v33-u6-sources.png",
+      "size": 71554,
+      "sha256": "bf80d8af5ecafd7ed9dcf807dd68ca69146e23158937102c3aeab0e942a9fbf6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-cato-agriculture-reading-study.png",
+      "size": 285440,
+      "sha256": "7f69dc44f534534f2bebd0b102fcd1d93f1baddbca56a461448a617f4e586442",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-operational-reconciliation-study.png",
+      "size": 54531,
+      "sha256": "81e306653e41b69196ca1f240141df691d5f3e9dbe8b70be470c4f554a2c9163",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-operational-reconciliation-practice.png",
+      "size": 97321,
+      "sha256": "cb41067cdbcafa774ee11fd18e4ca3eee43cf82a76924303c091fb211faae6c1",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-operational-reconciliation-reasoning-study.png",
+      "size": 84526,
+      "sha256": "5701b88aaede9c521eb36bc19fbc090834707baf0be77fd381dcaf0f6dcf7f34",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-operational-reconciliation-sources.png",
+      "size": 76439,
+      "sha256": "e749625bbb9a6d7b72caa0b5a3ef61b95aee8c3968c45ac0e7be08a10298188b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d01-v33-u1-study.png",
+      "size": 254282,
+      "sha256": "6e22992bb3f1e59035c2e06455722f6943ee6a6e88633c686a7cec816237e069",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d01-v33-u2-study.png",
+      "size": 252175,
+      "sha256": "4cd6bc4aa350aaf02ede9be1261499e8e7c9b1a5497e599c13ae24a3129489b9",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-human-history-thousand-study.png",
+      "size": 65304,
+      "sha256": "eb0132dbf4336c37bbf47c94d4fa01475ff4ef2eb53687d74d0e68edac40e43c",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-human-history-thousand-practice.png",
+      "size": 82927,
+      "sha256": "9610f1dcca7793c81e9dcd9feb1117b4e81b39bf79a054efb131aad7c04f12a4",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-human-history-thousand-nomination-study.png",
+      "size": 64606,
+      "sha256": "85a761af04f488692726d2b374519a46f04aa39561b6b96f82e1032dc51fd7f4",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-human-history-thousand-sources.png",
+      "size": 54068,
+      "sha256": "c1135cfc4fc0a7aebc9f5eab6698ce7ddc0c13b0441a16b055247d8df2bd7851",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d01-v33-u4-study.png",
+      "size": 246277,
+      "sha256": "feac5cd9cdbd622a7b60a342c946fadebce5065b6e9e3c009404a885545a5103",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d03-v33-u3-study.png",
+      "size": 226346,
+      "sha256": "55aa18c29f4222a1840c26fcea5ce117fadac038a635113219f4635627170658",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-d02-v33-u6-study.png",
+      "size": 75703,
+      "sha256": "dd269458329b504678daa1e8bf1c3e689f67bc8b7cdf7fc2cd8ded21304c6f8a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-d02-v33-u6-practice.png",
+      "size": 96910,
+      "sha256": "d3b464f22255079372230fd857570a58cb9e0d2ec7e642fb6a8dc28ddf96a6e2",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-d02-v33-u6-reasoning-study.png",
+      "size": 88232,
+      "sha256": "e6873ed95cd400cfacaaa7ddf8ebe86ee5147601876abc48520d4cabb1f054b4",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-d02-v33-u6-sources.png",
+      "size": 71077,
+      "sha256": "5445f3e1d931c929dde6dca466107ebe6bf32d8fcd1f4d2516d772cabeeb5e4a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d03-v33-u4-study.png",
+      "size": 261945,
+      "sha256": "b9a56b400ee5d7b14df285b0ddfe2a2619b4a2ef7037a00105675dc4ed089376",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-operational-reconciliation-study.png",
+      "size": 54356,
+      "sha256": "f1309b1c30e6c9156376cf193463d5eb1b3ada4809545119dd316a50d18f0894",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-operational-reconciliation-practice.png",
+      "size": 96624,
+      "sha256": "e9f0d6eb573b3a38264fac57820acdd55806e89e9945c1bdfac4b964fa0f19fa",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d03-v33-u5-study.png",
+      "size": 277602,
+      "sha256": "71357c30ae56b0605cd6eeca6f7b832a577ca686bead3812ba8ab76e1af5a50f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-operational-reconciliation-reasoning-study.png",
+      "size": 83902,
+      "sha256": "bf7c27097d22f3792af7c66d76a0de975a1fd663a25c67205ed7813c2bf518be",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-operational-reconciliation-sources.png",
+      "size": 75898,
+      "sha256": "b8b5f0e78b675e43a2889e3eb0e61eb0a0efe8c1f59c13366b9f8c0239300b29",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d06-v33-u1-study.png",
+      "size": 169610,
+      "sha256": "84dbe07d4b9a0daa1893c3311d2944c52ed44062f56952e323e70b49b81a4f41",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-human-history-thousand-study.png",
+      "size": 65046,
+      "sha256": "3405fde173dbf7d33ad69dece2a83b932b136eca7cfe1ff14ff7040adfbeeac4",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-human-history-thousand-practice.png",
+      "size": 82697,
+      "sha256": "1342efbbad61596a4375147515db850c4f3c052f0b6349f8d67d03b682435d75",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-human-history-thousand-nomination-study.png",
+      "size": 64258,
+      "sha256": "d94f2a7a0a5a5265bb96c32c8a6fc2df80898144fbcfc8dfab05f320b087e5f9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-human-history-thousand-sources.png",
+      "size": 53766,
+      "sha256": "effe7a17770486a0d1c72a7f162a6ccc7366ef8a63f27846d7f56d9a470e5e90",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d06-v33-u2-study.png",
+      "size": 258536,
+      "sha256": "7fd687d9cdab1fa3da873f551da27a1b0f5cf111e98ccd15a0acfe0329010804",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-harvey-circulation-reading-study.png",
+      "size": 53758,
+      "sha256": "29748d9cd39737a018567a52eb3cea274d8629674bb0fc1119ce6437e8bd4715",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d06-v33-u3-study.png",
+      "size": 275644,
+      "sha256": "f31b3876f94fd221fb425c1dcfd59f542035996f5e11fa79745cd9ea3074bdf3",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-vitruvius-architecture-reading-study.png",
+      "size": 63418,
+      "sha256": "bcf275feff7e665f835c78a72569874dee95432b0c2397f781ad08f5876a78c1",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-mill-liberty-reading-study.png",
+      "size": 75199,
+      "sha256": "00d3d6eef70f6d608b6b158b1cdc219fb63ed43245058026180db62522222564",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d07-v33-u1-study.png",
+      "size": 282120,
+      "sha256": "733536dfe3469cfaaa8163eb09128bf91e5e84d2000d0dec5de5f2e9460f1af0",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-cato-agriculture-reading-study.png",
+      "size": 53128,
+      "sha256": "850c3ac227aef2905b8aabf10d000c31378b8719bd170dd8ffbfce69f0444d84",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d07-v33-u2-study.png",
+      "size": 242427,
+      "sha256": "4233e48702a892edcd564efa1d1b1f60c1af54f355ef7e210f0ad9b65b63a38f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d01-v33-u1-study.png",
+      "size": 58741,
+      "sha256": "07ecfea070cc2f1f5a7ab7bf2d0e1b2bfc999d924bb766064f6f57311291106a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d07-v33-u3-study.png",
+      "size": 251806,
+      "sha256": "6b7a429f54ed60fe6c38cd114c931ede6cec9d3e86fe35900a384fd5038f8771",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d01-v33-u2-study.png",
+      "size": 45223,
+      "sha256": "7b52e09d377f0539d217133f3b34c8a1db62a0786baf0c86529d4fa0930e7bf5",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-working-capital-bridge-study.png",
+      "size": 228861,
+      "sha256": "b5b73809d9128842c1be9fce2b8a0076bc808565f12caa2b56b8634119c0a85e",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d01-v33-u4-study.png",
+      "size": 41443,
+      "sha256": "b1f5e817056288d7dcdabc7be42e22c5b5d2b0795851823623f9af36c6066c6d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-capacity-cost-breakpoint-study.png",
+      "size": 223375,
+      "sha256": "d997632ec537042ba590bdf5a7434d1d985e5bc63a9b879d8426b26a78fb21d2",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d03-v33-u3-study.png",
+      "size": 39296,
+      "sha256": "0ea26c8b211890f66aecd6f0819cc895d30e360bfde7b78e941515cc7c71dd07",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-inventory-price-liquidity-study.png",
+      "size": 283861,
+      "sha256": "1f89c8d48134a7479716bdb0e6d925b6a58ba699bde237d8622d1b78e07a4de8",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d03-v33-u4-study.png",
+      "size": 53834,
+      "sha256": "270cbb6fe0755bee76dbeb004e16c11a2642580945e8af2eab54484d4cf4258f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-investment-fees-compounding-study.png",
+      "size": 201692,
+      "sha256": "07d8aab69e51789bf6866379732e193de742ae52c94c1710b0181351831843a9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d03-v33-u5-study.png",
+      "size": 53619,
+      "sha256": "1cb670e24eaf024217ac6e26a9c88b54a3e3dc65b87e430722a757ff7ba9bb09",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-investment-decision-range-study.png",
+      "size": 242683,
+      "sha256": "e96ee719c967a185b39d3972af6274958627a1364b75edf39722ab31fe5d3258",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d06-v33-u1-study.png",
+      "size": 39054,
+      "sha256": "5adc3ce163cbe92f1965b92da4b86a86ab178165a570dc546bfdcf3ae33ebdc8",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d06-v33-u2-study.png",
+      "size": 35626,
+      "sha256": "f9bc8d49048259e51994937964bf5794ef23d5a91b6c8c8f1e6ede48e6eebbc8",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d06-v33-u3-study.png",
+      "size": 70519,
+      "sha256": "e154d92785345944ea3147e575e58e6a7174a3d6b110a5b4ca89fae006cbb02f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d07-v33-u1-study.png",
+      "size": 74190,
+      "sha256": "b15cef9eac0026e303b66ab5665b09d0043d05ffdae99903d81c4ea098b508af",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d07-v33-u2-study.png",
+      "size": 45003,
+      "sha256": "945a55dc0e570a13405b486c5732ea9eb21c3b61c50f40c0302a60cee273f673",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d07-v33-u3-study.png",
+      "size": 49037,
+      "sha256": "fa4e7395520570d687373c7b09afc105eecf211d9591c80cc3b1a664995580ef",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-working-capital-bridge-study.png",
+      "size": 55076,
+      "sha256": "0f6af620b014224bc065a540a14e91410b0f044e99868332e3072c060c9ae3cb",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-capacity-cost-breakpoint-study.png",
+      "size": 42457,
+      "sha256": "e204f359003be4a282316e159d7498056689a346d5037b67eb131132b72e4d1e",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-inventory-price-liquidity-study.png",
+      "size": 59846,
+      "sha256": "a4218be5e8d0796c19e7a4e48a1429d8820936095c6e7b0e8ad75dd29ebcaaaf",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-investment-fees-compounding-study.png",
+      "size": 45498,
+      "sha256": "0073d35c37464f685d29793c8e26a78c73540e692f0b018e195467b4ec7f97ce",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-investment-decision-range-study.png",
+      "size": 49959,
+      "sha256": "8a2c4c9ab88d23d7427d0b73e5885e5a680f09357d3b42531985ec9ef8ef5e2b",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-study.png",
+      "size": 107788,
+      "sha256": "c45fd1429539cb1135bbded782d39e156bc3c54cf688ffb2c9b3151c4c95a7de",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-study.png",
+      "size": 330736,
+      "sha256": "583fc9516299cb0afa439c55a89699df6f804302613fef08e3acb4c6f5e97b2e",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-worked-history-selection-study.png",
+      "size": 111860,
+      "sha256": "5ba0c97e1ede6688bdd44234e7b2bff16de96ac374ffb1d00915dfced87f784d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-worked-history-selection-study.png",
+      "size": 289025,
+      "sha256": "99b1016d0b331b7a0317e2d0796d5eeb959a51739cbcd27934af973f04514b88",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-worked-history-selection-table-study.png",
+      "size": 61606,
+      "sha256": "212cc99ed9ffbaebdb22e69fb34f27829ee419d5faa532e802ef801c32970929",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-worked-history-selection-table-study.png",
+      "size": 56891,
+      "sha256": "478533ad6b83948ac3e63e3671c7481f440c0f0b7755a0be26baeaa4dffba2ba",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-worked-particular-causes-study.png",
+      "size": 285446,
+      "sha256": "6e5c3b840e12f5765f6479861daa43d93ecc2655d54d7117f69904a12c8c1581",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-worked-particular-causes-study.png",
+      "size": 108696,
+      "sha256": "9ea2c7033c9eced9190f73a9680e6ec1df74c9adb02cb58b91f902836bc67b17",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-worked-particular-causes-table-study.png",
+      "size": 62676,
+      "sha256": "f62bbc5a7638ae8dccb8691c35fe400ace8b34e5fbfe1b82775adbbd59815647",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-worked-particular-causes-table-study.png",
+      "size": 72283,
+      "sha256": "a27e25610b72030a3afb792b6f8a6b03a6fd1499dfc3eecf64cecd10c846845e",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-worked-causes-effects-study.png",
+      "size": 288292,
+      "sha256": "46788070df844977a1d00c80803a0d9a1a880ca13c357f4ce8c7d0281da0ab08",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-worked-causes-effects-study.png",
+      "size": 109371,
+      "sha256": "c1e388eb5bef4bcaf0103d4e101b754f4581d7b0f25ea35665663778780a2dc2",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-worked-causes-effects-table-study.png",
+      "size": 57643,
+      "sha256": "97782af9a466ee50c5178d13e2ca9e530b2af455f9de86a319975cb6fa034c5f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-worked-causes-effects-table-study.png",
+      "size": 65533,
+      "sha256": "24451c77fa550b15da8a2cd1c15e1b51f192873d933a37c37b4782b06cdb3fa9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-worked-instrument-failure-study.png",
+      "size": 114440,
+      "sha256": "473b65cf6b2090f4745ef711618c87907b0fe310d55b10d2a099be42fb58e30b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-worked-instrument-failure-study.png",
+      "size": 293396,
+      "sha256": "2e0895b5690d349dcde247f56bd10cb1c6db25722f257e6f259dc84a57e9b309",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-rene-descartes-discourse-method-worked-instrument-failure-table-study.png",
+      "size": 59840,
+      "sha256": "f345c1b4536748275d09fdf2a909a104d41681807ee3f002d937cf20f50adfec",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-rene-descartes-discourse-method-worked-instrument-failure-table-study.png",
+      "size": 68482,
+      "sha256": "753a712d0dd58237d7a77a0c8eaa2e64170e3d92e4d6460f1faf81d26fa9428d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-study.png",
+      "size": 113734,
+      "sha256": "deb351d94ac8b2fb97fe39c56b0e797e8e5e0c6186c7df22c0a6fe0301cbe45e",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-worked-opinion-reasons-study.png",
+      "size": 116951,
+      "sha256": "43ca1b8246ba9328320788a951a04f496203cc736a5c0546f720203a3cd9ceed",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-study.png",
+      "size": 351330,
+      "sha256": "74aca895089981ebf50e91e34aa4ffc48cc68b7ad754eb539c7ea6331fd61030",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-worked-opinion-reasons-study.png",
+      "size": 281588,
+      "sha256": "1507adcd33b0d68d95dc1ad0723db9904a1ff85878ba46ed14f5e3ec9f48e46a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-worked-opinion-reasons-table-study.png",
+      "size": 57828,
+      "sha256": "bde9875ba4353693d28c774243169f8e2badbbc4e8dc4af85c14a39ba48cefa9",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-worked-opinion-reasons-table-study.png",
+      "size": 50447,
+      "sha256": "18ae7c47c22370708912fe761e18cea9b06940aa51f93d88f276fefe245e3e81",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-worked-bridge-information-study.png",
+      "size": 105592,
+      "sha256": "29d59641032734bab4cf04a56398f692d8cb58738b88801b33af73ad6409f7a9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-worked-bridge-information-table-study.png",
+      "size": 39392,
+      "sha256": "3b38fb72ce6ea6f6712699225d8bb8b91fbbe3013f570fe4dffa25c425b73695",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-worked-bridge-information-study.png",
+      "size": 286344,
+      "sha256": "63bdd3555dca99cf06c6335c2ecb74622cab5923cc035fd37a27a4ff7e9c3745",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-worked-interested-advice-study.png",
+      "size": 111133,
+      "sha256": "bfcce52380f2fcfb5e155c248a5fdcb105af09f1788a51093fde2a7ce1ed91b6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-worked-bridge-information-table-study.png",
+      "size": 28675,
+      "sha256": "e4ccba77b73e8ddf802b8750c75c1c9adbc2c2050d5a377632b919bc5792aa54",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-worked-interested-advice-table-study.png",
+      "size": 56487,
+      "sha256": "df9644364c9ef3b8c63adaa3a52b4032dc2aca8a103bb65b37e3d67cb376a214",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-worked-interested-advice-study.png",
+      "size": 292278,
+      "sha256": "5226d73dc98bde414bf1bc0a0af084ba42af30e5ebbf2f9335520efcbd37e0f2",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-worked-indirect-restrictions-study.png",
+      "size": 123259,
+      "sha256": "14e65b47f1bda786e47e9f09861a9648201557287a9c816087cb29876e14182f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-worked-interested-advice-table-study.png",
+      "size": 45121,
+      "sha256": "8595f6f798bb49f7ab0bb0224e5a470855fc9aefba11d5e6aac02115f21ac238",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-mill-liberty-reading-worked-indirect-restrictions-table-study.png",
+      "size": 69671,
+      "sha256": "ff36aaab1faa99bab410bf1e5cc88a66298569cd69deb8b7af19c04c81a4b6a3",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-worked-indirect-restrictions-study.png",
+      "size": 315114,
+      "sha256": "6a33561fa82d5bb55adb29dfe75edd074e4e0162cb4a412b3f17665236befd8c",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-mill-liberty-reading-worked-indirect-restrictions-table-study.png",
+      "size": 57037,
+      "sha256": "0924c1f1adbe54944f4d41179af067e3df0eecf16b12e7c3f45f8cb3a6d6d144",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u1-study.png",
+      "size": 111547,
+      "sha256": "a48980759ad7c1cab6cbb99854c8061c02d3eab77c9da19f5f0c91c96589e39a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u1-code.png",
+      "size": 62713,
+      "sha256": "36cb8cd0fb7a122865781a11fb66fe141de6aa158f90e5428ef69b2e5c259860",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u1-worked-good-trace-study.png",
+      "size": 112557,
+      "sha256": "b9b1e0cc5e922d0a57a65bab096555063060edeb9554dd96f1c3ef28676be793",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u1-study.png",
+      "size": 307932,
+      "sha256": "c6da93d560d6c7f137a120baca24c2e3adb811cc9d7f6e71bcb16ab2e7d9a749",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u1-code.png",
+      "size": 221999,
+      "sha256": "e3368121ea63463d387d6463bc8c3e7bac871096df5a8924574fa849cee1beae",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u1-worked-good-trace-table-study.png",
+      "size": 36397,
+      "sha256": "afea5586583e57892ec4b18784cf95262789184b80b85af3ba10e07c3d3eb03d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u1-worked-source-not-entailment-study.png",
+      "size": 110163,
+      "sha256": "bd1b3101f933388233aeb3b673a81d0b75fa65d93e85bd82dde13bc275d1d308",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u1-worked-good-trace-study.png",
+      "size": 248116,
+      "sha256": "be050a23cb081dada1b109fda408bc9295ce47ecbccd5c6804df13208dd023be",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u1-worked-good-trace-table-study.png",
+      "size": 13539,
+      "sha256": "5f4d6b6ba61170c0edf6a48c83ba44bda07f8c68b2001477dd156d3714ff6f24",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u1-worked-source-not-entailment-table-study.png",
+      "size": 21791,
+      "sha256": "a0b37119d9f93a81e5c45c839862a5c5f764f02a1e56f6ff1565be5a451ed160",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u1-worked-source-not-entailment-study.png",
+      "size": 270348,
+      "sha256": "037af1f88d5511680310fa9bd6d14e6d20dc521fc177a2101a000e46fcb3c749",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u1-worked-source-not-entailment-table-study.png",
+      "size": 15577,
+      "sha256": "c42341692c70f1855f898f13891a2cbbfff67fae88b6402efdf3d4d34bcc21ec",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u2-study.png",
+      "size": 102797,
+      "sha256": "cffb0a262ce553af9482565bcd2a0b85ba02b32654c6b277452c426c027f2bef",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u2-code.png",
+      "size": 64802,
+      "sha256": "cfa6085d5d118e523318dd1f277c0e0b0564618763e50c3e05b2e091d5997ea9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u2-worked-two-observations-study.png",
+      "size": 113065,
+      "sha256": "cb4b18b3ce0cc4e54a2e7cb36db4ee865a18560e190372d36502db954850c5ce",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u2-worked-two-observations-table-study.png",
+      "size": 17356,
+      "sha256": "a261b8f272093ba26ded3aa6780d5b2d4026c8194626d9527b7d0e60d3855897",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u2-study.png",
+      "size": 306822,
+      "sha256": "11a30622a2d57e19bae801ec795b212f3d7cf3ed03ca1731b09d374db1b1c6b3",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u2-worked-repetition-budget-study.png",
+      "size": 103713,
+      "sha256": "7772b426a707ee217e5227aeba5ccf2f42d9551110dcd9fee0a7ff4ea3720ee4",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u2-code.png",
+      "size": 223389,
+      "sha256": "b5a2941b966dbc0ca87610d2d98adc4140ec46bdf9bdd3b5164360dd43162541",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u2-worked-repetition-budget-table-study.png",
+      "size": 22694,
+      "sha256": "cc688b3abc579378750e01edf11f18332a0730a60b6bea28b6024e4e240e00a1",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u2-worked-two-observations-study.png",
+      "size": 261411,
+      "sha256": "a04511b35f68bcefb4d685a794f16a1e2eeb935b9448558b94eba1eb2dd5369a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u2-worked-proposal-budget-study.png",
+      "size": 113167,
+      "sha256": "8a3f960a71aeb6edc82e91c16132d62633ad75c0c30d07087c839273e814ef4d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u2-worked-two-observations-table-study.png",
+      "size": 12137,
+      "sha256": "f0ef899ab3067db3d87e11d1c18775d20fc1c9ccf06e3dadf9060c9f6fd97d45",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u2-worked-repetition-budget-study.png",
+      "size": 266135,
+      "sha256": "428eaead247749101f5f667c850c9d344b43c54eb5e62784a1e102eb28969860",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u2-worked-proposal-budget-table-study.png",
+      "size": 39255,
+      "sha256": "4ec03ca071055a98af62d10559f9c970d456d798ef1172cee099d4418c196ae3",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u2-worked-repetition-budget-table-study.png",
+      "size": 13396,
+      "sha256": "a7435bdd8f3e55c6384421f9e2a865a59e6b8a3ee424c4c8cc86ace2218b8ee2",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u2-worked-proposal-budget-study.png",
+      "size": 263215,
+      "sha256": "e547ab31833ba7700f99d89ea710662422f9f47311ee32a6b34a36a2ba11a228",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u2-worked-proposal-budget-table-study.png",
+      "size": 22360,
+      "sha256": "b7f82b517e7fd49d48fd4d1ec00e43db4ece41c57fbabc72359ee8179ca02907",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-study.png",
+      "size": 105979,
+      "sha256": "19fa032e0f8b1a585a73a9b9fc4cef1e35478751b618a6f56434e21f9a350073",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-worked-full-ledger-study.png",
+      "size": 94909,
+      "sha256": "2a5516dd2c1ef340012ef3336d59755b0505f141dd08b9ebd313c51cf84423f1",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-worked-full-ledger-table-study.png",
+      "size": 39391,
+      "sha256": "9870bd6ecf8551558861e1a98a197e99686ad53b62827d082bfec8b1ac7178f1",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-worked-answer-matrix-study.png",
+      "size": 95645,
+      "sha256": "641d73ab7cb481526fd49c12fc64ed930259b4367883444bca8c194c451354a6",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-study.png",
+      "size": 310137,
+      "sha256": "e96fd14b5f2e5e8b25e3bc47c2b3bd58e7a073b646d47b47ae7447359fcedb1a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u3-worked-answer-matrix-table-study.png",
+      "size": 48063,
+      "sha256": "17c833eccaadf435a2a022e15ecd1f1dea7f9542876b9d743429228cb250c0f8",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-worked-full-ledger-study.png",
+      "size": 245416,
+      "sha256": "4cdfd1e7c83264003d781d3ac3931730a46996a27a54148777b792024dc22715",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-worked-full-ledger-table-study.png",
+      "size": 53213,
+      "sha256": "d25cb33fb7e63a092a9befc055e737dd162e789df510ff578f9643f76c7c8a6e",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-worked-answer-matrix-study.png",
+      "size": 256083,
+      "sha256": "f071e9e5fb82fde4a5fe9218f5928c810290a68c7217065038607491a95947b7",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u3-worked-answer-matrix-table-study.png",
+      "size": 63709,
+      "sha256": "bf431364bb4b04548e9956bfc543bd4f24f3b9d0be26e059f6ab164cb9fb9766",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-study.png",
+      "size": 105055,
+      "sha256": "70e0177e7f9d3418225d6d861c52f71c0c32d50313ade2bf44c954d578a7c20c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-worked-crash-windows-study.png",
+      "size": 110823,
+      "sha256": "9e5adc90208c7d5d8a2a13fe35afca3dc4755fa25be582c4e317b8f4f2156c8b",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-worked-crash-windows-table-study.png",
+      "size": 63848,
+      "sha256": "fcb1a51ea3ddd103c70ae4b8ca06c0da4dcdd493ac871411e5940d5d37f111a7",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-worked-reference-answers-study.png",
+      "size": 94820,
+      "sha256": "44dcf5f1feec5b55cd259fa7cd6857a1f3966cfbe1824221f17ee5b83ced87b8",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u4-worked-reference-answers-table-study.png",
+      "size": 52166,
+      "sha256": "4e9ba4d623a94f653116cd123175832a645d295c4a14c72dcd7894372c384b30",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-study.png",
+      "size": 311373,
+      "sha256": "dc2044a86d04850165bf63a640bc9869bc2ff7d523f84acf45efd73eca217abc",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-worked-crash-windows-study.png",
+      "size": 292476,
+      "sha256": "9c51c9444078f6c01a47cf1c3fd2629d5e869befcf29779adb0ed0f7161793de",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-worked-crash-windows-table-study.png",
+      "size": 54662,
+      "sha256": "cb8e95b00a9d4f9b4997918eefbef88636cfc456b2fdd7bcf6eee5ad5ee83936",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-continuation-d04-v33-u5-study.png",
+      "size": 108101,
+      "sha256": "fe7a210593d2b1a6d4727fc7abe1c266c384c8e932056d7ba9d88f0f3dd1608b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-worked-reference-answers-study.png",
+      "size": 267438,
+      "sha256": "7368bcd7fd51bed3ebee40a51b93dc1ffcdb10a22dc077de669a686967a58018",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u4-worked-reference-answers-table-study.png",
+      "size": 72729,
+      "sha256": "0319e212a133af547ec55c6d9de87989c84b1e0e5117b4901a91d442db1a4f8b",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-continuation-d05-v33-u1-study.png",
+      "size": 106484,
+      "sha256": "72256dd195e900926bef8731f1e11cfd5096cbaf6dce4463fc451c15a02a48e5",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d04-v33-u5-study.png",
+      "size": 316508,
+      "sha256": "fe02916e3c0b46b9ff52c407206b8ae5332ee82844928ee7dee6aec1a47efd97",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d05-v33-u2-study.png",
+      "size": 99516,
+      "sha256": "5431068bfe3200d06c1fefc10a8ed44af47c2e8d5eafedcb84b15a0dc35e48fd",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d05-v33-u1-study.png",
+      "size": 315283,
+      "sha256": "0de28b21aec7186183794f645096b426ef94dbbcd4caccfc31b3a0cf30fd1e0f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d05-v33-u3-study.png",
+      "size": 104467,
+      "sha256": "9bd8606d5fc1ccb8f03cbb392249c89403dcd188c103dc080958f83da9da3bc9",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d05-v33-u2-study.png",
+      "size": 308197,
+      "sha256": "17b6e01e8bbbfede77ac167a5e0fe579fca665701b5d60facae18e363af09cd9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d05-v33-u4-study.png",
+      "size": 103358,
+      "sha256": "b886654c80b14f5bfdb206b531070142ff8de5e2abe8d02bbdcb13aa0b71f6c9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d06-v33-u4-study.png",
+      "size": 104344,
+      "sha256": "77b5af954c1611302bade7addffb53b6638d0d7e37e4827d94572222c17ab74d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d05-v33-u3-study.png",
+      "size": 307017,
+      "sha256": "6413d3712be7971f464286fdbe5f930ecd1bca9118286425d0e0fa0ea4031531",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d07-v33-u4-study.png",
+      "size": 96005,
+      "sha256": "eb89347beb0411ed65739ce27f0a4ba4f49c6cb54a18be0f006a6c0d24e0558f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d05-v33-u4-study.png",
+      "size": 308819,
+      "sha256": "7b8498a451f3b4c5f924c3263ebb26ad85334efd1c57df8c9b7fb909dbad9f0a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-study.png",
+      "size": 98533,
+      "sha256": "9ad5aa9084065bb14cdc4d235dd21a23bb1d39bd6c2c244a96992e21bb667246",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-code.png",
+      "size": 67089,
+      "sha256": "bd5e1c9e84d9dfddb3198b40e97b1edd91045409f70d7cd899d17fdf3438fdf0",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d06-v33-u4-study.png",
+      "size": 295694,
+      "sha256": "361e4ae117d3aca0ddfe443017cd18417cd084f0acc3934294802d508506fc32",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-worked-all-workspace-cases-study.png",
+      "size": 113424,
+      "sha256": "026d0b694f2762cc00c333bec702b4d8f9de2b3454e7f92b6f5bde5ad16165b5",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-worked-all-workspace-cases-table-study.png",
+      "size": 64004,
+      "sha256": "8ed0bf1e6c7a94bcc0176f2953a781c1e1beee0aa91d43185a82d835d5c38216",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-worked-origin-continuum-study.png",
+      "size": 106307,
+      "sha256": "b107a3fefbd2f244a1300cd60bd6b08941e70fb8ed71ea40d1626bb2cae3f5b2",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-worked-origin-continuum-table-study.png",
+      "size": 33015,
+      "sha256": "df08701cbf9777bcf16aa0148ac7225fb999e2319c23d81ab49a284388eb3c10",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-worked-near-singular-speeds-study.png",
+      "size": 108597,
+      "sha256": "a18b8a1eddfa30275ec202a9317b89c8530939aef11a4f3d6031b0287df4162b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d07-v33-u4-study.png",
+      "size": 289942,
+      "sha256": "3dae5d86ff35135258d894ee9f3664da10744c8c5586551f749c1cf34054776a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-worked-near-singular-speeds-table-study.png",
+      "size": 39267,
+      "sha256": "097c493adb3d78e0f11bf7aa4f1c3ca62d5f2a90295d7b4738b6aceebcac3ff3",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-worked-points-and-vectors-study.png",
+      "size": 105379,
+      "sha256": "b64d0a6448a5008a2f6fe02029105f3a4e535a899a9f21b31efe04cefeb107f7",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u1-worked-points-and-vectors-table-study.png",
+      "size": 18735,
+      "sha256": "e42a3a57dcdab64f6f9a252efa28ea05eef006c45f8d0cae1348c0d1923f3faf",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-study.png",
+      "size": 254710,
+      "sha256": "22c85741dc472909a817a5c24ed87f6d22b5e7da358646a501a27d055d4055e8",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-code.png",
+      "size": 207205,
+      "sha256": "c7a6cf0cb3a1d582701080d4b5ef59a3c6b29820c0e69a550c6530b36fb5661b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-worked-all-workspace-cases-study.png",
+      "size": 243188,
+      "sha256": "1214bbbb1cd4c7c5fc3581ff9cb910efee04007114219c4be96adf761fcee12f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-study.png",
+      "size": 99584,
+      "sha256": "fa7eee211375648ddb0078c72d5a8f5f2de7218250c9fcde39396c3c30e2221c",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-worked-all-workspace-cases-table-study.png",
+      "size": 66235,
+      "sha256": "992bccc75deb33c89aac05ac67ac9099a33efd81d997b3906ae810bc6914f5f5",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-code.png",
+      "size": 64009,
+      "sha256": "04fb62d81bfca357c2b07de2c08eb1f0594fba789ba536cdffd9be395bbeab2a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-worked-forward-inverse-table-study.png",
+      "size": 102052,
+      "sha256": "fa931bd0edd0673d5b27407d25f631b6da0b94b2f1e6ead947f8b92c812e696a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-worked-origin-continuum-study.png",
+      "size": 245278,
+      "sha256": "054af1337fa100ecb9e696b0a96337061c4301c3b3d4273ccaaa79996e8336de",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-worked-forward-inverse-table-table-study.png",
+      "size": 28458,
+      "sha256": "5af51aa83e4a66e0e12f785a8bc2c7dfac1d2df66d4042aa416cffeec8ff240f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-worked-origin-continuum-table-study.png",
+      "size": 24026,
+      "sha256": "3685ed2a315baaecc19e2268f51eb794f70ea257aebde74984297f7a0d33016c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-worked-pd-roots-study.png",
+      "size": 105414,
+      "sha256": "1590667ca4cf4f387e2fd9c3879a44c54d3ff76910b161cba1f99b5721b710b2",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-worked-near-singular-speeds-study.png",
+      "size": 268787,
+      "sha256": "12060f58be0be740dd6a1666e23d4e5b832d17607d45b517d4ae18a75ba1b9a3",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-worked-near-singular-speeds-table-study.png",
+      "size": 20111,
+      "sha256": "cccf10acd6a54e5f7ed7515ef6ac01c427e139e2bcebcdf8187faf8b8f58e917",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-worked-pd-roots-table-study.png",
+      "size": 54703,
+      "sha256": "72ceb41cb2df9300a6803f851fb0a94bb2cfa842e9fe9a40fdcb41ad86037ab4",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-worked-euler-boundaries-study.png",
+      "size": 102392,
+      "sha256": "6ae67f75c2c718609bdeaa507e84839a7baed524247805638cbeb81dd88f9b31",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-worked-points-and-vectors-study.png",
+      "size": 256755,
+      "sha256": "df2b187bee2bdc73fbc85c1dcfad89969bf3c656091ac2fb413aab6e0588c7bf",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u1-worked-points-and-vectors-table-study.png",
+      "size": 10931,
+      "sha256": "bf7a16a28a8d0f0288f3c64e7935e49876fdff4808db2eb2be6e365148a8c71b",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-worked-euler-boundaries-table-study.png",
+      "size": 35345,
+      "sha256": "7453cb810c1941ede9cd7d86e93338ddf237f159056abcbff1ae4d431ca83f67",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-worked-time-step-comparison-study.png",
+      "size": 96077,
+      "sha256": "128c514af3e727a30b430cf93738693df0a688a0021de22180b5475d0918048c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u2-worked-time-step-comparison-table-study.png",
+      "size": 20727,
+      "sha256": "46381415c9be16f64b8d6a4ba2ec0e29c151979cb168acdcd9a8901d798de379",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-study.png",
+      "size": 92312,
+      "sha256": "367dff6d265ddf4698c32080fdcbb95e815441f017c48a09049323bcdc12db37",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-code.png",
+      "size": 66442,
+      "sha256": "f1bee02c2a0bdd90d8f511881409cc5ccd1463e821ff29d706204c9d23e0f2a4",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-worked-state-observation-study.png",
+      "size": 106400,
+      "sha256": "d11618a85301f8b677bbd1ebc1e20dc1a90fc777d0728e1dce0153ab07dc9bbf",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-study.png",
+      "size": 301076,
+      "sha256": "910dceb67802925f7ee251ef5cb227b635ea7b068dffdd22d15c0a5a37da2a9c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-worked-state-observation-table-study.png",
+      "size": 18595,
+      "sha256": "eae601d200dbc3c3e6ff3f0f46443b2f944ee0546387f4b5556897f8b9eeb628",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-code.png",
+      "size": 219220,
+      "sha256": "e4697ba26766e72bbc2772037be01db5b631decfbc2fdd48031dfb4c18ab5885",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-worked-td-update-order-study.png",
+      "size": 97587,
+      "sha256": "86ac95a991327d95411196f1d3a357a8bc7aefe7e795bcf68b7ee3f824a061dc",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-worked-forward-inverse-table-study.png",
+      "size": 240628,
+      "sha256": "33bae07ee90dbda1e9c669cc578f9f9ce114e2c6df096a4696478091aaad6dd2",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-worked-forward-inverse-table-table-study.png",
+      "size": 20429,
+      "sha256": "af8c4d19ea77702d39aac2e8679c12a4c3d4c2c3012953c948baed47a9177702",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-worked-td-update-order-table-study.png",
+      "size": 26987,
+      "sha256": "c3e07c3b5358adc3c9e314e2edf2e90ef1cf0cebae827cf6acb72e8f7d25217b",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-worked-ppo-no-hard-bound-study.png",
+      "size": 112179,
+      "sha256": "6e1bac2e5f395cec0a39e9220f73b19136ac7212d6d8292c603f6cd3df6e0c1f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-worked-pd-roots-study.png",
+      "size": 249480,
+      "sha256": "7545b5e384f4009ece60ca8c7ff843bfba1bf5de202feb06f1dc3e7fabf4be8f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-worked-ppo-no-hard-bound-table-study.png",
+      "size": 16185,
+      "sha256": "1bbd4183d00168fcf7b1e907eebb1fe7fc2140a066b36727e668d51bc006fb65",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-worked-pd-roots-table-study.png",
+      "size": 35328,
+      "sha256": "9ca9401f82781bc4baf84f433877b54d8115a21bea1ea712bb91067278980f1e",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-worked-entropy-objective-study.png",
+      "size": 97671,
+      "sha256": "805f07c6f183ea5acebce5cee4d7cb12043e0f6ec7156f2a21b2330a78b9ab46",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-worked-euler-boundaries-study.png",
+      "size": 237819,
+      "sha256": "d60551efa7d086411aa9733cf102a55d4515069b26d1430501aeb28d29d1ed2a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u3-worked-entropy-objective-table-study.png",
+      "size": 23819,
+      "sha256": "ed5d8e3cd54c4efa441f6d51fa0bd441e98462aa5d33c932c4679c21e5041779",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-worked-euler-boundaries-table-study.png",
+      "size": 17767,
+      "sha256": "4e4211e4e89a135a1c9ba94d575e10f463a91bce28c96c646ee3cc95cf2f59ee",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-worked-time-step-comparison-study.png",
+      "size": 244651,
+      "sha256": "b80f307d46449de41f78fb89c8104bec5cc439ec60d639d83c9c31c72ba852e6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u2-worked-time-step-comparison-table-study.png",
+      "size": 11356,
+      "sha256": "d731769dda652da7106a184dcc7709b3095d054aa4e9baf6bfa4a649770fbb8c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u4-study.png",
+      "size": 99979,
+      "sha256": "98b98b85e78a4c904df426f4d02caf3f66358b6ecb60a976551d261fea658956",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u5-study.png",
+      "size": 108288,
+      "sha256": "b258ab95093cb2f26c26d4580193b2320a277b63d2c8d76fa8eb5670cc3df94d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-study.png",
+      "size": 257681,
+      "sha256": "6b2d19cb3d5aeec14bf23beec9270dc56052bd2134e8ee78d061dc9540a3e920",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-code.png",
+      "size": 220027,
+      "sha256": "17c8380a15c669a81cdf96a00515b49097c061730895e80c92421312dbab3a2c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d08-v33-u6-study.png",
+      "size": 100628,
+      "sha256": "b14d630e455f47d1f1d284aebec5c598c1224136012976f3660b49ae21b00203",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-worked-state-observation-study.png",
+      "size": 244967,
+      "sha256": "2bb0c1adef54dd107990e766e6f34b7346ad079dc33226231d821e967b5b2153",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-worked-state-observation-table-study.png",
+      "size": 10248,
+      "sha256": "847c9244d875a8b3941278ab078560d5d5c98ea15418932283bddc35be514c61",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-worked-td-update-order-study.png",
+      "size": 236941,
+      "sha256": "30a15d052523da404545e9e10dd964f54004dd614855402fadd6f0244b1bd089",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-worked-td-update-order-table-study.png",
+      "size": 17046,
+      "sha256": "b4cd2a5ec64e5424bdd876121fda5269b5309b7ac78b713842ecb2c2d51ce710",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d09-v33-u3-study.png",
+      "size": 105994,
+      "sha256": "c0f91bc30d11997c516b42aedfc3ca6eccf66e77293440dc41c9635eaadee85c",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-worked-ppo-no-hard-bound-study.png",
+      "size": 238346,
+      "sha256": "fd162befee36c2c9e91ff1dabece41b179225fc7dc7a843e39ecfc57116bf278",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-worked-ppo-no-hard-bound-table-study.png",
+      "size": 9784,
+      "sha256": "5583efc2abd81ad2852a40767ae744dd8c30e8ac54a6b539aba53eebc57d003d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-worked-entropy-objective-study.png",
+      "size": 220018,
+      "sha256": "3949ba5731811a1328a37a43c1cfdb75677b1656c5fcc5e5d55c4d4d350a28db",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u3-worked-entropy-objective-table-study.png",
+      "size": 13532,
+      "sha256": "1f0525cc5057394607140368e354f97108dbb4a8ece6e23f03da9ee290750431",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d10-v33-u1-study.png",
+      "size": 95147,
+      "sha256": "ff4a7a91ba8df6f2a2f7028697c30e4634757a55aac97f001e759b4450f07905",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d10-v33-u2-study.png",
+      "size": 88600,
+      "sha256": "751bb4146c671698022da8d4967b977b58ea957031d1eb7cd20a892f8b8318a9",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u4-study.png",
+      "size": 315931,
+      "sha256": "4eb3e97a0e3ee9819be5beded29740e6fef8efd1fffccb44d8208a87000db727",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u5-study.png",
+      "size": 318534,
+      "sha256": "1bff849f239a588d75d2ba7f3fe04324aac275cff182744b7838ff0366e31134",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d10-v33-u3-study.png",
+      "size": 95579,
+      "sha256": "b2d85e8bc907a371eda2480a41540830b5cc05a91581e77c027b69edf5438f31",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d10-v33-u4-study.png",
+      "size": 103947,
+      "sha256": "81269ec2122eddc1d7fd6b0e3fdf339d51ca69ee2945d7abba9458a9fe76c915",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d08-v33-u6-study.png",
+      "size": 301503,
+      "sha256": "9470639e3f0151ea896f63c068840e3c785b012145d3186dfabb9053ec52e4de",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d10-v33-u5-study.png",
+      "size": 94034,
+      "sha256": "f0ce087b7dd41cbdbbe59c614f76666ff844a04d764f9c8c9173124c68d62bf5",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d09-v33-u3-study.png",
+      "size": 272622,
+      "sha256": "d5c7545b05e4f989a52c5726611e559e03bf7f1e36ae639148957851e70dc381",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d12-v33-u1-study.png",
+      "size": 99756,
+      "sha256": "77ec5bad3749fc7e9a60b62d2abcd665422712bede661900e5fbf756bf61c8cb",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d10-v33-u1-study.png",
+      "size": 278094,
+      "sha256": "04a90139ecb1ba6468a0c4908461082ad9b677c6920e235f4690108f906161bc",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d12-v33-u2-study.png",
+      "size": 103503,
+      "sha256": "306634c3f21d250f73128d204d15dc81ba61f3ec53f87de9fc91326804c1d762",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d10-v33-u2-study.png",
+      "size": 278033,
+      "sha256": "584bda25446008a8341a110cd36f8ea2f4bcec153fc3035029174ec0c8fec01d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d12-v33-u3-study.png",
+      "size": 95166,
+      "sha256": "06ec67f95ba8a67f7ab6816ccd855a50c763c99df38bb9f9c10d8661c31c467a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d10-v33-u3-study.png",
+      "size": 279917,
+      "sha256": "a619e73dc23c5a966aed4a85150c9dfadc48af880d8f67b8c4662506225f3135",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d12-v33-u4-study.png",
+      "size": 97132,
+      "sha256": "0de73e15325e98203e086f6b6a0c79d69609c863b9e1df3a8e65d279f936bb68",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d10-v33-u4-study.png",
+      "size": 299335,
+      "sha256": "ec0622341da9018ec482fd5f94467ee49f155b3763eccb4b768c1b8e23409528",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d13-v33-u1-study.png",
+      "size": 95850,
+      "sha256": "6601e0286b510d2ac0af43dde38c016aebb1a5266a0d01290f33715fe023dbe5",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d13-v33-u2-study.png",
+      "size": 91616,
+      "sha256": "09d7e150895ce50e55ee8b5fc9530a57b8a951b1d4f722967b50427b60751493",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d10-v33-u5-study.png",
+      "size": 254450,
+      "sha256": "29690d79509f8e438108f913ce3f57eacd8ab405114531a3dc9686a91177ddf0",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d13-v33-u3-study.png",
+      "size": 102061,
+      "sha256": "1c3f2528d58c358cd18b718e7ad2e74bcc78be3ae147789c2c9fccdbd39360c8",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d12-v33-u1-study.png",
+      "size": 303742,
+      "sha256": "fd90318547fd421bea03c40010c4fc606cb6af26687e33c9016eb54172447c9d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-d13-v33-u4-study.png",
+      "size": 103510,
+      "sha256": "dd9e2218cdcb1e8a0bb82d3164e09138619c832452c5d68cbf2631aba38407fd",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d12-v33-u2-study.png",
+      "size": 257958,
+      "sha256": "58c1be62a5763ef354a29644262aa966088e6fa5babbbe44a8267bc758b40f7c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-current_meta_prompt-study.png",
+      "size": 94611,
+      "sha256": "d9bfcbc6272c9874741df45647fd4cb4b694db03726952d90e54c858e0472117",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d12-v33-u3-study.png",
+      "size": 280414,
+      "sha256": "a4b83f65377f808bd4e085a99bdfaf4bfde3a08d79dfc9296b01d29df28bb586",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-investment_policy-study.png",
+      "size": 93068,
+      "sha256": "0d24c7c1d5bbe6ad79cb3d31378f076bfcffaeca428c308e41c3835e61551e28",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d12-v33-u4-study.png",
+      "size": 251209,
+      "sha256": "08ad3c2a23e1965c4060f0965d6901975373a018e2d0f1c372cb7835d66b389d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-study.png",
+      "size": 98557,
+      "sha256": "aa596afaf12efacf206f1141a05b8e91adff4c48e15b105c61e2e82e2a24e775",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-code.png",
+      "size": 60091,
+      "sha256": "dd02fbbd0d189010d8bd8bdcf81e69462c9c229a1ae14748ef82bfbd2a1a0c05",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-worked-two-clocks-study.png",
+      "size": 112066,
+      "sha256": "96ad9380d4370b96ad2f58bfb832130b34af0374f6059f97d4038644ceef8174",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-worked-two-clocks-table-study.png",
+      "size": 43112,
+      "sha256": "900c4eff93b1759c04678b960dd0f6a4b20b829046f2b391c14cc084a638e8ed",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-worked-eligibility-data-study.png",
+      "size": 117626,
+      "sha256": "797f39fe73811ecb2351f9799312e6eac7fb147cd95b2728812d33b3e7521c88",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-worked-eligibility-data-table-study.png",
+      "size": 39115,
+      "sha256": "745adf70a163a0445d0bbb104d2cdce1b920b0e1a6ad146535d8ba30ac34bdb2",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-worked-freshness-units-study.png",
+      "size": 112253,
+      "sha256": "c52fd7a898ecfc6c95af43108074987e59c8cffc01778468a5a6c310b67025a8",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d13-v33-u1-study.png",
+      "size": 246124,
+      "sha256": "42847f068259758d4cf97dbe82b3128270f003f158122dea4d518484bdce8299",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-worked-freshness-units-table-study.png",
+      "size": 38222,
+      "sha256": "963729a887424a8649d6f2276e9dcc01b10c29976b7781510de2c01a8beab833",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-worked-wrong-views-study.png",
+      "size": 114366,
+      "sha256": "b08113c81c70abeac6449e238af6acdb4409a88377aa5c6fbb87806da20ee93f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-universe_design-worked-wrong-views-table-study.png",
+      "size": 47068,
+      "sha256": "f4e4a0f6959d59b228d69d14828cb06c2f959ed7e312d8aac91b59cc3121906f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d13-v33-u2-study.png",
+      "size": 307951,
+      "sha256": "5e3b19dc1067615efe954d221377108d985e81b3375608141a12e7bf93b936c6",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-data_sources-study.png",
+      "size": 90921,
+      "sha256": "4f773653843c61530d271387bfaad032391b69da7fbfc9788ae4d2103462702d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-data_sources-code.png",
+      "size": 66156,
+      "sha256": "9e4b6ead3207bdd48f6a7aa00cf0d2b5518b5e6ef1712cf0129510e0ffc14283",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-data_sources-worked-twelve-cutoffs-study.png",
+      "size": 112117,
+      "sha256": "64b6a7ace2a5b27fdb463e54dc8054947dce3ee3541980ed10bf09ae39267b66",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-data_sources-worked-twelve-cutoffs-table-study.png",
+      "size": 52658,
+      "sha256": "c71c616acb563d808b3dd150b9cec35035185b4502d3d2923b33e1ab4543b9f9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-data_sources-worked-backfill-order-study.png",
+      "size": 101074,
+      "sha256": "66f27d73225c1687596de1b68940667617e7e59350e4f3201e0eab712250eb44",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d13-v33-u3-study.png",
+      "size": 290568,
+      "sha256": "9c34cc4589c46565a0b3a8ca16c5a763927012cfb6fc758f6c10c99508150dab",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-data_sources-worked-backfill-order-table-study.png",
+      "size": 26755,
+      "sha256": "4deae85119711954093f0d864d0c09a5c8282c8340c15c71a5fa99ab798cd064",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-d13-v33-u4-study.png",
+      "size": 293003,
+      "sha256": "8464dec4ee453044178b448d092a7294b244a07e99d51def3fad0202f78100ba",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-study.png",
+      "size": 89022,
+      "sha256": "dfd560bedd7a5ee4c61e6b9563aaa6cbfdf8c5f8214eb73e0f6fc02992a97fb2",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-code.png",
+      "size": 69530,
+      "sha256": "bdcc0a6823b8be11806a31aebf1a5177d8d7372e66f98026114381c265a06434",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-worked-three-repairs-study.png",
+      "size": 104811,
+      "sha256": "52bc2759c7e268c6397d80c208fa47496485cdd6875c0a57f719ccacef599362",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-worked-three-repairs-table-study.png",
+      "size": 34209,
+      "sha256": "19a96586423a077f8da067f021a95b9329cf8156e06332b65b75f8ebc4ac55ac",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-worked-capacity-profiles-study.png",
+      "size": 112788,
+      "sha256": "3df8f65fd3ff4ccacc4691e7576a3a7e1125ef4c57624b2d0e1f005d8754e33c",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-current_meta_prompt-study.png",
+      "size": 280264,
+      "sha256": "2d572a25598f8792b7fce545188fcc58a56f0d1406191eac5e760e924b85080b",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-worked-capacity-profiles-table-study.png",
+      "size": 30849,
+      "sha256": "4e79abcd75bf6a0f794305644474dcfd738f561b658560ea3d6fdc089a391355",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-worked-account-cash-bridge-study.png",
+      "size": 91665,
+      "sha256": "8699bb61cb6ea1c38f02fd7541f21b5bb281c7669d429bda39a315da5a8860fc",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-worked-account-cash-bridge-table-study.png",
+      "size": 21174,
+      "sha256": "9bda7728a3ca416b212fcbeec920b22563cbc8c3ded8e62f81f3fdaece6ec0e8",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-worked-consolidated-cash-bridge-study.png",
+      "size": 102847,
+      "sha256": "309d2a21ee9df6b98af6ef4e57bfd30c9560d61c9803e6f31fe99dafd005b8e7",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-investment_policy-study.png",
+      "size": 260758,
+      "sha256": "b87fa1532a80c7d235c8b8f12755b159a2d42a02f5dfb780a63cccd9e62fd936",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-risk_policy-worked-consolidated-cash-bridge-table-study.png",
+      "size": 31595,
+      "sha256": "cf5ec1416ab431b3626448c0aba71bdcf48912f4cd006eaff03a3adbc48e44ac",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-study.png",
+      "size": 113351,
+      "sha256": "f0921d4a4949e22be37b23887706ba63c076be795f295331eea2e18741fdaa00",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-study.png",
+      "size": 262809,
+      "sha256": "e0e3166f6898531d89f60b7ec408f90df96d958372dfdf27fc7320b18bf27f89",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-code.png",
+      "size": 69233,
+      "sha256": "cba4160dda604516552400363c8eec8471e7b6915730f1c54e0e60e20d60e731",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-code.png",
+      "size": 210351,
+      "sha256": "77233c6c65630a049d59206afa21c3606071c053c3c007e72ec44cb63d72ef63",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-selection-20-study.png",
+      "size": 108801,
+      "sha256": "13340ca66575f382d5d29b1b41cf438d70bd7b57729ebf482282e45d5b48659b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-worked-two-clocks-study.png",
+      "size": 271618,
+      "sha256": "474bbd1d2f9acebca8a60c016daa6c885394295821ca1297913e3a2b30efb596",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-worked-two-clocks-table-study.png",
+      "size": 30784,
+      "sha256": "5405bd3d655bebfc41947d8fc65a923c393840459e1239a31460a226c9cace2a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-selection-20-table-study.png",
+      "size": 48182,
+      "sha256": "69e026b6bedf2d4a546b4f976e9c0b3e3a6ec189cd9629a02936d2f04843441d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-worked-eligibility-data-study.png",
+      "size": 271675,
+      "sha256": "937e96f007041de99a90b7c31fe85129601748cabb3a95187415e670b4342414",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-selection-20-last-row-study.png",
+      "size": 54527,
+      "sha256": "3bbd14a3ac8d80dd7f0b989a34bd32405caafd28bca05776fa79dcd392ed9b73",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-worked-eligibility-data-table-study.png",
+      "size": 25410,
+      "sha256": "f3d93a325d01b93460b9946b11854782547c6c527275d6e3601cff687e77de9d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-audit-counts-study.png",
+      "size": 110650,
+      "sha256": "344d22b13220772c38a058e249ca95af87029c55f75a8f6ea5d43beeb7262fcb",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-worked-freshness-units-study.png",
+      "size": 276024,
+      "sha256": "e1759d26b17fbb30973d90bc4df2784650ab6a97b1f5718fe52e3b1d049a7668",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-audit-counts-table-study.png",
+      "size": 54179,
+      "sha256": "b26d4b77f000150234a0450770326804c4e9175f21d8dc37e172a62e14db28b0",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-worked-freshness-units-table-study.png",
+      "size": 26914,
+      "sha256": "c0d0ac4768ee603f90061d54bc1b1a1c6cbe69d612c63a499f9b0c614813428b",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-audit-counts-last-row-study.png",
+      "size": 68756,
+      "sha256": "f60c9d940d87bb598d5626e87645ea6f422a8071ef1f53ec961d1fe8b6d3c916",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-unknown-resolution-study.png",
+      "size": 108232,
+      "sha256": "e81a4d5714d81b81c2788a51b8aa93e3cb6037f11f0f7f2748f78a0abf1821b6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-worked-wrong-views-study.png",
+      "size": 258634,
+      "sha256": "1c8538e371070dcec2b18a29a0f749fc3331bb2cab49a5e54f24957de8f96bb4",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-unknown-resolution-table-study.png",
+      "size": 51506,
+      "sha256": "465e8cda5c60274997a8ec13ec50068c7a6bbf92fd920f92ff8674e190b986c4",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-universe_design-worked-wrong-views-table-study.png",
+      "size": 30771,
+      "sha256": "f4ab5f33469e55dff0e4848a83ab5638de69cc7908983c315b9822d88c660ca4",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-stage-gates-study.png",
+      "size": 106358,
+      "sha256": "fde40ded55f81725109de4c6dda309c64bd1fd2b8e157ac368604af96d68b8c9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-strategy_registry-worked-stage-gates-table-study.png",
+      "size": 40142,
+      "sha256": "653c1e5d97d555035498beadbdfafd5a5d1a3fb2a9f983a52bed11abba6434ec",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-data_sources-study.png",
+      "size": 308359,
+      "sha256": "ebd703ae3dea15c8f08b22f88b398e3b71a5688efa12cb2c58d166329f0fd0ce",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-investment-workspace-study.png",
+      "size": 92615,
+      "sha256": "bb3302acad519076bae7d8a1ccf6cd0f3b60df2f11946fddbf8bcc94755c2665",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-data_sources-code.png",
+      "size": 256027,
+      "sha256": "674fefbc604beb0a40306385d379a6d171b9a5037c6f4587b4a9a0a9cb2696c2",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-data_sources-worked-twelve-cutoffs-study.png",
+      "size": 246908,
+      "sha256": "d3f51b6a23cf9dd6024a81e3d1c4e3eb4490c1e6c87d0527f65a90bf928d7788",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-data_sources-worked-twelve-cutoffs-table-study.png",
+      "size": 43308,
+      "sha256": "103c8e41017ba0adf785e6f787eda9c123940092f10d080450519d0551624655",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-investment-fees-compounding-study.png",
+      "size": 100725,
+      "sha256": "9d4e41352523cd82e63dfefc803c73eaaa428fee0a12c93e4d698abc22892363",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-data_sources-worked-backfill-order-study.png",
+      "size": 285826,
+      "sha256": "f2133fda6bc18c49c0f5e39750c520a81758e24d05ed6e5b6a3dc6ada62b519e",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-data_sources-worked-backfill-order-table-study.png",
+      "size": 19537,
+      "sha256": "d3d35ed843624724dfd912c3c4ec1c7d6d642f50bd140ce0e592664b2f60a3ee",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-investment-decision-range-study.png",
+      "size": 114074,
+      "sha256": "4adfc36d5970975e8202d551f48ca176b5965db6aa7c47cebdc459ba1f96cf57",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-study.png",
+      "size": 240723,
+      "sha256": "a57c678b94d28f4a1b24d22ec22541efc54e9d9ad4cdee75eee5d799160a3a46",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-code.png",
+      "size": 245787,
+      "sha256": "8a05d766173f188d7125dbedad2957c331bbe0194121403657352f0a3467f4b3",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-worked-three-repairs-study.png",
+      "size": 271318,
+      "sha256": "eefd3199e56db292bf59d57321d8221694ed6b98f46a848a665444e99cbfbe49",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-worked-three-repairs-table-study.png",
+      "size": 20387,
+      "sha256": "f26a244554abb1500c78e035f5d8f83661109b0577b666dd8ad53afccf97c745",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-worked-capacity-profiles-study.png",
+      "size": 268564,
+      "sha256": "b3f7c950d180bfae25128559a742ec6e16a1734a31ee0e11ca729573957f7950",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-john-snow-mode-communication-cholera-study.png",
+      "size": 111792,
+      "sha256": "c2a0e5923a7ded516a53bda36516988d9a1b6683c4e162ab68c50e2af51b8ec6",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-john-snow-mode-communication-cholera-worked-weekly-source-missingness-study.png",
+      "size": 100344,
+      "sha256": "ec17ad3e0738c2ee5f67412f74a21c69f4f830ad6100bc69f99616dca0f18953",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-worked-capacity-profiles-table-study.png",
+      "size": 31486,
+      "sha256": "cc1a9f35988cb28edc6c100fac562760de52b7cce8877a3c3382de2caf2af285",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-worked-account-cash-bridge-study.png",
+      "size": 232429,
+      "sha256": "f415e1cb588ed5e5d6b25f8c4edb8b97a653162068d7e7465779422225157cf5",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-john-snow-mode-communication-cholera-worked-weekly-source-missingness-table-study.png",
+      "size": 46620,
+      "sha256": "3f515a54e1a4505c780e04f00160ec11bed1c4dd802c843ebc726407cdfe4479",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-worked-account-cash-bridge-table-study.png",
+      "size": 19897,
+      "sha256": "75c482a181da1f3fcc5afed989dced96e73e006601e862b67258a47b348a4ba5",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-john-snow-mode-communication-cholera-worked-allocation-assumptions-study.png",
+      "size": 107550,
+      "sha256": "a070c1e344c4e589c5a1e0ddb296674e17665acffb7d6c863b2cbcdcc49d0993",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-worked-consolidated-cash-bridge-study.png",
+      "size": 245188,
+      "sha256": "eded547b3f49721a956b2c3c6492c0e6cbee4d8842b6e0e6267157dec8f1d489",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-john-snow-mode-communication-cholera-worked-allocation-assumptions-table-study.png",
+      "size": 51843,
+      "sha256": "a3bd9b43fbb0534cdfa4cc2c56087a915e74267d3f569c3764d82f93dce3fbd1",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-john-snow-mode-communication-cholera-worked-conditional-rate-bounds-study.png",
+      "size": 100198,
+      "sha256": "e6a9315d1dd4eb60e693f3d9f13755001666cbc82ec6e6ff0fcfb9e8c7873767",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-risk_policy-worked-consolidated-cash-bridge-table-study.png",
+      "size": 24245,
+      "sha256": "a809feb62735e8aca70137497534cdef0e16856445d84225824b58682d6c909d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-john-snow-mode-communication-cholera-worked-conditional-rate-bounds-table-study.png",
+      "size": 47870,
+      "sha256": "7a91d110cfa715c1c99e3dc805728ca9778c88a13c716d0504cd479d965da594",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-study.png",
+      "size": 304449,
+      "sha256": "9811aa5610bc3e007a4979db68df656e860acfe3e612b50881cd64b7f2b9b49f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-code.png",
+      "size": 243541,
+      "sha256": "f79470d94b3e2b834365034fd8fb4bb32d8f755a249334b2001109d677dd3ccd",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-adam-smith-wealth-of-nations-study.png",
+      "size": 105044,
+      "sha256": "b42c1e3fd24f6c25f78d7eec5fa28c13689b60fbacacbf606f585c37876ff80a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-selection-20-study.png",
+      "size": 230924,
+      "sha256": "cce956aea3ee6d0c7cb94d7fbc5af983eb514508617a31f51adb5ae44d906517",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-adam-smith-wealth-of-nations-worked-paper-metal-positions-study.png",
+      "size": 105529,
+      "sha256": "1a4742d323422b9d8bf2645df502a3e6e79f39237a46788282d605e4a8470068",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-selection-20-table-study.png",
+      "size": 18680,
+      "sha256": "77c9427fbfa3c93c3e204a8a429fd45758ff39f26bbfd3fe40723d12db27a2f3",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-selection-20-last-row-study.png",
+      "size": 235445,
+      "sha256": "f6709e47d7b0fd6e0bdfa12895ec51878e478ba9891ef8a863904fe46038634d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-adam-smith-wealth-of-nations-worked-paper-metal-positions-table-study.png",
+      "size": 45710,
+      "sha256": "c79283fa5d932131e27bb1805575031d9a35c5787b6002e587a79150fec17a33",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-adam-smith-wealth-of-nations-worked-released-resource-routes-study.png",
+      "size": 106136,
+      "sha256": "1715ff479ce885d77f9c290b9ed4b36c89d207c4373f097eea01ccf586ee2119",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-audit-counts-study.png",
+      "size": 281435,
+      "sha256": "c8264d1bc5548816bcc36bb19f81ded7d3087a6b6781bbe0ae8ddfd3426e38f2",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-audit-counts-table-study.png",
+      "size": 40691,
+      "sha256": "a2e6cfb03fe36a3416b3b97c16efff75a0ee91e128d50f9b73cf4b417bc278a9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-adam-smith-wealth-of-nations-worked-released-resource-routes-table-study.png",
+      "size": 71172,
+      "sha256": "cf0c881cf208beb88768c92735d2c1b1293f48d387824e1b0bd934894482eba8",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-adam-smith-wealth-of-nations-worked-redemption-is-a-cash-question-study.png",
+      "size": 100628,
+      "sha256": "7ae81d473a95c0b8a840516e8dccec851761a721505c347eb866fc95a2afd2f1",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-audit-counts-last-row-study.png",
+      "size": 281435,
+      "sha256": "c8264d1bc5548816bcc36bb19f81ded7d3087a6b6781bbe0ae8ddfd3426e38f2",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-unknown-resolution-study.png",
+      "size": 277095,
+      "sha256": "0ad6262292652eefe30cdfb55cd77c22abcd7b300a9d15e5f42e45e8c24a58fb",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-adam-smith-wealth-of-nations-worked-redemption-is-a-cash-question-table-study.png",
+      "size": 42763,
+      "sha256": "6ae17b267a455b7ff388584961c54131f36a196aafd6cd95e7dd3ef540e336ac",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-unknown-resolution-table-study.png",
+      "size": 35595,
+      "sha256": "2b22cca7be83c7dd887424e588a79a658beed9835f8236914823109f578d41d3",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-stage-gates-study.png",
+      "size": 278165,
+      "sha256": "d8732c21be1917a7ad6bbb93e50e2c4c6c5f3c2de463bbe029ba05a8e4d53421",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-strategy_registry-worked-stage-gates-table-study.png",
+      "size": 39022,
+      "sha256": "ef806ea444031eca6407aa77b4215bbcd2dbbee56e1f90262fb55d0a2060e50c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-study.png",
+      "size": 110091,
+      "sha256": "01695232e47b6ecd25ebecb46c5c68c2f22740b31256d1dc5e89facfb87d45d0",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-worked-dispersal-chain-study.png",
+      "size": 109380,
+      "sha256": "dca2c74da868935c6bf3f076cc73901eef8f444e736ca2a2a8b5e144568b154b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-investment-workspace-study.png",
+      "size": 216948,
+      "sha256": "99b4f4b8b2ade3a0c5e719820862410ad7f40d859bd976cbffe7911faef69f15",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-worked-dispersal-chain-table-study.png",
+      "size": 67947,
+      "sha256": "5c824cb32b4fe22ecc3962af9b7ae7ab377cadb05ddfc8d9678905104aad1e3c",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-worked-drying-preparation-study.png",
+      "size": 108832,
+      "sha256": "f885353b238113b37fec2968f69e39b7985696017be5236ac6ba4907e625e3c6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-investment-fees-compounding-study.png",
+      "size": 249694,
+      "sha256": "8d3c729ecb0f96734d98295b3b3075b2285274ddbfb51c084d252b0e1d7d1101",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-worked-drying-preparation-table-study.png",
+      "size": 48625,
+      "sha256": "f30e47a8053aa6ebbe685b8b964a3bf7bcb3bf6795b0be2bdcdbbf65dcb249aa",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-worked-two-proportions-study.png",
+      "size": 106937,
+      "sha256": "f6e8d21553c923dd3d80773ef355ca7d3d9aa8da7e0c492db30174867ccc4bbc",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-worked-two-proportions-table-study.png",
+      "size": 38244,
+      "sha256": "425f8b8fbad394ac189d23e9e073cb43479ca002794bfe9e3df555769b628536",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-investment-decision-range-study.png",
+      "size": 269314,
+      "sha256": "1fc439f3ee14b72449858d6533ce1196c82a88f3bce942856dbf66d8fc4897c7",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-worked-mud-and-carriers-study.png",
+      "size": 107539,
+      "sha256": "dd30cd097682b8e95e5e5ff97021c7ca2c6d1f607dae4572a1d2ea424c02abc6",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-charles-darwin-origin-of-species-worked-mud-and-carriers-table-study.png",
+      "size": 64161,
+      "sha256": "6e344166dcf4971b9dbefa2307170b3c24c9b4d4c93d83ac5912c6e34aab3d62",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-john-snow-mode-communication-cholera-study.png",
+      "size": 283001,
+      "sha256": "400c613ccb9250505587f8e6385e684a876cbfbd852505e7a9ecb4969756606d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-john-snow-mode-communication-cholera-worked-weekly-source-missingness-study.png",
+      "size": 222031,
+      "sha256": "b75d54a656c6ce35be43814fe04514404c3ba3931735d54e6ba378239800245f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-study.png",
+      "size": 104791,
+      "sha256": "d13c89f8cdc52b333a610fad5f758251e05882344d55a5bd5fbcc9d59e05d645",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-worked-eval-apply-study.png",
+      "size": 99655,
+      "sha256": "a76b86ee76c1e77246d622e2d7e35eb097d07d1a4ac809489905dde1c7306ee0",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-john-snow-mode-communication-cholera-worked-weekly-source-missingness-table-study.png",
+      "size": 47443,
+      "sha256": "f766fa96ef7e75feed6ba0f7b5c44ebde2722ee9ebc2a6cc0161fc76cdeb070d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-worked-eval-apply-table-study.png",
+      "size": 51440,
+      "sha256": "425f0fd007b193f7d7943afebc3ad27b508c0baa6b43834d40f6f8b13912c336",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-john-snow-mode-communication-cholera-worked-allocation-assumptions-study.png",
+      "size": 243073,
+      "sha256": "832515edfaa4e34bc4ec1a0929436a0536dcab6499e18c990106e7537529f9bd",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-worked-captured-state-study.png",
+      "size": 97136,
+      "sha256": "642ebd90e9efc58e10176441cb8df9447dcad5e361b118d52a1eef32e78334e3",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-worked-captured-state-table-study.png",
+      "size": 27348,
+      "sha256": "9032083f6a0a11e24a850afe5d6bb511107c395fe2fe1a0c0a97786ce454e9cf",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-john-snow-mode-communication-cholera-worked-allocation-assumptions-table-study.png",
+      "size": 56104,
+      "sha256": "4cfbe51ee1a4b4b750ec5a7bd8c4749a4204f0919e7bebca3e176f59c6c0376a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-worked-thunk-environment-study.png",
+      "size": 96438,
+      "sha256": "ccb8589d8675a432eee65f10cff4ef30845464f40cd3e132585624ea4c2c5672",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-john-snow-mode-communication-cholera-worked-conditional-rate-bounds-study.png",
+      "size": 250449,
+      "sha256": "b848cc180697291cd31d8e38cc5fb954994ed39f2e3efd84c325df80cfc5f79a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-worked-thunk-environment-table-study.png",
+      "size": 35858,
+      "sha256": "56794f6f27c7dfc99723759b720a455939789b84743e42b26f8b7b554062c3a7",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-john-snow-mode-communication-cholera-worked-conditional-rate-bounds-table-study.png",
+      "size": 61719,
+      "sha256": "d1784e813223b987672e3cefefaa79c8fc29747de2c3d9502acf8f2c2fdff2cb",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-worked-memoization-effects-study.png",
+      "size": 107942,
+      "sha256": "8c20b728bf13d868eaaea114af180cb67217357c65c8356720de6712698c78c9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-continuation-abelson-sussman-sicp-worked-memoization-effects-table-study.png",
+      "size": 43318,
+      "sha256": "c74e76ba76cbf96b0e77e805a42ba0f75ac983ef7fe83b62dbe34bb97863c706",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-adam-smith-wealth-of-nations-study.png",
+      "size": 291777,
+      "sha256": "8d5e992bf30bba69e1f84e182ca773da51f23ed091e709947ae08e82e729bc25",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-adam-smith-wealth-of-nations-worked-paper-metal-positions-study.png",
+      "size": 227463,
+      "sha256": "aa1d640c4d66b7ff72cf711af340e121d16c6185cee701e5c0d631fd7476ea9c",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-adam-smith-wealth-of-nations-worked-paper-metal-positions-table-study.png",
+      "size": 68778,
+      "sha256": "20f34fae30321bcc5cde13490aa20bf3bd175f15d5d83ef3f4a428f2fe94f7f9",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-adam-smith-wealth-of-nations-worked-released-resource-routes-study.png",
+      "size": 234419,
+      "sha256": "d6ec2421dd07ef248c0eca06c047b37eb730992b60a5a8be35ace5eb1d814604",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-adam-smith-wealth-of-nations-worked-released-resource-routes-table-study.png",
+      "size": 82843,
+      "sha256": "839bfe614a80770fc0d6471628d32791930296debfc27c934abdaa5b192a44d3",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-adam-smith-wealth-of-nations-worked-redemption-is-a-cash-question-study.png",
+      "size": 216164,
+      "sha256": "f2de2de649334f683618facb24932c91739c8c5e7475776defc585c0aa1cd093",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-adam-smith-wealth-of-nations-worked-redemption-is-a-cash-question-table-study.png",
+      "size": 67852,
+      "sha256": "83c161ab98656f1765fe860b7a16451a669444b64ed21e8424bc6ac9c6fff042",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-study.png",
+      "size": 292718,
+      "sha256": "f4cb524e8aba8b93b94c02ece37222f066e0f2f7fa53783784842217978da3ca",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-worked-dispersal-chain-study.png",
+      "size": 235480,
+      "sha256": "db7f57c68a3e77ddc42cef4bf538c3bfa05b9534ce18f5e4a024b8581e6bdc08",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-worked-dispersal-chain-table-study.png",
+      "size": 93596,
+      "sha256": "cc97668a5c708ff442ebba3db96abe45d4213ca496dedf1d19b50fcba8ee218a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-worked-drying-preparation-study.png",
+      "size": 242202,
+      "sha256": "36ef92ffe3710ddd0973124ac62a603b697e209a88c9c51cfe8d9cb0041e4ab9",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-worked-drying-preparation-table-study.png",
+      "size": 65196,
+      "sha256": "edb998039233c71bbaba5c56cfbc00dff8ff7c7c82beff21c00a44b442c09deb",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-worked-two-proportions-study.png",
+      "size": 237306,
+      "sha256": "fd7e8de0e3dc1c0ad632c154d35aded3a29efd29c0a91041b12f54c278e72839",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-worked-two-proportions-table-study.png",
+      "size": 62904,
+      "sha256": "c2708f17a8c02458a000570786c0755b55c364ff272ba4c4e42ad9d56f26afce",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-worked-mud-and-carriers-study.png",
+      "size": 264959,
+      "sha256": "45b4190a8502cc33e0557ddfc24f7b4a5617c61cab9106ad51260db2ca44da8a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-charles-darwin-origin-of-species-worked-mud-and-carriers-table-study.png",
+      "size": 87491,
+      "sha256": "f1cfa187a222b1bb248098872a3e76aefabf7c6a8f16313d45182ce366bdd390",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-study.png",
+      "size": 288855,
+      "sha256": "662206cd724366765f4a8d8740dd8733e5d39cec82c77db9faa46495ce77e78e",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-worked-eval-apply-study.png",
+      "size": 194746,
+      "sha256": "288d1eb25c9772ead4215f0b795ee526193e1e9ad2efca96619270aa5b19f500",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-worked-eval-apply-table-study.png",
+      "size": 63483,
+      "sha256": "f99fab60fcc20efcc7e993aa3303d4e1c4c2778c530e841377d44740967bd8c0",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-worked-captured-state-study.png",
+      "size": 172562,
+      "sha256": "0da101602219bc74204d7d5c1a0fd6e2b09bc773e328660789ff6cf219b9b86a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-worked-captured-state-table-study.png",
+      "size": 35348,
+      "sha256": "686e45e04fd7f3b73f6508e204db1383c2a8682f47f67de1e983a29a38bbc264",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-worked-thunk-environment-study.png",
+      "size": 184236,
+      "sha256": "659ccffa635fe5d9359c44dd0f84d985585596d0afc297c3d89b5085862e3d17",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-worked-thunk-environment-table-study.png",
+      "size": 51062,
+      "sha256": "5e6619f602fed8cbdbbed416516baf99a53bce610660cb790985d77821d3a4a0",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-worked-memoization-effects-study.png",
+      "size": 269796,
+      "sha256": "ebbe803cbcd8042e12a181c0548e81be9bf68aa87d102660bdcec1373ec30775",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-continuation-abelson-sussman-sicp-worked-memoization-effects-table-study.png",
+      "size": 51917,
+      "sha256": "cba08357eb2096e0549c5263f34529ddf12826ea514b73b21ece62b8e67d9ce5",
+      "retained": false
+    }
+  ],
+  "all_generated_images_retained": false,
+  "private_records_included": false,
+  "scope": "Complete available reports and explicitly selected public/synthetic images; hashes of other generated captures are metadata, not retained image bytes. Archive success does not override failed assertions or grant independent acceptance.",
+  "capsule_commit": "b60c32ad65bd3c8ff95293f5146ef380826d0174",
+  "evidence_repository": "rujiewu/superintelligence-public-checks",
+  "private_source_checks_executed_here": false
+}
