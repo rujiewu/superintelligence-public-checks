@@ -102,7 +102,17 @@
     "desktop-light-expansion-nightingale-observation-care-reading-study.png",
     "mobile-dark-expansion-nightingale-observation-care-reading-study.png",
     "desktop-light-expansion-hojoki-dwelling-attachment-reading-study.png",
-    "mobile-dark-expansion-hojoki-dwelling-attachment-reading-study.png"
+    "mobile-dark-expansion-hojoki-dwelling-attachment-reading-study.png",
+    "desktop-light-expansion-feynman-conservation-motion-reading-study.png",
+    "desktop-light-expansion-feynman-conservation-motion-reading-numerical-study.png",
+    "mobile-dark-expansion-feynman-conservation-motion-reading-study.png",
+    "mobile-dark-expansion-feynman-conservation-motion-reading-collision-row-1-study.png",
+    "mobile-dark-expansion-feynman-conservation-motion-reading-collision-row-2-study.png",
+    "mobile-dark-expansion-feynman-conservation-motion-reading-collision-row-3-study.png",
+    "mobile-dark-expansion-feynman-conservation-motion-reading-numerical-row-1-study.png",
+    "mobile-dark-expansion-feynman-conservation-motion-reading-numerical-row-2-study.png",
+    "mobile-dark-expansion-feynman-conservation-motion-reading-numerical-row-3-study.png",
+    "mobile-dark-expansion-feynman-conservation-motion-reading-numerical-row-4-study.png"
   ],
   "ui": [
     "ui-desktop-light-reading-reasoning.png",

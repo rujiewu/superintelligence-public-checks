@@ -3,10 +3,10 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "13ed6a44b97977d150dacd1e4d5b7caedee94a60",
+  "source_commit": "155e59a4f2fa1b19371879c67d5f36aa256fd623",
   "base": "/superintelligence-workspace",
   "modules": {
-    "reading": 39,
+    "reading": 40,
     "learning": 63,
     "trading": 24,
     "investment": 3
@@ -232,7 +232,8 @@
         "lyell-geological-time-reading": "98d44e304bc8539cdf804bb0995d52a82ec8c8ec833d6c109d61d13ac6602e55",
         "dewey-experience-growth-reading": "eae09c2c7322fdc742f9d28c392403d76f09e822caba10623a90e3745ada1538",
         "nightingale-observation-care-reading": "bdc2b1ef53e50ca3ca7dfe6be7152e73522b57cfccc303a3bd5e57ba652fa795",
-        "hojoki-dwelling-attachment-reading": "421ea170ad4677677f6521bea28a05b16030e1ec29f9767f6306d03786cedf97"
+        "hojoki-dwelling-attachment-reading": "421ea170ad4677677f6521bea28a05b16030e1ec29f9767f6306d03786cedf97",
+        "feynman-conservation-motion-reading": "cd31271a9957d58581af0fefc3f9804c37850644dde6dbf77539fac0c7c4df2d"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",
