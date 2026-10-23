@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "url": "https://api.github.com/repositories/1412782116",
+      "kind": "historical-export-denied",
+      "status": 404,
+      "passed": true,
+      "denial_reason": null
+    },
+    {
+      "url": "https://api.github.com/repos/rujiewu/superintelligence-workspace-history-20261020",
+      "kind": "historical-export-denied",
+      "status": 404,
+      "passed": true,
+      "denial_reason": null
+    },
+    {
+      "url": "https://api.github.com/repos/rujiewu/superintelligence-workspace/commits/41bf8276611c08c6de694f446192d37f6fcb7e25",
+      "kind": "historical-export-denied",
+      "status": 422,
+      "passed": true,
+      "denial_reason": "EXACT_COMMIT_NOT_FOUND"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rujiewu/superintelligence-workspace-history-20261020/41bf8276611c08c6de694f446192d37f6fcb7e25/data/catalog-trading.json",
+      "kind": "historical-export-denied",
+      "status": 404,
+      "passed": true,
+      "denial_reason": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rujiewu/superintelligence-workspace/41bf8276611c08c6de694f446192d37f6fcb7e25/data/catalog-trading.json",
+      "kind": "historical-export-denied",
+      "status": 404,
+      "passed": true,
+      "denial_reason": null
+    },
+    {
+      "url": "https://rujiewu.github.io/superintelligence-workspace-history-20261020/pages-manifest.json",
+      "kind": "historical-export-denied",
+      "status": 404,
+      "passed": true,
+      "denial_reason": null
+    },
+    {
+      "url": "https://superintelligence-62gks98ck-rujiewuac-8230.vercel.app/",
+      "kind": "immutable-deployment-denied",
+      "status": 302,
+      "passed": true
+    },
+    {
+      "url": "https://superintelligence-62gks98ck-rujiewuac-8230.vercel.app/api/release",
+      "kind": "immutable-deployment-denied",
+      "status": 302,
+      "passed": true
+    },
+    {
+      "url": "https://superintelligence-c2tezy1eu-rujiewuac-8230.vercel.app/",
+      "kind": "immutable-deployment-denied",
+      "status": 302,
+      "passed": true
+    },
+    {
+      "url": "https://superintelligence-c2tezy1eu-rujiewuac-8230.vercel.app/api/release",
+      "kind": "immutable-deployment-denied",
+      "status": 302,
+      "passed": true
+    },
+    {
+      "url": "https://superintelligence-mj1065hfa-rujiewuac-8230.vercel.app/",
+      "kind": "immutable-deployment-denied",
+      "status": 302,
+      "passed": true
+    },
+    {
+      "url": "https://superintelligence-mj1065hfa-rujiewuac-8230.vercel.app/api/release",
+      "kind": "immutable-deployment-denied",
+      "status": 302,
+      "passed": true
+    },
+    {
+      "url": "https://api.github.com/repos/rujiewu/superintelligence-workspace",
+      "kind": "clean-public-repository",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://superintelligence-api-candidate-rujiewuac-8230.vercel.app/api/release",
+      "kind": "public-production-packets",
+      "status": 200,
+      "source_commit": "5c5e704e8c579c9f3e4e8c646a49a2a5a2a5fe64",
+      "passed": true
+    },
+    {
+      "url": "https://superintelligence-api-rujiewuac-8230.vercel.app/api/release",
+      "kind": "public-production-packets",
+      "status": 200,
+      "source_commit": "5c5e704e8c579c9f3e4e8c646a49a2a5a2a5fe64",
+      "passed": true
+    },
+    {
+      "url": "https://reading-workspace-api.vercel.app/api/release",
+      "kind": "public-production-packets",
+      "status": 200,
+      "source_commit": "5c5e704e8c579c9f3e4e8c646a49a2a5a2a5fe64",
+      "passed": true
+    },
+    {
+      "url": "https://reading-workspace-api-rujiewuac-8230.vercel.app/api/release",
+      "kind": "public-production-packets",
+      "status": 200,
+      "source_commit": "5c5e704e8c579c9f3e4e8c646a49a2a5a2a5fe64",
+      "passed": true
+    }
+  ],
+  "requests_are_anonymous": true,
+  "record_reads": 0,
+  "record_writes": 0,
+  "model_calls": 0,
+  "deleted_histories": 0,
+  "external_cache_erasure_claimed": false,
+  "scope": "Fixed old Git/Pages URLs, three immutable deployments and three production aliases plus a clean candidate alias. Owner-only archive preservation and project-wide protection configuration require separate authenticated receipts.",
+  "source_commit": "5c5e704e8c579c9f3e4e8c646a49a2a5a2a5fe64",
+  "capsule_commit": "bf5721b44ea285febc06f68c898e295094bc0e83",
+  "private_source_checks_executed_here": false
+}
