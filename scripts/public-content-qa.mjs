@@ -72,9 +72,31 @@ export function authoredBodyMatches(body, sections) {
   });
 }
 
-// The frozen prose renderer displays an inline link as "label (destination)".
-// Preserve both parts: dropping the URL would hide a changed cross-book target.
+// Standalone resource paragraphs use real anchors; inline prose retains URLs.
+export function expansionResourceLinkExpectation(paragraph) {
+  const match = String(paragraph).trim().match(/^\[([^\]\n]+)\]\(([^\s]+)\)$/);
+  if (!match) return null;
+  let url;
+  try { url = new URL(match[2], ORIGIN); } catch { return null; }
+  if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password) return null;
+  if (url.origin === ORIGIN && /\/(reading|learning|trading|investment)\/?$/.test(url.pathname)) {
+    if (/^\/(reading|learning|trading|investment)\/?$/.test(url.pathname)) {
+      url.pathname = hosting.site_base + url.pathname;
+    }
+    url.searchParams.set('read', 'public');
+  }
+  return { label: match[1], href: url.href };
+}
+
+export function expansionResourceLinksMatch(actual, expected) {
+  return expected.every(link => actual.some(anchor => anchor.text === link.label + ' ↗'
+    && anchor.href === link.href && anchor.target === '_blank' && anchor.visible === true
+    && ['noopener', 'noreferrer'].every(value => String(anchor.rel).split(/\s+/).includes(value))));
+}
+
 export function expansionParagraphExpectation(paragraph) {
+  const resource = expansionResourceLinkExpectation(paragraph);
+  if (resource) return resource.label + ' ↗';
   const text = String(paragraph).replace(/(?<!!)\[([^\]]+)\]\(([^)]+)\)/g, '$1 ($2)');
   const lines = text.split('\n');
   // The frozen renderer puts ordered markers in <ol>/<li>, outside textContent.
@@ -409,6 +431,8 @@ export async function runAcceptance() {
             { waitUntil: 'domcontentloaded', timeout: remaining(30_000) }));
           requireTrue(response?.status() === 200, 'EXPANSION_ROUTE');
           await ready(page, item);
+          const expectedResourceLinks = payload.sections.flatMap(section => section.body.split('\n\n'))
+            .map(expansionResourceLinkExpectation).filter(Boolean);
           const visible = await bounded(() => page.evaluate(content => {
             const body = document.querySelector('#detail-body');
             const normalize = value => String(value).normalize('NFKC').replace(/\s+/g, '');
@@ -425,15 +449,22 @@ export async function runAcceptance() {
             const hrefs = new Set([...body.querySelectorAll('a[href]')].map(link => link.href));
             const source_links_complete = content.expected_source_urls.every(url => hrefs.has(new URL(url).href));
             return { complete, fits, tables: tables.length, source_links_complete,
+              resource_links: [...body.querySelectorAll('a[href]')].map(link => ({ text: link.textContent,
+                href: link.href, target: link.target, rel: link.rel,
+                visible: Boolean(link.getClientRects().length && !link.closest('[hidden]')) })),
               missing_paragraphs: missing_paragraphs.map(p => ({ section: p.section, index: p.index, expected: p.text.slice(0, 160) })) };
           }, { ...payload,
             expected_paragraphs: payload.sections.flatMap(section => section.body.split('\n\n')
               .filter(p => !p.startsWith('|')).map((paragraph, index) => ({ section: section.section_id, index,
                 text: expansionParagraphExpectation(paragraph) }))),
             expected_source_urls: expansionSources.filter(s => payload.source_ids.includes(s.source_id)).map(s => s.url) }), 10_000);
+          const resourceLinks = visible.resource_links;
+          visible.resource_links_complete = expansionResourceLinksMatch(resourceLinks, expectedResourceLinks);
+          visible.resource_links = expectedResourceLinks.map(expected => ({ expected,
+            actual: resourceLinks.filter(link => link.text === expected.label + ' ↗') }));
           await screenshot(page, `${stage}-study.png`);
-          if (!visible.complete || !visible.fits || !visible.source_links_complete) report.expansion_failure = { stage, ...visible };
-          requireTrue(visible.complete && visible.fits && visible.source_links_complete, 'EXPANSION_CONTINUOUS_TEXT_TABLE_OR_LINK');
+          if (!visible.complete || !visible.fits || !visible.source_links_complete || !visible.resource_links_complete) report.expansion_failure = { stage, ...visible };
+          requireTrue(visible.complete && visible.fits && visible.source_links_complete && visible.resource_links_complete, 'EXPANSION_CONTINUOUS_TEXT_TABLE_OR_LINK');
           record(stage, { module: entry.module, id: item.id, ...visible, private_state_captured: false });
         }
       }
