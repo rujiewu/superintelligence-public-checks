@@ -3,7 +3,7 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "f2cca597d345b4c5bd025ed85d2a26ca3047af04",
+  "source_commit": "5c5e704e8c579c9f3e4e8c646a49a2a5a2a5fe64",
   "base": "/superintelligence-workspace",
   "modules": {
     "reading": 37,
@@ -102,7 +102,7 @@
         "john-snow-mode-communication-cholera": "46a09bc49d13ea8b8d37aab5bdd8becab0040a7c4718e1254a72fe6845fbd9f7",
         "plato-republic": "282a65d78e3296b43ca602a56694b40723e7af657b9b693b91fae68e6c807b17",
         "rene-descartes-discourse-method": "1797359b0107ac2da7d79d2ef709fd10bd1c4465ed14def96027b9f35787b6d6",
-        "human-history-thousand": "6ab734f4c5d0b7b51393ae1e50cbb3f3b3c50e0a679c33e5f57938ec9d79cbb3",
+        "human-history-thousand": "8af885af3b91d881c96b45ca4561f28572e716a1fa5b23cbf12d3763e02e364b",
         "investing-decision-library": "09ae1be5ca061be539c372b0f6979e8c7f2469191815431268f28ff861c658f9",
         "human-knowledge-foundations": "ec9e1a05259a8b58276f434a76647672f80dcddbf94a5ea3fd365c105625ec11"
       },

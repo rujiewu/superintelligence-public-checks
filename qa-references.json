@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_commit": "f2cca597d345b4c5bd025ed85d2a26ca3047af04",
+  "source_commit": "5c5e704e8c579c9f3e4e8c646a49a2a5a2a5fe64",
   "local_checks": [
     {
       "name": "published-manifest",
-      "source_commit": "f2cca597d345b4c5bd025ed85d2a26ca3047af04",
+      "source_commit": "5c5e704e8c579c9f3e4e8c646a49a2a5a2a5fe64",
       "catalog_counts": {
         "reading": 37,
         "learning": 63,
@@ -50,7 +50,7 @@
         },
         {
           "id": "human-history-thousand",
-          "source_hash": "9559a5ec4f01c665f391c2c03297356412fe5e8a9ff0c0f2c45357a02c0f0c78"
+          "source_hash": "d25a9ad035102d37a6106a3420a75fda91c06fd6d3fb9458429738be5935097d"
         }
       ],
       "status": "PASS",
@@ -45960,7 +45960,7 @@
         "https://www.gutenberg.org/ebooks/408",
         "https://guides.loc.gov/web-dubois/print-bibliography"
       ],
-      "source_hash": "9559a5ec4f01c665f391c2c03297356412fe5e8a9ff0c0f2c45357a02c0f0c78"
+      "source_hash": "d25a9ad035102d37a6106a3420a75fda91c06fd6d3fb9458429738be5935097d"
     }
   ]
 }

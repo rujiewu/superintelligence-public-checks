@@ -257,7 +257,7 @@ export async function runAcceptance() {
         const response = await bounded(() => page.goto(url, { waitUntil: 'domcontentloaded', timeout: remaining(30_000) }));
         requireTrue(response?.status() === 200 && page.url() === url, 'PUBLIC_ROUTE_CHANGED');
         await ready(page, material.item);
-        const result = await bounded(() => page.evaluate(({ headings, markers, sourceURLs, theme, itemTitle }) => {
+        const result = await bounded(() => page.evaluate(({ headings, markers, sourceURLs, theme, itemTitle, readingEntryIds }) => {
           const body = document.querySelector('#detail-body'), panel = document.querySelector('#resource-detail');
           const text = document.querySelector('#text-section');
           const laidOut = node => Boolean(node?.getClientRects().length) && !node.closest('[hidden]')
@@ -266,6 +266,8 @@ export async function runAcceptance() {
           const headingPositions = headings.map(heading => actualHeadings.indexOf(heading));
           const rect = body.getBoundingClientRect(), tables = [...body.querySelectorAll('table.study-table')];
           const links = [...text.querySelectorAll('a[href]')];
+          const entryPart = parts.find(part => part.querySelector('h3')?.textContent === '先从一个具体问题开始读');
+          const entryLinks = [...(entryPart?.querySelectorAll('a[href]') || [])];
           const hrefs = new Set(links.map(link => link.href));
           const external = links.filter(link => new URL(link.href).origin !== location.origin);
           const tableIndex = parts.findIndex(part => part.querySelector('table.study-table'));
@@ -275,6 +277,17 @@ export async function runAcceptance() {
               && (!index || position > headingPositions[index - 1]) && laidOut(parts[position].querySelector('h3')))
               && parts.every(laidOut) && !body.querySelector('details:not([open])') && laidOut(text),
             required_markers: markers.every(marker => (itemTitle + '\n' + body.textContent).includes(marker)),
+            reading_entry_count: entryLinks.length,
+            expected_reading_entry_count: readingEntryIds.length,
+            reading_entries_complete: (!readingEntryIds.length || entryLinks.length === readingEntryIds.length)
+              && readingEntryIds.every(id => entryLinks.some(link => {
+              const url = new URL(link.href);
+              return url.origin === location.origin
+                && url.pathname === location.pathname.replace(/\/$/, '')
+                && url.searchParams.get('resource') === id && url.searchParams.get('read') === 'public'
+                && link.target === '_blank' && link.rel.split(/\s+/).includes('noopener')
+                && link.rel.split(/\s+/).includes('noreferrer') && laidOut(link);
+            })),
             source_links_complete: sourceURLs.every(url => hrefs.has(new URL(url).href)),
             external_links_safe: external.every(link => link.target === '_blank'
               && link.rel.split(/\s+/).includes('noopener') && link.rel.split(/\s+/).includes('noreferrer')
@@ -293,10 +306,12 @@ export async function runAcceptance() {
             }), section_count: parts.length, source_link_count: sourceURLs.length, table_section_index: tableIndex,
             panel_width: Math.round(panel.clientWidth), reading_width: Math.round(body.clientWidth) };
         }, { headings: material.headings, markers: material.markers, sourceURLs: material.sourceURLs,
-          theme: view.theme, itemTitle: material.item.title }), 10_000);
+          theme: view.theme, itemTitle: material.item.title,
+          readingEntryIds: material.item.id === 'human-history-thousand' ? ['dewey-experience-growth-reading',
+            'james-stream-attention-reading', 'lyell-geological-time-reading', 'homer-iliad-honour-reading'] : [] }), 10_000);
         requireTrue(result.theme_matches && !result.body_overflow && result.continuous_sections && result.required_markers
           && result.source_links_complete && result.external_links_safe && result.prose_fits_column
-          && result.tables_fit_column, 'PUBLIC_CONTENT_GEOMETRY_OR_SOURCE');
+          && result.tables_fit_column && result.reading_entries_complete, 'PUBLIC_CONTENT_GEOMETRY_OR_SOURCE');
         await bounded(() => page.locator('#study-section').selectOption(String(result.table_section_index)), 10_000);
         // Use the critical calculation table; the programme also retains its
         // domain-budget frame before inspecting the new multilingual candidates.
