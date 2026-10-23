@@ -75,7 +75,13 @@ export function authoredBodyMatches(body, sections) {
 // The frozen prose renderer displays an inline link as "label (destination)".
 // Preserve both parts: dropping the URL would hide a changed cross-book target.
 export function expansionParagraphExpectation(paragraph) {
-  return String(paragraph).replace(/(?<!!)\[([^\]]+)\]\(([^)]+)\)/g, '$1 ($2)');
+  const text = String(paragraph).replace(/(?<!!)\[([^\]]+)\]\(([^)]+)\)/g, '$1 ($2)');
+  const lines = text.split('\n');
+  // The frozen renderer puts ordered markers in <ol>/<li>, outside textContent.
+  // Remove only that syntax in a complete list block, retaining every item's
+  // wording, internal numbers, destinations and received order.
+  return lines.every(line => /^\s*\d+[.)]\s+/.test(line))
+    ? lines.map(line => line.replace(/^\s*\d+[.)]\s+/, '')).join('\n') : text;
 }
 
 // Markdown fences are renderer syntax; code whitespace remains material content.
