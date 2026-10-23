@@ -3,10 +3,10 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "3da24ffe5de498a7e73aa497ee85fda1622a5701",
+  "source_commit": "bde0e8a11d18aa5d92fc1b81310e3f4da5c8f1c1",
   "base": "/superintelligence-workspace",
   "modules": {
-    "reading": 42,
+    "reading": 43,
     "learning": 63,
     "trading": 24,
     "investment": 3
@@ -235,7 +235,8 @@
         "hojoki-dwelling-attachment-reading": "421ea170ad4677677f6521bea28a05b16030e1ec29f9767f6306d03786cedf97",
         "feynman-conservation-motion-reading": "cd31271a9957d58581af0fefc3f9804c37850644dde6dbf77539fac0c7c4df2d",
         "shiji-reputation-judgment-reading": "34371ede675d3d8760a4f4a745311a5f0e08aec98db620f116e40f3dd03f6ef2",
-        "mahavira-series-algorithms-reading": "3b5bbc615a92785b6352517ffba997d3f0847dfe5b9d5af1ed3501124395a908"
+        "mahavira-series-algorithms-reading": "3b5bbc615a92785b6352517ffba997d3f0847dfe5b9d5af1ed3501124395a908",
+        "augustine-memory-self-reading": "3eeb39d4e653f0249e3841e39a9b255f6ad12c927ead913e28cd12fdcb5df73d"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",
