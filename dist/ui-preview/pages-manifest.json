@@ -3,7 +3,7 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "d9c93b92d5a081320d25215d9655bb6b29e486b0",
+  "source_commit": "9b95ffd03473eba3ea8e07fb8a4bf0c718060f1a",
   "base": "/superintelligence-workspace",
   "modules": {
     "reading": 41,
@@ -234,7 +234,7 @@
         "nightingale-observation-care-reading": "bdc2b1ef53e50ca3ca7dfe6be7152e73522b57cfccc303a3bd5e57ba652fa795",
         "hojoki-dwelling-attachment-reading": "421ea170ad4677677f6521bea28a05b16030e1ec29f9767f6306d03786cedf97",
         "feynman-conservation-motion-reading": "cd31271a9957d58581af0fefc3f9804c37850644dde6dbf77539fac0c7c4df2d",
-        "shiji-reputation-judgment-reading": "cedb0d36f0d78f20e8d10d6f96dedc40f29a1dd7f75f2b5185a3ce095ebbef4c"
+        "shiji-reputation-judgment-reading": "34371ede675d3d8760a4f4a745311a5f0e08aec98db620f116e40f3dd03f6ef2"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",
