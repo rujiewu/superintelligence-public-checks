@@ -1,0 +1,1118 @@
+{
+  "schema_version": "1.0.0",
+  "source_commit": "0da4f768d09e66a2140c0a1d96007f1589f8368f",
+  "profile": "public-content",
+  "reports": {
+    "report.json": {
+      "status": "FAIL"
+    }
+  },
+  "retained_files": [
+    {
+      "path": "desktop-light-expansion-bucciarelli-structures-reading-study.png",
+      "size": 260652,
+      "sha256": "e101edca296518b6c158cd21fe8d1592c60ba2253e93c71c958437d3d2874fe1",
+      "git_blob": "2e01afacb98fec6069fe7707fe801f1b4aefa36e"
+    },
+    {
+      "path": "desktop-light-expansion-dewey-experience-growth-reading-study.png",
+      "size": 320538,
+      "sha256": "a145c0604dfdc5b0de57e544d2e8cfb8f103228abb220ebb1d43055f86f35c86",
+      "git_blob": "30c54e890470c14029d8c1ce22d780c37c458327"
+    },
+    {
+      "path": "desktop-light-expansion-dhammapada-conduct-reading-study.png",
+      "size": 305571,
+      "sha256": "6ad82414c6f3e61c604cf25cc16601095a8ea279d40630ec2760b6aadfc10c56",
+      "git_blob": "6c18ff0bca3cb329ef3f7ca7ffaf34889d34a9b5"
+    },
+    {
+      "path": "desktop-light-expansion-dubois-souls-selfhood-reading-study.png",
+      "size": 288644,
+      "sha256": "6a1dc974d297546847669c6f369b6bebf27dde15f37108a49eda92ba4020490f",
+      "git_blob": "b5efed69b747f1745bfd3a8282ed77bfc192f954"
+    },
+    {
+      "path": "desktop-light-expansion-durkheim-social-facts-reading-study.png",
+      "size": 295164,
+      "sha256": "b78e68ef9d8f2ce9b3969c362d05b7c5ee4b24aec10c3dfc65ab854eac68d0d1",
+      "git_blob": "f925834358bfd50cb6752f117340fdf4a1bf4e51"
+    },
+    {
+      "path": "desktop-light-expansion-faraday-candle-inference-reading-study.png",
+      "size": 285123,
+      "sha256": "b24153bb03868800ef6a00aa1658149c05bb5400ddd8153af041243694f3d8ae",
+      "git_blob": "b0cebd7b82cce0caf17988c53ddc99d42975e718"
+    },
+    {
+      "path": "desktop-light-expansion-fayol-administration-reading-study.png",
+      "size": 235230,
+      "sha256": "992ffea313a7458360761ad52dd595ab14b827f0c7d0ae092343655a6827808a",
+      "git_blob": "bea5fa2ac824559472d439deb2b7f64f99bd87a9"
+    },
+    {
+      "path": "desktop-light-expansion-genji-opening-reading-study.png",
+      "size": 291141,
+      "sha256": "2b635887880333383e22d950354adaa3314368ecb8b6734d1dbcd3250d7eca2c",
+      "git_blob": "c25f240bf09d0ba7ae18aa79d19cee6a74676790"
+    },
+    {
+      "path": "desktop-light-expansion-gita-action-judgment-reading-study.png",
+      "size": 309599,
+      "sha256": "598f2d6170cd8bbf443fbc4053769c32a7a9e5838117f4a58ba7998cebc85efe",
+      "git_blob": "841be02ad885eda541cdfe96453fb37de59c2005"
+    },
+    {
+      "path": "desktop-light-expansion-homer-iliad-honour-reading-study.png",
+      "size": 316732,
+      "sha256": "cc61df8b4b503ad5393df9b74edf32bc68a5f9dc09d2864b4dd5b8b060fa1c83",
+      "git_blob": "07fe51d8fe4aace1ce913bdb5a0dd15620ae9f76"
+    },
+    {
+      "path": "desktop-light-expansion-ibn-khaldun-historical-judgment-reading-study.png",
+      "size": 291764,
+      "sha256": "588ef0c0b56b24fd583aaab3ab8429b3c07f6170618f068163d0e3082eb6ef38",
+      "git_blob": "fa0740be6313bcef1600a16471cae5b938cef4cf"
+    },
+    {
+      "path": "desktop-light-expansion-james-stream-attention-reading-study.png",
+      "size": 271774,
+      "sha256": "f4008bde0b6960ae1c6aecae0ef7b6820a6e9a168594896e04f854f51492a2bc",
+      "git_blob": "d75d479e4a07645800edf308c918a2443c2587a7"
+    },
+    {
+      "path": "desktop-light-expansion-king-farming-systems-reading-study.png",
+      "size": 294612,
+      "sha256": "cb899baa737de9a26bfc50b1b67fd62850f1c581c9b0a6b8163acfa591118f2c",
+      "git_blob": "6497f06eba5c495e7ff64152583631f107b9948b"
+    },
+    {
+      "path": "desktop-light-expansion-laplace-probability-conditions-reading-study.png",
+      "size": 265578,
+      "sha256": "10878279466516dd22fb4c43f67f6a560067fdf622e1afcf2ee709016122190d",
+      "git_blob": "261d932f7a0424e7b5a81a2248f9795a69b2652e"
+    },
+    {
+      "path": "desktop-light-expansion-lyell-geological-time-reading-study.png",
+      "size": 309524,
+      "sha256": "e401ae9fc31a8185ad62f321a55668ff1dff970c97bd1e0bbde11636fd93764d",
+      "git_blob": "e36d0628927b6debd2efc6f09ce3b9e16dec8547"
+    },
+    {
+      "path": "desktop-light-expansion-montesquieu-law-liberty-reading-study.png",
+      "size": 272230,
+      "sha256": "87712288aa8004aabfa764e7391ff132e260ad3570dcbb4e6f14c73918288c54",
+      "git_blob": "e48d89b67d3b7dddf06de611672e3524b389d998"
+    },
+    {
+      "path": "desktop-light-expansion-morgan-heredity-mechanism-reading-study.png",
+      "size": 250693,
+      "sha256": "96b48011becb892e14a0e0b70824c9e0cb3a95d9fb78bc971200884fda31bb25",
+      "git_blob": "75357bd82f6281830e37e44995ae55c40b73da7a"
+    },
+    {
+      "path": "desktop-light-expansion-mozi-inclusive-care-reading-study.png",
+      "size": 296406,
+      "sha256": "14e009d01c39a097eb6f89aabcdfcea5ad871f1c966dbb986c0d48bae712695d",
+      "git_blob": "ff77f061311d4f2341610d289d9fc4ab8679cd80"
+    },
+    {
+      "path": "desktop-light-expansion-nightingale-observation-care-reading-study.png",
+      "size": 286089,
+      "sha256": "e41db54f510323c59f1335dbc104a1cb6757b84c528a290c707b7c698898c5c0",
+      "git_blob": "7e369e4e84f478ccf61bb2e3c93ff8d3dc38b150"
+    },
+    {
+      "path": "desktop-light-expansion-qimin-seeds-reading-study.png",
+      "size": 285589,
+      "sha256": "03941fc37b7a264b8681bab98d9b9669e01523e3aa869d617914db3f3d168a55",
+      "git_blob": "3a13a6ffe0a3339487f4a765f26a4a313f8b8eae"
+    },
+    {
+      "path": "desktop-light-expansion-saussure-sign-value-reading-study.png",
+      "size": 288857,
+      "sha256": "018c4bddaa264b1677a8112501e4acb5bb55e17617d391fcab06203b79f6ce1b",
+      "git_blob": "541ecd5d24d66900898f132de96e5c51aa7319c5"
+    },
+    {
+      "path": "desktop-light-expansion-shitao-method-transformation-reading-study.png",
+      "size": 281110,
+      "sha256": "6c6db694c7a0c0188f4d9f478ecf8d902ba5efe8ff6f4277de60a30abbe1a7c3",
+      "git_blob": "61b3fbef88695c0d9a65ae80d87c7ed5d34f18d9"
+    },
+    {
+      "path": "desktop-light-expansion-wollstonecraft-rights-reading-study.png",
+      "size": 271879,
+      "sha256": "13883105bc9d796f7043a2bb1cf5a66254050dfb42a8f9e8dc8183c86e13b931",
+      "git_blob": "b2828f79e356a43f11f670ea8d1512a493b4af86"
+    },
+    {
+      "path": "mobile-dark-expansion-bucciarelli-structures-reading-study.png",
+      "size": 67742,
+      "sha256": "4fa0fa5bc8807429ac61a5983f6191e112d23b2ea06d3640aecd5afe52066bdb",
+      "git_blob": "5eef32da72b062fd760e1678e07643b9ceb564c1"
+    },
+    {
+      "path": "mobile-dark-expansion-dewey-experience-growth-reading-study.png",
+      "size": 69003,
+      "sha256": "c41f8ffdac029fb56a41512a051555bfeaea001e89fd315d4f74ecb0057838be",
+      "git_blob": "e56b447b4008eb1c87cd0b3a8ba8a5a33c8722a2"
+    },
+    {
+      "path": "mobile-dark-expansion-dhammapada-conduct-reading-study.png",
+      "size": 62346,
+      "sha256": "fd6c78e1fff87f64f5c71b4ff956839ff59fa98061e16ccb32fbc6e855b26aee",
+      "git_blob": "a44f367d9565ff44e559d252bb66068e9f2d3141"
+    },
+    {
+      "path": "mobile-dark-expansion-dubois-souls-selfhood-reading-study.png",
+      "size": 67623,
+      "sha256": "0019f63a1812ab09ce6453ca5f3fe957e06bac9880048596985ca4b5aea83d9b",
+      "git_blob": "a4085dbcb38ba1a6535de08cf6dfa94c7d404d8a"
+    },
+    {
+      "path": "mobile-dark-expansion-durkheim-social-facts-reading-study.png",
+      "size": 68639,
+      "sha256": "f736d09792b2e0f3d117f7a7da58e8f6698c0637706f6216dc92a6d467b4a10d",
+      "git_blob": "8507342e43671cfa0d820771cdec06df6e06c89f"
+    },
+    {
+      "path": "mobile-dark-expansion-faraday-candle-inference-reading-study.png",
+      "size": 78951,
+      "sha256": "f6a2b77744fd84d834b4ca8affb6f62a845748d4ba34b9aaae7047c443864406",
+      "git_blob": "31084921b9f2d3e1d4047f7ab3bd8806a3c628bf"
+    },
+    {
+      "path": "mobile-dark-expansion-fayol-administration-reading-study.png",
+      "size": 57015,
+      "sha256": "e688a5e062d35036ab46fc1d83dedcaab4aa6f9c610960842cea9225f6d871ff",
+      "git_blob": "3e32d4c26c7586ea39ba5827a14ad3e58b43a1fe"
+    },
+    {
+      "path": "mobile-dark-expansion-genji-opening-reading-study.png",
+      "size": 71847,
+      "sha256": "32cbf0f043a8f083922d835ecfc9297b4f9dd5e23414cee6bf18f3f9b125cc7e",
+      "git_blob": "939a05280e3f4b71fb768604204c61fac601f6e4"
+    },
+    {
+      "path": "mobile-dark-expansion-gita-action-judgment-reading-study.png",
+      "size": 84949,
+      "sha256": "8e83d30961b1579d110f0a26944816654d84a88f67b2cf6090855fe4797c8d57",
+      "git_blob": "8350a9d096b6ae96ed76d2a16f18241843c4b411"
+    },
+    {
+      "path": "mobile-dark-expansion-homer-iliad-honour-reading-study.png",
+      "size": 75100,
+      "sha256": "2fc7863a987488865be6f9bb7ec8f48f3725622aac88162072f7c5c0827f6aed",
+      "git_blob": "61777a34e57b622d5a385e5b356d5ea750d155c8"
+    },
+    {
+      "path": "mobile-dark-expansion-ibn-khaldun-historical-judgment-reading-study.png",
+      "size": 82760,
+      "sha256": "3b01c371f213f30aa57210cc8bb33c4f24fb0363eacb9cddfcff01b28dd918a0",
+      "git_blob": "00712045bb192dc287dc9311e32efa0c0311775a"
+    },
+    {
+      "path": "mobile-dark-expansion-james-stream-attention-reading-study.png",
+      "size": 89151,
+      "sha256": "ad23914413e49459812d11a932e14fdd5f1fca44f56c15dea26ffccd74f24b8e",
+      "git_blob": "022e638e8fea1040ae926773fe035bc3107f2439"
+    },
+    {
+      "path": "mobile-dark-expansion-king-farming-systems-reading-study.png",
+      "size": 62241,
+      "sha256": "43e0b87a057916f41a39f57dd3a8dea1ed238fe6d31cd72d802f7d216f4e70a4",
+      "git_blob": "30baad228b3f21d01f65786809102ee6875ef9e4"
+    },
+    {
+      "path": "mobile-dark-expansion-laplace-probability-conditions-reading-study.png",
+      "size": 52111,
+      "sha256": "5ff473de7e19a0c22e6534191eba2157ca44c89c45136e81ec51d10830cff10b",
+      "git_blob": "108120831885a137932a20e92dc7be3332d2723e"
+    },
+    {
+      "path": "mobile-dark-expansion-lyell-geological-time-reading-study.png",
+      "size": 64846,
+      "sha256": "d581ef84195cc6449a653cc0824859e79a90603404583e66cca794513ca3a341",
+      "git_blob": "a3d83a8425be8e9339a16e3432ce1e3f88fd4cf8"
+    },
+    {
+      "path": "mobile-dark-expansion-montesquieu-law-liberty-reading-study.png",
+      "size": 70792,
+      "sha256": "81f13204c80b0241a4e1767b31083d12aa0a63c601642c64e6047d744b5d9c22",
+      "git_blob": "5c7dec46d626fc7d918b75f59b51b94813cd0ae6"
+    },
+    {
+      "path": "mobile-dark-expansion-morgan-heredity-mechanism-reading-study.png",
+      "size": 47607,
+      "sha256": "48cef5806ee049af4a5fbb826fde9645a42bfb56e9aab65356210f22b714af39",
+      "git_blob": "40263a85c79295da079ace9743487b171998754a"
+    },
+    {
+      "path": "mobile-dark-expansion-mozi-inclusive-care-reading-study.png",
+      "size": 66154,
+      "sha256": "704c5fda8105477f4f24de1ce3688b8c7f009686cb4c14bf82e81f1b0d5468d6",
+      "git_blob": "114ddbde366c0e8df6a08e6b04ec34dfd3403372"
+    },
+    {
+      "path": "mobile-dark-expansion-nightingale-observation-care-reading-study.png",
+      "size": 71119,
+      "sha256": "63570ce8ed3188c5766848dcf47bbdc6c59698fbdd136e4b4bd12f35fc154233",
+      "git_blob": "09a71a560adf910a51f8269b8f3807f2f700a7b5"
+    },
+    {
+      "path": "mobile-dark-expansion-qimin-seeds-reading-study.png",
+      "size": 74437,
+      "sha256": "dd93aad00b71d6a757f73eb0a9c4b7a19d562072baeb46ce0a9fa7d14a0ef877",
+      "git_blob": "8cc47f7bafad04d0881738528675273d51923655"
+    },
+    {
+      "path": "mobile-dark-expansion-saussure-sign-value-reading-study.png",
+      "size": 81153,
+      "sha256": "c9a39b853421fb3881027f23b341eac39880a7bccc0f08834d3cd994a99e2ab2",
+      "git_blob": "e59465fbf066556803ae1e36392884d21aed474d"
+    },
+    {
+      "path": "mobile-dark-expansion-shitao-method-transformation-reading-study.png",
+      "size": 84414,
+      "sha256": "5c110bc935657b34c05fbb006b39fe11eaf13d89d6b4d03c6e9c0a80043317c5",
+      "git_blob": "12c60acccb6681ac1f7728de5920e6f26af6cc3a"
+    },
+    {
+      "path": "mobile-dark-expansion-wollstonecraft-rights-reading-study.png",
+      "size": 77343,
+      "sha256": "16dee576557f13358334a4143c4ecfd85e4d3da742cdca678413444c3cdd0166",
+      "git_blob": "9173584f222d9c174bb438adc8ddb3d1c62c710b"
+    },
+    {
+      "path": "report.json",
+      "size": 53902,
+      "sha256": "6e0eaf1c49cebffeb677e02b11705f4a223080313b430624395a022ea13fb401",
+      "git_blob": "0d7df237e5d5abfc057f043e18d0ceeb7e0675f7"
+    }
+  ],
+  "generated_capture_inventory": [
+    {
+      "path": "desktop-light-d02-v33-u6-study.png",
+      "size": 292069,
+      "sha256": "320ca6abb273800a6a0ef24a2d75dac0d159aa8ab34ee005d74aa5f990f56551",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-study.png",
+      "size": 291338,
+      "sha256": "d6dda1bedfc1ca69e5f3ddc724016f6a135d141d3f20fe648232facc7131add1",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-practice.png",
+      "size": 228153,
+      "sha256": "8719851449952b2bacc3bd2cbb6d8ee19a5a71eeff271556f38807bc2fb04ced",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-practice.png",
+      "size": 228512,
+      "sha256": "6268345348817be6f2005f24e5f903ca895122b0a60674a6371782ba1ac3829c",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-reasoning-study.png",
+      "size": 225200,
+      "sha256": "cd680539039ef787bf6519618bfb9b02d704efc90e340e548076a3e22017423d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-reasoning-study.png",
+      "size": 227445,
+      "sha256": "ead88ba65a8f474d567852a07a7de2ae17d87168b503c080386619d8d6c3ac84",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-sources.png",
+      "size": 195681,
+      "sha256": "18e78f338d4c90c8375e7ab07d5bb533d8e78574a25b8d4de92425a45b841711",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-sources.png",
+      "size": 198552,
+      "sha256": "289dfb98efcc2c0228ccd7b37d8a94cc73bef2474de4a3dc188aaed5bc5cb480",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-study.png",
+      "size": 259488,
+      "sha256": "16764465b25351e48fbd0766fc9dc14445ca9621a63a2ddb5307643471d75acc",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-study.png",
+      "size": 259498,
+      "sha256": "71558aa26f1f2868d4fdced04d97149c2754b815f1049bf93b9a47f4d4919105",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-practice.png",
+      "size": 250136,
+      "sha256": "426e0e1bb9c74c9f1afc9c6e4b3322b0d0cb69928dbf1c830293e2e523ca0ba6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-practice.png",
+      "size": 250332,
+      "sha256": "7a0db0b004382db634ff155cb0b3571bc98b3e1327999886a62d16143f684dbd",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-reasoning-study.png",
+      "size": 248379,
+      "sha256": "9eabdee02fdf7c661befa2f083aa74cbdb95c599389a97956127197dc0ce4614",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-reasoning-study.png",
+      "size": 246167,
+      "sha256": "c5db116ff77fba147783f3bd9390feeea85d6f401dd78091cffa5a8095074a9e",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-sources.png",
+      "size": 223543,
+      "sha256": "ce7c15ed013daa6c757e4bff17d1cad4d16d525b6aea56eb0da4669be2af79b3",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-sources.png",
+      "size": 220634,
+      "sha256": "f0f3c7894dd6fd41b915051024cebc242fe81c3978f07649ab16813521062812",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-human-history-thousand-study.png",
+      "size": 255510,
+      "sha256": "c76ac83b68e3050aa7123b8a67b3318e2be7b8b539cc63ea77555852879b1cdd",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-human-history-thousand-study.png",
+      "size": 255701,
+      "sha256": "ee7500cd0d60b11cee6ddb1756292e15b380ecf7e024461e30c6bca89a2721f4",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-human-history-thousand-practice.png",
+      "size": 207095,
+      "sha256": "63eff5ba541bb28d640314a3d255204bbdc83f7cee2a1d93b2fce5a6ad78e4af",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-human-history-thousand-practice.png",
+      "size": 207108,
+      "sha256": "ef84ff4d17833a7261e18e82d08b7410c2e7106f55da3d287bc9bb2a88dfb53e",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-human-history-thousand-nomination-study.png",
+      "size": 228163,
+      "sha256": "6e29f0e29d5a123926fec38420f8741b55081b29abe1edd7dded313b3b9cf592",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-human-history-thousand-nomination-study.png",
+      "size": 228689,
+      "sha256": "18d87851d600104d83022ebdf07ac9e87c9e07e24debe1e2329bbd0d4671d83e",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-human-history-thousand-sources.png",
+      "size": 186027,
+      "sha256": "ee686c97bc63f5db7117f93b6c76c9096d2b93b89e90c613645d0eda762563e0",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-human-history-thousand-sources.png",
+      "size": 187069,
+      "sha256": "6f0fdf9723b2120e415d031506a942013515a6c3ce539057fec33603d8b97395",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-harvey-circulation-reading-study.png",
+      "size": 298949,
+      "sha256": "a3c1e6d42b09cdb31377de4ce61f9c9ddd28dd8bc508d82e1d7e1e777b4de761",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-d02-v33-u6-study.png",
+      "size": 76036,
+      "sha256": "c1b9f82584117392f78bea69051eecb85c1b9d250c924dbb872f78d5930d60c7",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-d02-v33-u6-practice.png",
+      "size": 97590,
+      "sha256": "86f2d6af8ea991846df8bca6e0c22361da6e2b8294fe32ae4865c24ed77f7295",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-d02-v33-u6-reasoning-study.png",
+      "size": 88910,
+      "sha256": "86bc3c00f879e4bcca1bb3ad7f15a399189c4cb2f024ab897d37b026a507d55c",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-vitruvius-architecture-reading-study.png",
+      "size": 300797,
+      "sha256": "463ceaa71e5ad13c601b9ba549a8e8e05be34977b1d2040fe784b6593dd35972",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-d02-v33-u6-sources.png",
+      "size": 71554,
+      "sha256": "bf80d8af5ecafd7ed9dcf807dd68ca69146e23158937102c3aeab0e942a9fbf6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-mill-liberty-reading-study.png",
+      "size": 288314,
+      "sha256": "64904a51e4e08b20aa8bce996555d9c7c0d3336864ce5054695e67b8a1169b2b",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-operational-reconciliation-study.png",
+      "size": 54531,
+      "sha256": "81e306653e41b69196ca1f240141df691d5f3e9dbe8b70be470c4f554a2c9163",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-operational-reconciliation-practice.png",
+      "size": 97321,
+      "sha256": "cb41067cdbcafa774ee11fd18e4ca3eee43cf82a76924303c091fb211faae6c1",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-operational-reconciliation-reasoning-study.png",
+      "size": 84526,
+      "sha256": "5701b88aaede9c521eb36bc19fbc090834707baf0be77fd381dcaf0f6dcf7f34",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-operational-reconciliation-sources.png",
+      "size": 76439,
+      "sha256": "e749625bbb9a6d7b72caa0b5a3ef61b95aee8c3968c45ac0e7be08a10298188b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-cato-agriculture-reading-study.png",
+      "size": 292497,
+      "sha256": "7fed6323c40133087fe1dbe41d2b4f89010040ccc176bfa50874a4dba7649798",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d01-v33-u1-study.png",
+      "size": 254282,
+      "sha256": "6e22992bb3f1e59035c2e06455722f6943ee6a6e88633c686a7cec816237e069",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-human-history-thousand-study.png",
+      "size": 65396,
+      "sha256": "680f599578b9ede56dfe1468587b9ec7fccec6d2311af95a844b7f2cb48083e2",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-human-history-thousand-practice.png",
+      "size": 82967,
+      "sha256": "b2259fbc81512bfb785da35718daa60de8ecd670612db9f6c6473cf12a82a2f4",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-human-history-thousand-nomination-study.png",
+      "size": 64868,
+      "sha256": "37921f0a76844bbe61ff0177598ef7657b96b41cf7b93a27e75ca9ba02fdbd36",
+      "retained": false
+    },
+    {
+      "path": "mobile-light-human-history-thousand-sources.png",
+      "size": 59682,
+      "sha256": "2279175321da2f669d0f9b4a26234ee2eccff47f68a10b18bc6247cc861d06e6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d01-v33-u2-study.png",
+      "size": 252175,
+      "sha256": "4cd6bc4aa350aaf02ede9be1261499e8e7c9b1a5497e599c13ae24a3129489b9",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d01-v33-u4-study.png",
+      "size": 246276,
+      "sha256": "c00464e165e0e9f98c1a171eaa4e154fe02c9f855b7ec03fe6a9d0fcc754cf52",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-d02-v33-u6-study.png",
+      "size": 75703,
+      "sha256": "dd269458329b504678daa1e8bf1c3e689f67bc8b7cdf7fc2cd8ded21304c6f8a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-d02-v33-u6-practice.png",
+      "size": 96910,
+      "sha256": "d3b464f22255079372230fd857570a58cb9e0d2ec7e642fb6a8dc28ddf96a6e2",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-d02-v33-u6-reasoning-study.png",
+      "size": 88232,
+      "sha256": "e6873ed95cd400cfacaaa7ddf8ebe86ee5147601876abc48520d4cabb1f054b4",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-d02-v33-u6-sources.png",
+      "size": 71077,
+      "sha256": "5445f3e1d931c929dde6dca466107ebe6bf32d8fcd1f4d2516d772cabeeb5e4a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d03-v33-u3-study.png",
+      "size": 226346,
+      "sha256": "55aa18c29f4222a1840c26fcea5ce117fadac038a635113219f4635627170658",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-operational-reconciliation-study.png",
+      "size": 54356,
+      "sha256": "f1309b1c30e6c9156376cf193463d5eb1b3ada4809545119dd316a50d18f0894",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-operational-reconciliation-practice.png",
+      "size": 96624,
+      "sha256": "e9f0d6eb573b3a38264fac57820acdd55806e89e9945c1bdfac4b964fa0f19fa",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d03-v33-u4-study.png",
+      "size": 261941,
+      "sha256": "ff006bf8462535ef46fa2309d4da722d7aaabc5bfccbf751d7201360e72d43f9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-operational-reconciliation-reasoning-study.png",
+      "size": 83902,
+      "sha256": "bf7c27097d22f3792af7c66d76a0de975a1fd663a25c67205ed7813c2bf518be",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-operational-reconciliation-sources.png",
+      "size": 75898,
+      "sha256": "b8b5f0e78b675e43a2889e3eb0e61eb0a0efe8c1f59c13366b9f8c0239300b29",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d03-v33-u5-study.png",
+      "size": 277602,
+      "sha256": "44b31a4cdf7e1652f6f4ff9c5d3c0144ec1308759cb69498896d4aeabf1ae6b0",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-human-history-thousand-study.png",
+      "size": 65130,
+      "sha256": "0816c9e74215bb9ad6a1f34bf670233245dbb5e4f4c471a70547be79deb55285",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-human-history-thousand-practice.png",
+      "size": 82780,
+      "sha256": "a622a0d33ff3fa811bf2c0024877175de5e5b726254ae75d4c7ab7e22369511b",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d06-v33-u1-study.png",
+      "size": 169606,
+      "sha256": "c403c8d5e99c10d8f8b4d6b23f750f265fa580d900ec3b91b6e06b35a95750ee",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-human-history-thousand-nomination-study.png",
+      "size": 64509,
+      "sha256": "74d4d6da037323e9737edef3d5a62cd6d4c968bdbae3240b251a1a29c6f0b25d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-human-history-thousand-sources.png",
+      "size": 59418,
+      "sha256": "d3aa50586d0720c9ab4f10f6b9455bc9a57727c717a147e710e4a6dc1eee781d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d06-v33-u2-study.png",
+      "size": 258533,
+      "sha256": "8afe630aa804d0a919b80606c3e28139d04db6da1d74c5aea964a10e5e57eb9a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-harvey-circulation-reading-study.png",
+      "size": 53758,
+      "sha256": "29748d9cd39737a018567a52eb3cea274d8629674bb0fc1119ce6437e8bd4715",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d06-v33-u3-study.png",
+      "size": 275644,
+      "sha256": "f31b3876f94fd221fb425c1dcfd59f542035996f5e11fa79745cd9ea3074bdf3",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-vitruvius-architecture-reading-study.png",
+      "size": 63418,
+      "sha256": "bcf275feff7e665f835c78a72569874dee95432b0c2397f781ad08f5876a78c1",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-mill-liberty-reading-study.png",
+      "size": 75199,
+      "sha256": "00d3d6eef70f6d608b6b158b1cdc219fb63ed43245058026180db62522222564",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d07-v33-u1-study.png",
+      "size": 282121,
+      "sha256": "3e9372c010a2a02ca0daaf5207270c165bdcca2a7d19c46f291def2a70d44d7a",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-cato-agriculture-reading-study.png",
+      "size": 53128,
+      "sha256": "850c3ac227aef2905b8aabf10d000c31378b8719bd170dd8ffbfce69f0444d84",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d07-v33-u2-study.png",
+      "size": 242427,
+      "sha256": "4233e48702a892edcd564efa1d1b1f60c1af54f355ef7e210f0ad9b65b63a38f",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d01-v33-u1-study.png",
+      "size": 58741,
+      "sha256": "07ecfea070cc2f1f5a7ab7bf2d0e1b2bfc999d924bb766064f6f57311291106a",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-d07-v33-u3-study.png",
+      "size": 251806,
+      "sha256": "6b7a429f54ed60fe6c38cd114c931ede6cec9d3e86fe35900a384fd5038f8771",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d01-v33-u2-study.png",
+      "size": 45223,
+      "sha256": "7b52e09d377f0539d217133f3b34c8a1db62a0786baf0c86529d4fa0930e7bf5",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-working-capital-bridge-study.png",
+      "size": 228861,
+      "sha256": "b5b73809d9128842c1be9fce2b8a0076bc808565f12caa2b56b8634119c0a85e",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d01-v33-u4-study.png",
+      "size": 41443,
+      "sha256": "b1f5e817056288d7dcdabc7be42e22c5b5d2b0795851823623f9af36c6066c6d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-capacity-cost-breakpoint-study.png",
+      "size": 223382,
+      "sha256": "11b9fc4b5fd1899418e7fcf3ab17a164ab8f177535a264b98ebd1e18c978a01e",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d03-v33-u3-study.png",
+      "size": 39296,
+      "sha256": "0ea26c8b211890f66aecd6f0819cc895d30e360bfde7b78e941515cc7c71dd07",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-inventory-price-liquidity-study.png",
+      "size": 283865,
+      "sha256": "2d7b8e67683f3ca77a6cc31f9b934e2a551dd4cdfa85f0bf766f3a4d30e26c2d",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d03-v33-u4-study.png",
+      "size": 53834,
+      "sha256": "270cbb6fe0755bee76dbeb004e16c11a2642580945e8af2eab54484d4cf4258f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-investment-fees-compounding-study.png",
+      "size": 201692,
+      "sha256": "07d8aab69e51789bf6866379732e193de742ae52c94c1710b0181351831843a9",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d03-v33-u5-study.png",
+      "size": 53612,
+      "sha256": "30859e767238912715a1777e26f9576e6359b683b29e7b81f99e7579f92a833e",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-investment-decision-range-study.png",
+      "size": 242683,
+      "sha256": "e96ee719c967a185b39d3972af6274958627a1364b75edf39722ab31fe5d3258",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-d06-v33-u1-study.png",
+      "size": 39054,
+      "sha256": "5adc3ce163cbe92f1965b92da4b86a86ab178165a570dc546bfdcf3ae33ebdc8",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-wollstonecraft-rights-reading-study.png",
+      "size": 271879,
+      "sha256": "13883105bc9d796f7043a2bb1cf5a66254050dfb42a8f9e8dc8183c86e13b931",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-d06-v33-u2-study.png",
+      "size": 35626,
+      "sha256": "f9bc8d49048259e51994937964bf5794ef23d5a91b6c8c8f1e6ede48e6eebbc8",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-bucciarelli-structures-reading-study.png",
+      "size": 260652,
+      "sha256": "e101edca296518b6c158cd21fe8d1592c60ba2253e93c71c958437d3d2874fe1",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-qimin-seeds-reading-study.png",
+      "size": 285589,
+      "sha256": "03941fc37b7a264b8681bab98d9b9669e01523e3aa869d617914db3f3d168a55",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-d06-v33-u3-study.png",
+      "size": 70519,
+      "sha256": "e154d92785345944ea3147e575e58e6a7174a3d6b110a5b4ca89fae006cbb02f",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-king-farming-systems-reading-study.png",
+      "size": 294612,
+      "sha256": "cb899baa737de9a26bfc50b1b67fd62850f1c581c9b0a6b8163acfa591118f2c",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-d07-v33-u1-study.png",
+      "size": 74202,
+      "sha256": "599448fffd5d59897d6213cf9492fd72262ec5b188b829defedfbfa2f906f5a6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-mozi-inclusive-care-reading-study.png",
+      "size": 296406,
+      "sha256": "14e009d01c39a097eb6f89aabcdfcea5ad871f1c966dbb986c0d48bae712695d",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-d07-v33-u2-study.png",
+      "size": 45003,
+      "sha256": "632fbaaeb3f916b5be1cae9bf9a91518f82beac97a7b36ddc72f0a5a0a78fce5",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-dhammapada-conduct-reading-study.png",
+      "size": 305571,
+      "sha256": "6ad82414c6f3e61c604cf25cc16601095a8ea279d40630ec2760b6aadfc10c56",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-d07-v33-u3-study.png",
+      "size": 49040,
+      "sha256": "b1de3dfa48187f0ec1cbebb53fa3667d5167a33b596779f183720b5c457bf264",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-genji-opening-reading-study.png",
+      "size": 291141,
+      "sha256": "2b635887880333383e22d950354adaa3314368ecb8b6734d1dbcd3250d7eca2c",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-working-capital-bridge-study.png",
+      "size": 55076,
+      "sha256": "0f6af620b014224bc065a540a14e91410b0f044e99868332e3072c060c9ae3cb",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-capacity-cost-breakpoint-study.png",
+      "size": 42457,
+      "sha256": "e204f359003be4a282316e159d7498056689a346d5037b67eb131132b72e4d1e",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-james-stream-attention-reading-study.png",
+      "size": 271774,
+      "sha256": "f4008bde0b6960ae1c6aecae0ef7b6820a6e9a168594896e04f854f51492a2bc",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-inventory-price-liquidity-study.png",
+      "size": 59846,
+      "sha256": "a4218be5e8d0796c19e7a4e48a1429d8820936095c6e7b0e8ad75dd29ebcaaaf",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-saussure-sign-value-reading-study.png",
+      "size": 288857,
+      "sha256": "018c4bddaa264b1677a8112501e4acb5bb55e17617d391fcab06203b79f6ce1b",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-investment-fees-compounding-study.png",
+      "size": 45498,
+      "sha256": "0073d35c37464f685d29793c8e26a78c73540e692f0b018e195467b4ec7f97ce",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-expansion-fayol-administration-reading-study.png",
+      "size": 235230,
+      "sha256": "992ffea313a7458360761ad52dd595ab14b827f0c7d0ae092343655a6827808a",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-investment-decision-range-study.png",
+      "size": 49959,
+      "sha256": "8a2c4c9ab88d23d7427d0b73e5885e5a680f09357d3b42531985ec9ef8ef5e2b",
+      "retained": false
+    },
+    {
+      "path": "mobile-dark-expansion-wollstonecraft-rights-reading-study.png",
+      "size": 77343,
+      "sha256": "16dee576557f13358334a4143c4ecfd85e4d3da742cdca678413444c3cdd0166",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-faraday-candle-inference-reading-study.png",
+      "size": 285123,
+      "sha256": "b24153bb03868800ef6a00aa1658149c05bb5400ddd8153af041243694f3d8ae",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-bucciarelli-structures-reading-study.png",
+      "size": 67742,
+      "sha256": "4fa0fa5bc8807429ac61a5983f6191e112d23b2ea06d3640aecd5afe52066bdb",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-ibn-khaldun-historical-judgment-reading-study.png",
+      "size": 291764,
+      "sha256": "588ef0c0b56b24fd583aaab3ab8429b3c07f6170618f068163d0e3082eb6ef38",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-qimin-seeds-reading-study.png",
+      "size": 74437,
+      "sha256": "dd93aad00b71d6a757f73eb0a9c4b7a19d562072baeb46ce0a9fa7d14a0ef877",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-shitao-method-transformation-reading-study.png",
+      "size": 281110,
+      "sha256": "6c6db694c7a0c0188f4d9f478ecf8d902ba5efe8ff6f4277de60a30abbe1a7c3",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-king-farming-systems-reading-study.png",
+      "size": 62241,
+      "sha256": "43e0b87a057916f41a39f57dd3a8dea1ed238fe6d31cd72d802f7d216f4e70a4",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-montesquieu-law-liberty-reading-study.png",
+      "size": 272230,
+      "sha256": "87712288aa8004aabfa764e7391ff132e260ad3570dcbb4e6f14c73918288c54",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-mozi-inclusive-care-reading-study.png",
+      "size": 66154,
+      "sha256": "704c5fda8105477f4f24de1ce3688b8c7f009686cb4c14bf82e81f1b0d5468d6",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-dhammapada-conduct-reading-study.png",
+      "size": 62346,
+      "sha256": "fd6c78e1fff87f64f5c71b4ff956839ff59fa98061e16ccb32fbc6e855b26aee",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-gita-action-judgment-reading-study.png",
+      "size": 309599,
+      "sha256": "598f2d6170cd8bbf443fbc4053769c32a7a9e5838117f4a58ba7998cebc85efe",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-genji-opening-reading-study.png",
+      "size": 71847,
+      "sha256": "32cbf0f043a8f083922d835ecfc9297b4f9dd5e23414cee6bf18f3f9b125cc7e",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-durkheim-social-facts-reading-study.png",
+      "size": 295164,
+      "sha256": "b78e68ef9d8f2ce9b3969c362d05b7c5ee4b24aec10c3dfc65ab854eac68d0d1",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-james-stream-attention-reading-study.png",
+      "size": 89151,
+      "sha256": "ad23914413e49459812d11a932e14fdd5f1fca44f56c15dea26ffccd74f24b8e",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-laplace-probability-conditions-reading-study.png",
+      "size": 265578,
+      "sha256": "10878279466516dd22fb4c43f67f6a560067fdf622e1afcf2ee709016122190d",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-saussure-sign-value-reading-study.png",
+      "size": 81153,
+      "sha256": "c9a39b853421fb3881027f23b341eac39880a7bccc0f08834d3cd994a99e2ab2",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-morgan-heredity-mechanism-reading-study.png",
+      "size": 250693,
+      "sha256": "96b48011becb892e14a0e0b70824c9e0cb3a95d9fb78bc971200884fda31bb25",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-fayol-administration-reading-study.png",
+      "size": 57015,
+      "sha256": "e688a5e062d35036ab46fc1d83dedcaab4aa6f9c610960842cea9225f6d871ff",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-dubois-souls-selfhood-reading-study.png",
+      "size": 288644,
+      "sha256": "6a1dc974d297546847669c6f369b6bebf27dde15f37108a49eda92ba4020490f",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-faraday-candle-inference-reading-study.png",
+      "size": 78951,
+      "sha256": "f6a2b77744fd84d834b4ca8affb6f62a845748d4ba34b9aaae7047c443864406",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-ibn-khaldun-historical-judgment-reading-study.png",
+      "size": 82760,
+      "sha256": "3b01c371f213f30aa57210cc8bb33c4f24fb0363eacb9cddfcff01b28dd918a0",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-homer-iliad-honour-reading-study.png",
+      "size": 316732,
+      "sha256": "cc61df8b4b503ad5393df9b74edf32bc68a5f9dc09d2864b4dd5b8b060fa1c83",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-shitao-method-transformation-reading-study.png",
+      "size": 84414,
+      "sha256": "5c110bc935657b34c05fbb006b39fe11eaf13d89d6b4d03c6e9c0a80043317c5",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-lyell-geological-time-reading-study.png",
+      "size": 309524,
+      "sha256": "e401ae9fc31a8185ad62f321a55668ff1dff970c97bd1e0bbde11636fd93764d",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-montesquieu-law-liberty-reading-study.png",
+      "size": 70792,
+      "sha256": "81f13204c80b0241a4e1767b31083d12aa0a63c601642c64e6047d744b5d9c22",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-dewey-experience-growth-reading-study.png",
+      "size": 320538,
+      "sha256": "a145c0604dfdc5b0de57e544d2e8cfb8f103228abb220ebb1d43055f86f35c86",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-gita-action-judgment-reading-study.png",
+      "size": 84949,
+      "sha256": "8e83d30961b1579d110f0a26944816654d84a88f67b2cf6090855fe4797c8d57",
+      "retained": true
+    },
+    {
+      "path": "desktop-light-expansion-nightingale-observation-care-reading-study.png",
+      "size": 286089,
+      "sha256": "e41db54f510323c59f1335dbc104a1cb6757b84c528a290c707b7c698898c5c0",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-durkheim-social-facts-reading-study.png",
+      "size": 68639,
+      "sha256": "f736d09792b2e0f3d117f7a7da58e8f6698c0637706f6216dc92a6d467b4a10d",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-laplace-probability-conditions-reading-study.png",
+      "size": 52111,
+      "sha256": "5ff473de7e19a0c22e6534191eba2157ca44c89c45136e81ec51d10830cff10b",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-morgan-heredity-mechanism-reading-study.png",
+      "size": 47607,
+      "sha256": "48cef5806ee049af4a5fbb826fde9645a42bfb56e9aab65356210f22b714af39",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-dubois-souls-selfhood-reading-study.png",
+      "size": 67623,
+      "sha256": "0019f63a1812ab09ce6453ca5f3fe957e06bac9880048596985ca4b5aea83d9b",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-homer-iliad-honour-reading-study.png",
+      "size": 75100,
+      "sha256": "2fc7863a987488865be6f9bb7ec8f48f3725622aac88162072f7c5c0827f6aed",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-lyell-geological-time-reading-study.png",
+      "size": 64846,
+      "sha256": "d581ef84195cc6449a653cc0824859e79a90603404583e66cca794513ca3a341",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-dewey-experience-growth-reading-study.png",
+      "size": 69003,
+      "sha256": "c41f8ffdac029fb56a41512a051555bfeaea001e89fd315d4f74ecb0057838be",
+      "retained": true
+    },
+    {
+      "path": "mobile-dark-expansion-nightingale-observation-care-reading-study.png",
+      "size": 71119,
+      "sha256": "63570ce8ed3188c5766848dcf47bbdc6c59698fbdd136e4b4bd12f35fc154233",
+      "retained": true
+    }
+  ],
+  "all_generated_images_retained": false,
+  "private_records_included": false,
+  "scope": "Complete available reports and explicitly selected public/synthetic images; hashes of other generated captures are metadata, not retained image bytes. Archive success does not override failed assertions or grant independent acceptance.",
+  "capsule_commit": "ed1127d9d0323f25bf79269576570844c4e2b63f",
+  "evidence_repository": "rujiewu/superintelligence-public-checks",
+  "private_source_checks_executed_here": false
+}
