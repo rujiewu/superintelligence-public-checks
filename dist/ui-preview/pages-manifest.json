@@ -3,7 +3,7 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "78217e187167fd276a09202cc0423adc926b5140",
+  "source_commit": "ed56760edcab03231c65f8f5d591e8fb6be2d3f8",
   "base": "/superintelligence-workspace",
   "modules": {
     "reading": 50,
@@ -243,7 +243,7 @@
         "laozi-wuwei-action-reading": "2a3fdb0a4f478d86f00dffbffb482e286262ed54b56304424e0f24d5b449365b",
         "deep-learning-generalization-selection-reading": "632eb28c6e67d513d1cfc7e51c4e533eebcf95149c7e663be5136c7d80df759b",
         "rumelt-coherent-action-reading": "3ecd58cd10e0b1aff7a0b787c18f2f44a1ee330bfdf7d7d6d46147d22e76af49",
-        "herodotus-testimony-judgment-reading": "7ce40caae68b904a2a45fde932882b997867fc368334acd86a3e555153f5d4f9"
+        "herodotus-testimony-judgment-reading": "436e27a371da33f1e159cfb315becca8b7da7677fcb59c0a7993933712c8af10"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",

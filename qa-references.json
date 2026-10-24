@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_commit": "78217e187167fd276a09202cc0423adc926b5140",
+  "source_commit": "ed56760edcab03231c65f8f5d591e8fb6be2d3f8",
   "local_checks": [
     {
       "name": "published-manifest",
-      "source_commit": "78217e187167fd276a09202cc0423adc926b5140",
+      "source_commit": "ed56760edcab03231c65f8f5d591e8fb6be2d3f8",
       "catalog_counts": {
         "reading": 50,
         "learning": 63,
@@ -4425,7 +4425,7 @@
       "entry": {
         "module": "reading",
         "resource_id": "herodotus-testimony-judgment-reading",
-        "sha256": "7ce40caae68b904a2a45fde932882b997867fc368334acd86a3e555153f5d4f9"
+        "sha256": "436e27a371da33f1e159cfb315becca8b7da7677fcb59c0a7993933712c8af10"
       },
       "payload": {
         "source_ids": [
