@@ -1,0 +1,750 @@
+{
+  "status": "PASS",
+  "source_commit": "1cf87df0f29e64cb82181faf982e88955d685b88",
+  "source_overlay": true,
+  "url": "https://rujiewu.github.io/superintelligence-workspace/",
+  "checks": [
+    {
+      "name": "source-assets",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-light-login",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-light-reading",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-light-learning",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-light-trading",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-light-investment",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-dark-login",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-dark-reading",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-dark-learning",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-dark-trading",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-dark-investment",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-login",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-reading",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-learning",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-trading",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-investment",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-login",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-reading",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-learning",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-trading",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-investment",
+      "status": "PASS"
+    },
+    {
+      "name": "compact-light-login",
+      "status": "PASS"
+    },
+    {
+      "name": "compact-light-reading",
+      "status": "PASS"
+    },
+    {
+      "name": "compact-light-learning",
+      "status": "PASS"
+    },
+    {
+      "name": "compact-light-trading",
+      "status": "PASS"
+    },
+    {
+      "name": "compact-light-investment",
+      "status": "PASS"
+    },
+    {
+      "name": "delete-conversation-reading",
+      "status": "PASS"
+    },
+    {
+      "name": "delete-conversation-learning",
+      "status": "PASS"
+    },
+    {
+      "name": "delete-conversation-trading",
+      "status": "PASS"
+    },
+    {
+      "name": "delete-conversation-investment",
+      "status": "PASS"
+    },
+    {
+      "name": "book-evidence-adam-smith-wealth-of-nations",
+      "status": "PASS"
+    },
+    {
+      "name": "book-evidence-charles-darwin-origin-of-species",
+      "status": "PASS"
+    },
+    {
+      "name": "book-evidence-confucius-analects",
+      "status": "PASS"
+    },
+    {
+      "name": "book-evidence-euclid-elements",
+      "status": "PASS"
+    },
+    {
+      "name": "book-evidence-john-snow-mode-communication-cholera",
+      "status": "PASS"
+    },
+    {
+      "name": "book-evidence-plato-republic",
+      "status": "PASS"
+    },
+    {
+      "name": "book-evidence-rene-descartes-discourse-method",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-adam-smith-wealth-of-nations-editorial-figure",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-charles-darwin-origin-of-species-editorial-figure",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-john-snow-mode-communication-cholera-editorial-figure",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-adam-smith-wealth-of-nations-editorial-figure",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-charles-darwin-origin-of-species-editorial-figure",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-john-snow-mode-communication-cholera-editorial-figure",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-light-euclid-elements-specialist",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-light-confucius-analects-specialist",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-dark-euclid-elements-specialist",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop-dark-confucius-analects-specialist",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-euclid-elements-specialist",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-light-confucius-analects-specialist",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-euclid-elements-specialist",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile-dark-confucius-analects-specialist",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-reading-human-knowledge-foundations-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-learning-d02-v33-u5-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-learning-d11-v33-u1-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-trading-operational-reconciliation-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-trading-earnings-cashflow-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-investment-investment-workspace-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-reading-human-knowledge-foundations-desktop-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-learning-d02-v33-u5-desktop-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-learning-d11-v33-u1-desktop-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-trading-operational-reconciliation-desktop-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-trading-earnings-cashflow-desktop-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-investment-investment-workspace-desktop-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-reading-human-knowledge-foundations-mobile-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-learning-d02-v33-u5-mobile-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-learning-d11-v33-u1-mobile-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-trading-operational-reconciliation-mobile-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-trading-earnings-cashflow-mobile-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-investment-investment-workspace-mobile-light",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-reading-human-knowledge-foundations-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-learning-d02-v33-u5-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-learning-d11-v33-u1-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-trading-operational-reconciliation-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-trading-earnings-cashflow-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "refinement-investment-investment-workspace-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "reading-notes-reading-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "reading-notes-learning-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "reading-notes-reading-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "reading-notes-learning-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "wealth-of-nations-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "wealth-of-nations-mobile-dark",
+      "status": "PASS"
+    },
+    {
+      "name": "short-desktop-light-topic-fit",
+      "status": "PASS"
+    },
+    {
+      "name": "short-mobile-dark-topic-fit",
+      "status": "PASS"
+    },
+    {
+      "name": "book-pages-keyboard-and-model-preference-migration",
+      "status": "PASS"
+    },
+    {
+      "name": "book-summary-rejects-obsolete-study",
+      "status": "PASS"
+    },
+    {
+      "name": "module-switch-cached-session-no-login-flash",
+      "status": "PASS"
+    },
+    {
+      "name": "chat-packet-match-reading",
+      "status": "PASS"
+    },
+    {
+      "name": "chat-packet-match-learning",
+      "status": "PASS"
+    },
+    {
+      "name": "chat-packet-match-trading",
+      "status": "PASS"
+    },
+    {
+      "name": "chat-packet-match-investment",
+      "status": "PASS"
+    },
+    {
+      "name": "chat-packet-drift-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "chat-packet-drift-compact-light",
+      "status": "PASS"
+    },
+    {
+      "name": "chat-lost-completion-desktop-light",
+      "status": "PASS"
+    },
+    {
+      "name": "chat-lost-completion-compact-light",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "ui-desktop-light-login.png",
+    "ui-desktop-light-reading-editorial-table.png",
+    "ui-desktop-light-reading-opening.png",
+    "ui-desktop-light-reading-topics.png",
+    "ui-desktop-light-reading-catalog.png",
+    "ui-desktop-light-reading-reasoning.png",
+    "ui-desktop-light-reading-practice.png",
+    "ui-desktop-light-reading-sources.png",
+    "ui-desktop-light-reading-history.png",
+    "ui-desktop-light-reading-discussion.png",
+    "ui-desktop-light-learning-opening.png",
+    "ui-desktop-light-learning-topics.png",
+    "ui-desktop-light-learning-catalog.png",
+    "ui-desktop-light-learning-reasoning.png",
+    "ui-desktop-light-learning-practice.png",
+    "ui-desktop-light-learning-sources.png",
+    "ui-desktop-light-learning-history.png",
+    "ui-desktop-light-learning-discussion.png",
+    "ui-desktop-light-trading-opening.png",
+    "ui-desktop-light-trading-topics.png",
+    "ui-desktop-light-trading-catalog.png",
+    "ui-desktop-light-trading-reasoning.png",
+    "ui-desktop-light-trading-practice.png",
+    "ui-desktop-light-trading-sources.png",
+    "ui-desktop-light-trading-history.png",
+    "ui-desktop-light-trading-discussion.png",
+    "ui-desktop-light-investment-opening.png",
+    "ui-desktop-light-investment-topics.png",
+    "ui-desktop-light-investment-catalog.png",
+    "ui-desktop-light-investment-reasoning.png",
+    "ui-desktop-light-investment-practice.png",
+    "ui-desktop-light-investment-sources.png",
+    "ui-desktop-light-investment-history.png",
+    "ui-desktop-light-investment-discussion.png",
+    "ui-desktop-dark-login.png",
+    "ui-desktop-dark-reading-editorial-table.png",
+    "ui-desktop-dark-reading-opening.png",
+    "ui-desktop-dark-reading-topics.png",
+    "ui-desktop-dark-reading-catalog.png",
+    "ui-desktop-dark-reading-reasoning.png",
+    "ui-desktop-dark-reading-practice.png",
+    "ui-desktop-dark-reading-sources.png",
+    "ui-desktop-dark-reading-history.png",
+    "ui-desktop-dark-reading-discussion.png",
+    "ui-desktop-dark-learning-opening.png",
+    "ui-desktop-dark-learning-topics.png",
+    "ui-desktop-dark-learning-catalog.png",
+    "ui-desktop-dark-learning-reasoning.png",
+    "ui-desktop-dark-learning-practice.png",
+    "ui-desktop-dark-learning-sources.png",
+    "ui-desktop-dark-learning-history.png",
+    "ui-desktop-dark-learning-discussion.png",
+    "ui-desktop-dark-trading-opening.png",
+    "ui-desktop-dark-trading-topics.png",
+    "ui-desktop-dark-trading-catalog.png",
+    "ui-desktop-dark-trading-reasoning.png",
+    "ui-desktop-dark-trading-practice.png",
+    "ui-desktop-dark-trading-sources.png",
+    "ui-desktop-dark-trading-history.png",
+    "ui-desktop-dark-trading-discussion.png",
+    "ui-desktop-dark-investment-opening.png",
+    "ui-desktop-dark-investment-topics.png",
+    "ui-desktop-dark-investment-catalog.png",
+    "ui-desktop-dark-investment-reasoning.png",
+    "ui-desktop-dark-investment-practice.png",
+    "ui-desktop-dark-investment-sources.png",
+    "ui-desktop-dark-investment-history.png",
+    "ui-desktop-dark-investment-discussion.png",
+    "ui-mobile-light-login.png",
+    "ui-mobile-light-reading-editorial-table.png",
+    "ui-mobile-light-reading-opening.png",
+    "ui-mobile-light-reading-topics.png",
+    "ui-mobile-light-reading-catalog.png",
+    "ui-mobile-light-reading-reasoning.png",
+    "ui-mobile-light-reading-practice.png",
+    "ui-mobile-light-reading-sources.png",
+    "ui-mobile-light-reading-history.png",
+    "ui-mobile-light-reading-discussion.png",
+    "ui-mobile-light-learning-opening.png",
+    "ui-mobile-light-learning-topics.png",
+    "ui-mobile-light-learning-catalog.png",
+    "ui-mobile-light-learning-reasoning.png",
+    "ui-mobile-light-learning-practice.png",
+    "ui-mobile-light-learning-sources.png",
+    "ui-mobile-light-learning-history.png",
+    "ui-mobile-light-learning-discussion.png",
+    "ui-mobile-light-trading-opening.png",
+    "ui-mobile-light-trading-topics.png",
+    "ui-mobile-light-trading-catalog.png",
+    "ui-mobile-light-trading-reasoning.png",
+    "ui-mobile-light-trading-practice.png",
+    "ui-mobile-light-trading-sources.png",
+    "ui-mobile-light-trading-history.png",
+    "ui-mobile-light-trading-discussion.png",
+    "ui-mobile-light-investment-opening.png",
+    "ui-mobile-light-investment-topics.png",
+    "ui-mobile-light-investment-catalog.png",
+    "ui-mobile-light-investment-reasoning.png",
+    "ui-mobile-light-investment-practice.png",
+    "ui-mobile-light-investment-sources.png",
+    "ui-mobile-light-investment-history.png",
+    "ui-mobile-light-investment-discussion.png",
+    "ui-mobile-dark-login.png",
+    "ui-mobile-dark-reading-editorial-table.png",
+    "ui-mobile-dark-reading-opening.png",
+    "ui-mobile-dark-reading-topics.png",
+    "ui-mobile-dark-reading-catalog.png",
+    "ui-mobile-dark-reading-reasoning.png",
+    "ui-mobile-dark-reading-practice.png",
+    "ui-mobile-dark-reading-sources.png",
+    "ui-mobile-dark-reading-history.png",
+    "ui-mobile-dark-reading-discussion.png",
+    "ui-mobile-dark-learning-opening.png",
+    "ui-mobile-dark-learning-topics.png",
+    "ui-mobile-dark-learning-catalog.png",
+    "ui-mobile-dark-learning-reasoning.png",
+    "ui-mobile-dark-learning-practice.png",
+    "ui-mobile-dark-learning-sources.png",
+    "ui-mobile-dark-learning-history.png",
+    "ui-mobile-dark-learning-discussion.png",
+    "ui-mobile-dark-trading-opening.png",
+    "ui-mobile-dark-trading-topics.png",
+    "ui-mobile-dark-trading-catalog.png",
+    "ui-mobile-dark-trading-reasoning.png",
+    "ui-mobile-dark-trading-practice.png",
+    "ui-mobile-dark-trading-sources.png",
+    "ui-mobile-dark-trading-history.png",
+    "ui-mobile-dark-trading-discussion.png",
+    "ui-mobile-dark-investment-opening.png",
+    "ui-mobile-dark-investment-topics.png",
+    "ui-mobile-dark-investment-catalog.png",
+    "ui-mobile-dark-investment-reasoning.png",
+    "ui-mobile-dark-investment-practice.png",
+    "ui-mobile-dark-investment-sources.png",
+    "ui-mobile-dark-investment-history.png",
+    "ui-mobile-dark-investment-discussion.png",
+    "ui-compact-light-login.png",
+    "ui-compact-light-reading-editorial-table.png",
+    "ui-compact-light-reading-opening.png",
+    "ui-compact-light-reading-topics.png",
+    "ui-compact-light-reading-catalog.png",
+    "ui-compact-light-reading-reasoning.png",
+    "ui-compact-light-reading-practice.png",
+    "ui-compact-light-reading-sources.png",
+    "ui-compact-light-reading-history.png",
+    "ui-compact-light-reading-discussion.png",
+    "ui-compact-light-learning-opening.png",
+    "ui-compact-light-learning-topics.png",
+    "ui-compact-light-learning-catalog.png",
+    "ui-compact-light-learning-reasoning.png",
+    "ui-compact-light-learning-practice.png",
+    "ui-compact-light-learning-sources.png",
+    "ui-compact-light-learning-history.png",
+    "ui-compact-light-learning-discussion.png",
+    "ui-compact-light-trading-opening.png",
+    "ui-compact-light-trading-topics.png",
+    "ui-compact-light-trading-catalog.png",
+    "ui-compact-light-trading-reasoning.png",
+    "ui-compact-light-trading-practice.png",
+    "ui-compact-light-trading-sources.png",
+    "ui-compact-light-trading-history.png",
+    "ui-compact-light-trading-discussion.png",
+    "ui-compact-light-investment-opening.png",
+    "ui-compact-light-investment-topics.png",
+    "ui-compact-light-investment-catalog.png",
+    "ui-compact-light-investment-reasoning.png",
+    "ui-compact-light-investment-practice.png",
+    "ui-compact-light-investment-sources.png",
+    "ui-compact-light-investment-history.png",
+    "ui-compact-light-investment-discussion.png",
+    "ui-delete-conversation-reading.png",
+    "ui-delete-conversation-learning.png",
+    "ui-delete-conversation-trading.png",
+    "ui-delete-conversation-investment.png",
+    "ui-book-evidence-adam-smith-wealth-of-nations-editorial-table.png",
+    "ui-book-evidence-adam-smith-wealth-of-nations-foundation.png",
+    "ui-book-evidence-adam-smith-wealth-of-nations-excerpt.png",
+    "ui-book-evidence-charles-darwin-origin-of-species-editorial-table.png",
+    "ui-book-evidence-charles-darwin-origin-of-species-foundation.png",
+    "ui-book-evidence-charles-darwin-origin-of-species-excerpt.png",
+    "ui-book-evidence-confucius-analects-editorial-table.png",
+    "ui-book-evidence-confucius-analects-foundation.png",
+    "ui-book-evidence-confucius-analects-excerpt.png",
+    "ui-book-evidence-euclid-elements-editorial-table.png",
+    "ui-book-evidence-euclid-elements-foundation.png",
+    "ui-book-evidence-euclid-elements-excerpt.png",
+    "ui-book-evidence-john-snow-mode-communication-cholera-editorial-table.png",
+    "ui-book-evidence-john-snow-mode-communication-cholera-foundation.png",
+    "ui-book-evidence-john-snow-mode-communication-cholera-excerpt.png",
+    "ui-book-evidence-plato-republic-editorial-table.png",
+    "ui-book-evidence-plato-republic-foundation.png",
+    "ui-book-evidence-plato-republic-excerpt.png",
+    "ui-book-evidence-rene-descartes-discourse-method-editorial-table.png",
+    "ui-book-evidence-rene-descartes-discourse-method-foundation.png",
+    "ui-book-evidence-rene-descartes-discourse-method-excerpt.png",
+    "ui-mobile-light-adam-smith-wealth-of-nations-editorial-figure.png",
+    "ui-mobile-light-charles-darwin-origin-of-species-editorial-figure.png",
+    "ui-mobile-light-john-snow-mode-communication-cholera-editorial-figure.png",
+    "ui-mobile-dark-adam-smith-wealth-of-nations-editorial-figure.png",
+    "ui-mobile-dark-charles-darwin-origin-of-species-editorial-figure.png",
+    "ui-mobile-dark-john-snow-mode-communication-cholera-editorial-figure.png",
+    "ui-desktop-light-euclid-elements-specialist.png",
+    "ui-desktop-light-confucius-analects-specialist.png",
+    "ui-desktop-dark-euclid-elements-specialist.png",
+    "ui-desktop-dark-confucius-analects-specialist.png",
+    "ui-mobile-light-euclid-elements-specialist.png",
+    "ui-mobile-light-confucius-analects-specialist.png",
+    "ui-mobile-dark-euclid-elements-specialist.png",
+    "ui-mobile-dark-confucius-analects-specialist.png",
+    "ui-refinement-reading-human-knowledge-foundations-desktop-light.png",
+    "ui-refinement-learning-d02-v33-u5-desktop-light.png",
+    "ui-refinement-learning-d11-v33-u1-desktop-light.png",
+    "ui-refinement-trading-operational-reconciliation-desktop-light.png",
+    "ui-refinement-trading-earnings-cashflow-desktop-light.png",
+    "ui-refinement-investment-investment-workspace-desktop-light.png",
+    "ui-refinement-investment-investment-workspace-desktop-light-cash.png",
+    "ui-refinement-reading-human-knowledge-foundations-desktop-dark.png",
+    "ui-refinement-learning-d02-v33-u5-desktop-dark.png",
+    "ui-refinement-learning-d11-v33-u1-desktop-dark.png",
+    "ui-refinement-trading-operational-reconciliation-desktop-dark.png",
+    "ui-refinement-trading-earnings-cashflow-desktop-dark.png",
+    "ui-refinement-investment-investment-workspace-desktop-dark.png",
+    "ui-refinement-investment-investment-workspace-desktop-dark-cash.png",
+    "ui-refinement-reading-human-knowledge-foundations-mobile-light.png",
+    "ui-refinement-learning-d02-v33-u5-mobile-light.png",
+    "ui-refinement-learning-d11-v33-u1-mobile-light.png",
+    "ui-refinement-trading-operational-reconciliation-mobile-light.png",
+    "ui-refinement-trading-earnings-cashflow-mobile-light.png",
+    "ui-refinement-investment-investment-workspace-mobile-light.png",
+    "ui-refinement-investment-investment-workspace-mobile-light-cash.png",
+    "ui-refinement-reading-human-knowledge-foundations-mobile-dark.png",
+    "ui-refinement-learning-d02-v33-u5-mobile-dark.png",
+    "ui-refinement-learning-d11-v33-u1-mobile-dark.png",
+    "ui-refinement-trading-operational-reconciliation-mobile-dark.png",
+    "ui-refinement-trading-earnings-cashflow-mobile-dark.png",
+    "ui-refinement-investment-investment-workspace-mobile-dark.png",
+    "ui-refinement-investment-investment-workspace-mobile-dark-cash.png",
+    "ui-reading-notes-reading-desktop-light-dialog.png",
+    "ui-reading-notes-reading-desktop-light-saved.png",
+    "ui-reading-notes-reading-desktop-light-conflict.png",
+    "ui-reading-notes-reading-desktop-light-reauth-draft.png",
+    "ui-reading-notes-reading-desktop-light-deleted.png",
+    "ui-reading-notes-learning-desktop-light-dialog.png",
+    "ui-reading-notes-learning-desktop-light-saved.png",
+    "ui-reading-notes-learning-desktop-light-conflict.png",
+    "ui-reading-notes-learning-desktop-light-reauth-draft.png",
+    "ui-reading-notes-learning-desktop-light-deleted.png",
+    "ui-reading-notes-reading-mobile-dark-dialog.png",
+    "ui-reading-notes-reading-mobile-dark-saved.png",
+    "ui-reading-notes-reading-mobile-dark-conflict.png",
+    "ui-reading-notes-reading-mobile-dark-reauth-draft.png",
+    "ui-reading-notes-reading-mobile-dark-deleted.png",
+    "ui-reading-notes-learning-mobile-dark-dialog.png",
+    "ui-reading-notes-learning-mobile-dark-saved.png",
+    "ui-reading-notes-learning-mobile-dark-conflict.png",
+    "ui-reading-notes-learning-mobile-dark-reauth-draft.png",
+    "ui-reading-notes-learning-mobile-dark-deleted.png",
+    "ui-wealth-of-nations-desktop-light-title.png",
+    "ui-wealth-of-nations-desktop-light-path.png",
+    "ui-wealth-of-nations-desktop-light-foundation-1.png",
+    "ui-wealth-of-nations-desktop-light-foundation-2.png",
+    "ui-wealth-of-nations-mobile-dark-title.png",
+    "ui-wealth-of-nations-mobile-dark-path.png",
+    "ui-wealth-of-nations-mobile-dark-foundation-1.png",
+    "ui-wealth-of-nations-mobile-dark-foundation-2.png",
+    "ui-short-desktop-light-topic-fit.png",
+    "ui-short-mobile-dark-topic-fit.png",
+    "ui-book-summary-rejects-obsolete-study-editorial-table.png",
+    "ui-module-switch-cached-session-no-login-flash-connecting.png",
+    "ui-chat-packet-match-reading.png",
+    "ui-chat-packet-match-learning.png",
+    "ui-chat-packet-match-trading.png",
+    "ui-chat-packet-match-investment.png",
+    "ui-chat-packet-drift-desktop-light.png",
+    "ui-chat-packet-drift-compact-light.png",
+    "ui-chat-lost-completion-desktop-light-retained.png",
+    "ui-chat-lost-completion-desktop-light-recovered.png",
+    "ui-chat-lost-completion-compact-light-retained.png",
+    "ui-chat-lost-completion-compact-light-recovered.png"
+  ],
+  "synthetic_api_requests": 1004,
+  "forbidden_requests": 0,
+  "real_api_requests": 0,
+  "model_calls": 0,
+  "real_record_writes": 0,
+  "public_get_retries": [],
+  "expected_annotation_conflicts": 4,
+  "expected_annotation_expiries": 4,
+  "expected_console_rejections": [
+    {
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "path": "/api/annotations",
+      "status": 409,
+      "synthetic_injection_matched": true
+    },
+    {
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "path": "/api/annotations",
+      "status": 401,
+      "synthetic_injection_matched": true
+    },
+    {
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "path": "/api/annotations",
+      "status": 409,
+      "synthetic_injection_matched": true
+    },
+    {
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "path": "/api/annotations",
+      "status": 401,
+      "synthetic_injection_matched": true
+    },
+    {
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "path": "/api/annotations",
+      "status": 409,
+      "synthetic_injection_matched": true
+    },
+    {
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "path": "/api/annotations",
+      "status": 401,
+      "synthetic_injection_matched": true
+    },
+    {
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "path": "/api/annotations",
+      "status": 409,
+      "synthetic_injection_matched": true
+    },
+    {
+      "origin": "https://superintelligence-api-rujiewuac-8230.vercel.app",
+      "path": "/api/annotations",
+      "status": 401,
+      "synthetic_injection_matched": true
+    }
+  ],
+  "limitations": [
+    "Public HTTPS origin on GitHub-hosted Chromium; viewport emulation, not physical devices.",
+    "Login, notes, history and navigation are synthetic responses intercepted before network access.",
+    "Overlay mode previews checked-out HTML/CSS/JS on the public origin before publication.",
+    "Human screenshot inspection is required; geometry checks alone do not certify visual quality."
+  ],
+  "asset_hashes": {
+    "annotations.js": "f51da4846460e0cccf95f27c218aa2d6f637876235a0176c26f816d81160346d",
+    "app.css": "f737d5d2e6106f5c335427f00ebcafa318e405e57cae1eebaeda7f3745260c62",
+    "app.js": "fc9278e64f944e0dc9e4cce1aab3a050bdaf41175df72aa2637d60c16c93f5f8",
+    "book-study.css": "f8afd7f4b07366803dc5f9ab74bb0514e2f9ecb04976fab7f18c0de444c74d5b",
+    "book-study.js": "90fa17db701d9c54c383b34c86002b7bddf75a162c7f53334daed04a9255fdca",
+    "evidence.js": "f3bc150b7f2cb8e78b46db75e3be510fc05f3049c43a61a6459934a8738fbcac",
+    "github-transport.js": "719e35a700f02fa26d96898305c53f1afb6e553f3416557f8422cfd3260701fa",
+    "library-bridge.css": "0776e6c7cc5ee0e271b3cf9fd300ea8a5b084daff289e9a3b96a50b5739d87da",
+    "modules.js": "e7e14fd6e703571c0767840852300a17c963e6c577036809475d827ec7fe46f3",
+    "organization.js": "a9388c20b00d931426cbc0952b712848321de9ea2d42c15b4503185e93f021de",
+    "programme.js": "0277752069448e9e3aed3fcd49f983d02b42e95dd8d29195e380c5319dc8f6c0",
+    "record-preview.js": "72ac09d77fb4d71123043c15950ab91390d309d2a576b39f204fce9ddad48ba0",
+    "shared-transport.js": "319b3e3cee5baed6a618a83584e61a8c8462b31902f0c428752280b3e64e7c4d",
+    "study-navigation.js": "4f77c150c4b187322857355c9d118f0e5ab1448c84dae7c844bad33a211641af",
+    "study.js": "4d3f7f7e98b266e44dee5572f2df1124e8f3b56eaccffa57a3b9006c51a27bd3",
+    "workspace-state.js": "51346413c9a326e0fe3ddf80db9cd62982218f08ab265d77eb49faeaa575604b",
+    "workspace.css": "0c43b82650930c43f021bbb8588c9435720fd75d589ad25ae62e14b742d99521"
+  },
+  "errors": [],
+  "elapsed_seconds": 97
+}
