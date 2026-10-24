@@ -3,7 +3,7 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "ed56760edcab03231c65f8f5d591e8fb6be2d3f8",
+  "source_commit": "19e0ad8a7d0bcb237fb2d6d7423ffc536e0a1131",
   "base": "/superintelligence-workspace",
   "modules": {
     "reading": 50,
@@ -214,7 +214,7 @@
         "qimin-seeds-reading": "29c0e1f1a7b9da8493a90b6db66489fb040a82541b639fe957f706c9bec69f90",
         "king-farming-systems-reading": "649a8e2c51dab10489d9dd69e369a2760d88ddd04a26160462b9ee1bbdbb9f9d",
         "mozi-inclusive-care-reading": "ae382b213f250eb6c76523a88b90d0acb83c59d0ce2ecb508b5d5175ab6b1022",
-        "dhammapada-conduct-reading": "f28721b9d2413b1cf6468c5785cd4e530348584e45a876aff78d007b4a2e3961",
+        "dhammapada-conduct-reading": "73df28b0ff128142ec1e0473773fec36785425dcf8aeacae4b6b8c8b6468922d",
         "genji-opening-reading": "0c365472ce6971e3533a413be47ca60f3352c1b88f4c61ca336087677cd71a42",
         "james-stream-attention-reading": "e1b28775d8f9e18c731a08c137b8cc19a0d7078ef52ea6c43c319adb445102da",
         "saussure-sign-value-reading": "0f82f26346af53c2bcc5b9e9816f4f28226c23f191b37b356f6f4e053975db63",

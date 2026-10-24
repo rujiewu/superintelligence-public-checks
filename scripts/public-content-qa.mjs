@@ -466,6 +466,56 @@ export async function runAcceptance() {
           if (!visible.complete || !visible.fits || !visible.source_links_complete || !visible.resource_links_complete) report.expansion_failure = { stage, ...visible };
           requireTrue(visible.complete && visible.fits && visible.source_links_complete && visible.resource_links_complete, 'EXPANSION_CONTINUOUS_TEXT_TABLE_OR_LINK');
           record(stage, { module: entry.module, id: item.id, ...visible, private_state_captured: false });
+          if (item.id === 'dhammapada-conduct-reading') {
+            const baseStage = stage;
+            const selections = view.name === 'desktop-light'
+              ? [{ table: 1, row: null, name: 'love' }, { table: 3, row: null, name: 'commentary' }]
+              : [1, 3].flatMap(table => Array.from({ length: 3 }, (_, row) =>
+                ({ table, row, name: `${table === 1 ? 'love' : 'commentary'}-row-${row + 1}` })));
+            for (const selection of selections) {
+              stage = `${baseStage}-${selection.name}`;
+              const table = page.locator('#detail-body table.study-table').nth(selection.table);
+              const target = selection.row === null ? table : table.locator('tbody tr').nth(selection.row);
+              const bounds = await bounded(() => target.evaluate(node => {
+                node.scrollIntoView({ block: 'center', behavior: 'instant' });
+                const rect = node.getBoundingClientRect();
+                const panel = document.querySelector('#resource-detail').getBoundingClientRect();
+                const toolbar = document.querySelector('.detail-navigation').getBoundingClientRect();
+                const top = Math.max(panel.top, toolbar.bottom, 0);
+                const bottom = Math.min(panel.bottom, innerHeight);
+                return { top: rect.top, bottom: rect.bottom, available_top: top, available_bottom: bottom,
+                  fully_visible: rect.top >= top - 2 && rect.bottom <= bottom + 2 };
+              }), 10_000);
+              requireTrue(bounds.fully_visible, 'DHAMMAPADA_TABLE_OR_CARD_NOT_FULLY_VISIBLE');
+              await screenshot(page, `${stage}-study.png`);
+              record(stage, { material_id: item.id, table_index: selection.table,
+                row_index: selection.row, bounds, editorial_comparison_not_pali_collation: true,
+                private_state_captured: false });
+            }
+            for (const selection of [
+              { heading: '必须自己用功，为什么还要有老师和善友', name: 'effort' },
+              { heading: '闭口不言，为什么还不足以成为智者', name: 'silence' }
+            ]) {
+              stage = `${baseStage}-${selection.name}`;
+              const target = page.locator('#detail-body h3').filter({ hasText: selection.heading });
+              requireTrue(await target.count() === 1, 'DHAMMAPADA_ADDITION_HEADING_IDENTITY');
+              const bounds = await bounded(() => target.evaluate(node => {
+                node.scrollIntoView({ block: 'center', behavior: 'instant' });
+                const rect = node.getBoundingClientRect();
+                const toolbar = document.querySelector('.detail-navigation').getBoundingClientRect();
+                const panel = document.querySelector('#resource-detail').getBoundingClientRect();
+                return { top: rect.top, bottom: rect.bottom,
+                  fully_visible: rect.top >= Math.max(panel.top, toolbar.bottom, 0) - 2
+                    && rect.bottom <= Math.min(panel.bottom, innerHeight) + 2 };
+              }), 10_000);
+              requireTrue(bounds.fully_visible, 'DHAMMAPADA_ADDITION_HEADING_NOT_VISIBLE');
+              await screenshot(page, `${stage}-study.png`);
+              record(stage, { material_id: item.id, heading: selection.heading, bounds,
+                scope: 'Visible heading and surrounding text; full paragraphs checked separately by continuous-content assertion.',
+                private_state_captured: false });
+            }
+            stage = baseStage;
+          }
           if (item.id === 'herodotus-testimony-judgment-reading') {
             const baseStage = stage;
             const selections = view.name === 'desktop-light'
