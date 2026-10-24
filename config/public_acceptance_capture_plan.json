@@ -193,7 +193,16 @@
     "mobile-dark-expansion-laozi-wuwei-action-reading-chapters-row-2-study.png",
     "mobile-dark-expansion-laozi-wuwei-action-reading-chapters-row-3-study.png",
     "mobile-dark-expansion-laozi-wuwei-action-reading-chapters-row-4-study.png",
-    "mobile-dark-expansion-laozi-wuwei-action-reading-chapters-row-5-study.png"
+    "mobile-dark-expansion-laozi-wuwei-action-reading-chapters-row-5-study.png",
+    "desktop-light-expansion-deep-learning-generalization-selection-reading-study.png",
+    "desktop-light-expansion-deep-learning-generalization-selection-reading-validation-study.png",
+    "mobile-dark-expansion-deep-learning-generalization-selection-reading-study.png",
+    "mobile-dark-expansion-deep-learning-generalization-selection-reading-training-row-1-study.png",
+    "mobile-dark-expansion-deep-learning-generalization-selection-reading-training-row-2-study.png",
+    "mobile-dark-expansion-deep-learning-generalization-selection-reading-training-row-3-study.png",
+    "mobile-dark-expansion-deep-learning-generalization-selection-reading-training-row-4-study.png",
+    "mobile-dark-expansion-deep-learning-generalization-selection-reading-validation-row-1-study.png",
+    "mobile-dark-expansion-deep-learning-generalization-selection-reading-validation-row-2-study.png"
   ],
   "ui": [
     "ui-desktop-light-reading-reasoning.png",
