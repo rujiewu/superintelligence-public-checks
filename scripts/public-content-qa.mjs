@@ -16,7 +16,7 @@ export const TARGETS = [
   { module: 'trading', id: 'operational-reconciliation', file: 'knowledge/cases/operational-reconciliation.json', field: 'teaching_case', tableMarker: 'E1：卖 40 份',
     markers: ['订单取消了，成交与现金为什么还要核对', '一拆二', '2978', '12978'] },
   { module: 'reading', id: 'human-history-thousand', file: 'knowledge/plans/reading-thousand-program.md',
-    markers: ['当前去重提名 192 部，独立入选 0 部', '每批怎样推进', '与另外三个系统的关系'] },
+    markers: ['当前去重提名 193 部，独立入选 0 部', '每批怎样推进', '与另外三个系统的关系'] },
 ];
 const VIEWS = [
   { name: 'desktop-light', width: 1440, height: 1000, theme: 'light' },
@@ -465,7 +465,42 @@ export async function runAcceptance() {
           await screenshot(page, `${stage}-study.png`);
           if (!visible.complete || !visible.fits || !visible.source_links_complete || !visible.resource_links_complete) report.expansion_failure = { stage, ...visible };
           requireTrue(visible.complete && visible.fits && visible.source_links_complete && visible.resource_links_complete, 'EXPANSION_CONTINUOUS_TEXT_TABLE_OR_LINK');
+          if (['genji-opening-reading','shitao-method-transformation-reading','poetics-action-plot-reading','hojoki-dwelling-attachment-reading'].includes(item.id)) {
+            requireTrue(item.group === '文学、艺术、媒体与美学' && payload.group === item.group, 'NORMALIZED_LITERATURE_GROUP');
+            const currentScope = await bounded(() => page.locator('#catalog-scope').textContent(), 10_000);
+            requireTrue(currentScope.trim() === '全部', 'NORMALIZED_GROUP_DEFAULT_ALL');
+            visible.normalized_catalog_group = item.group;
+            visible.normalization_selected_body_fully_verified = visible.complete;
+          }
           record(stage, { module: entry.module, id: item.id, ...visible, private_state_captured: false });
+          if (item.id === 'thompson-scale-form-reading') {
+            const baseStage = stage;
+            const selections = view.name === 'desktop-light'
+              ? [{ table: 1, row: null, name: 'surfaces' }]
+              : [0, 1].flatMap(table => Array.from({ length: 4 }, (_, row) =>
+                ({ table, row, name: `${table === 0 ? 'loads' : 'surfaces'}-row-${row + 1}` })));
+            for (const selection of selections) {
+              stage = `${baseStage}-${selection.name}`;
+              const table = page.locator('#detail-body table.study-table').nth(selection.table);
+              const target = selection.row === null ? table : table.locator('tbody tr').nth(selection.row);
+              const bounds = await bounded(() => target.evaluate(node => {
+                node.scrollIntoView({ block: 'center', behavior: 'instant' });
+                const rect = node.getBoundingClientRect();
+                const panel = document.querySelector('#resource-detail').getBoundingClientRect();
+                const toolbar = document.querySelector('.detail-navigation').getBoundingClientRect();
+                const top = Math.max(panel.top, toolbar.bottom, 0);
+                const bottom = Math.min(panel.bottom, innerHeight);
+                return { top: rect.top, bottom: rect.bottom, available_top: top, available_bottom: bottom,
+                  fully_visible: rect.top >= top - 2 && rect.bottom <= bottom + 2 };
+              }), 10_000);
+              requireTrue(bounds.fully_visible, 'THOMPSON_TABLE_OR_CARD_NOT_FULLY_VISIBLE');
+              await screenshot(page, `${stage}-study.png`);
+              record(stage, { material_id: item.id, table_index: selection.table,
+                row_index: selection.row, bounds, original_hypothetical_geometry_not_biology_or_safety_validation: true,
+                private_state_captured: false });
+            }
+            stage = baseStage;
+          }
           if (item.id === 'ostrom-rules-collective-action-reading') {
             const baseStage = stage;
             const selections = view.name === 'desktop-light'
