@@ -13,7 +13,7 @@ from pydantic import BaseModel, ConfigDict, Field
 REPOSITORY = 'rujiewu/superintelligence-public-checks'
 REPOSITORY_ID = 1428657008
 MAX_FILE_BYTES = 2 * 1024 * 1024
-MAX_TOTAL_BYTES = 32 * 1024 * 1024
+MAX_TOTAL_BYTES = 64 * 1024 * 1024
 
 
 class CapturePlan(BaseModel):
@@ -92,8 +92,9 @@ def prepare(root: Path, profile: str, source: str, plan: CapturePlan) -> tuple[d
         reports[name] = dict(status=report['status'])
     if not reports:
         raise ValueError('No acceptance report to retain')
-    if sum(len(raw) for raw in selected.values()) > MAX_TOTAL_BYTES:
-        raise ValueError('Selected evidence exceeds total bound')
+    selected_bytes = sum(len(raw) for raw in selected.values())
+    if selected_bytes > MAX_TOTAL_BYTES:
+        raise ValueError(f'Selected evidence exceeds total bound: {selected_bytes} > {MAX_TOTAL_BYTES}')
     records = [FileRecord(path=name, size=len(raw), sha256=hashlib.sha256(raw).hexdigest(), git_blob=blob_sha(raw)).model_dump() for name, raw in sorted(selected.items())]
     manifest = dict(schema_version='1.0.0', source_commit=source, profile=profile, reports=reports,
                     retained_files=records, generated_capture_inventory=capture_records,
