@@ -234,7 +234,16 @@
     "desktop-light-expansion-dhammapada-conduct-reading-effort-study.png",
     "desktop-light-expansion-dhammapada-conduct-reading-silence-study.png",
     "mobile-dark-expansion-dhammapada-conduct-reading-effort-study.png",
-    "mobile-dark-expansion-dhammapada-conduct-reading-silence-study.png"
+    "mobile-dark-expansion-dhammapada-conduct-reading-silence-study.png",
+    "desktop-light-expansion-poetics-action-plot-reading-study.png",
+    "desktop-light-expansion-poetics-action-plot-reading-features-study.png",
+    "mobile-dark-expansion-poetics-action-plot-reading-study.png",
+    "mobile-dark-expansion-poetics-action-plot-reading-sequence-row-1-study.png",
+    "mobile-dark-expansion-poetics-action-plot-reading-sequence-row-2-study.png",
+    "mobile-dark-expansion-poetics-action-plot-reading-sequence-row-3-study.png",
+    "mobile-dark-expansion-poetics-action-plot-reading-features-row-1-study.png",
+    "mobile-dark-expansion-poetics-action-plot-reading-features-row-2-study.png",
+    "mobile-dark-expansion-poetics-action-plot-reading-features-row-3-study.png"
   ],
   "ui": [
     "ui-desktop-light-reading-reasoning.png",
