@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "source_commit": "19e0ad8a7d0bcb237fb2d6d7423ffc536e0a1131",
+  "profile": "public-boundary",
+  "reports": {
+    "report.json": {
+      "status": "PASS"
+    }
+  },
+  "retained_files": [
+    {
+      "path": "report.json",
+      "size": 4396,
+      "sha256": "7c749d9fe2558c2559fbac3a24c71586b09fde0e7659ea75f3982090da0f52b6",
+      "git_blob": "26728e4f9dfecb28cb47db44776048f6e5653d4b"
+    }
+  ],
+  "generated_capture_inventory": [],
+  "all_generated_images_retained": false,
+  "private_records_included": false,
+  "scope": "Complete available reports and explicitly selected public/synthetic images; hashes of other generated captures are metadata, not retained image bytes. Archive success does not override failed assertions or grant independent acceptance.",
+  "capsule_commit": "cee57fe0fa4a91ab5f69c3ba0da896a3c3b6d077",
+  "evidence_repository": "rujiewu/superintelligence-public-checks",
+  "private_source_checks_executed_here": false
+}
