@@ -3,10 +3,10 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "d3cfb9040d9bf74d3ccacbb195b40ece66910472",
+  "source_commit": "4b92b48ff1865c1a6fe76c5553f65277265b7cbd",
   "base": "/superintelligence-workspace",
   "modules": {
-    "reading": 45,
+    "reading": 46,
     "learning": 63,
     "trading": 24,
     "investment": 3
@@ -238,7 +238,8 @@
         "mahavira-series-algorithms-reading": "3b5bbc615a92785b6352517ffba997d3f0847dfe5b9d5af1ed3501124395a908",
         "augustine-memory-self-reading": "3eeb39d4e653f0249e3841e39a9b255f6ad12c927ead913e28cd12fdcb5df73d",
         "huang-zongxi-public-judgment-reading": "06516ef1a3b1902cb8ce40d05515041c78ad3b4f3d7867f2cc06308e9c27d36a",
-        "meadows-stock-flow-reading": "e6ef758e301f8c8be18e411d369eabcf5df5346c4d8e7681fdad7293e03192bd"
+        "meadows-stock-flow-reading": "e6ef758e301f8c8be18e411d369eabcf5df5346c4d8e7681fdad7293e03192bd",
+        "norman-model-mapping-feedback-reading": "b5cb1b2bca0f743e27e8232f34cddce0b7de51ed1a2a687645e208356ce2d401"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",

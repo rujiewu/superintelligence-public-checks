@@ -466,6 +466,34 @@ export async function runAcceptance() {
           if (!visible.complete || !visible.fits || !visible.source_links_complete || !visible.resource_links_complete) report.expansion_failure = { stage, ...visible };
           requireTrue(visible.complete && visible.fits && visible.source_links_complete && visible.resource_links_complete, 'EXPANSION_CONTINUOUS_TEXT_TABLE_OR_LINK');
           record(stage, { module: entry.module, id: item.id, ...visible, private_state_captured: false });
+          if (item.id === 'norman-model-mapping-feedback-reading') {
+            const baseStage = stage;
+            const selections = view.name === 'desktop-light'
+              ? [{ table: 1, row: null, name: 'delay' }]
+              : [0, 1].flatMap(table => Array.from({ length: table === 0 ? 6 : 3 }, (_, row) =>
+                ({ table, row, name: `${table === 0 ? 'wiring' : 'delay'}-row-${row + 1}` })));
+            for (const selection of selections) {
+              stage = `${baseStage}-${selection.name}`;
+              const table = page.locator('#detail-body table.study-table').nth(selection.table);
+              const target = selection.row === null ? table : table.locator('tbody tr').nth(selection.row);
+              const bounds = await bounded(() => target.evaluate(node => {
+                node.scrollIntoView({ block: 'center', behavior: 'instant' });
+                const rect = node.getBoundingClientRect();
+                const panel = document.querySelector('#resource-detail').getBoundingClientRect();
+                const toolbar = document.querySelector('.detail-navigation').getBoundingClientRect();
+                const top = Math.max(panel.top, toolbar.bottom, 0);
+                const bottom = Math.min(panel.bottom, innerHeight);
+                return { top: rect.top, bottom: rect.bottom, available_top: top, available_bottom: bottom,
+                  fully_visible: rect.top >= top - 2 && rect.bottom <= bottom + 2 };
+              }), 10_000);
+              requireTrue(bounds.fully_visible, 'NORMAN_TABLE_OR_CARD_NOT_FULLY_VISIBLE');
+              await screenshot(page, `${stage}-study.png`);
+              record(stage, { material_id: item.id, table_index: selection.table,
+                row_index: selection.row, bounds, original_hypothetical_controls_not_usability_experiment: true,
+                private_state_captured: false });
+            }
+            stage = baseStage;
+          }
           if (item.id === 'meadows-stock-flow-reading') {
             const baseStage = stage;
             const selections = view.name === 'desktop-light'
