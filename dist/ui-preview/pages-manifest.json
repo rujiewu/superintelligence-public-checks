@@ -3,10 +3,10 @@
   "kind": "PUBLIC_ALLOWLIST_ONLY",
   "repository": "rujiewu/SuperIntelligence",
   "public_repository": "rujiewu/superintelligence-workspace",
-  "source_commit": "ee6f043c1df9cde23d638fce19a0e3e724163fa1",
+  "source_commit": "91daa3342fa37134744e60e2f0dc516001a8892d",
   "base": "/superintelligence-workspace",
   "modules": {
-    "reading": 52,
+    "reading": 53,
     "learning": 63,
     "trading": 24,
     "investment": 3
@@ -245,7 +245,8 @@
         "rumelt-coherent-action-reading": "3ecd58cd10e0b1aff7a0b787c18f2f44a1ee330bfdf7d7d6d46147d22e76af49",
         "herodotus-testimony-judgment-reading": "436e27a371da33f1e159cfb315becca8b7da7677fcb59c0a7993933712c8af10",
         "poetics-action-plot-reading": "08c5df25b0cad1f2aad7d780dbd3657d774ae31ba737ae6dd17a675346856a07",
-        "mengzi-compassion-cultivation-reading": "4acfc65ecb3e45158d42ff1a1bad11141c5cf642ad7a46f104f7eaa67ac268a3"
+        "mengzi-compassion-cultivation-reading": "4acfc65ecb3e45158d42ff1a1bad11141c5cf642ad7a46f104f7eaa67ac268a3",
+        "persian-music-tradition-reconstruction-reading": "405d9763e9a39a086f1338aa004ba3178423245f8385fc31aae32a2ce8be2fa6"
       },
       "learning": {
         "d01-v33-u1": "805b793701e04c6723559683b34c64a9434acd8fc1efdc3d27538006917ca96e",
