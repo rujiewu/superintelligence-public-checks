@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "source_commit": "a075998993184a3d62d15d59c5d6bb453c82dcad",
+  "source_commit": "e0e3c987db688b45bd14a1e4b34c81af9370d51b",
   "local_checks": [
     {
       "name": "published-manifest",
-      "source_commit": "a075998993184a3d62d15d59c5d6bb453c82dcad",
+      "source_commit": "e0e3c987db688b45bd14a1e4b34c81af9370d51b",
       "catalog_counts": {
-        "reading": 48,
+        "reading": 49,
         "learning": 63,
         "trading": 24,
         "investment": 3
@@ -25,7 +25,7 @@
     },
     {
       "name": "expansion_source_bindings",
-      "materials": 54,
+      "materials": 55,
       "independent_acceptance": false,
       "status": "PASS",
       "execution": "LOCAL_SOURCE_CHECK"
@@ -1149,6 +1149,30 @@
     {
       "source_id": "belkin-double-descent2019",
       "url": "https://www.cs.columbia.edu/~djhsu/papers/biasvariance-pnas.pdf"
+    },
+    {
+      "source_id": "rumelt-chapter-one-excerpt",
+      "url": "https://www.penguinrandomhouseretail.com/book/?isbn=9780307886231"
+    },
+    {
+      "source_id": "rumelt-perils2011-article",
+      "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-perils-of-bad-strategy"
+    },
+    {
+      "source_id": "rumelt-perils2011-pdf-control",
+      "url": "https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Strategy%20and%20Corporate%20Finance/Our%20Insights/The%20perils%20of%20bad%20strategy/The%20perils%20of%20bad%20strategy.pdf"
+    },
+    {
+      "source_id": "rumelt-profile-editions",
+      "url": "https://profilebooks.com/work/good-strategy-bad-strategy/"
+    },
+    {
+      "source_id": "microsoft-apple-agreement1997",
+      "url": "https://news.microsoft.com/source/1997/08/06/microsoft-and-apple-affirm-commitment-to-build-next-generation-software-for-macintosh/"
+    },
+    {
+      "source_id": "apple-fr-agreement1997-control",
+      "url": "https://www.apple.com/ca/fr/press/1997/08/AppleMicrosoft.html"
     }
   ],
   "expansionPayloads": [
@@ -4301,6 +4325,70 @@
           {
             "title": "概率不只负责最后一个分数",
             "body": "换掉新标签比例时，四种训练经历仍等权，是因为我们没有改训练标签的总体。如果连训练总体也改了，就必须重算这些经历的权重。\n\n拉普拉斯选读中的问题也出现在这里：先说明可能经历怎样分配概率，再把结果合起来。这条联系只到加权这一步；古典文本和机器学习中的取样设定仍须分别核对。\n\n[概率的哲学随笔：怎样给可能情况分配权重](https://rujiewu.github.io/superintelligence-workspace/reading?resource=laplace-probability-conditions-reading&read=public)"
+          }
+        ]
+      }
+    },
+    {
+      "entry": {
+        "module": "reading",
+        "resource_id": "rumelt-coherent-action-reading",
+        "sha256": "3ecd58cd10e0b1aff7a0b787c18f2f44a1ee330bfdf7d7d6d46147d22e76af49"
+      },
+      "payload": {
+        "source_ids": [
+          "rumelt-chapter-one-excerpt",
+          "rumelt-perils2011-article",
+          "microsoft-apple-agreement1997"
+        ],
+        "sections": [
+          {
+            "title": "这批想交十二份，哪一步会挡住它",
+            "body": "一项计划列出十二份报告的交付目标，又列出增加准备名额、扩大检查能力两项行动。清单看起来很完整，但我们还没有回答：十二份究竟能不能交出去，两项行动是否都需要。\n\n下面用一个完全自拟的批次例子，把这些问题算到尽头。数字不来自书中企业，算出的结果也不代表真实工作效率。"
+          },
+          {
+            "title": "动作之间要接得上",
+            "body": "鲁梅尔在第一章节选中强调，行动、资源和方针要配合。\n\n对这批报告，每新增一个动作，都要说清它放宽了哪个约束，另一处是否仍会挡住交付。名额模型是我们为检查这件事另设的。"
+          },
+          {
+            "title": "先约定一份交付要占用什么",
+            "body": "设有一批十二份已经确认的订单。每交付一份报告，必须各占一个准备名额、一个检查名额和一份订单。原有准备名额八个，检查名额四个；名额都只能使用一次。\n\n我们只建一个整数约束模型：交付量q不能超过这三种数量，并约定满足这些约束的q在模型里都可行。真实任务的先后顺序、耗时、返工和在制品没有建模，不能凭名额表保证一天内做完。\n\n预算上限是两个自拟单位。A花一个单位，把准备名额增加四个；B也花一个单位，把检查名额增加八个。两项各只能选一次，可以都不选，也不要求花尽预算。"
+          },
+          {
+            "title": "把四种组合摆在一起",
+            "body": "给定名额后，最多交付量是准备、检查、订单三者的最小值。它先给出不能超过的上界；模型又已约定，满足三个约束的数量都能实现。因此这里可以把上界当作模型内的最多交付量。\n\n| 行动 | 支出 | 准备名额 | 检查名额 | 最多交付 |\n| --- | --- | --- | --- | --- |\n| 不新增 | 0 | 8 | 4 | 4 |\n| A | 1 | 12 | 4 | 4 |\n| B | 1 | 8 | 12 | 8 |\n| A与B | 2 | 12 | 12 | 12 |\n\n只做A，准备已经能容纳十二份，检查却仍只能容纳四份。只做B，检查能容纳十二份，准备还停在八份。两项配合时，才同时满足十二份所需的名额。表格是本篇原算例，不是书中的经验统计。"
+          },
+          {
+            "title": "多出来的四份，来自哪一处配合",
+            "body": "从原状四份出发，A单独没有增加交付，B单独增加四份；A与B一起却增加八份。共同增加量比这两项单独增加量的和多四份。\n\n沿着约束往下看：B先放宽检查限制，准备八个名额才成为下一道限制；A再补上四个准备名额，这四份交付才都有了位置。配合收益来自两类名额必须同时具备。换掉约束，收益也得重算，不能把这组数字推给所有投入。"
+          },
+          {
+            "title": "三个词，怎样落到这个问题上",
+            "body": "作者2011年的改编文章提出诊断、指导方针、协调行动三部分，并用“coherent action backed by an argument”概括策略。三部分结构取自这篇文章；本篇没有核读原书相关章节。\n\n在我们的例子里，诊断先指出检查名额只有四个；即使把它补到十二个，准备名额八个还会成为下一道限制；指导方针是补齐交付所需的两类名额；A与B才成为相互支持的动作。若预算只有一个单位，B能把结果从四份提高到八份，目标十二份还无法达到。三个标题不会替我们补上这段推理。"
+          },
+          {
+            "title": "订单变了，原来的配合还值不值得",
+            "body": "现在只改变已经确认的订单数，保留原有名额、A与B的效果和预算上限两个单位。先求最多交付，再在达到这个数量的方案里挑支出最少的。最后一列固定比较B与A+B。\n\n| 确认订单 | 最多交付 | 最省支出的方案 | 在B上再加A |\n| --- | --- | --- | --- |\n| 12 | 12 | A与B，支出2 | 在B之上再多交4份 |\n| 6 | 6 | B，支出1 | 交付仍为6份 |\n| 3 | 3 | 不新增，支出0 | 交付仍为3份 |\n\n订单六份时，只做B就已满足六份所需的名额，再做A不增加本批交付。订单三份时，原有名额已经够用。省下预算的结论只针对这批订单和这个目标；它没有回答未来准备能力是否值得建设。"
+          },
+          {
+            "title": "一个安排很一致，仍可能一致地解错题",
+            "body": "假如最初把问题看成准备不足，花掉一个单位做A，动作与判断完全一致，模型内却仍只能交四份。协调得好，不能替代对约束的检查。\n\n因此要给诊断留下改口的条件：若新增准备名额后检查仍只有四个，交付上限不会变；若确认订单降到三份，两类名额都已不挡路。把这些可能推翻原安排的情况写出来，才知道什么时候该停，什么时候该换方案。"
+          },
+          {
+            "title": "产品与渠道，怎样放在一起讨论",
+            "body": "第一章节选把苹果的产品与渠道调整写成一组配合的选择。这是鲁梅尔的回顾；缩减本身并不是我们已经验证的成功原因。\n\n要检验一种解释，还要追问当时的问题、其他同时发生的变化和没有采取这组动作的比较情形。回顾中挑出的相互配合，与证明它造成后来结果，需要的材料不同。本篇没有另读原始访谈或公司档案。"
+          },
+          {
+            "title": "公告让我们看到承诺，结果仍要另查",
+            "body": "1997年8月6日的微软公告列出Mac软件、浏览器默认设置、专利和股票投资等安排。它记录的是当时宣布的承诺。\n\n公告中的未来时，不能改写成产品已经交付或资金已经到账，更不能自动变成转型成功的因果证明。对照这种记录，我们可以把“准备做什么”“实际做成什么”和“结果由什么造成”分开检验。"
+          },
+          {
+            "title": "交出计划时，把哪几件事写给别人看",
+            "body": "回到这批报告，计划至少要让别人核对同一组对象：确认订单是多少，两类名额各有多少，A与B分别改变什么，以及预算允许哪些组合。目标随后才有可检查的根据。\n\n如果现实还有先做后查的时序、同一人不能同时承担两项工作或检查会退回重做，就要另建约束，重新求可行结果。名额例子让推理变得透明，也把自己省略的东西留在明处。"
+          },
+          {
+            "title": "换一个初始条件，再决定先做哪项",
+            "body": "试把原有检查名额改为十二个，准备仍为八个、订单仍为十二份，预算仍最多两个单位。A、B的成本和增量都不变。\n\n只做A后，两类名额都是十二个，可交十二份；只做B后，检查变成二十个，准备仍八个，只能交八份。A已用一个单位达到本批上限；继续加B不增加交付。抄用上一情境的“先补检查”，就会错过条件已经改变。\n\n诺曼选读中的按钮例子也要求先说明装置怎样接线、何时接收命令，再判断动作。两篇在检查条件这一步相接，装置规则和报告名额各有自己的题设。\n\n[日常物品的设计：看见按键，为什么仍会选错](https://rujiewu.github.io/superintelligence-workspace/reading?resource=norman-model-mapping-feedback-reading&read=public)"
           }
         ]
       }
