@@ -10,6 +10,10 @@ const ORIGIN = new URL(PAGES).origin;
 const BASE = hosting.site_base + '/';
 const OUTPUT = 'test-results/public-content';
 const MODULES = ['reading', 'learning', 'trading', 'investment'];
+export const PROGRAMME_ENTRY_IDS = Object.freeze([
+  'dewey-experience-growth-reading', 'james-stream-attention-reading',
+  'lyell-geological-time-reading', 'homer-iliad-honour-reading', 'carson-cause-evidence-reading',
+]);
 export const TARGETS = [
   { module: 'learning', id: 'd02-v33-u6', file: 'knowledge/lessons/d02-v33-u6.json', field: 'lesson', tableMarker: '最近秩 p95',
     markers: ['修好了，为什么换一台机器又失败', '最近秩 p95', '1300 毫秒', '干净环境'] },
@@ -329,8 +333,7 @@ export async function runAcceptance() {
             panel_width: Math.round(panel.clientWidth), reading_width: Math.round(body.clientWidth) };
         }, { headings: material.headings, markers: material.markers, sourceURLs: material.sourceURLs,
           theme: view.theme, itemTitle: material.item.title,
-          readingEntryIds: material.item.id === 'human-history-thousand' ? ['dewey-experience-growth-reading',
-            'james-stream-attention-reading', 'lyell-geological-time-reading', 'homer-iliad-honour-reading'] : [] }), 10_000);
+          readingEntryIds: material.item.id === 'human-history-thousand' ? PROGRAMME_ENTRY_IDS : [] }), 10_000);
         requireTrue(result.theme_matches && !result.body_overflow && result.continuous_sections && result.required_markers
           && result.source_links_complete && result.external_links_safe && result.prose_fits_column
           && result.tables_fit_column && result.reading_entries_complete, 'PUBLIC_CONTENT_GEOMETRY_OR_SOURCE');
