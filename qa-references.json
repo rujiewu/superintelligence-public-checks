@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_commit": "4158a286cf03458c5cd415ba395d8190730eee19",
+  "source_commit": "53088771c5a91a6e1b31fdfaef5f9d6c19b9d8df",
   "local_checks": [
     {
       "name": "published-manifest",
-      "source_commit": "4158a286cf03458c5cd415ba395d8190730eee19",
+      "source_commit": "53088771c5a91a6e1b31fdfaef5f9d6c19b9d8df",
       "catalog_counts": {
         "reading": 55,
         "learning": 63,

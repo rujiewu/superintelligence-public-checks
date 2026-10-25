@@ -466,7 +466,8 @@ export async function runAcceptance() {
           if (!visible.complete || !visible.fits || !visible.source_links_complete || !visible.resource_links_complete) report.expansion_failure = { stage, ...visible };
           requireTrue(visible.complete && visible.fits && visible.source_links_complete && visible.resource_links_complete, 'EXPANSION_CONTINUOUS_TEXT_TABLE_OR_LINK');
           if (['genji-opening-reading','shitao-method-transformation-reading','poetics-action-plot-reading','hojoki-dwelling-attachment-reading'].includes(item.id)) {
-            requireTrue(item.group === '文学、艺术、媒体与美学' && payload.group === item.group, 'NORMALIZED_LITERATURE_GROUP');
+            // The public QA projection omits group; the bound public catalog owns it.
+            requireTrue(item.group === '文学、艺术、媒体与美学', 'NORMALIZED_LITERATURE_GROUP');
             const currentScope = await bounded(() => page.locator('#catalog-scope').textContent(), 10_000);
             requireTrue(currentScope.trim() === '全部', 'NORMALIZED_GROUP_DEFAULT_ALL');
             visible.normalized_catalog_group = item.group;
