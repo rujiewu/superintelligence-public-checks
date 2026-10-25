@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "source_commit": "da0c03e16106efc611d556faa2ecde7d14d309ed",
+  "profile": "public-content",
+  "reports": {
+    "report.json": {
+      "status": "FAIL"
+    }
+  },
+  "retained_files": [
+    {
+      "path": "report.json",
+      "size": 8985,
+      "sha256": "96e8838986a95796a6d5782d45df60afa8e5548120f173aee8cf32f3b4eb5e95",
+      "git_blob": "3c4a9b4db77f977aee826417f9aa6d86715a8f3b"
+    }
+  ],
+  "generated_capture_inventory": [
+    {
+      "path": "desktop-light-d02-v33-u6-study.png",
+      "size": 292068,
+      "sha256": "143ba5c188c880e7cb439b1a2291b039470cf911efb606e48d57b972f144f072",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-study.png",
+      "size": 291338,
+      "sha256": "d6dda1bedfc1ca69e5f3ddc724016f6a135d141d3f20fe648232facc7131add1",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-practice.png",
+      "size": 228502,
+      "sha256": "3904c7433cb9232ec2dddf5dc4edfc7db13ff708be2ab285545e43726014ba10",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-practice.png",
+      "size": 228153,
+      "sha256": "8719851449952b2bacc3bd2cbb6d8ee19a5a71eeff271556f38807bc2fb04ced",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-reasoning-study.png",
+      "size": 225200,
+      "sha256": "cd680539039ef787bf6519618bfb9b02d704efc90e340e548076a3e22017423d",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-reasoning-study.png",
+      "size": 227445,
+      "sha256": "05f2692a36964ef480b5a1c083f435a7f45ec47b2bc02f5903202138fdb0ff63",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-d02-v33-u6-sources.png",
+      "size": 195681,
+      "sha256": "18e78f338d4c90c8375e7ab07d5bb533d8e78574a25b8d4de92425a45b841711",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-d02-v33-u6-sources.png",
+      "size": 198552,
+      "sha256": "7e1df932f623cd3e5623a314581d618490f6f0c3cac1eda5734371878b59c9b6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-study.png",
+      "size": 259506,
+      "sha256": "7f4da4b6da488ba39f9a82222db39fe41ca54d1e6f66d812a703d295140427fb",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-study.png",
+      "size": 259488,
+      "sha256": "16764465b25351e48fbd0766fc9dc14445ca9621a63a2ddb5307643471d75acc",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-practice.png",
+      "size": 250136,
+      "sha256": "426e0e1bb9c74c9f1afc9c6e4b3322b0d0cb69928dbf1c830293e2e523ca0ba6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-practice.png",
+      "size": 250337,
+      "sha256": "c59827bb79edd66671f910aa0adc0568eb04b1575615a04b666d2f32dc8033b6",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-reasoning-study.png",
+      "size": 248384,
+      "sha256": "d40a34496e8840fa7bd9948779604f30532d08f75a593e4e342bf231860da444",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-reasoning-study.png",
+      "size": 246167,
+      "sha256": "c5db116ff77fba147783f3bd9390feeea85d6f401dd78091cffa5a8095074a9e",
+      "retained": false
+    },
+    {
+      "path": "desktop-dark-operational-reconciliation-sources.png",
+      "size": 220634,
+      "sha256": "f0f3c7894dd6fd41b915051024cebc242fe81c3978f07649ab16813521062812",
+      "retained": false
+    },
+    {
+      "path": "desktop-light-operational-reconciliation-sources.png",
+      "size": 223548,
+      "sha256": "ebc9983a4271ba4d05b188087ab197bc7ba682fbe4976d06b7f064b5d65468cc",
+      "retained": false
+    }
+  ],
+  "all_generated_images_retained": false,
+  "private_records_included": false,
+  "scope": "Complete available reports and explicitly selected public/synthetic images; hashes of other generated captures are metadata, not retained image bytes. Archive success does not override failed assertions or grant independent acceptance.",
+  "capsule_commit": "b8913fa9791269c7d82dfa4ca0c29483aa3a55c5",
+  "evidence_repository": "rujiewu/superintelligence-public-checks",
+  "private_source_checks_executed_here": false
+}
