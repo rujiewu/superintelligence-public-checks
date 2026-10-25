@@ -1,0 +1,1748 @@
+{
+  "schema_version": "1.0.0",
+  "source_commit": "9901c78f8fb43805760020fa9f96ffa38a3cdc8b",
+  "profile": "public-content",
+  "reports": {
+    "ui-report.json": {
+      "status": "PASS"
+    }
+  },
+  "retained_files": [
+    {
+      "path": "ui-desktop-light-investment-reasoning.png",
+      "size": 203978,
+      "sha256": "c782a82ccc40fc8fff2358a5ed807d19a2078fe9b1f1cbd0cddd3b4d6e65ef0e",
+      "git_blob": "78884e6373c40e9df709a40e8af7fdf0b76f6ff9"
+    },
+    {
+      "path": "ui-desktop-light-learning-reasoning.png",
+      "size": 205563,
+      "sha256": "eb4d46b45b2445c2048185b189b9f32d0e9e9c835c83bcab5f4298c990dd6a25",
+      "git_blob": "01d37d0c27aa39add90331f7e840c2c474b78d65"
+    },
+    {
+      "path": "ui-desktop-light-reading-reasoning.png",
+      "size": 255390,
+      "sha256": "f9cf80fd0bf05176f6bdcf7d740c05b05b5e512c40db3865708e2758cee10245",
+      "git_blob": "0e83f09a1870f927927f883e0dc22515d885eda6"
+    },
+    {
+      "path": "ui-desktop-light-trading-reasoning.png",
+      "size": 268511,
+      "sha256": "8d54783ce0388a85c783896e506a4f913f311f56780e895e85ae7fc5699bac6f",
+      "git_blob": "943c39ca16e21b1ded5ab493aac16fedce19a5cb"
+    },
+    {
+      "path": "ui-mobile-dark-investment-reasoning.png",
+      "size": 73826,
+      "sha256": "76db987c97fdae778943f8b919b73a9e61c5107bc78a2830f11e84321c622a64",
+      "git_blob": "037560ee36cc086fb42bf22ee77f2b1439120258"
+    },
+    {
+      "path": "ui-mobile-dark-learning-reasoning.png",
+      "size": 71584,
+      "sha256": "75d88c173fb70ca55ba82442cac8544f44a229f30faf98c4b73058c4992d5f7e",
+      "git_blob": "3d08304b27b98e2e53caea8b7730bfc346ddecb2"
+    },
+    {
+      "path": "ui-mobile-dark-reading-reasoning.png",
+      "size": 91057,
+      "sha256": "fd573ee51916eff44059997fb85e4439e4f32437d5dcdf69eec049a0c25cda7d",
+      "git_blob": "1ee5f23d1fd1006532a7742cd030308ca12eb3da"
+    },
+    {
+      "path": "ui-mobile-dark-trading-reasoning.png",
+      "size": 61726,
+      "sha256": "c56ba00ee1c8a68c8462eca741878e34a8b13933709ea893214c8352899da850",
+      "git_blob": "53dd3ab55d25b5b60ff189f3b68ed92748d4c9e5"
+    },
+    {
+      "path": "ui-report.json",
+      "size": 26749,
+      "sha256": "908442a6a8aae5ee26472b624503ffebef3d2f7336fa27a4937374306b7395a2",
+      "git_blob": "2b3b943f97686896cf464b014ef3ebcaa84c5a31"
+    }
+  ],
+  "generated_capture_inventory": [
+    {
+      "path": "ui-desktop-light-login.png",
+      "size": 31012,
+      "sha256": "4955930c09a6c31da69ea8c1499356c152d88a3f33363c7ff5a5921450cdab37",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-reading-editorial-table.png",
+      "size": 190992,
+      "sha256": "654eaaf6b47ce910a889c4e98532fe1214fa83c9f74ad60fbee2d030420cd309",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-reading-opening.png",
+      "size": 318039,
+      "sha256": "befb6d67e2e72d669dea3faa925b42cf9462f2c8c326175b53fce17fc5c70ddc",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-reading-topics.png",
+      "size": 316829,
+      "sha256": "84dc0edd15123a3473732f9ee1c50bd73d92c9f0c990620d6bb3679832401e3f",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-reading-catalog.png",
+      "size": 318052,
+      "sha256": "7706ce518c1fd9558bfb3f40c6f12ec42c5e015cbe5ebdbd0226c5322e9e63b8",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-reading-reasoning.png",
+      "size": 255390,
+      "sha256": "f9cf80fd0bf05176f6bdcf7d740c05b05b5e512c40db3865708e2758cee10245",
+      "retained": true
+    },
+    {
+      "path": "ui-desktop-light-reading-practice.png",
+      "size": 165514,
+      "sha256": "e0d93c999a4caf31d73382da7b23a4ca53a6b03fbc5ab69ee4fe06d197fbbe74",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-reading-sources.png",
+      "size": 209229,
+      "sha256": "c10ab585dbf2ef3a369a8aac09ba7c9faf050b0308ae07c5c6fed6d04d0c6d51",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-reading-history.png",
+      "size": 336941,
+      "sha256": "0ee0580aeefdd4be2ede601924a903cfc817c4e0b0fc07ed92c65410012252e3",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-reading-discussion.png",
+      "size": 362230,
+      "sha256": "f3ffe0c7bf0b17ab06143fa3e4ff0a8b5d59588d41256ac87cf78e3b4c6a7ce2",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-learning-opening.png",
+      "size": 290647,
+      "sha256": "1ad32ce9ef0d7e1e67f5f3387ceb79129e63c08b236ad78b9cdefdcaab4b390c",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-learning-topics.png",
+      "size": 290190,
+      "sha256": "a6d7d7f0f64dc828b76a28fdfb97d9bc24a24331f48dd79bcf4ca84910f0690d",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-learning-catalog.png",
+      "size": 291330,
+      "sha256": "3154abf7fa41b26dd998256ad66ec7d7fb3e3dc0688c9f70800cc0a7516503e7",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-learning-reasoning.png",
+      "size": 205563,
+      "sha256": "eb4d46b45b2445c2048185b189b9f32d0e9e9c835c83bcab5f4298c990dd6a25",
+      "retained": true
+    },
+    {
+      "path": "ui-desktop-light-learning-practice.png",
+      "size": 227926,
+      "sha256": "42aace19b75eb6166163ad47d8a1dc8f2848d19f9eb752fe49519896525f8db8",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-learning-sources.png",
+      "size": 198705,
+      "sha256": "25e9f60394c6d6d4c9a132d311906543de0b008b7866ee3afdfe2de07f42ff0c",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-learning-history.png",
+      "size": 323757,
+      "sha256": "8635c36937341146b36bec506982989a841d7d3c57039bfecfa1da6d93f7c9d1",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-learning-discussion.png",
+      "size": 336816,
+      "sha256": "5b9f7cfcdf01c3d981b161ce3bbdcd47885de49651dc21bd4c1cc8457bf816b9",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-trading-opening.png",
+      "size": 276235,
+      "sha256": "67f96288db476d63f9e97539d930da72e8d5ece9e8c5b4c8333b1730380bdf56",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-trading-topics.png",
+      "size": 265231,
+      "sha256": "6328da6e34363375f7e557bae6e6d5d55d34f23b5d54520ed08713bd1c3da710",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-trading-catalog.png",
+      "size": 276234,
+      "sha256": "3343ebb4b0281108422d0661cf820c19a380c68a6605628a87ed647e5a5da0cd",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-trading-reasoning.png",
+      "size": 268511,
+      "sha256": "8d54783ce0388a85c783896e506a4f913f311f56780e895e85ae7fc5699bac6f",
+      "retained": true
+    },
+    {
+      "path": "ui-desktop-light-trading-practice.png",
+      "size": 241120,
+      "sha256": "416dde27450b0ae472390ec8ddc983e39177acc98fe716eb075465c20d91345f",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-trading-sources.png",
+      "size": 223304,
+      "sha256": "804a4175444628dac10a56bb35e0c3e7ecd47e353c3985d87deda47166e0ec30",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-trading-history.png",
+      "size": 275144,
+      "sha256": "5c00ed8d5b9e5dc5c16b1b3a6ad6ad6388da11f115d9f2734ad7833cfbba9bd3",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-trading-discussion.png",
+      "size": 291421,
+      "sha256": "9db9e86e5ab9ed815f1d15354a9d0db7cfe9adaa513cbfdc17604adaf6d2d80f",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-investment-opening.png",
+      "size": 217046,
+      "sha256": "e7bd147a85c6a83fa55067fab598af098b56fb401d4c8180652bd7360c6b4508",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-investment-topics.png",
+      "size": 217387,
+      "sha256": "af6e43ba63cb185bdc0a308c8034d3e5c31af36a5972a32abd04ecdeeaa81e83",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-investment-catalog.png",
+      "size": 217043,
+      "sha256": "02422265fd4c72a7e8bb7f1ad8c12bee512f3e34885cb681636786f8709017a0",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-investment-reasoning.png",
+      "size": 203978,
+      "sha256": "c782a82ccc40fc8fff2358a5ed807d19a2078fe9b1f1cbd0cddd3b4d6e65ef0e",
+      "retained": true
+    },
+    {
+      "path": "ui-desktop-light-investment-practice.png",
+      "size": 147651,
+      "sha256": "39ce206b72eb6a50195b14c0295b990e181be25411731b203b649b859df85d35",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-investment-sources.png",
+      "size": 145012,
+      "sha256": "a1868ad512e4d2bc07981742531d78333d2779cae716f283983e99700c96e109",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-investment-history.png",
+      "size": 254118,
+      "sha256": "d8eb9e66bbc459917a6551b028d8ee26811a42c9c1a1e767a2d6f183acd89f0e",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-investment-discussion.png",
+      "size": 269851,
+      "sha256": "73eb5b1fab57352efc726f399d03afd446c5c42f7eddbec9d71a5e6dacaa600e",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-login.png",
+      "size": 29571,
+      "sha256": "78e33be27c91e16de586d2fdd4bc914b74995dfa75c114dca8d52aa8bc44842d",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-editorial-table.png",
+      "size": 190569,
+      "sha256": "ae92be316a81d8fc82b359909bc1e3a3310c44039a27c923e27857fbf9c038a6",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-opening.png",
+      "size": 318838,
+      "sha256": "9b42a1f7b8ea45df53ae0f1aaf790b7ad06c80567418f9ec59254e153d622aff",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-topics.png",
+      "size": 316788,
+      "sha256": "08e0dd8a4433e7ee3446da715fb3eac2d33b566596e79b8c375ea3c7335c97f8",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-catalog.png",
+      "size": 318846,
+      "sha256": "457634475c086ca85a49ad201a8169373b399c31212b76d6f1d928dfe65fe9ad",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-reasoning.png",
+      "size": 255461,
+      "sha256": "c4861c2cd7ff88ad51e7fe6e56ae5b7dded462416e9226c3127ff6c176ec8a98",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-practice.png",
+      "size": 165452,
+      "sha256": "4cf7bf8a7c0facca160624bad15e59604031d7e35005d5305307beb3fdfa7268",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-sources.png",
+      "size": 208489,
+      "sha256": "8838e08bab739084a8615f09db8b93e9025943b63aed292e9659f86a7daf7bc3",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-history.png",
+      "size": 337759,
+      "sha256": "c6fc19292e31cf6ea281d9fe7a6f9d53cf7f8a065e3240ed92c3c706ebbc5808",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-reading-discussion.png",
+      "size": 362768,
+      "sha256": "852867e2eec54c42111da8838086b1e50fdacad8bf709e4839709341224fc7b9",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-learning-opening.png",
+      "size": 290490,
+      "sha256": "d7f11d3444664897d8be32f4783d12164a576a7432d04b98acbcf678d56297f0",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-learning-topics.png",
+      "size": 288856,
+      "sha256": "f33472d6e981b4b9602c89f173dcc38e55082ddae9f0c2662b688fb605ea657d",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-learning-catalog.png",
+      "size": 291139,
+      "sha256": "484a55e8cc24b56797a08cbbdb8302a613d567da0e3714c5d6a7ae4325ffc0bb",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-learning-reasoning.png",
+      "size": 205149,
+      "sha256": "38b1956c74bbfb6e336cff44ac92cb329d5ee3e3772075ab8a2df7317b5110f1",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-learning-practice.png",
+      "size": 227506,
+      "sha256": "34f26763491b6a6befa5b0a59ea252efccddd9ad68c0fb44ded83c58c86296e3",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-learning-sources.png",
+      "size": 195966,
+      "sha256": "92429657c169a475aba74149b2c67d73c8b6098d0842b2057867d836ef10e35f",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-learning-history.png",
+      "size": 323475,
+      "sha256": "4fed25d8230cfcecc50341bbf176f6132a95faa02a80b30611d168d06f0359d8",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-learning-discussion.png",
+      "size": 336901,
+      "sha256": "4c2f477390939d7538f6dd6c9b1a81007e94bd2f61ff3285c0af774100ce7302",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-trading-opening.png",
+      "size": 276762,
+      "sha256": "97dcde5402e45e8efd5ddbcfa3d69c9e0dd0a3ba34492d11a77dc3ec705ad9f3",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-trading-topics.png",
+      "size": 265106,
+      "sha256": "5d9885082aa105332610a05e9a52866e3b005f2dd0e1ed6f2c547577f95ee892",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-trading-catalog.png",
+      "size": 276757,
+      "sha256": "36eedef9c1e204da8b9562b67d0e0c99791fdf690dd06c67cf5fde70b68bd04e",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-trading-reasoning.png",
+      "size": 268955,
+      "sha256": "2852c9df7080f8dc80ef11ba6374e46fa670436aa0b07fcc02c8675104497dbb",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-trading-practice.png",
+      "size": 241365,
+      "sha256": "ffc1a442ee20e289f43af67607a15b071b4c51ebc7756952acc5279e4129da5f",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-trading-sources.png",
+      "size": 220597,
+      "sha256": "d277b99f72ee7037296b909e519d3cacbc529d7b4605af23b70c0ac43d0ac40b",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-trading-history.png",
+      "size": 275172,
+      "sha256": "be2dc9f2b5edc9c3fc20852d4a2a712310be0c505b9adffbbfe9397b7594098c",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-trading-discussion.png",
+      "size": 291529,
+      "sha256": "ea28379fe9a02395d576ab2f7d69f3554da35284d622c2ee5c0d062784309b25",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-investment-opening.png",
+      "size": 217001,
+      "sha256": "1f29977d715009cfdafcbe549974af4ee526ac229a4183922f4f173be9d00446",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-investment-topics.png",
+      "size": 216179,
+      "sha256": "cad6124cf5ee1e7eebc20b875268ecd96996df63d4665827ee49cde32505c26f",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-investment-catalog.png",
+      "size": 216996,
+      "sha256": "c1223411722f109367dcaf78dede3971af493803b20a0357ba783999839aa1fb",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-investment-reasoning.png",
+      "size": 203875,
+      "sha256": "3011304804ddac450bf8bac0ca6d8c25e47efc793076d068f09a9a9e84af87e2",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-investment-practice.png",
+      "size": 147545,
+      "sha256": "dbe9d79d4f30236638898a58eb6da7c32b45945e46376043af5ca3f8538dce63",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-investment-sources.png",
+      "size": 144531,
+      "sha256": "e06c3441a33736b7029477386f86c265e421fe1e74d8b107e5c60eb71ec26225",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-investment-history.png",
+      "size": 253963,
+      "sha256": "dd360eca78affa23bca53d4c22be5ca16bad95df0ff5e844d8c8a18bab74e869",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-investment-discussion.png",
+      "size": 269567,
+      "sha256": "07ead521ecb7c5684a86ec7eb56fad6cd8b0e655e8b653be2ac64f759ef59210",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-login.png",
+      "size": 24390,
+      "sha256": "17366ee0fe6308e27f7ed0ff44d83c34039b09ae37c0d6458a2b023027f9702d",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-editorial-table.png",
+      "size": 73181,
+      "sha256": "55ec1ec0fca9bd2bd2150d69cf25382557c31ad49c11df7176d861b5a0f6d044",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-opening.png",
+      "size": 103439,
+      "sha256": "03faa93df3c9a2629cef2b4b195725bf2dd98d5efb57cb2c969e9871faba3732",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-topics.png",
+      "size": 52457,
+      "sha256": "fa7e50660da0d0b6b37de611a2f091ca7df215d963bc0a0524d496e273281cab",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-catalog.png",
+      "size": 51925,
+      "sha256": "924cf807fadce50a6d7d8d923b1bd56e8ebabc89085fda44ed94022a412933cb",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-reasoning.png",
+      "size": 91747,
+      "sha256": "305d793a4e0c4f8e67b05107278e91e7716234586fd1eee39ed038de3b4c4ef6",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-practice.png",
+      "size": 74610,
+      "sha256": "b2c35ace83663c6df2243c36c1b9b3c93866db51960b9da39c2232f3aa67272e",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-sources.png",
+      "size": 77776,
+      "sha256": "f9b56adfbf067be6a595636333c7c1232f841c684d14d002f38d7f5dc53ca872",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-history.png",
+      "size": 58686,
+      "sha256": "40454d253b931738b7af5d231beeefb2d061cf3b6892280e2a5e39cc9f68eadd",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-reading-discussion.png",
+      "size": 50723,
+      "sha256": "3bad0c16fd270a8d938cd743e1f5aa1760e0aa9147ad95ffbb6ef77c511760d1",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-learning-opening.png",
+      "size": 104795,
+      "sha256": "5b601ee8b3ae6803ac53b91e64c671d90f6fae6bc243b831a14d810591c2ea1b",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-learning-topics.png",
+      "size": 57667,
+      "sha256": "7e6ea5ccc8edd8083ada56f84da2af405f6cf2be0d1afaff64fcee8e98cfe76a",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-learning-catalog.png",
+      "size": 62570,
+      "sha256": "b532185f67d7c440f825cb07ac0c9ed3d838fc00ea3f3868aa908acf2ae8a483",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-learning-reasoning.png",
+      "size": 71851,
+      "sha256": "9655fec55af6be94a68a2ce55b296e8841187f42f955a3fd611db9d9105123b4",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-learning-practice.png",
+      "size": 81324,
+      "sha256": "82871d71b88182d357f6e8c4b5639b5a978530ea2f402a25022080024de03ed6",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-learning-sources.png",
+      "size": 72285,
+      "sha256": "fd6015cdbc251a092a6702937a85bf127a670b692307c99fb80a9447e0522fdd",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-learning-history.png",
+      "size": 56026,
+      "sha256": "91ad54436c830c0d3380b84b9cc380fbc8a373cdd9e5b3986426618791753141",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-learning-discussion.png",
+      "size": 50076,
+      "sha256": "8617e65a5d98abbd9d2f8908bad1e6f82c12814588051f706d7338072bb0e7f1",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-trading-opening.png",
+      "size": 103746,
+      "sha256": "ff09b642aab3f655a131e4f92bfcb407461501dd36ba69be9a06e7ff6d39d141",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-trading-topics.png",
+      "size": 61075,
+      "sha256": "2fe56fa599ece8c8ae1d47630e1d22dfd56f72a759845a0542a502135ddea475",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-trading-catalog.png",
+      "size": 77619,
+      "sha256": "4ecc1c65804354714ade05847fc9adbc8c8d4699439ebd50b66a4361f0f7d668",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-trading-reasoning.png",
+      "size": 62100,
+      "sha256": "8431598f43811be21ccc0be47c4740a6a4d6c1e20d62f7f23c5e46f8c2795e50",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-trading-practice.png",
+      "size": 87989,
+      "sha256": "63f47f0a4e44b8e4ac36aad053a110e316414509334e6dde0fdad293f6c4f5b3",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-trading-sources.png",
+      "size": 77137,
+      "sha256": "eb86267ecc557ae13ada80a3f094876a7d24213cb9cacf26f47ed272205f4b33",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-trading-history.png",
+      "size": 60813,
+      "sha256": "fc7748177b39e749da38c0de5d124eaaab3c8a7a982377e8dfd09d50e3d13319",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-trading-discussion.png",
+      "size": 51915,
+      "sha256": "21d394431abd623e5c6d406ad1e49c82aba957c9143d97a5903fd88552b3b7ae",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-investment-opening.png",
+      "size": 98235,
+      "sha256": "6c11039284305948d4a9eed748b281ba4d0057bf337fec7131e9f5e7895ea9be",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-investment-topics.png",
+      "size": 46878,
+      "sha256": "ca2f997ded379b9ac09b729897a346095ed13d7830216de2f0d9ce0974f9d08f",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-investment-catalog.png",
+      "size": 45710,
+      "sha256": "30f163ee4db3a2d208de6d03221ecda261993084744f77f725cf2edc3b01d24f",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-investment-reasoning.png",
+      "size": 74438,
+      "sha256": "042db1aafa0943b0808859977c3b69e6a75bf181db2f0f33f00ab8a2d7596455",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-investment-practice.png",
+      "size": 72767,
+      "sha256": "94d43b8611c179f9c73d8f78851bc2a4b4840e74e6967aba2298468d93c24e8c",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-investment-sources.png",
+      "size": 54692,
+      "sha256": "2ac07054a2f8ab54ff736ff1f846cdcec5fc52119fa04eba9c87ac0dbdeb8f3c",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-investment-history.png",
+      "size": 55944,
+      "sha256": "33b65eeba4addd5fe702cf7e5c932a75f31f39bf2d3c6891e8b2f162aeed0654",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-investment-discussion.png",
+      "size": 49985,
+      "sha256": "dabdb0c0379890a6fc8596af425857566103c255c82febd11080cfbe7297e8d5",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-login.png",
+      "size": 23066,
+      "sha256": "df01f8d2d0a68e9bfbeb09bd7845bd88735f152822699ed2dbe56574a371ba8e",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-reading-editorial-table.png",
+      "size": 73181,
+      "sha256": "be22699d9977c31dfc2da24f87a395bdf354805747813a860a80a506e0dfe3a1",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-reading-opening.png",
+      "size": 103441,
+      "sha256": "56489d6ec9078f30ab302d9b7a1198ee11739eef871a985668204060a1fb3c8f",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-reading-topics.png",
+      "size": 51495,
+      "sha256": "2582546af497c6194b27a0f449d257844ec54741efe39883e142eb2d3045f6b8",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-reading-catalog.png",
+      "size": 51729,
+      "sha256": "2b67755b026a27c3e07fbb79a593f545a93c89bca0889842aca64e76f9e194a9",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-reading-reasoning.png",
+      "size": 91057,
+      "sha256": "fd573ee51916eff44059997fb85e4439e4f32437d5dcdf69eec049a0c25cda7d",
+      "retained": true
+    },
+    {
+      "path": "ui-mobile-dark-reading-practice.png",
+      "size": 74754,
+      "sha256": "99d9a324bda7e57152b4bd3ed47e031f01ecbfc28d8e92903158a8ff16312e22",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-reading-sources.png",
+      "size": 77874,
+      "sha256": "e5395e1a1e2f674c0a490a9bceb1a07263024148f57b179ca1733ebce91a7e50",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-reading-history.png",
+      "size": 58736,
+      "sha256": "d8d28491a9751bcb7ed69842f2d7179eb3780c284e4e01439003bcffa4a581b5",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-reading-discussion.png",
+      "size": 50836,
+      "sha256": "cc0d0367332a26ca253f8a1b01c50a2b8106e523eea1fb06bb52f033aae24c12",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-learning-opening.png",
+      "size": 104257,
+      "sha256": "91b9ded3b4f32256aa69a438b4029375efb401e39112f4420a8146ec0662c0d4",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-learning-topics.png",
+      "size": 56605,
+      "sha256": "5daeedc0af1c9bbf21d26cb7aef4e47d9fde2695fd0cc8980bd2b53796dd4c94",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-learning-catalog.png",
+      "size": 62653,
+      "sha256": "fdf51bccf31b28c4de4034a93897b262b1f220ce5f787d9b65f403dca035deea",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-learning-reasoning.png",
+      "size": 71584,
+      "sha256": "75d88c173fb70ca55ba82442cac8544f44a229f30faf98c4b73058c4992d5f7e",
+      "retained": true
+    },
+    {
+      "path": "ui-mobile-dark-learning-practice.png",
+      "size": 81574,
+      "sha256": "64625cd49b041e7391bdbca5623e707b7cf1b9b17821eba278a3693326eec487",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-learning-sources.png",
+      "size": 71742,
+      "sha256": "de547e5dde343b3a8b00d8868da36f586a56e914827421df3c03a096b1096ecb",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-learning-history.png",
+      "size": 55754,
+      "sha256": "9bc49c5ff8995104702269a8c8bbca19d2df4ee8dd2024fe0f1dcf9cc7e80200",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-learning-discussion.png",
+      "size": 50084,
+      "sha256": "1a3ac8cb56e0324deeb5a3ce4a50dd312d8dbec3a1a62796be229f16d40285d2",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-trading-opening.png",
+      "size": 103370,
+      "sha256": "8ae118dbfb920a2cc9b98400336e384e6ee98b09d75b9960dd74187911c8da23",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-trading-topics.png",
+      "size": 60127,
+      "sha256": "05071f2bdc01cb60d618a628ef0d5f4f8a25521b450cdfb6607ca29ab8f89e8e",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-trading-catalog.png",
+      "size": 77354,
+      "sha256": "12754f5aadc47a9d73fbef5e2f649e7da68130da9197219d7a81034c14b7b671",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-trading-reasoning.png",
+      "size": 61726,
+      "sha256": "c56ba00ee1c8a68c8462eca741878e34a8b13933709ea893214c8352899da850",
+      "retained": true
+    },
+    {
+      "path": "ui-mobile-dark-trading-practice.png",
+      "size": 87775,
+      "sha256": "c3c68d259dfcc69b40e4d362812c61fef2f53a6e7838c66807d98c29734825b4",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-trading-sources.png",
+      "size": 76534,
+      "sha256": "5740e4e744bb8025d257e7db488e7db1196c55334f6ed72fbc9d6f112d95ffd8",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-trading-history.png",
+      "size": 60484,
+      "sha256": "58f31a946eb1b6b015da0b65564ad4fb1d9e056e173c2883e6d6e326bbd33c6d",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-trading-discussion.png",
+      "size": 51928,
+      "sha256": "dde9ae1e0b9156f9b195c2f968cd8a23f477cf2f72b6db7da77378ffae8ede14",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-investment-opening.png",
+      "size": 97579,
+      "sha256": "efc856f3dcc6d1cfcabe0e537390bd92e7f6fd03727e14d9d662f1ab5713b012",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-investment-topics.png",
+      "size": 45914,
+      "sha256": "3118164e481779b837c98e22348f40c5d345ebdb7d95dcb2ab845fe81cd32889",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-investment-catalog.png",
+      "size": 45752,
+      "sha256": "3b9721510ef3d0e58fe68a2137be81dffe3ad67c294ea6de260c398ecd178e5d",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-investment-reasoning.png",
+      "size": 73826,
+      "sha256": "76db987c97fdae778943f8b919b73a9e61c5107bc78a2830f11e84321c622a64",
+      "retained": true
+    },
+    {
+      "path": "ui-mobile-dark-investment-practice.png",
+      "size": 72650,
+      "sha256": "16b48eb854d8fb897cf52265acef18d8226acf72483d08aafa8797da81a105f0",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-investment-sources.png",
+      "size": 54376,
+      "sha256": "21b91573ac9dfda951bef7ce964cf7f4793b970d3b9f372bcb410262f8972074",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-investment-history.png",
+      "size": 55743,
+      "sha256": "635294fff58cd9b36bc26c08e704808c4bbffb6f2b0b12697d42d78ecad427a6",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-investment-discussion.png",
+      "size": 50015,
+      "sha256": "47182a7570bf2830084de60c03015fac456f5ba380d37feaa13bbde5e44a661b",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-login.png",
+      "size": 23719,
+      "sha256": "625fb38231db079d41b9c3f06de22510c4f333c5e175824284a41cb556cb5df0",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-editorial-table.png",
+      "size": 71298,
+      "sha256": "3dfb3a3a9541c18c351fdb055ca9ffb14c3995d5e5902a391559b33d1525d964",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-opening.png",
+      "size": 84921,
+      "sha256": "8aba380fc17c12ca5391384bf6305f8bc9c488c6bbee380c8d6af10d9144b3d6",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-topics.png",
+      "size": 51628,
+      "sha256": "0970acab29bd80fc996a1953140fcb30e63f1eb5c38a7ac3538add6d8fa31602",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-catalog.png",
+      "size": 51201,
+      "sha256": "e72118e036c3e419292e0202110aef5f6125f24a501707c96d6a766070b70c7f",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-reasoning.png",
+      "size": 79702,
+      "sha256": "d660b30e83b94c1f030f64301694c7646b5329dd3f7556e06ece6582389c2b51",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-practice.png",
+      "size": 71771,
+      "sha256": "7d181714203ca5a43ca0d6ee6bc59051f086370deee69ff06da73e7f0d18581e",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-sources.png",
+      "size": 69170,
+      "sha256": "04c80e5270a44c6e4c60f1594046465516d9594728c8d555cabed21881f6c6a8",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-history.png",
+      "size": 58084,
+      "sha256": "e097f4abdf6b231fd69178b2adc71b71987f0706dc85d09f75e765abd50fcdff",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-reading-discussion.png",
+      "size": 49924,
+      "sha256": "04577aaee1d22e22baacce1beae0a6a656f415af35d7f68d0d7c91f8f2f22c6f",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-learning-opening.png",
+      "size": 88521,
+      "sha256": "457e3fb1dde30fdac8de06045acda86318a7d9b04872dba57ae0ea3b3e931506",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-learning-topics.png",
+      "size": 56806,
+      "sha256": "378283ad406bcc0549f75eaaf2b88b9d50fffe39243adf259cdf176b2c9fd08f",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-learning-catalog.png",
+      "size": 61624,
+      "sha256": "de806a2fad9be4c350d93f4a0d426282971b91a71220d9588e96f7f25712655a",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-learning-reasoning.png",
+      "size": 63096,
+      "sha256": "22fbaa640876042bb57c48ff0d3b4a6dc4d015b1db5026d3f50a05a363d6582d",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-learning-practice.png",
+      "size": 69435,
+      "sha256": "83d20e4439f63f71ca8eaa50f33e8c82d8f9cb2dd166f1695b1aa979e0d0675a",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-learning-sources.png",
+      "size": 63875,
+      "sha256": "71617c1f96ec5596739fe1a27d8bd207db97e3691e0482aaba40186cb751364b",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-learning-history.png",
+      "size": 55283,
+      "sha256": "41468be31110e940d63e514d9f16f70a0ab102045ae62a05e038f4ea3a656fd0",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-learning-discussion.png",
+      "size": 49263,
+      "sha256": "234f4e635fe02e98f87f8931e07836e97b8c7d9bd99c2125a1ca1be1fbfc7541",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-trading-opening.png",
+      "size": 99152,
+      "sha256": "7523cf3632c8636a997187b97274ed88ae05917604ccb4251d6631770aff26f4",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-trading-topics.png",
+      "size": 60915,
+      "sha256": "5b5f36d2c7b2f621362bc2aa8063a5c7100d08f0bbb812b917e52375ed169696",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-trading-catalog.png",
+      "size": 67062,
+      "sha256": "e1ef8779047645381c0e647d776e2aeaa5332cc3c9aa1ca872185ff66b972ebf",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-trading-reasoning.png",
+      "size": 59597,
+      "sha256": "996c13a04a0c0c91d2f256924e08fe4e83fb6628150b1d5325445a24da232f1a",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-trading-practice.png",
+      "size": 76240,
+      "sha256": "fde6eaabd01849610b2dde550003f2b49b090316614cc85b1ab9c8f18cff2f7d",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-trading-sources.png",
+      "size": 62748,
+      "sha256": "d6a26f1b3daabd07a315b26338e47afa3545d38221a224ed8855f6dfec1d47c2",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-trading-history.png",
+      "size": 59962,
+      "sha256": "0733aef223a274d1edad83c9ef2994abe54c317a0eac841db259aed9857f5945",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-trading-discussion.png",
+      "size": 51145,
+      "sha256": "e3c0af9370fd694a4b26cf1cbef8644bc30f308dfed3a88706b8ab0fe2644b15",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-investment-opening.png",
+      "size": 91885,
+      "sha256": "9f86d2d917dadd015d8694b6a76f2b62b6fe74fe8ec8ff3c30c7e168980fc835",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-investment-topics.png",
+      "size": 46017,
+      "sha256": "69cac186100282999859d2a8ca01b757a1721abbc3b15babf9b0d189e5024c6e",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-investment-catalog.png",
+      "size": 44963,
+      "sha256": "4a8d1d5b360d4102b5bdf1fe456e4c86337567ed08a7ee0ec9b3417949160b3f",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-investment-reasoning.png",
+      "size": 67865,
+      "sha256": "8ebc025dc163ff4d292b8479d4190b05ad4347bda32f134903cad4c8ae7bc22c",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-investment-practice.png",
+      "size": 72323,
+      "sha256": "842e15d17d9e63b6a8112d9ecd3093eb93e9110f672e4209de5bbcb59598947c",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-investment-sources.png",
+      "size": 52318,
+      "sha256": "588415a78691effc04568ab701677d6775d0bc8ef2f514cea0fd996b967dbb97",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-investment-history.png",
+      "size": 55262,
+      "sha256": "88caa03430e026815302783345982dc5ed0c77a2afc3a52279b4c6db5e9ad097",
+      "retained": false
+    },
+    {
+      "path": "ui-compact-light-investment-discussion.png",
+      "size": 49175,
+      "sha256": "8b5877dde033f14dfedc9830387a9e19a88e5f41afbfdbde5e90e29c17c1a295",
+      "retained": false
+    },
+    {
+      "path": "ui-delete-conversation-reading.png",
+      "size": 345716,
+      "sha256": "2ed159c66615f7d2b4740475480c2e936f0344c73bb325a5b023c9f6d6c5ddbb",
+      "retained": false
+    },
+    {
+      "path": "ui-delete-conversation-learning.png",
+      "size": 322742,
+      "sha256": "fcccd896e1df0cd9d696addf9e65ad1826b5deb3ec23e791053f6f5f29874d38",
+      "retained": false
+    },
+    {
+      "path": "ui-delete-conversation-trading.png",
+      "size": 277770,
+      "sha256": "39223029a23ac18f073731172b1e1ff84394158b70f95563b82238634bc3d2ea",
+      "retained": false
+    },
+    {
+      "path": "ui-delete-conversation-investment.png",
+      "size": 255448,
+      "sha256": "6da09b604a2013623bff458dc5836c81ff5ed06d879cbb6201b6b6f59bfd15cb",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-adam-smith-wealth-of-nations-editorial-table.png",
+      "size": 168725,
+      "sha256": "cc1cf2da46f256372aaad6bacb142af607ce6b42681992c2de11ff6e7f29c2a7",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-adam-smith-wealth-of-nations-foundation.png",
+      "size": 299502,
+      "sha256": "c96de9d1b6c6a520d75cab355781667196ef15a791673b0b4862a462f6e17610",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-adam-smith-wealth-of-nations-excerpt.png",
+      "size": 220159,
+      "sha256": "14d497c5444d9ed07616591147cb45c695003d0b04165bdfbfc1daba9a3d7985",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-charles-darwin-origin-of-species-editorial-table.png",
+      "size": 153867,
+      "sha256": "caf4be862ac1a1acbb6aeec753d5c8a2f9a94be5d5725a5cfb976c695a444136",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-charles-darwin-origin-of-species-foundation.png",
+      "size": 315524,
+      "sha256": "645de4a7aa9258ce95565e4657c2b5c067eeb9474fa7457018377eaa44a6a93b",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-charles-darwin-origin-of-species-excerpt.png",
+      "size": 217001,
+      "sha256": "b681ee272022e0e20deb32f569508830d55edfd79dc96245d0b24aec482e19e0",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-confucius-analects-editorial-table.png",
+      "size": 205482,
+      "sha256": "ed0f6b253bc82ea51d81bc9118df456f08c3cc42d22124c9df967b2ed8ed500b",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-confucius-analects-foundation.png",
+      "size": 261757,
+      "sha256": "a5547d33eea2220ec8803deba12038c92f5922c7f081a865ae282b97cccb664c",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-confucius-analects-excerpt.png",
+      "size": 211041,
+      "sha256": "eaab207be04680a4affbf5a7c1ca3d61360fa87eb8f9ab88f30e39a924d2b1ed",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-euclid-elements-editorial-table.png",
+      "size": 189576,
+      "sha256": "aace4e40f2ffc1002319947a7fa8ab2a0051b8a3b18c1e044b692e98b7c6e684",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-euclid-elements-foundation.png",
+      "size": 288084,
+      "sha256": "0e08290c078dda155c5b932e610d746c1d388f7cb989dcaf89a9fef4fcf011cd",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-euclid-elements-excerpt.png",
+      "size": 215012,
+      "sha256": "98d1c24a098823e22e14cec2aeac55efd103dba8dc05b15c8317e494156b9bf5",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-john-snow-mode-communication-cholera-editorial-table.png",
+      "size": 154433,
+      "sha256": "4bf0c8682909a0674f905d342c9302c3512d5eb6a539179ab7e2df6fff0f7f19",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-john-snow-mode-communication-cholera-foundation.png",
+      "size": 290477,
+      "sha256": "66d8ce37e9e508d7fb24ed7894873bdd400b61a49c24aa06a1afb09bb30e8889",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-john-snow-mode-communication-cholera-excerpt.png",
+      "size": 249449,
+      "sha256": "aea2d71fa1b1c2e2b8b802339b3f061f1a2d1a273a88785a035e4caa4b3a9ff7",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-plato-republic-editorial-table.png",
+      "size": 220911,
+      "sha256": "bbbe691e0a7cf527dced2ad8b30cb15e80b2171038d2b82779163eeb2509aa90",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-plato-republic-foundation.png",
+      "size": 286649,
+      "sha256": "a203e1312bff44dec316faa7c29f3032666799d7d618caea0545bcd8a46cb669",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-plato-republic-excerpt.png",
+      "size": 243554,
+      "sha256": "7850f0e0fc0e4a442c729a1a153b7749902321f2dcbb945cef001f688a658c1a",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-rene-descartes-discourse-method-editorial-table.png",
+      "size": 212325,
+      "sha256": "701a7578730e20ea0a694a4a18acfcad5ef08e510a51dd3279a900f6abeebb56",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-rene-descartes-discourse-method-foundation.png",
+      "size": 296338,
+      "sha256": "7d51d718d82cadaa872fff7133197a7fa3437a75c6f67acf55e97a2d18eec5c6",
+      "retained": false
+    },
+    {
+      "path": "ui-book-evidence-rene-descartes-discourse-method-excerpt.png",
+      "size": 232163,
+      "sha256": "43184ea1f9da7578047997a6c93f42aeae862d354c0f317d714c0a4c50fd3261",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-adam-smith-wealth-of-nations-editorial-figure.png",
+      "size": 80353,
+      "sha256": "a69120ed67b49c415f33146555f84e36266283e677c6bb8482b2a2b762acf9a8",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-charles-darwin-origin-of-species-editorial-figure.png",
+      "size": 74400,
+      "sha256": "b78e73176c20ad79c125b74abd379c57a16f5568d6ed6a518166f13514abb963",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-john-snow-mode-communication-cholera-editorial-figure.png",
+      "size": 79572,
+      "sha256": "d9e3a12561b6e21c60560b4016bad5ddf314bd383e9fa5eca0f2acb8be808f3a",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-adam-smith-wealth-of-nations-editorial-figure.png",
+      "size": 80656,
+      "sha256": "a885cce1763e36668fbb9a36d271a6ee788875527c340d7440bcb7ee94a95500",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-charles-darwin-origin-of-species-editorial-figure.png",
+      "size": 74387,
+      "sha256": "c74fc5886347b3b1b40c4c5e9a46aec5c5e147338c06d976df0f3fb7bab64e42",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-john-snow-mode-communication-cholera-editorial-figure.png",
+      "size": 79877,
+      "sha256": "d235255fe6841a21f67846186c3fa438e0906c4a0ae1ad9e2cebfcf294214368",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-euclid-elements-specialist.png",
+      "size": 150089,
+      "sha256": "a1fcd619ab40228dff8d81d947b504c960bf963156038db0ac851355cebf123c",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-light-confucius-analects-specialist.png",
+      "size": 183302,
+      "sha256": "4e6a20daed06c051217829f764dc87bc9a84d3d68154e5936c7fe39d3523d804",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-euclid-elements-specialist.png",
+      "size": 149059,
+      "sha256": "837a0ccec1b3c1d0ae680d5baf0b8f3d5cd1bd36919fed82e5b17f97354f395b",
+      "retained": false
+    },
+    {
+      "path": "ui-desktop-dark-confucius-analects-specialist.png",
+      "size": 182799,
+      "sha256": "01feabf171aabc3bd20bbe4330b324984753cf46471dbf0834924914d339a1e5",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-euclid-elements-specialist.png",
+      "size": 49409,
+      "sha256": "2b6ab4c3746fb77870d95b8f4a44d43dbf8527991f5806967d46576fc4d05e1c",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-light-confucius-analects-specialist.png",
+      "size": 67219,
+      "sha256": "fc277a307d0f225712024256399cad342c848937933764432c5676ed8b55fddb",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-euclid-elements-specialist.png",
+      "size": 49521,
+      "sha256": "61fd846341b8b2d7847b99cc51f5139bb2aa3a0d403adc0178f39d4829c95a02",
+      "retained": false
+    },
+    {
+      "path": "ui-mobile-dark-confucius-analects-specialist.png",
+      "size": 67132,
+      "sha256": "c34b96b27ba24f4f5aaf70f40b687e0401c159f089fddc1ef7317a5de512e0b2",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-reading-human-knowledge-foundations-desktop-light.png",
+      "size": 299544,
+      "sha256": "3fedda56021891109100603e555ba08369e0ebcb1096443a72ea20155fb6f2f7",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-learning-d02-v33-u5-desktop-light.png",
+      "size": 366750,
+      "sha256": "17a9ad3e896a3009ff55013f26c30cce256be9a7f0fc5663bb9cff7129e2f2e1",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-learning-d11-v33-u1-desktop-light.png",
+      "size": 345365,
+      "sha256": "895f52f02324f10307ef21a731eb7ebf73c62ef2e44b4beebe9767fff4a5fd7c",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-trading-operational-reconciliation-desktop-light.png",
+      "size": 347080,
+      "sha256": "2b21c010d4a4021dff9dc1d8221a03168f6882fdc0b47021b7d86a67515f9873",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-trading-earnings-cashflow-desktop-light.png",
+      "size": 326793,
+      "sha256": "b6312578e3848bf6ea58a15439c0c2a36d00b9345375092c970d8b65d23a1bb8",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-investment-investment-workspace-desktop-light.png",
+      "size": 348530,
+      "sha256": "805cc60ec5a77385bc4d0130be345cd9de2b0bd0ddb2ba405d41f976c6a40026",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-investment-investment-workspace-desktop-light-cash.png",
+      "size": 348530,
+      "sha256": "805cc60ec5a77385bc4d0130be345cd9de2b0bd0ddb2ba405d41f976c6a40026",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-reading-human-knowledge-foundations-desktop-dark.png",
+      "size": 299292,
+      "sha256": "5417e924c9a5f15ccd20208aac9a150e7a9f4a0e1f62389c20fd7304d4a987d4",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-learning-d02-v33-u5-desktop-dark.png",
+      "size": 366250,
+      "sha256": "86cd3e3b3b99cf85421f5ec043c3924aba54677cc04827112b87df99bef568c3",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-learning-d11-v33-u1-desktop-dark.png",
+      "size": 345054,
+      "sha256": "ce834d5eceaf403f3265a0df7c497d17796ad8a756b9b1460e15d73933a05f90",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-trading-operational-reconciliation-desktop-dark.png",
+      "size": 347002,
+      "sha256": "4390be5b62cec35982d1253ed06dfcdb4c2bb90825df4478fb8781631bdbf8ed",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-trading-earnings-cashflow-desktop-dark.png",
+      "size": 326443,
+      "sha256": "d89bbce640cb9978f520828b4070799c65cd6bb49a276462a0c8d686b8ba21c2",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-investment-investment-workspace-desktop-dark.png",
+      "size": 347549,
+      "sha256": "2d7355e6ef672616496e02d75c925c35d1242a92261f03a6fe40affb863e3fee",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-investment-investment-workspace-desktop-dark-cash.png",
+      "size": 347549,
+      "sha256": "2d7355e6ef672616496e02d75c925c35d1242a92261f03a6fe40affb863e3fee",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-reading-human-knowledge-foundations-mobile-light.png",
+      "size": 117088,
+      "sha256": "6ae1fcc19f1d7fd199d425492567ef2f6f4b9d5f459197ac6853b21b12a1aabc",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-learning-d02-v33-u5-mobile-light.png",
+      "size": 109295,
+      "sha256": "0cf2a06d8ee213793f1934b0aec49359bbc3e88a757c477966d856ccc432b292",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-learning-d11-v33-u1-mobile-light.png",
+      "size": 115860,
+      "sha256": "6a0d816543fd1bd252953041782e4200f6703db94b0fb3d5877d6d54b98ac48f",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-trading-operational-reconciliation-mobile-light.png",
+      "size": 123301,
+      "sha256": "9905633201c94bb59071b5cc45082359a6ca930261081e56b2087bdd9b56ee70",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-trading-earnings-cashflow-mobile-light.png",
+      "size": 117252,
+      "sha256": "bab05a50f95c613728c1f83a9d32953b06dbe2dfa785af82df7b5f816be18ebc",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-investment-investment-workspace-mobile-light.png",
+      "size": 127590,
+      "sha256": "fd3caa9dc71b81430d09bb9b82b54026869ef3a7d564f44653a2542c462ba2c7",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-investment-investment-workspace-mobile-light-cash.png",
+      "size": 126540,
+      "sha256": "98a637cac4133c5b0041dfb3e4d43b88e3b60d076c58db32f4b5484e3b267bb0",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-reading-human-knowledge-foundations-mobile-dark.png",
+      "size": 115730,
+      "sha256": "e31a0835054b70866f0e0ad34e27a5ad9ebacbcd15474400122232da3cd242a7",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-learning-d02-v33-u5-mobile-dark.png",
+      "size": 108107,
+      "sha256": "1dd3cc6c1a9e8080e6efe08d08af615e8d90f4413b512ebc73bfc7e1ef39f13f",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-learning-d11-v33-u1-mobile-dark.png",
+      "size": 114747,
+      "sha256": "f9b3bf2000a7bd08ec4d8a43f877523759184c5d170d10262ea7dffbf048c145",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-trading-operational-reconciliation-mobile-dark.png",
+      "size": 122426,
+      "sha256": "dd7661cbcdc72553e0d5c0703c85ceec2d181d322ff2197ba7bc756fb9315301",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-trading-earnings-cashflow-mobile-dark.png",
+      "size": 116190,
+      "sha256": "0a19ad67c77cfbd150a87dbf549f012bb620786c6cbcb6fa42f631dee246f6b6",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-investment-investment-workspace-mobile-dark.png",
+      "size": 126412,
+      "sha256": "a61363334fdcfb26ec9a7b9d48923f41b1de3d1662ef57b0b3afa656800f523b",
+      "retained": false
+    },
+    {
+      "path": "ui-refinement-investment-investment-workspace-mobile-dark-cash.png",
+      "size": 125365,
+      "sha256": "a2102ef291d898fbf6f6bb9b30e063102186086e2d7082ff2a0f184f7f22e896",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-desktop-light-dialog.png",
+      "size": 305446,
+      "sha256": "e7999cb0dd2d6b16b05f241e28c509d745c9efc3b95de65ff66e67fd8a19509d",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-desktop-light-saved.png",
+      "size": 305039,
+      "sha256": "11a880266d11638f08fa0332a1804e6d4e3ceeb88859f2210614357fdc1fc332",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-desktop-light-conflict.png",
+      "size": 310179,
+      "sha256": "6298950eb5c3a9ec91b002b3bc2cac431cbe86040922f8bd6a251075deb4c032",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-desktop-light-reauth-draft.png",
+      "size": 274884,
+      "sha256": "96d8402831609de11c43651ff882c7a0fb73796dc4250bf6589a7db3e5a28600",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-desktop-light-deleted.png",
+      "size": 257246,
+      "sha256": "7b4236ffb1a9a87e3b8a9dcc12915683808e526e2a064db70ef6a9ace6361f0c",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-desktop-light-dialog.png",
+      "size": 302378,
+      "sha256": "c2add5095b810d90007ad7a112d8c9dba292a612529a66663ae5d295bdcf57c9",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-desktop-light-saved.png",
+      "size": 302664,
+      "sha256": "f2f73ecd5627dc7cd771f2e700efa9593bd810d7c7a9dc2c6bbad16bc3588948",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-desktop-light-conflict.png",
+      "size": 322006,
+      "sha256": "9c31d2f9c773dda3642ee88f99548c64e5b3221a3ff9677dcad9a6cc916af16c",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-desktop-light-reauth-draft.png",
+      "size": 315066,
+      "sha256": "c5eda5ccaf72907fff2522c928922c0ca1255ace44a7a6b6f2ec0e341fc3ac8b",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-desktop-light-deleted.png",
+      "size": 299074,
+      "sha256": "c9cba1aa35641c081c476cff599a1a1e1983a0820690e603613dee3663a7ddc6",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-mobile-dark-dialog.png",
+      "size": 38741,
+      "sha256": "0ce40a5449bde43384b4778b943fe25941bb95c762115313aabf20332e31ca24",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-mobile-dark-saved.png",
+      "size": 33303,
+      "sha256": "b0258b7b6bd448111d5dc77bfee4d8cf2fd318221ee705f1d408df7d434f194b",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-mobile-dark-conflict.png",
+      "size": 52146,
+      "sha256": "9f7018596d87c435b6dba23a4cfbdf52033394288efdd07be5c566592b4b246a",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-mobile-dark-reauth-draft.png",
+      "size": 44059,
+      "sha256": "d9574685cea7a4512be427caf1767706ed94fc584b4027c3af70835a8f11a04f",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-reading-mobile-dark-deleted.png",
+      "size": 26146,
+      "sha256": "339643e2dbcebca4d14cd608c121aa2142358918d32f6e5b2d7cabbd37f8d584",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-mobile-dark-dialog.png",
+      "size": 36808,
+      "sha256": "7b91b738ee0646ae83cb1113e8c9169aac7b11ab4f3c74796b10c8e8b09e1756",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-mobile-dark-saved.png",
+      "size": 31710,
+      "sha256": "8abce12ff1c46fc52848ea321a96e962942d036060800f8c02309c06790394ce",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-mobile-dark-conflict.png",
+      "size": 50248,
+      "sha256": "4f958acc23ed37abed399a401f525b326a8f3e11a655c81f1e46602a28d5a5f9",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-mobile-dark-reauth-draft.png",
+      "size": 42115,
+      "sha256": "edf7347b33f56919af16c0d59e719d49b9aa55431d81e2c0936f0d9937466643",
+      "retained": false
+    },
+    {
+      "path": "ui-reading-notes-learning-mobile-dark-deleted.png",
+      "size": 26128,
+      "sha256": "14cf608e61cda3448c1db2130e10341a92f1960148bda37e747db03434cf3fca",
+      "retained": false
+    },
+    {
+      "path": "ui-wealth-of-nations-desktop-light-title.png",
+      "size": 299524,
+      "sha256": "716b66afaf6f2785e1b2a1c368ffdf3c412e577a31561174bc51d6fdd132945c",
+      "retained": false
+    },
+    {
+      "path": "ui-wealth-of-nations-desktop-light-path.png",
+      "size": 299524,
+      "sha256": "716b66afaf6f2785e1b2a1c368ffdf3c412e577a31561174bc51d6fdd132945c",
+      "retained": false
+    },
+    {
+      "path": "ui-wealth-of-nations-desktop-light-foundation-1.png",
+      "size": 362452,
+      "sha256": "cacfe4f350885282df65fd6810ea3b77d582fd1eeee8a8c8270aa334b3c2c2e4",
+      "retained": false
+    },
+    {
+      "path": "ui-wealth-of-nations-desktop-light-foundation-2.png",
+      "size": 335289,
+      "sha256": "e329bfe9880e1d27399f8e24791bd7cc6bb98f9a1b08c3f624fafeb8b935222b",
+      "retained": false
+    },
+    {
+      "path": "ui-wealth-of-nations-mobile-dark-title.png",
+      "size": 98684,
+      "sha256": "a824c817fd6775a77f59a8c7583ed94767ab2890e21235697c3440b82c5f8f2c",
+      "retained": false
+    },
+    {
+      "path": "ui-wealth-of-nations-mobile-dark-path.png",
+      "size": 98684,
+      "sha256": "a824c817fd6775a77f59a8c7583ed94767ab2890e21235697c3440b82c5f8f2c",
+      "retained": false
+    },
+    {
+      "path": "ui-wealth-of-nations-mobile-dark-foundation-1.png",
+      "size": 123079,
+      "sha256": "d66b1ba0a978acaa0f181ec058e9ef96ceebd9915cef621b95c5fa6b9f6fbd73",
+      "retained": false
+    },
+    {
+      "path": "ui-wealth-of-nations-mobile-dark-foundation-2.png",
+      "size": 120136,
+      "sha256": "4d1a7415e75abc1dccaced2af3bfbc7e4e3abd97092eb134c9ba6089886031b0",
+      "retained": false
+    },
+    {
+      "path": "ui-short-desktop-light-topic-fit.png",
+      "size": 92787,
+      "sha256": "67e215f257fa037d04b3521b097fdc5ca4f6fd588bb484e3b5dc18510c07f2ba",
+      "retained": false
+    },
+    {
+      "path": "ui-short-mobile-dark-topic-fit.png",
+      "size": 31226,
+      "sha256": "99e8a6d5a3053991e328ad1d81d861074646be1cde153ce3b37da3871db1a5d9",
+      "retained": false
+    },
+    {
+      "path": "ui-book-summary-rejects-obsolete-study-editorial-table.png",
+      "size": 168726,
+      "sha256": "feb8b0272111ecc36f9af1800ef469fba2a9810dde354373df49c43c0353b995",
+      "retained": false
+    },
+    {
+      "path": "ui-module-switch-cached-session-no-login-flash-connecting.png",
+      "size": 35649,
+      "sha256": "0d41ed2e038d5918efb65a2c2e75330d2fed2fc4bf786e9316bd0d0c3a5f99be",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-packet-match-reading.png",
+      "size": 348148,
+      "sha256": "08b90afd4d5ce6ec4e86ddbffdacfb32892593c8391d36d12339a65cdb54771c",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-packet-match-learning.png",
+      "size": 325234,
+      "sha256": "f50e53b361abdd8143b0de86c28998032a09af0e3b8301ae58601a8bccdb5e7f",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-packet-match-trading.png",
+      "size": 279286,
+      "sha256": "3b0d8e31ca563df13533b72a8c5f3f110f471bb505dbc6c48c5e940c472d516f",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-packet-match-investment.png",
+      "size": 257642,
+      "sha256": "da200f2fc7b9d2e6df66e2ac9bfd60c05e5a4d5f0b2fd8e11203dab2ee66a93b",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-packet-drift-desktop-light.png",
+      "size": 331919,
+      "sha256": "5f16582a0cb21e223b8556c4629eeae3e40e980c36d9171f60ffeeb5ad6e8d26",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-packet-drift-compact-light.png",
+      "size": 56528,
+      "sha256": "924b12651c83907c834e8935cac5bf29b29c3c7647e6ca925536ef96ad7c9c2e",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-lost-completion-desktop-light-retained.png",
+      "size": 329503,
+      "sha256": "514b0470b0afc10d4d85c677a77d28261d1bb7cbf4ed1350d11775a20edcbbd1",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-lost-completion-desktop-light-recovered.png",
+      "size": 331958,
+      "sha256": "66f1ae4b3d81aca8801f4573d57c328285087743d1b8dfd25bdd0426ed358000",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-lost-completion-compact-light-retained.png",
+      "size": 54702,
+      "sha256": "56ac69b4539daf5f519cc68b221795c296e605425babd15a549fc8e635cf745e",
+      "retained": false
+    },
+    {
+      "path": "ui-chat-lost-completion-compact-light-recovered.png",
+      "size": 56231,
+      "sha256": "2d6cdd11772624c94245726e04d4e0e88c1e80c10912a0fd87b6d3ac176bb4a4",
+      "retained": false
+    }
+  ],
+  "all_generated_images_retained": false,
+  "private_records_included": false,
+  "scope": "Complete available reports and explicitly selected public/synthetic images; hashes of other generated captures are metadata, not retained image bytes. Archive success does not override failed assertions or grant independent acceptance.",
+  "capsule_commit": "ac05a5fc924718cfb8bf981af4bcaeb38129aac6",
+  "evidence_repository": "rujiewu/superintelligence-public-checks",
+  "private_source_checks_executed_here": false
+}
