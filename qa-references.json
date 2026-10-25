@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "source_commit": "e4550423134ed10d26f1579c2f3a5464c76bb20c",
+  "source_commit": "da0c03e16106efc611d556faa2ecde7d14d309ed",
   "local_checks": [
     {
       "name": "published-manifest",
-      "source_commit": "e4550423134ed10d26f1579c2f3a5464c76bb20c",
+      "source_commit": "da0c03e16106efc611d556faa2ecde7d14d309ed",
       "catalog_counts": {
-        "reading": 56,
+        "reading": 57,
         "learning": 63,
         "trading": 24,
         "investment": 3
@@ -25,7 +25,7 @@
     },
     {
       "name": "expansion_source_bindings",
-      "materials": 62,
+      "materials": 63,
       "independent_acceptance": false,
       "status": "PASS",
       "execution": "LOCAL_SOURCE_CHECK"
@@ -50,7 +50,7 @@
         },
         {
           "id": "human-history-thousand",
-          "source_hash": "73359f75d8f8993cf47f221a0dc75efe4135d3a013a7315409920d88a3d45702"
+          "source_hash": "eaa1e053467f8bbf1547bb7627282a31107e8e7a3341b66f47bc1be9282c55c7"
         }
       ],
       "status": "PASS",
@@ -1349,6 +1349,38 @@
     {
       "source_id": "malinowski-lse-exhibition",
       "url": "https://www.lse.ac.uk/library/whats-on/past-exhibitions"
+    },
+    {
+      "source_id": "carson-fao-soil-1962-2002",
+      "url": "https://www.fao.org/fileadmin/templates/library/pdf/Silent_spring.pdf"
+    },
+    {
+      "source_id": "carson-eth-fable-1962",
+      "url": "https://ethz.ch/content/dam/ethz/special-interest/usys/ites/ecosystem-management-dam/documents/EducationDOC/Readings_DOC/Carsontext.pdf"
+    },
+    {
+      "source_id": "usgs-nitrogen-fixation-2025",
+      "url": "https://www.usgs.gov/media/videos/animated-nitrogen-fixation-ad"
+    },
+    {
+      "source_id": "epa-nitrification-definition-2026",
+      "url": "https://www.epa.gov/ftta/epa-technology-available-licensing-biological-filter-oxidizing-ammonia-drinking-water"
+    },
+    {
+      "source_id": "epa-ddt-press-release-1972",
+      "url": "https://www.epa.gov/archive/epa/aboutepa/ddt-ban-takes-effect.html"
+    },
+    {
+      "source_id": "epa-reorganization-plan3-1970",
+      "url": "https://www.epa.gov/archive/epa/aboutepa/reorganization-plan-no-3-1970.html"
+    },
+    {
+      "source_id": "epa-caddis-nutrient-method",
+      "url": "https://www.epa.gov/caddis/nutrients"
+    },
+    {
+      "source_id": "carson-loc-book-identity",
+      "url": "https://guides.loc.gov/rachel-carson/books"
     }
   ],
   "expansionPayloads": [
@@ -5112,6 +5144,62 @@
           {
             "title": "把这种读法带到另一种制度",
             "body": "读完可以做两次有限的比较。先问：当一个人说“我愿意这样做”时，我们是否已经知道规则不存在？可另读《社会学方法的准则》专题，比较个人说法、共同要求与抵抗时的反应。\n\n[《社会学方法的准则》专题](https://rujiewu.github.io/superintelligence-workspace/reading/?read=public&resource=durkheim-social-facts-reading)\n\n再问：看见交换持续发生以后，怎样判断它依靠哪些条件维持，又可能在哪些地方失败？可另读《公共事务的治理之道》专题，比较参与者、规则、相互期待和可观察结果。\n\n[《公共事务的治理之道》专题](https://rujiewu.github.io/superintelligence-workspace/reading/?read=public&resource=ostrom-rules-collective-action-reading)\n\n两条都是本篇提出的阅读问题。它们不证明这些书具有同一套理论，也不把别书证据并入这里。回到一个具体例子时，仍须说明谁作出了什么行动，哪一项义务还未完成，以及我们凭什么知道。概念之间可以相连，材料的来路仍各自保留。"
+          }
+        ]
+      }
+    },
+    {
+      "entry": {
+        "module": "reading",
+        "resource_id": "carson-cause-evidence-reading",
+        "sha256": "eefe5b01d2284152e9c285b07e34fce25bd7eabdd05a582150159cb29679d234"
+      },
+      "payload": {
+        "source_ids": [
+          "carson-fao-soil-1962-2002",
+          "carson-eth-fable-1962",
+          "usgs-nitrogen-fixation-2025",
+          "epa-nitrification-definition-2026",
+          "epa-ddt-press-release-1972",
+          "epa-reorganization-plan3-1970",
+          "epa-caddis-nutrient-method"
+        ],
+        "sections": [
+          {
+            "title": "先辨认寓言，再问观测",
+            "body": "第一章明说，所写小镇并不存在。读者首先需要辨认眼前材料的性质。\n\n假设另一份记录写着“昨天在桥边看见3条鱼”，旁边还有一句“河里的鱼变少了”。前一句留下了可回查的位置与数目，后一句还需要说明比较范围。两句话都不能单独交代变化的原因。有数字的句子也不自动可靠，仍要知道数字怎样得到。这里是本篇另设的例子。\n\n从这个区分出发，再问量怎样留下，东西怎样移动，异常怎样记录，解释怎样接受反驳。先把每一步说清楚，再判断材料能承担多大的结论。"
+          },
+          {
+            "title": "每期加入同样多，为什么总量还在变",
+            "body": "先做一个完全自拟的账本，不代入任何农药、作物或安全阈值。把要追踪的东西记为“标记单位”。起初为零；每期先留下旧存量的五分之四，再在期末加入10单位。这里的五分之四只是题设，既不表示真实降解率，也没有替任何化学物质估计半衰期。\n\n记期末存量为S，则下一期是S新＝0.8×S旧＋10。先算留下多少，再加新的输入；把新输入也先打八折，会变成另一套时序。\n\n| 时期 | 期初存量 | 留下的旧存量 | 期末加入后 |\n| --- | --- | --- | --- |\n| 第1期 | 0 | 0 | 10 |\n| 第2期 | 10 | 8 | 18 |\n| 第3期 | 18 | 14.4 | 24.4 |\n| 第4期 | 24.4 | 19.52 | 29.52 |\n\n四期共加入40，期末留下29.52，所选边界内减少的累计量为10.48；40＝29.52＋10.48。每期新加入的量相同，期末总量却不同，因为上一期留下的量也进入了下一期。\n\n若一直保留这套规则，稳定值满足S＝0.8S＋10，解得50。从零出发，逐次展开递推会得到10×(1＋0.8＋…＋0.8的n−1次方)，也就是50×(1−0.8的n次方)，所以轨迹逐渐接近50。解出固定点，还要检查轨迹是否向它靠近；这里仍只解释题设，不是环境预测。把保留比例改成1，就得到10、20、30、40，没有同样的稳定值；若以后不再加入，原来的递推也要相应改变。"
+          },
+          {
+            "title": "离开这里，不等于从所有地方消失",
+            "body": "账本还有一个不能略去的问题：S究竟数哪个范围？另设起初一个箱里有10单位，转移4到第二个箱。第一个箱剩6，第二个箱有4，两个箱合计仍是10。只看第一个箱，确实少了；要说总量减少，就得交代另一个箱去了哪里。这个例子只追踪标记单位的移动，没有模拟化学反应及其产物。\n\n浓度又是另一项量。仍设总量为10，所比较的载体量从2变为4，相除得到的数由5变为2.5。分母变大，数值可以下降，总量却没有因此减少。这里仅是算术假设，不是让读者混合土壤或处理污染的操作建议。\n\n1970年的美国环保署设立咨文已经讨论过跨空气、水和固体废物的转移问题。它提供的是当时的制度论证，不能代替我们检查具体物质的去向。比较一项措施前后，至少要把边界、对象、总量或浓度、时段写在同一页上；否则同一个“减少”，可能在回答不同问题。"
+          },
+          {
+            "title": "研究结果不同，先检查比较条件",
+            "body": "土壤节选承认，土壤类型差异很大，所引研究并不总是一致。这个限定值得带进接下来的阅读。\n\n假设我们眼前有两条记录：甲地处理后某种指标下降，乙地没有下降。现在还不能只凭这两句话决定哪条错了。先把对象、处理量、土壤条件、采样时刻和测量方法放到一处，再问结果是否真的在冲突。这些是本篇提出的比较问题，并不表示我们已经取得两地的数据。\n\n也要允许比较之后仍有分歧。条件不齐，可能使差别难以解释；把条件说齐，却不会保证每项解释都成立。读者要做的是指出缺口落在哪一步，而非用“情况复杂”把问题结束。"
+          },
+          {
+            "title": "固氮与硝化，为什么必须拆开讲",
+            "body": "摘本印57写道：“Nitrification, which makes atmospheric nitrogen available to plants”。讲具体机制，还需拆开固氮与硝化。\n\n美国地质调查局的固氮说明，从大气中的氮气出发，讨论它怎样转为固定氮。美国环保署的硝化定义，则从氨或铵这一类已经固定的氮出发，经过亚硝酸盐到硝酸盐。两种说法的起点不同；不能用同一个词略过中间的变化。\n\n定义核对与效果核对是两项工作。要判断某项试验的结果，仍需回到它的条件和原始记录；两个术语已经分清，不会替我们完成这些工作。"
+          },
+          {
+            "title": "把异常写成记录，还要给解释留出检验位置",
+            "body": "再设一个没有真实地点的例子：一条记录写“鱼少了”，另一条写“上游近期有排放”。两句话可以提出调查问题，但它们各自还需要展开。少的是一次看见的数量、固定方法下的计数，还是某种比例？排放记录指哪种东西、哪个时段，又怎样与观察位置相连？\n\n| 假想材料 | 眼下能写什么 | 尚不能直接写什么 | 还要核对什么 |\n| --- | --- | --- | --- |\n| 一次看到鱼比先前少 | 这次观察与先前描述不同 | 整条河的种群已经减少 | 观察范围、方法、时段与重复记录 |\n| 上游有一项排放记录 | 存在可追查的来源线索 | 该物质已到达观察处并造成损害 | 物质身份、迁移路径、时间与接触证据 |\n| 同时测到局部状态改变 | 多了一条可以比较的记录 | 其他可能原因均已排除 | 变化先后、对应范围与竞争解释 |\n\n表中的人物、地点和记录全部是假设。我们没有执行采样或检验，也没有拿这张表证明任何历史污染个案。\n\nEPA的CADDIS营养物评估把来源、路径、局部状态和生物反应分别列出；概念图表示待查的关系，画出箭头并不证明箭头已经成立。这里只借这个方法区别来检查问题，不能把营养物评估直接移作农药个案的验证结果。"
+          },
+          {
+            "title": "一本书、一个机构与一项撤销决定",
+            "body": "讲一部作品的影响，很容易把后来几件事压成一句话。先把事件拆开，才能继续讨论它们之间的关系。\n\n1970年7月9日的第三号重组计划，第1(a)节写明设立美国环保署。1972年12月31日的EPA公告则回顾：当年6月14日决定撤销几乎所有仍存的DDT联邦产品登记，主要措施在年底生效；当时的公共卫生、检疫、少数作物用途以及出口仍有例外。\n\n设立机构与撤销用途登记是两种事件。把后一项写成当时全球停产，已经超出这份公告；把前一项直接归为某一本书的单一结果，也还缺影响链条的证据。日期排在先后，只给出了进一步追查的起点。这里引用的是历史制度文本，并未据它们判断今天的法规。"
+          },
+          {
+            "title": "把检查带回原书，也带到另一篇阅读",
+            "body": "读到这里，我们手里有了几种不同的检查。库存例子要求写清时序，迁移例子要求交代边界，假想记录要求把见到的变化与原因解释分开。它们没有汇成一个万能结论；换到具体材料，仍需逐项填入实际依据。\n\n如果现在只知道某处的数值下降，可以先问总量去了哪里；如果只有一个强烈场景，可以先问它是寓言、回忆还是持续观测；如果一项解释听起来连贯，可以再找它尚未排除的解释。这些问题的价值，在于帮助我们指出下一份需要什么材料。\n\n沿库存与观测时序，可以转读既有的存量、流量专题；沿陈述与判断的区别，可以转读田野方法专题。以下只是本篇提出的阅读连接，不表示已经建立作品之间的历史影响关系，也不会把链接内容自动并入当前讨论。\n\n[存量、流量与观测延迟的既有导读](/reading?resource=meadows-stock-flow-reading)\n\n[观察、陈述与推断的田野方法导读](/reading?resource=malinowski-kula-relations-reading)"
+          },
+          {
+            "title": "换一个条件，先算完再下判断",
+            "body": "把库存例子的保留比例改为二分之一，其他时序不变。从零出发，第一期末为10，第二期末为15，第三期末为17.5。此时固定点变成20。相同的每期输入量，配上不同的留存规则，就会得到不同轨迹；不能把前面算出的50带过来。\n\n再把留存比例改为1，三期末依次为10、20、30。若第三期后把7单位转到第二个箱，第一个箱剩23，第二个箱有7，合计仍为30。原箱的下降已经算清，总体是否减少却是另一个问题。\n\n最后回看那三行假想记录。排放线索与一次鱼少的观察，足以提出候选解释，却还没有补齐到达、接触、时序与竞争原因的证据。算术能检查一套给定关系是否自洽；关系是否适合现实，需要另外的材料。"
           }
         ]
       }
@@ -47960,7 +48048,7 @@
         "https://wellcomecollection.org/works/gm5beef5",
         "https://www.lse.ac.uk/library/whats-on/past-exhibitions"
       ],
-      "source_hash": "73359f75d8f8993cf47f221a0dc75efe4135d3a013a7315409920d88a3d45702"
+      "source_hash": "eaa1e053467f8bbf1547bb7627282a31107e8e7a3341b66f47bc1be9282c55c7"
     }
   ]
 }
