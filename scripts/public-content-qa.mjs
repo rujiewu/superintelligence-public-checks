@@ -20,7 +20,7 @@ export const TARGETS = [
   { module: 'trading', id: 'operational-reconciliation', file: 'knowledge/cases/operational-reconciliation.json', field: 'teaching_case', tableMarker: 'E1：卖 40 份',
     markers: ['订单取消了，成交与现金为什么还要核对', '一拆二', '2978', '12978'] },
   { module: 'reading', id: 'human-history-thousand', file: 'knowledge/plans/reading-thousand-program.md',
-    markers: ['当前去重提名 199 部，独立入选 0 部', '每批怎样推进', '与另外三个系统的关系'] },
+    markers: ['当前去重提名 200 部，独立入选 0 部', '每批怎样推进', '与另外三个系统的关系'] },
 ];
 const VIEWS = [
   { name: 'desktop-light', width: 1440, height: 1000, theme: 'light' },
@@ -468,6 +468,34 @@ export async function runAcceptance() {
           await screenshot(page, `${stage}-study.png`);
           if (!visible.complete || !visible.fits || !visible.source_links_complete || !visible.resource_links_complete) report.expansion_failure = { stage, ...visible };
           requireTrue(visible.complete && visible.fits && visible.source_links_complete && visible.resource_links_complete, 'EXPANSION_CONTINUOUS_TEXT_TABLE_OR_LINK');
+          if (item.id === 'malthus-population-assumptions-reading') {
+            const baseStage = stage;
+            const selections = view.name === 'desktop-light'
+              ? [{ table: 0, row: null, name: 'growth' }, { table: 1, row: null, name: 'allocation' }]
+              : [0, 1].flatMap(table => Array.from({ length: table === 0 ? 5 : 3 }, (_, row) =>
+                ({ table, row, name: `${table === 0 ? 'growth' : 'allocation'}-row-${row + 1}` })));
+            for (const selection of selections) {
+              stage = `${baseStage}-${selection.name}`;
+              const table = page.locator('#detail-body table.study-table').nth(selection.table);
+              const target = selection.row === null ? table : table.locator('tbody tr').nth(selection.row);
+              const bounds = await bounded(() => target.evaluate(node => {
+                node.scrollIntoView({ block: 'center', behavior: 'instant' });
+                const rect = node.getBoundingClientRect();
+                const panel = document.querySelector('#resource-detail').getBoundingClientRect();
+                const toolbar = document.querySelector('.detail-navigation').getBoundingClientRect();
+                const top = Math.max(panel.top, toolbar.bottom, 0);
+                const bottom = Math.min(panel.bottom, innerHeight);
+                return { top: rect.top, bottom: rect.bottom, available_top: top, available_bottom: bottom,
+                  fully_visible: rect.top >= top - 2 && rect.bottom <= bottom + 2 };
+              }), 10_000);
+              requireTrue(bounds.fully_visible, 'MALTHUS_TABLE_OR_CARD_NOT_FULLY_VISIBLE');
+              await screenshot(page, `${stage}-study.png`);
+              record(stage, { material_id: item.id, table_index: selection.table,
+                row_index: selection.row, bounds, conditional_growth_and_fictional_allocation_not_observed_hunger_or_deaths: true,
+                private_state_captured: false });
+            }
+            stage = baseStage;
+          }
           if (item.id === 'ebbinghaus-savings-memory-reading') {
             const baseStage = stage;
             const selections = view.name === 'desktop-light'
