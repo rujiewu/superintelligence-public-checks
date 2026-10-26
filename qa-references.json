@@ -1,12 +1,22 @@
 {
   "schema_version": "1.0.0",
-  "source_commit": "00a7e8c1df2454c05515a25f13ec3405c0393065",
+  "source_commit": "90b028dd3e9390391b3bd1c534608c94d33b0c16",
   "local_checks": [
     {
+      "name": "discovery_source_and_relocation",
+      "collections": 18,
+      "original_rows": 159,
+      "complete_programme_inverse": true,
+      "context_merge": false,
+      "independent_acceptance": false,
+      "status": "PASS",
+      "execution": "LOCAL_SOURCE_CHECK"
+    },
+    {
       "name": "published-manifest",
-      "source_commit": "00a7e8c1df2454c05515a25f13ec3405c0393065",
+      "source_commit": "90b028dd3e9390391b3bd1c534608c94d33b0c16",
       "catalog_counts": {
-        "reading": 65,
+        "reading": 83,
         "learning": 63,
         "trading": 24,
         "investment": 3
@@ -48936,6 +48946,1283 @@
         "https://collections.si.edu/search/detail/edanmdm:siris_sil_1100092?print=yes"
       ],
       "source_hash": "3d1cbe7d7fd73c3128b40f8b38d7b12e28aebb17168482d6282908fa450197fc"
+    }
+  ],
+  "discoveryCollections": [
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-01",
+      "title": "哲学、逻辑与认识论：候选作品从哪里发现",
+      "domain_id": "01",
+      "body_sha256": "45fec5314cf9ce066be1ee771d585fcd88ebab7da9e4fc2271f51062f0252933",
+      "rows": [
+        {
+          "identity": "老子 · 老子",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "孟子 · 孟子",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "庄子 · 庄子",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "荀子 · 荀子",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "易传 · 易传",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "论衡 · 论衡",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "四书集注 · 四书集注",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "传习录 · 传习录",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "美诺篇 · Meno（Plato）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "高尔吉亚篇 · Gorgias（Plato）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "斐多篇 · Phaedo（Plato）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "会饮篇 · Symposium（Plato）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "泰阿泰德篇 · Theaetetus（Plato）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "斐德若篇 · Phaedrus（Plato）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "形而上学 · Metaphysics（Aristotle）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "尼各马可伦理学 · Nicomachaen Ethics（Aristotle）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "前分析篇 · Prior Analytics（Aristotle）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "九章集 · The Enneads（Plotinus）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "逻辑迷宫 · Logical Labyrinths（Raymond S. Smullyan）",
+          "date": "2026-10-12",
+          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/files/admissions/reading-list.pdf",
+          "label": "University of Cambridge Faculty of Mathematics",
+          "locator": "Section 3 Mathematical Adventures and Recreational; printed p.6 (PDF index 6), Smullyan entry"
+        },
+        {
+          "identity": "墨子 · Mozi（传世墨家文集；历史墨翟与各层作者分别待核）",
+          "date": "2026-10-22",
+          "url": "https://plato.stanford.edu/archives/spr2026/entries/mohism/",
+          "label": "Stanford Encyclopedia of Philosophy",
+          "locator": "Bibliography · translations: Johnston2010complete; Fraser2020essential; other partial translations"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-02",
+      "title": "数学、统计与决策科学：候选作品从哪里发现",
+      "domain_id": "02",
+      "body_sha256": "61004ea6fce7d00fc97fb253b40e5c6187a486309a529022a3aa5f706cffb1ce",
+      "rows": [
+        {
+          "identity": "圆锥曲线论 · Conics（Apollonius）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "线性与整数规划理论 · Theory of Linear and Integer Programming（Schrijver, A.）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2008/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings topic table: data structures / network flows / linear programming / convex programming / geometric algorithms"
+        },
+        {
+          "identity": "线性规划 · Linear Programming（Chvatal, V.）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2008/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings topic table: data structures / network flows / linear programming / convex programming / geometric algorithms"
+        },
+        {
+          "identity": "组合优化 · Combinatorial Optimization（Korte and Vygen）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2008/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings topic table: data structures / network flows / linear programming / convex programming / geometric algorithms"
+        },
+        {
+          "identity": "凸优化 · Convex Optimization（Stephen Boyd and Lieven Vandenberghe）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2008/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings topic table: data structures / network flows / linear programming / convex programming / geometric algorithms"
+        },
+        {
+          "identity": "怎样解题 · How to Solve It（George Polya）",
+          "date": "2026-10-12",
+          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/files/admissions/reading-list.pdf",
+          "label": "University of Cambridge Faculty of Mathematics",
+          "locator": "Section 1 Doing Mathematics; printed p.1 (PDF index 1), Polya entry"
+        },
+        {
+          "identity": "纯数学简明导论 · A Concise Introduction to Pure Mathematics（Martin Liebeck）",
+          "date": "2026-10-12",
+          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/files/admissions/reading-list.pdf",
+          "label": "University of Cambridge Faculty of Mathematics",
+          "locator": "Section 6 Readable Textbooks; printed p.10 (PDF index 10), Liebeck entry"
+        },
+        {
+          "identity": "群：通往几何之路 · Groups: A Path to Geometry（R.P. Burn）",
+          "date": "2026-10-12",
+          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/files/admissions/reading-list.pdf",
+          "label": "University of Cambridge Faculty of Mathematics",
+          "locator": "Section 6 Readable Textbooks; printed p.11 (PDF index 11), Burn entry"
+        },
+        {
+          "identity": "统计学的艺术：从数据中学习 · The Art of Statistics: Learning from Data（David Spiegelhalter）",
+          "date": "2026-10-12",
+          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/files/admissions/reading-list.pdf",
+          "label": "University of Cambridge Faculty of Mathematics",
+          "locator": "Section 6 Readable Textbooks; printed p.10 (PDF index 10), Spiegelhalter entry"
+        },
+        {
+          "identity": "阿耶波多历算书 · Aryabhatiya（Aryabhata (named in workshop topic outline)）",
+          "date": "2026-10-12",
+          "url": "https://www.ncmath.org/archives/atms/2013/atmw/dmi",
+          "label": "National Centre for Mathematics",
+          "locator": "Time-table / Feb 7-8, Mathematics in Aryabhatiya Parts I-II; author name in K. Ramasubramanian's topic outline"
+        },
+        {
+          "identity": "婆罗摩历算书 · Brahma-sphuta-siddhanta（Brahmagupta）",
+          "date": "2026-10-12",
+          "url": "https://www.ncmath.org/archives/atms/2013/atmw/dmi",
+          "label": "National Centre for Mathematics",
+          "locator": "Time-table / Feb 7, Brahmagupta's Brahma-sphuta-siddhanta"
+        },
+        {
+          "identity": "算术精要 · Ganitasarasangraha（Mahavira）",
+          "date": "2026-10-12",
+          "url": "https://www.ncmath.org/archives/atms/2013/atmw/dmi",
+          "label": "National Centre for Mathematics",
+          "locator": "Time-table / Feb 8, Mahavira's Ganitasarasangraha"
+        },
+        {
+          "identity": "算术之月光 · Ganitakaumudi（Narayana Pandita）",
+          "date": "2026-10-12",
+          "url": "https://www.ncmath.org/archives/atms/2013/atmw/dmi",
+          "label": "National Centre for Mathematics",
+          "locator": "Time-table / Feb 10-11, Ganitakaumudi of Narayana Pandita Parts I-II"
+        },
+        {
+          "identity": "概率的哲学随笔 · A Philosophical Essay on Probabilities（Pierre-Simon Laplace（拉普拉斯））",
+          "date": "2026-10-23",
+          "url": "https://www.gutenberg.org/ebooks/58881",
+          "label": "Project Gutenberg",
+          "locator": "PG58881 actual catalogue; St Andrews MacTutor separately identifies the same work. Reading uses the 1902 Truscott/Emory English title and scoped transcripts; neither source establishes first-French-edition priority here."
+        },
+        {
+          "identity": "代数学 · The Algebra of Mohammed Ben Musa [Rosen1831 edition of al-jabr wa-l-muqabala]（Muḥammad ibn Mūsā al-Khwārizmī）",
+          "date": "2026-10-26",
+          "url": "https://www.e-rara.ch/zut/doi/10.3931/e-rara-56713",
+          "label": "ETH-Bibliothek",
+          "locator": "ETHRar21278 item metadata and1831title;edition of one medieval work,not a second work"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-03",
+      "title": "物理、化学、地球与空间科学：候选作品从哪里发现",
+      "domain_id": "03",
+      "body_sha256": "9f5dc76d8ca6951bec9749a069682954fe4616051e9832cf0885c59bcef79e48",
+      "rows": [
+        {
+          "identity": "物理学 · Physics（Aristotle）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "至大论 · Almagest（Ptolemy）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "电动力学导论 · Introduction to Electrodynamics（David J. Griffiths）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/8-07-electromagnetism-ii-fall-2012/pages/syllabus/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Syllabus / Textbook"
+        },
+        {
+          "identity": "经典电动力学 · Classical Electrodynamics（J. D. Jackson）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/8-311-electromagnetic-theory-spring-2004/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings / Jackson reference (not Schwinger reference with the same title)"
+        },
+        {
+          "identity": "力学初级教程 · A First Course in Mechanics（Mary Lunn）",
+          "date": "2026-10-12",
+          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/files/admissions/reading-list.pdf",
+          "label": "University of Cambridge Faculty of Mathematics",
+          "locator": "Section 6 Readable Textbooks; printed p.11 (PDF index 11), Lunn entry"
+        },
+        {
+          "identity": "蜡烛的化学史 · The Chemical History of a Candle（Michael Faraday; edited by William Crookes）",
+          "date": "2026-10-22",
+          "url": "https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867",
+          "label": "Royal Institution",
+          "locator": "Publications: W.Crookes ed., A Course of six lectures on the Chemical History of a Candle,1861"
+        },
+        {
+          "identity": "地质学原理 · Principles of Geology（Charles Lyell）",
+          "date": "2026-10-23",
+          "url": "https://www.gutenberg.org/ebooks/33224",
+          "label": "Project Gutenberg",
+          "locator": "Actual PG33224 catalogue plus independent HOGG1830–1833list. Teaching separately uses actual1854NewYorkDAppleton title and1853ninthpreface; all editions remain one work."
+        },
+        {
+          "identity": "化学基础论 · Traité élémentaire de chimie（Antoine-Laurent Lavoisier）",
+          "date": "2026-10-25",
+          "url": "https://digital.sciencehistory.org/works/v979v4270",
+          "label": "Science History Institute",
+          "locator": "Science History Institute v979v4270；Paris: Cuchet,1789；PG52489两卷转录；1790年Kerr英译是同一作品的另种表达"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-04",
+      "title": "生命科学与演化：候选作品从哪里发现",
+      "domain_id": "04",
+      "body_sha256": "f8b23245d02760896a20bcf0fbedb7954abcedeb8cb3a642c9d78a6023e7f512",
+      "rows": [
+        {
+          "identity": "生物学中的数学模型 · Mathematical models in biology（Edelstein-Keshet, L.）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/9-530-cellular-and-molecular-computation-spring-2000/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Recommended Textbooks"
+        },
+        {
+          "identity": "理解代谢调控 · Understanding the control of metabolism（Fell, D.）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/9-530-cellular-and-molecular-computation-spring-2000/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Recommended Textbooks"
+        },
+        {
+          "identity": "生化振荡与细胞节律 · Biochemical oscillations and cellular rhythms（Goldbeter, A.）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/9-530-cellular-and-molecular-computation-spring-2000/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Recommended Textbooks"
+        },
+        {
+          "identity": "细胞系统的调控 · The regulation of cellular systems（Heinrich, R., and S. Schuster.）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/9-530-cellular-and-molecular-computation-spring-2000/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Recommended Textbooks"
+        },
+        {
+          "identity": "数学生物学 · Mathematical biology（Murray, J. D.）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/9-530-cellular-and-molecular-computation-spring-2000/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Recommended Textbooks"
+        },
+        {
+          "identity": "遗传开关 · A genetic switch（Ptashne, M.）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/9-530-cellular-and-molecular-computation-spring-2000/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Recommended Textbooks"
+        },
+        {
+          "identity": "我包罗万象 · I Contain Multitudes: the Microbes Within Us and a Grander View of Life（E. Yong）",
+          "date": "2026-10-22",
+          "url": "https://www.medsci.ox.ac.uk/files/study/introductory-reading-for-medicine-rev-2019.pdf",
+          "label": "University of Oxford Medical Sciences Division",
+          "locator": "PDF page index 0 · GENERAL AND PREPARATORY · I Contain Multitudes: the Microbes Within Us and a Grander View of Life"
+        },
+        {
+          "identity": "孟德尔遗传的机制 · The Mechanism of Mendelian Heredity（T. H. Morgan; A. H. Sturtevant; H. J. Muller; C. B. Bridges）",
+          "date": "2026-10-23",
+          "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5998129_000/index.html",
+          "label": "Columbia University Libraries",
+          "locator": "Columbiaactualcatalogue1915NewYorkHolt andactualfourauthortitle; independentlylistedNature1916-04-06metadata forLondonConstable1915. Multipleexpressions/impressions remainonework."
+        },
+        {
+          "identity": "生长与形态 · On Growth and Form（D’Arcy Wentworth Thompson）",
+          "date": "2026-10-25",
+          "url": "https://www.gutenberg.org/ebooks/55264",
+          "label": "Project Gutenberg",
+          "locator": "PG55264 typed1917 title; independent MIT HST750Spring2006week5 selection of1942OnMagnitude and contemporary Nature1917 bibliographic record. One work across distinct editions."
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-05",
+      "title": "医学、健康与人体生物学：候选作品从哪里发现",
+      "domain_id": "05",
+      "body_sha256": "15765e567bd54f002e8565f3de8306673f024c7263852a366340cc4e47a686f5",
+      "rows": [
+        {
+          "identity": "剪除玫瑰 · Cutting the rose（Dorkenoo, Efua）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Academic writing / Dorkenoo, Efua row"
+        },
+        {
+          "identity": "极限生命 · Life at the Extremes（F. Ashcroft）",
+          "date": "2026-10-22",
+          "url": "https://www.medsci.ox.ac.uk/files/study/introductory-reading-for-medicine-rev-2019.pdf",
+          "label": "University of Oxford Medical Sciences Division",
+          "locator": "PDF page index 0 · GENERAL AND PREPARATORY · Life at the Extremes"
+        },
+        {
+          "identity": "生命的逻辑 · The Logic of Life（J. Black; C. A. R. Boyd; D. Noble (editors)）",
+          "date": "2026-10-22",
+          "url": "https://www.medsci.ox.ac.uk/files/study/introductory-reading-for-medicine-rev-2019.pdf",
+          "label": "University of Oxford Medical Sciences Division",
+          "locator": "PDF page index 0 · GENERAL AND PREPARATORY · The Logic of Life"
+        },
+        {
+          "identity": "微生物猎人 · Microbe Hunters（P. De Kruif）",
+          "date": "2026-10-22",
+          "url": "https://www.medsci.ox.ac.uk/files/study/introductory-reading-for-medicine-rev-2019.pdf",
+          "label": "University of Oxford Medical Sciences Division",
+          "locator": "PDF page index 0 · GENERAL AND PREPARATORY · Microbe Hunters"
+        },
+        {
+          "identity": "当呼吸化为空气 · When Breath Becomes Air（P. Kalanithi）",
+          "date": "2026-10-22",
+          "url": "https://www.medsci.ox.ac.uk/files/study/introductory-reading-for-medicine-rev-2019.pdf",
+          "label": "University of Oxford Medical Sciences Division",
+          "locator": "PDF page index 0 · GENERAL AND PREPARATORY · When Breath Becomes Air"
+        },
+        {
+          "identity": "不可伤害 · Do no Harm: Stories of Life, Death and Brain Surgery（H. Marsh）",
+          "date": "2026-10-22",
+          "url": "https://www.medsci.ox.ac.uk/files/study/introductory-reading-for-medicine-rev-2019.pdf",
+          "label": "University of Oxford Medical Sciences Division",
+          "locator": "PDF page index 0 · GENERAL AND PREPARATORY · Do no Harm: Stories of Life, Death and Brain Surgery"
+        },
+        {
+          "identity": "众病之王 · The Emperor of all Maladies: a Biography of Cancer（S. Mukherjee）",
+          "date": "2026-10-22",
+          "url": "https://www.medsci.ox.ac.uk/files/study/introductory-reading-for-medicine-rev-2019.pdf",
+          "label": "University of Oxford Medical Sciences Division",
+          "locator": "PDF page index 0 · GENERAL AND PREPARATORY · The Emperor of all Maladies: a Biography of Cancer"
+        },
+        {
+          "identity": "错把妻子当帽子的人 · The Man who mistook his Wife for a Hat（O. Sacks）",
+          "date": "2026-10-22",
+          "url": "https://www.medsci.ox.ac.uk/files/study/introductory-reading-for-medicine-rev-2019.pdf",
+          "label": "University of Oxford Medical Sciences Division",
+          "locator": "PDF page index 0 · GENERAL AND PREPARATORY · The Man who mistook his Wife for a Hat"
+        },
+        {
+          "identity": "护理札记 · Notes on Nursing: What It Is, and What It Is Not（Florence Nightingale）",
+          "date": "2026-10-23",
+          "url": "https://www.gutenberg.org/ebooks/17366",
+          "label": "Project Gutenberg",
+          "locator": "ActualPG17366catalogue/body, independentNLMcatalogue; WellcomeLondoncopy also inspected at4selectedpages. Oneunique work across editions, no Chinese translation claimed."
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-06",
+      "title": "工程、技术与建造环境：候选作品从哪里发现",
+      "domain_id": "06",
+      "body_sha256": "694aa32ae28cfc9cd1fdbafc38f7d5981a76ee20871cd0d877ebf141723ae86e",
+      "rows": [
+        {
+          "identity": "中国建筑史 · 中国建筑史",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "天工开物 · 天工開物",
+          "date": "2026-10-22",
+          "url": "https://agri-history.ihns.ac.cn/agribooks.htm",
+          "label": "中国农业历史与文化／中国科学院自然科学史研究所站点",
+          "locator": "書錄解題 · 四畫 · 天工開物; 原著 · 乃粒／粹精／甘嗜"
+        },
+        {
+          "identity": "结构工程力学 · Engineering Mechanics for Structures（Louis L. Bucciarelli）",
+          "date": "2026-10-22",
+          "url": "https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Required textbook · Louis Bucciarelli · 2002"
+        },
+        {
+          "identity": "机械设计中的材料选择 · Materials Selection in Mechanical Design（M. F. Ashby）",
+          "date": "2026-10-22",
+          "url": "https://ocw.mit.edu/courses/16-001-unified-engineering-materials-and-structures-fall-2021/pages/syllabus/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Textbooks · Ashby · Materials Selection · 1992"
+        },
+        {
+          "identity": "工程材料一：性能与应用导论 · Engineering Materials 1: An Introduction to Their Properties and Applications（M. F. Ashby; D. R. H. Jones）",
+          "date": "2026-10-22",
+          "url": "https://ocw.mit.edu/courses/16-001-unified-engineering-materials-and-structures-fall-2021/pages/syllabus/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Textbooks · Engineering Materials 1 · 1980"
+        },
+        {
+          "identity": "日常物品的设计 · The Design of Everyday Things（Donald A. Norman）",
+          "date": "2026-10-22",
+          "url": "https://ocw.mit.edu/courses/6-831-user-interface-design-and-implementation-spring-2011/pages/syllabus/textbooks/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Recommended Books · Norman · Basic Books · 2002"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-07",
+      "title": "计算机科学、信息与人工智能：候选作品从哪里发现",
+      "domain_id": "07",
+      "body_sha256": "8731d9d1c95329a6f7d4f62500790bc148115463fdcd56085c05edc92cb4d044",
+      "rows": [
+        {
+          "identity": "算法导论 · Introduction to Algorithms（Cormen, Leiserson, Rivest and Stein）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2008/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings topic table: data structures / network flows / linear programming / convex programming / geometric algorithms"
+        },
+        {
+          "identity": "网络流：理论、算法与应用 · Network Flows: Theory, Algorithms, and Applications（Ahuja, Magnanti and Orlin）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2008/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings topic table: data structures / network flows / linear programming / convex programming / geometric algorithms"
+        },
+        {
+          "identity": "计算几何 · Computational Geometry（de Berg, Cheong, van Kreveld and Overmars）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2008/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings topic table: data structures / network flows / linear programming / convex programming / geometric algorithms"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-08",
+      "title": "心智、脑、心理与行为：候选作品从哪里发现",
+      "domain_id": "08",
+      "body_sha256": "92a3fb3620acb56144aaab6d74ece9f5af61880623cb45d7610fcbe3f98705f3",
+      "rows": [
+        {
+          "identity": "神经科学原理 · Principles of Neural Science（Kandel, Schwartz and Jessell）",
+          "date": "2026-10-10",
+          "url": "https://ocw.mit.edu/courses/hst-131-introduction-to-neuroscience-fall-2005/pages/readings/",
+          "label": "MIT OpenCourseWare",
+          "locator": "Readings / Required"
+        },
+        {
+          "identity": "心理学原理 · The Principles of Psychology（William James）",
+          "date": "2026-10-22",
+          "url": "https://psychclassics.yorku.ca/James/Principles/index.htm",
+          "label": "Christopher D. Green",
+          "locator": "Index · WilliamJames1890; Volume1/Volume2 and chapterlist1–28"
+        },
+        {
+          "identity": "记忆：实验心理学研究 · Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie（Hermann Ebbinghaus）",
+          "date": "2026-10-26",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000006471357",
+          "label": "National Diet Library",
+          "locator": "NDL000006471357:English1913,Ruger/Bussenius,123pages;metadataonly"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-09",
+      "title": "历史、考古与文明：候选作品从哪里发现",
+      "domain_id": "09",
+      "body_sha256": "638c09394325de9ccc06e0d299b56a287ae8105fc55bd863027512363fed7ed3",
+      "rows": [
+        {
+          "identity": "左传 · 左传",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "史记 · 史记",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "读通鉴论 · 读通鉴论",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "清代学术概论 · 清代学术概论",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "国史大纲 · 国史大纲",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "历史 · Histories（Herodotus）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "伯罗奔尼撒战争史 · The History of the Peloponnesian War（Thucydides）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "编年史 · Annals（Tacitus）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "黑非洲史 · Histoire de l'Afrique noire（Ki-Zerbo, Joseph）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Academic writing / Ki-Zerbo, Joseph row"
+        },
+        {
+          "identity": "拉丁美洲当代史 · The Contemporary History of Latin America（Tulio Halperin Donghi）",
+          "date": "2026-10-12",
+          "url": "https://www.wcu.edu/learn/programs/history-ma/graduate-student-resources.aspx",
+          "label": "Western Carolina University Department of History",
+          "locator": "Latin American History Reading List / Foundational Texts, Halperin Donghi entry"
+        },
+        {
+          "identity": "共同之风 · The Common Wind: Afro-American Currents in the Age of the Haitian Revolution（Julius S. Scott）",
+          "date": "2026-10-12",
+          "url": "https://www.wcu.edu/learn/programs/history-ma/graduate-student-resources.aspx",
+          "label": "Western Carolina University Department of History",
+          "locator": "Latin American History Reading List / Age of Revolution, Scott entry"
+        },
+        {
+          "identity": "有胡须的女性与无胡须的男性 · Women with Mustaches and Men without Beards: Gender and Sexual Anxieties of Iranian Modernity（Afsaneh Najmabadi）",
+          "date": "2026-10-12",
+          "url": "https://www.ucpress.edu/blog-posts/48776-an-iranian-reading-list",
+          "label": "University of California Press",
+          "locator": "Women with Mustaches and Men without Beards heading/subtitle; by Afsaneh Najmabadi"
+        },
+        {
+          "identity": "游走的革命者 · Roving Revolutionaries: Armenians and the Connected Revolutions in the Russian, Iranian, and Ottoman Worlds（Houri Berberian）",
+          "date": "2026-10-12",
+          "url": "https://www.ucpress.edu/blog-posts/48776-an-iranian-reading-list",
+          "label": "University of California Press",
+          "locator": "Roving Revolutionaries heading/subtitle; by Houri Berberian"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-10",
+      "title": "政治、治国、战争与国际关系：候选作品从哪里发现",
+      "domain_id": "10",
+      "body_sha256": "ccbbb49b6ff6b0f2c2df2dea12f211b2c364a2ed59e31ff1d87012471a248219",
+      "rows": [
+        {
+          "identity": "韩非子 · 韩非子",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "明夷待访录 · 明夷待访录",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "大同书 · 大同书",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "政治学 · Politics（Aristotle）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "公民与臣民 · Citizen and subject: contemporary Africa and the legacy of late colonialism（Mamdani, Mamood）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Academic writing / Mamdani, Mamood row (creator spelling retained as listed)"
+        },
+        {
+          "identity": "新世界的共和国 · Republics of the New World: The Revolutionary Experiment in Nineteenth-Century Latin America（Hilda Sabato）",
+          "date": "2026-10-12",
+          "url": "https://www.wcu.edu/learn/programs/history-ma/graduate-student-resources.aspx",
+          "label": "Western Carolina University Department of History",
+          "locator": "Latin American History Reading List / Post-independence period and liberal period, Sabato entry"
+        },
+        {
+          "identity": "女权辩护 · A Vindication of the Rights of Woman（Mary Wollstonecraft）",
+          "date": "2026-10-22",
+          "url": "https://www.columbia.edu/~jc4345/Syllabus2.pdf",
+          "label": "Justin Clarke-Doane; Columbia University",
+          "locator": "PDF page index 0 · Books; page index 1 · Wollstonecraft schedule"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-11",
+      "title": "法律、制度与公共行政：候选作品从哪里发现",
+      "domain_id": "11",
+      "body_sha256": "026b9d4e1bf8896c6076fb51d2250f00c752ac28c9b34855ee0edf74ab0c2275",
+      "rows": [
+        {
+          "identity": "认真对待权利 · Taking Rights Seriously（Dworkin）",
+          "date": "2026-10-22",
+          "url": "https://www.law.ox.ac.uk/content/jurisprudence-and-political-theory",
+          "label": "University of Oxford Faculty of Law",
+          "locator": "Preparation paragraphs · Taking Rights Seriously"
+        },
+        {
+          "identity": "法律帝国 · Law’s Empire（Dworkin）",
+          "date": "2026-10-22",
+          "url": "https://www.law.ox.ac.uk/content/jurisprudence-and-political-theory",
+          "label": "University of Oxford Faculty of Law",
+          "locator": "Preparation paragraphs · Law’s Empire"
+        },
+        {
+          "identity": "法律的权威 · The Authority of Law（Raz）",
+          "date": "2026-10-22",
+          "url": "https://www.law.ox.ac.uk/content/jurisprudence-and-political-theory",
+          "label": "University of Oxford Faculty of Law",
+          "locator": "Preparation paragraphs · The Authority of Law"
+        },
+        {
+          "identity": "自由的道德 · The Morality of Freedom（Raz）",
+          "date": "2026-10-22",
+          "url": "https://www.law.ox.ac.uk/content/jurisprudence-and-political-theory",
+          "label": "University of Oxford Faculty of Law",
+          "locator": "Preparation paragraphs · The Morality of Freedom"
+        },
+        {
+          "identity": "比较法总论 · Introduction to Comparative Law（K. Zweigert; H. Kötz; translation T. Weir）",
+          "date": "2026-10-22",
+          "url": "https://www.law.ed.ac.uk/study/masters-degrees/new-students/reading-lists",
+          "label": "University of Edinburgh Law School",
+          "locator": "LLM in Comparative Private Law · Introduction to Comparative Law"
+        },
+        {
+          "identity": "世界法律传统 · Legal Traditions of the World（H. P. Glenn）",
+          "date": "2026-10-22",
+          "url": "https://www.law.ed.ac.uk/study/masters-degrees/new-students/reading-lists",
+          "label": "University of Edinburgh Law School",
+          "locator": "LLM in Comparative Private Law · Legal Traditions of the World"
+        },
+        {
+          "identity": "私法的基础 · Foundations of Private Law: Property, Tort, Contract, Unjust Enrichment（J. Gordley）",
+          "date": "2026-10-22",
+          "url": "https://www.law.ed.ac.uk/study/masters-degrees/new-students/reading-lists",
+          "label": "University of Edinburgh Law School",
+          "locator": "LLM in Comparative Private Law · Foundations of Private Law: Property, Tort, Contract, Unjust Enrichment"
+        },
+        {
+          "identity": "比较法 · Comparative Law（M. Siems）",
+          "date": "2026-10-22",
+          "url": "https://www.law.ed.ac.uk/study/masters-degrees/new-students/reading-lists",
+          "label": "University of Edinburgh Law School",
+          "locator": "LLM in Comparative Private Law · Comparative Law"
+        },
+        {
+          "identity": "论法的精神 · The Spirit of the Laws（Montesquieu（孟德斯鸠））",
+          "date": "2026-10-23",
+          "url": "https://hls.harvard.edu/courses/the-spirit-of-the-laws-and-american-law/",
+          "label": "Harvard Law School; Adrian Vermeule course listing",
+          "locator": "Harvard course description selected1748work; independently named in YaleSOCY151lecture4 overview/transcript. French title controlled separately in the reading packet."
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-12",
+      "title": "经济、金融与经济系统：候选作品从哪里发现",
+      "domain_id": "12",
+      "body_sha256": "baf009e692955e5d63ec219245df79f18441e118d9a14f4f0a8a1df66a7a9f1d",
+      "rows": [
+        {
+          "identity": "人口原理 · An Essay on the Principle of Population（Thomas Robert Malthus）",
+          "date": "2026-10-26",
+          "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp22873",
+          "label": "University of Pennsylvania",
+          "locator": "olbp22873:1798first-edition basis;metadataonly"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-13",
+      "title": "商业、管理与组织：候选作品从哪里发现",
+      "domain_id": "13",
+      "body_sha256": "39eaf2f1b3ff9ca82404093f1444cc62d5ddfeae7324509f1ebb1809a713a0e3",
+      "rows": [
+        {
+          "identity": "工业管理与一般管理 · Administration industrielle et générale（Henri Fayol）",
+          "date": "2026-10-22",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/9099889/fayolisme",
+          "label": "Tezenas,J.（1971署名条目）",
+          "locator": "GDTfayolisme · TezenasJ1971 definition names author/booktitle/year1916"
+        },
+        {
+          "identity": "科学管理原理 · The Principles of Scientific Management（Frederick Winslow Taylor）",
+          "date": "2026-10-26",
+          "url": "https://collections.si.edu/search/detail/edanmdm:siris_sil_1100092?print=yes",
+          "label": "Smithsonian Libraries",
+          "locator": "Smithsonian1100092：Taylor、Harper、1911、144页；仅书目发现"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-14",
+      "title": "社会、人类学、人口与人文地理：候选作品从哪里发现",
+      "domain_id": "14",
+      "body_sha256": "d700d2f9df35691dd794468c18a433e1cccf69b6c788411304b82f850137c60d",
+      "rows": [
+        {
+          "identity": "礼记 · 礼记",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "男性女儿，女性丈夫 · Male daughters, female husbands（Amadiume, Ifi）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Academic writing / Amadiume, Ifi row"
+        },
+        {
+          "identity": "拉丁美洲：城市与思想 · Latin America: Its Cities and Its Ideas（José Luis Romero）",
+          "date": "2026-10-12",
+          "url": "https://www.wcu.edu/learn/programs/history-ma/graduate-student-resources.aspx",
+          "label": "Western Carolina University Department of History",
+          "locator": "Latin American History Reading List / Foundational Texts, Romero entry"
+        },
+        {
+          "identity": "布宜诺斯艾利斯的性与危险 · Sex and Danger in Buenos Aires: Prostitution, Family, and Nation in Argentina（Donna Guy）",
+          "date": "2026-10-12",
+          "url": "https://www.wcu.edu/learn/programs/history-ma/graduate-student-resources.aspx",
+          "label": "Western Carolina University Department of History",
+          "locator": "Latin American History Reading List / Post-independence period and liberal period, Guy entry"
+        },
+        {
+          "identity": "解封：后独裁阿根廷的性、民主与自由 · Destape: Sex, Democracy, and Freedom in Postdictatorial Argentina（Natalia Milanesio）",
+          "date": "2026-10-12",
+          "url": "https://www.wcu.edu/learn/programs/history-ma/graduate-student-resources.aspx",
+          "label": "Western Carolina University Department of History",
+          "locator": "Latin American History Reading List / Crisis of liberalism, Cold War, and beyond, Milanesio entry"
+        },
+        {
+          "identity": "所有人的国家 · A Nation for All: Race, Inequality, and Politics in Twentieth-Century Cuba（Alejandro de la Fuente）",
+          "date": "2026-10-12",
+          "url": "https://www.wcu.edu/learn/programs/history-ma/graduate-student-resources.aspx",
+          "label": "Western Carolina University Department of History",
+          "locator": "Latin American History Reading List / Crisis of liberalism, Cold War, and beyond, de la Fuente entry"
+        },
+        {
+          "identity": "社会革命：伊朗的政治与福利国家 · A Social Revolution: Politics and the Welfare State in Iran（Kevan Harris）",
+          "date": "2026-10-12",
+          "url": "https://www.ucpress.edu/blog-posts/48776-an-iranian-reading-list",
+          "label": "University of California Press",
+          "locator": "A Social Revolution heading/subtitle; by Kevan Harris"
+        },
+        {
+          "identity": "女性所处之地：伊朗性别隔离的政治 · Women in Place: The Politics of Gender Segregation in Iran（Nazanin Shahrokni）",
+          "date": "2026-10-12",
+          "url": "https://www.ucpress.edu/blog-posts/48776-an-iranian-reading-list",
+          "label": "University of California Press",
+          "locator": "Women in Place heading/subtitle; by Nazanin Shahrokni"
+        },
+        {
+          "identity": "社会学方法的准则 · The Rules of Sociological Method / Les règles de la méthode sociologique（Émile Durkheim（涂尔干））",
+          "date": "2026-10-23",
+          "url": "https://oyc.yale.edu/sociology/socy-151",
+          "label": "Iván Szelényi; Open Yale Courses bibliography and lecture25",
+          "locator": "SOCY151RequiredTexts,DurkheimRules/FreePress1966;BnFseparatelyidentifies1895Frenchwork. Readingpacket uses scoped1919seventheditiontranscriptions, notsubstitutedcourseedition."
+        },
+        {
+          "identity": "黑人的灵魂 · The Souls of Black Folk（W. E. Burghardt Du Bois）",
+          "date": "2026-10-23",
+          "url": "https://www.gutenberg.org/ebooks/408",
+          "label": "Project Gutenberg",
+          "locator": "ActualPG408catalogue andindependentLOCprintbibliography1903/E185.5.D811903; separatelyreadWSsecondeditiontitle/copyrighttranscription. First/secondeditions/PGexpressionremainonework."
+        },
+        {
+          "identity": "西太平洋的航海者 · Argonauts of the Western Pacific（Bronislaw Malinowski）",
+          "date": "2026-10-25",
+          "url": "https://www.gutenberg.org/ebooks/55822",
+          "label": "Project Gutenberg",
+          "locator": "PG55822 typed1922title; independentWellcome1922record;LSE2022centenaryexhibition. Distinct voices and expressions preserved."
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-15",
+      "title": "语言、传播、教育与信息：候选作品从哪里发现",
+      "domain_id": "15",
+      "body_sha256": "3f8c277a03949f55b9dd90675be7987b2a322845941fe8ef026e8a0013b1d6c9",
+      "rows": [
+        {
+          "identity": "斯瓦希里语：过去、现在与未来 · Kiswahili, past, present and future horizons（Chimera, Rocha）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Academic writing / Chimera, Rocha row"
+        },
+        {
+          "identity": "民主主义与教育 · Democracy and Education: An Introduction to the Philosophy of Education（John Dewey）",
+          "date": "2026-10-23",
+          "url": "https://www.gutenberg.org/ebooks/852",
+          "label": "Project Gutenberg",
+          "locator": "Actual PG852 catalogue and independently read Teachers College bibliography. Teaching uses separately controlled1916NewYorkMacmillan expression;1966FreePress/MW9 remain distinct edition layers of the same work."
+        },
+        {
+          "identity": "劝学篇 · 学問のすゝめ（福泽谕吉；初编与小幡笃次郎连名）",
+          "date": "2026-10-25",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1084629",
+          "label": "国立国会图书馆",
+          "locator": "NDL书目000009265449：初编再刻本与共同署名；十七编身份参照庆应版本说明，署名解释另见西泽讲演"
+        },
+        {
+          "identity": "答菲洛特亚书 · Respuesta a Sor Filotea de la Cruz（Sor Juana Inés de la Cruz）",
+          "date": "2026-10-26",
+          "url": "https://www.cervantesvirtual.com/obra/obras-escogidas--0/",
+          "label": "Biblioteca Virtual Miguel de Cervantes",
+          "locator": "Cervantes选集书目；答信末1691-03-01；1976/2003是同一作品的载体，不是全选集提名"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-16",
+      "title": "文学、艺术、媒体与美学：候选作品从哪里发现",
+      "domain_id": "16",
+      "body_sha256": "5ad5fbddd66e492c66ec2da8408ae2b7e2b88faf9dd4ff4b6bc6426b18a2d9da",
+      "rows": [
+        {
+          "identity": "美的历程 · 美的历程",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "世说新语 · 世说新语",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "三国演义 · 三国演义",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "水浒传 · 水浒传",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "红楼梦 · 红楼梦",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "金锁记 · 金锁记",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "围城 · 围城",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "诗学 · Poetics（Aristotle）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "伊利亚特 · Iliad（Homer）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "奥德赛 · Odyssey（Homer）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "埃涅阿斯纪 · Aeneid（Virgil）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "如此长的一封信 · Une si longue lettre（Bâ, Mariama）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Creative writing / Bâ, Mariama row"
+        },
+        {
+          "identity": "神经紧张 · Nervous conditions（Dangarembga, Tsitsi）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Creative writing / Dangarembga, Tsitsi row"
+        },
+        {
+          "identity": "国王的骑马人之死 · Death and the King's horseman（Soyinka, Wole）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Creative writing / Soyinka, Wole row"
+        },
+        {
+          "identity": "向北迁徙的季节 · Season of migration to the north（Salih, Tayeb）",
+          "date": "2026-10-12",
+          "url": "https://www.ascleiden.nl/content/webdossiers/africas-100-best-books-20th-century",
+          "label": "African Studies Centre Leiden",
+          "locator": "Creative writing / Salih, Tayeb row"
+        },
+        {
+          "identity": "印度与印度尼西亚艺术史 · History of Indian and Indonesian Art（Ananda Kentish Coomaraswamy）",
+          "date": "2026-10-12",
+          "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/sseasia.pdf",
+          "label": "Steven M. Kossak; Edith W. Watts",
+          "locator": "Bibliography for Teachers, printed p.123 (PDF index 131), Coomaraswamy entry"
+        },
+        {
+          "identity": "印度艺术 · Indian Art（Vidya Dehejia）",
+          "date": "2026-10-12",
+          "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/sseasia.pdf",
+          "label": "Steven M. Kossak; Edith W. Watts",
+          "locator": "Bibliography for Teachers, printed p.123 (PDF index 131), Dehejia entry"
+        },
+        {
+          "identity": "佛教艺术与建筑 · Buddhist Art and Architecture（Robert E. Fisher）",
+          "date": "2026-10-12",
+          "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/sseasia.pdf",
+          "label": "Steven M. Kossak; Edith W. Watts",
+          "locator": "Bibliography for Teachers, printed p.123 (PDF index 131), Fisher entry"
+        },
+        {
+          "identity": "东南亚艺术 · The Art of Southeast Asia（Philip S. Rawson）",
+          "date": "2026-10-12",
+          "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/sseasia.pdf",
+          "label": "Steven M. Kossak; Edith W. Watts",
+          "locator": "Bibliography for Teachers, printed p.124 (PDF index 132), Rawson entry"
+        },
+        {
+          "identity": "伊斯兰艺术与建筑 · The Art and Architecture of Islam（Sheila S. Blair; Jonathan M. Bloom）",
+          "date": "2026-10-12",
+          "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/sseasia.pdf",
+          "label": "Steven M. Kossak; Edith W. Watts",
+          "locator": "Bibliography for Teachers, printed p.123 (PDF index 131), Blair and Bloom entry"
+        },
+        {
+          "identity": "千年音乐：波斯音乐传统新史 · Music of a Thousand Years: A New History of Persian Musical Traditions（Ann E. Lucas）",
+          "date": "2026-10-12",
+          "url": "https://www.ucpress.edu/blog-posts/48776-an-iranian-reading-list",
+          "label": "University of California Press",
+          "locator": "Music of a Thousand Years heading/subtitle; by Ann E. Lucas"
+        },
+        {
+          "identity": "方丈记 · 方丈記（鴨長明（文本归属；末署桑門蓮胤））",
+          "date": "2026-10-23",
+          "url": "https://rmda.kulib.kyoto-u.ac.jp/item/rb00012503",
+          "label": "京都大学附属图书馆",
+          "locator": "KyotoRB00012503actualcatalogue;independentKobunsha2018editionmetadata. Aozora975complete流布本expressiondirectlyread;1909input/1903proofingandlaterKeichowitnessseparate."
+        },
+        {
+          "identity": "苦瓜和尚画语录 · 苦瓜和尚畫語錄（石涛（朱若极）归属文本）",
+          "date": "2026-10-23",
+          "url": "https://catalog.digitalarchives.tw/item/00/08/68/4d.html",
+          "label": "国家图书馆典藏数据",
+          "locator": "Item550989 book06722, oldmanuscript; separateNTU126608names1964study"
+        },
+        {
+          "identity": "弗兰肯斯坦 · Frankenstein; or, The Modern Prometheus（Mary Wollstonecraft Shelley）",
+          "date": "2026-10-26",
+          "url": "https://shelleygodwinarchive.org/contents/frankenstein/",
+          "label": "Shelley–Godwin Archive editors",
+          "locator": "Work landing,publication and textual history;metadata only"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-17",
+      "title": "宗教、神话与比较世界观：候选作品从哪里发现",
+      "domain_id": "17",
+      "body_sha256": "0ff0e9e181207c70a122cf4c9d8c65a636ea8d15592038d4e9f9a16105aab171",
+      "rows": [
+        {
+          "identity": "坛经 · 坛经",
+          "date": "2026-10-10",
+          "url": "https://www.rxc.tsinghua.edu.cn/info/1030/1058.htm",
+          "label": "清华大学日新书院",
+          "locator": "中国文化名著 / 中国文学名著; exact listed title recorded in source_title"
+        },
+        {
+          "identity": "忏悔录 · Confessions（Augustine）",
+          "date": "2026-10-10",
+          "url": "https://www.sjc.edu/academic-programs/undergraduate/subjects/classical-studies-and-greek",
+          "label": "St. John’s College",
+          "locator": "Reading List; exact work under the named creator; page scope disclaimer retained"
+        },
+        {
+          "identity": "法句（巴利传统作品） · Dhammapada, a Collection of Verses; Being One of the Canonical Books of the Buddhists",
+          "date": "2026-10-22",
+          "url": "https://www.gutenberg.org/ebooks/2017",
+          "label": "Project Gutenberg",
+          "locator": "About this eBook · Title, Translator, Note: SBEVolumeXPartI; introduction/notes/index omitted"
+        }
+      ]
+    },
+    {
+      "module": "reading",
+      "id": "thousand-discovery-domain-18",
+      "title": "环境、农业、食物与资源系统：候选作品从哪里发现",
+      "domain_id": "18",
+      "body_sha256": "b3008c983c0eddbd18c8b2350f5e43e49ba25bdbeb47d0044fc4c4cab003f869",
+      "rows": [
+        {
+          "identity": "齐民要术 · 齊民要術（贾思勰（传世署名））",
+          "date": "2026-10-22",
+          "url": "https://agri-history.ihns.ac.cn/agribooks.htm",
+          "label": "中国农业历史与文化／中国科学院自然科学史研究所站点",
+          "locator": "典籍原著 · 齐民要术; 書錄解題 · 十四畫"
+        },
+        {
+          "identity": "陈旉农书 · 陳旉農書（陈旉）",
+          "date": "2026-10-22",
+          "url": "https://agri-history.ihns.ac.cn/agribooks.htm",
+          "label": "中国农业历史与文化／中国科学院自然科学史研究所站点",
+          "locator": "典籍原著 · 陳旉農書; 書錄解題 · 農書（陳旉）"
+        },
+        {
+          "identity": "王祯农书 · 農書（王禎）（王祯）",
+          "date": "2026-10-22",
+          "url": "https://agri-history.ihns.ac.cn/agribooks.htm",
+          "label": "中国农业历史与文化／中国科学院自然科学史研究所站点",
+          "locator": "書錄解題 · 十三畫 · 農書（王禎）"
+        },
+        {
+          "identity": "农政全书 · 農政全書",
+          "date": "2026-10-22",
+          "url": "https://agri-history.ihns.ac.cn/agribooks.htm",
+          "label": "中国农业历史与文化／中国科学院自然科学史研究所站点",
+          "locator": "書錄解題 · 十三畫 · 農政全書"
+        },
+        {
+          "identity": "四千年农夫 · Farmers of forty centuries; or, Permanent agriculture in China, Korea and Japan（F. H. King）",
+          "date": "2026-10-22",
+          "url": "https://www.biodiversitylibrary.org/bibliography/40286",
+          "label": "Biodiversity Heritage Library",
+          "locator": "Title; By; Publication info; LCCN11031978"
+        },
+        {
+          "identity": "牧场主、农夫与渔人 · Rancher, Farmer, Fisherman: Conservation Heroes of the American Heartland（Miriam Horn）",
+          "date": "2026-10-22",
+          "url": "https://wyse.gmu.edu/reading-list/",
+          "label": "George Mason University WYSE",
+          "locator": "Conservation · Rancher, Farmer, Fisherman: Conservation Heroes of the American Heartland"
+        },
+        {
+          "identity": "复活科学 · Resurrection Science: Conservation, De-Extinction and the Precarious Future of Wild Things（M. R. O’Connor）",
+          "date": "2026-10-22",
+          "url": "https://wyse.gmu.edu/reading-list/",
+          "label": "George Mason University WYSE",
+          "locator": "Conservation · Resurrection Science: Conservation, De-Extinction and the Precarious Future of Wild Things"
+        },
+        {
+          "identity": "重获土地 · Gaining Ground: A Story of Farmers’ Markets, Local Food, and Saving the Family Farm（Forrest Pritchard）",
+          "date": "2026-10-22",
+          "url": "https://wyse.gmu.edu/reading-list/",
+          "label": "George Mason University WYSE",
+          "locator": "Agriculture · Gaining Ground: A Story of Farmers’ Markets, Local Food, and Saving the Family Farm"
+        },
+        {
+          "identity": "倾倒于南方 · Dumping In Dixie: Race, Class, And Environmental Quality（Robert Bullard）",
+          "date": "2026-10-22",
+          "url": "https://wyse.gmu.edu/reading-list/",
+          "label": "George Mason University WYSE",
+          "locator": "Environmental Justice/Community Involvement/Action · Dumping In Dixie: Race, Class, And Environmental Quality"
+        },
+        {
+          "identity": "沙乡年鉴 · A Sand County Almanac（Aldo Leopold）",
+          "date": "2026-10-22",
+          "url": "https://wyse.gmu.edu/reading-list/",
+          "label": "George Mason University WYSE",
+          "locator": "History: Where it all begins! · A Sand County Almanac"
+        },
+        {
+          "identity": "地球日之前 · Before Earth Day: The Origins of American Environmental Law, 1945-1970（Karl Boyd Brooks）",
+          "date": "2026-10-22",
+          "url": "https://wyse.gmu.edu/reading-list/",
+          "label": "George Mason University WYSE",
+          "locator": "History: Where it all begins! · Before Earth Day: The Origins of American Environmental Law, 1945-1970"
+        },
+        {
+          "identity": "当河流干涸 · When the Rivers Run Dry: Water- The Defining Crisis of the Twenty-First Century（Fred Pearce）",
+          "date": "2026-10-22",
+          "url": "https://wyse.gmu.edu/reading-list/",
+          "label": "George Mason University WYSE",
+          "locator": "Water: It’s Everywhere, but can I have a glass? · When the Rivers Run Dry: Water- The Defining Crisis of the Twenty-First Century"
+        }
+      ]
     }
   ]
 }

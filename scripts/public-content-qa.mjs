@@ -242,7 +242,7 @@ export async function runAcceptance() {
         && new Set(payload.items.map(item => item.id)).size === payload.items.length, 'CATALOG_COUNT_OR_ID');
       catalogs[module] = payload.items;
     }
-    const { expansionPayloads, expansionSources, continuations, materials } = prepareContentInputs({
+    const { expansionPayloads, expansionSources, continuations, materials, discoveryCollections = [] } = prepareContentInputs({
       catalogs, manifest, requireTrue, record, TARGETS, teachingHash, authoredBodyMatches });
     const { chromium } = await bounded(() => import('playwright'), 10_000);
     browser = await bounded(() => chromium.launch({ args: ['--no-proxy-server', '--disable-background-networking'] }));
@@ -365,25 +365,26 @@ export async function runAcceptance() {
           && Math.abs(document.querySelector('#resource-detail').scrollTop - scroll) <= 3, before), 10_000);
         requireTrue(restored, 'READING_RETURN_POSITION');
         if (material.module === 'reading') {
-          const batch = JSON.parse(readFileSync('data/canon/nominations/2026-10-12-cross-tradition-breadth.json', 'utf8'));
-          const sources = new Map(batch.sources.map(source => [source.source_id, source]));
-          const expectedRows = batch.works.map(work => ({ title: work.title_zh,
-            url: sources.get(work.source_id).url, label: sources.get(work.source_id).creator }));
           const candidate = await bounded(() => page.evaluate(expected => {
             const table = [...document.querySelectorAll('#detail-body table.study-table')]
-              .find(node => node.textContent.includes(expected[0].title));
+              .find(node => node.textContent.includes(expected[0]?.title || '\u0000'));
             const rows = [...(table?.querySelectorAll('tbody tr') || [])];
             if (rows.length !== expected.length || !rows.every((row, index) => {
-              const source = expected[index], cell = row.children[2]?.querySelector('.cell-value');
-              const links = [...(cell?.querySelectorAll('a[href]') || [])];
-              return row.textContent.includes(source.title) && links.length === 1
-                && links[0].href === new URL(source.url).href && links[0].textContent.startsWith(source.label)
-                && !cell.textContent.includes(source.url);
+              const part = expected[index], cells = [...row.querySelectorAll('td .cell-value')];
+              const links = [...(cells[2]?.querySelectorAll('a[href]') || [])];
+              if (cells.length !== 3 || !cells[0].textContent.trim().startsWith(part.domain_id)
+                || cells[1].textContent.trim() !== String(part.rows.length) || links.length !== 1) return false;
+              const url = new URL(links[0].href);
+              return url.origin === location.origin && url.pathname === location.pathname.replace(/\/$/, '')
+                && url.searchParams.get('resource') === part.id
+                && url.searchParams.get('read') === 'public' && links[0].textContent.startsWith(part.title)
+                && links[0].target === '_blank' && links[0].rel.split(/\s+/).includes('noopener')
+                && links[0].rel.split(/\s+/).includes('noreferrer');
             })) return false;
             table.scrollIntoView({ block: 'start' });
             return true;
-          }, expectedRows), 10_000);
-          requireTrue(candidate, 'NEW_NOMINATION_TABLE_OR_COMPACT_SOURCE_LINKS');
+          }, discoveryCollections), 10_000);
+          requireTrue(candidate && discoveryCollections.length === 18, 'DISCOVERY_NAVIGATION_TABLE_AND_COUNTS');
           await bounded(() => page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))), 10_000);
           await screenshot(page, `${stage}-nomination-study.png`);
         } else {
@@ -425,6 +426,81 @@ export async function runAcceptance() {
         await screenshot(page, `${stage}-sources.png`);
         requireTrue(report.blocked_requests === 0 && report.console_errors === 0 && report.page_errors === 0, 'UNEXPECTED_REQUEST_OR_BROWSER_ERROR');
         record(stage, { url, ...result, exercise_tab: true, reading_position_restored: true, private_state_captured: false });
+      }
+      for (const collection of discoveryCollections) {
+        stage = `${view.name}-discovery-${collection.id}`;
+        const item = catalogs.reading.find(item => item.id === collection.id);
+        const url = `${PAGES}reading/?read=public&resource=${collection.id}`;
+        const response = await bounded(() => page.goto(url,
+          { waitUntil: 'domcontentloaded', timeout: remaining(30_000) }));
+        requireTrue(response?.status() === 200, 'DISCOVERY_COLLECTION_ROUTE');
+        await ready(page, item);
+        const visible = await bounded(() => page.evaluate(expected => {
+          const body = document.querySelector('#detail-body');
+          const normalize = value => String(value).normalize('NFKC').replace(/\s+/g, '');
+          const tables = [...body.querySelectorAll('table.study-table')];
+          const rows = tables.flatMap(table => [...table.querySelectorAll('tbody tr')]);
+          const complete = rows.length === expected.rows.length && rows.every((row, index) => {
+            const source = expected.rows[index], cells = [...row.querySelectorAll('td .cell-value')];
+            const links = [...(cells[2]?.querySelectorAll('a[href]') || [])];
+            return cells.length === 3 && normalize(cells[0].textContent) === normalize(source.identity)
+              && cells[1].textContent.trim() === expected.domain_id
+              && normalize(cells[2].textContent) === normalize(`${source.label} · ${source.locator}`)
+              && links.length === 1 && links[0].href === new URL(source.url).href
+              && links[0].textContent.startsWith(source.label) && links[0].target === '_blank'
+              && links[0].rel.split(/\s+/).includes('noopener')
+              && links[0].rel.split(/\s+/).includes('noreferrer')
+              && body.textContent.includes(source.date);
+          });
+          const returns = [...body.querySelectorAll('a[href]')].filter(link => {
+            const url = new URL(link.href);
+            return url.origin === location.origin && url.pathname === location.pathname.replace(/\/$/, '')
+              && url.searchParams.get('resource') === 'human-history-thousand'
+              && url.searchParams.get('read') === 'public' && link.target === '_blank'
+              && link.rel.split(/\s+/).includes('noopener') && link.rel.split(/\s+/).includes('noreferrer');
+          });
+          const bounds = body.getBoundingClientRect();
+          const fits = document.documentElement.scrollWidth <= innerWidth + 1 && tables.length > 0
+            && tables.every(table => {
+              const rect = table.getBoundingClientRect();
+              return rect.left >= bounds.left - 2 && rect.right <= bounds.right + 2
+                && table.scrollWidth <= table.clientWidth + 2
+                && table.querySelectorAll('thead th[scope="col"]').length === 3;
+            });
+          return { complete, fits, rows: rows.length, source_locators_and_links: complete,
+            return_links_complete: returns.length === 2,
+            metadata_only: Boolean(document.querySelector('#detail-placement')?.textContent.includes('仅元数据')),
+            continuous: !body.querySelector('details:not([open])')
+              && [...body.querySelectorAll('.study-part')].every(part => Boolean(part.getClientRects().length)) };
+        }, collection), 10_000);
+        requireTrue(visible.complete && visible.fits && visible.return_links_complete && visible.metadata_only && visible.continuous,
+          'DISCOVERY_COMPLETE_ROWS_LINKS_AND_LAYOUT');
+        const target = page.locator('#detail-body table.study-table tbody tr').first();
+        await bounded(() => target.evaluate(node => {
+          const panel = document.querySelector('#resource-detail');
+          const toolbar = document.querySelector('.detail-navigation').getBoundingClientRect();
+          const top = Math.max(panel.getBoundingClientRect().top, toolbar.bottom, 0) + 12;
+          const row = node.getBoundingClientRect();
+          const table = node.closest('table');
+          const headingHeight = table.querySelector('thead').getBoundingClientRect().height;
+          panel.scrollTop += row.top - top - headingHeight;
+        }), 10_000);
+        await bounded(() => page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))), 10_000);
+        const targetBounds = await bounded(() => target.evaluate(node => {
+          const row = node.getBoundingClientRect();
+          const panel = document.querySelector('#resource-detail').getBoundingClientRect();
+          const toolbar = document.querySelector('.detail-navigation').getBoundingClientRect();
+          const top = Math.max(panel.top, toolbar.bottom, 0), bottom = Math.min(panel.bottom, innerHeight);
+          return { top: row.top, bottom: row.bottom, available_top: top, available_bottom: bottom,
+            fully_visible: row.top >= top - 2 && row.bottom <= bottom + 2 };
+        }), 10_000);
+        requireTrue(targetBounds.fully_visible, 'DISCOVERY_FIRST_ROW_NOT_FULLY_VISIBLE');
+        await screenshot(page, `${stage}-first-row-study.png`);
+        requireTrue(report.blocked_requests === 0 && report.console_errors === 0 && report.page_errors === 0,
+          'DISCOVERY_UNEXPECTED_REQUEST_OR_BROWSER_ERROR');
+        record(stage, { material_id: item.id, url, ...visible, target_bounds: targetBounds,
+          visual_scope: 'First row only; DOM checks of all rows are separate from scoped actual pixel review.',
+          new_book_count: 0, independent_acceptance: false, private_state_captured: false });
       }
       if (['desktop-light', 'mobile-dark'].includes(view.name)) {
         for (const { entry, payload } of expansionPayloads) {
